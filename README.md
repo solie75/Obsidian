@@ -1,4 +1,4 @@
 # Obsidian
  옵시디언 기록
 
-노트북에서 데스크 탑으로
+git 을 이용할때 git workspace 를 항상 accept current 해주어야 한다.
