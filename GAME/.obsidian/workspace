@@ -1,0 +1,131 @@
+{
+  "main": {
+    "id": "1c44a0c7449eda07",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b4ef860f27d24fb",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "003e1f269fc0fb58",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5931377612f81c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08681b4c41612dad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "cd0fd8543464ed4c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3b49fd4debf05bf6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "36ba58c2b4ccbbc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "12cea0d3bf51ecb6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec3a2fad9f1d45ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1a28259e047ba67",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "592a635725561110",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9ef615d74a6d3525",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0b4ef860f27d24fb",
+  "lastOpenFiles": [
+    "GOAL_OF_GAME_DESIGN.md",
+    "IDRA/CONSOLE/Blind_Swordsman(with 심청전).md",
+    "IDRA/CONSOLE/Escape_From_The_AssassinCompany.md",
+    "IDRA/PEN/HAKU.1.md",
+    "IDRA/CONSOLE/OVERWATCH_with_Stationary.md"
+  ]
+}
