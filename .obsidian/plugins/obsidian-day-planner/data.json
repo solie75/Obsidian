@@ -1,0 +1,40 @@
+{
+  "customFolder": "Day Planners",
+  "mode": 1,
+  "mermaid": false,
+  "notesToDates": [
+    {
+      "notePath": "Daily/08/2022-08-30.md",
+      "date": "Tue Aug 30 2022"
+    },
+    {
+      "notePath": "Daily/09/2022-09-01.md",
+      "date": "Thu Sep 01 2022"
+    },
+    {
+      "notePath": "Daily/09/2022-09-02.md",
+      "date": "Fri Sep 02 2022"
+    },
+    {
+      "notePath": "2022-09-03.md",
+      "date": "Sat Sep 03 2022"
+    },
+    {
+      "notePath": "2022-09-04.md",
+      "date": "Sun Sep 04 2022"
+    },
+    {
+      "notePath": "2022-09-05.md",
+      "date": "Mon Sep 05 2022"
+    },
+    {
+      "notePath": "2022-09-06.md",
+      "date": "Tue Sep 06 2022"
+    }
+  ],
+  "completePastItems": true,
+  "circularProgress": true,
+  "nowAndNextInStatusBar": false,
+  "showTaskNotification": false,
+  "timelineZoomLevel": 2
+}
