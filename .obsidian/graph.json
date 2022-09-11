@@ -5,18 +5,40 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#📚독서",
+      "color": {
+        "a": 1,
+        "rgb": 15790676
+      }
+    },
+    {
+      "query": "tag:#Template",
+      "color": {
+        "a": 1,
+        "rgb": 408800
+      }
+    },
+    {
+      "query": "tag:#Win32API",
+      "color": {
+        "a": 1,
+        "rgb": 3669760
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
+  "textFadeMultiplier": -0.3,
+  "nodeSizeMultiplier": 1.6375,
+  "lineSizeMultiplier": 2.4125,
+  "collapse-forces": false,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.0000000000000004,
+  "scale": 0.5087618855792592,
   "close": true
 }

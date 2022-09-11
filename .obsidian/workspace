@@ -6,10 +6,24 @@
       {
         "id": "57ef08814e7c932c",
         "type": "leaf",
+        "dimension": 54.573739887990044,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "4411d6ba136e5e97",
+        "type": "leaf",
+        "dimension": 45.426260112009956,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "STUDY/AK 메모/09-05 ak 메모.md",
             "mode": "source",
             "source": false
           }
@@ -40,8 +54,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "tag:#Win32API",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -77,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,21 +126,21 @@
             }
           },
           {
+            "id": "2aa8f3442c923c8d",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
             "id": "1bd51b25a94f25a1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md"
               }
-            }
-          },
-          {
-            "id": "8cd12a2728887736",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
             }
           }
         ],
@@ -134,19 +148,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 240.5
   },
-  "active": "57ef08814e7c932c",
+  "active": "040d4039b80fd138",
   "lastOpenFiles": [
-    "독서/독서 리스트.md",
-    "독서/도서 기록/파리대왕.md",
-    "Daily/09/2주차/2022-09-04.md",
-    "Daily/09/2주차/2022-09-06.md",
+    "STUDY/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
+    "STUDY/AK 메모/09-05 ak 메모.md",
+    "STUDY/Programming Language/Win32 API/05. Message System.md",
+    "STUDY/Programming Language/Win32 API/04. Window Class.md",
+    "STUDY/AK 메모/09-06 ak 메모.md",
+    "STUDY/AK 메모/09-07 ak 메모.md",
+    "Daily/09/2주차/2022-09-09.md",
     "STUDY/Programming Language/Win32 API/03. Event Object.md",
-    "TEMPLATE/Game_Report_Template.md",
-    "TEMPLATE/English_Word_Template.md",
-    "TEMPLATE/Daily_Template.md",
-    "TEMPLATE/Book_Report_Template.md",
-    "Template/Book_Report_Template_remove.md"
+    "Daily/09/2주차/2022-09-07.md",
+    "Daily/09/2주차/2022-09-06.md"
   ]
 }
