@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5081c3c99fafeafa",
+        "id": "57ef08814e7c932c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "STUDY/Programming Language/Design Pattern/SingleTon.md",
+            "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 196
+    "width": 300.5
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/Design Pattern/SingleTon.md",
+                "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/Design Pattern/SingleTon.md",
+                "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/Design Pattern/SingleTon.md"
+                "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md"
               }
             }
           }
@@ -134,19 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 146.5
+    "width": 240.5
   },
   "active": "57ef08814e7c932c",
   "lastOpenFiles": [
-    "STUDY/Programming Language/Win32 API/05. Message System.md",
-    "STUDY/Programming Language/Win32 API/06. Win32 ?��로젝?�� 기본 코드.md",
-    "STUDY/AK 메모/09-07 ak 메모.md",
+    "STUDY/AK/메모/09-07 ak 메모.md",
+    "STUDY/AK/메모/09-06 ak 메모.md",
     "STUDY/Programming Language/Design Pattern/SingleTon.md",
-    "?��리할 것들.md",
-    "Daily/09/2주차/2022-09-07.md",
-    "Daily/09/2주차/2022-09-09.md",
+    "STUDY/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
+    "STUDY/Programming Language/Win32 API/05. Message System.md",
+    "ETC/Bucket List.md",
+    "STUDY/Programming Language/Win32 API/04. Window Class.md",
+    "STUDY/Programming Language/Win32 API/03. Event Object.md",
     "Daily/09/3주차/2022-09-12.md",
-    "STUDY/AK 메모/09-06 ak 메모.md",
-    "STUDY/CS ?��?��/Bitmap.md"
+    "Daily/09/2주차/2022-09-09.md"
   ]
 }
