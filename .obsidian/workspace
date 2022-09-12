@@ -7,12 +7,8 @@
         "id": "5081c3c99fafeafa",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Study/Programming Language/C/함수 포인터와 콜백 함수.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Programming Language/C/함수 포인터와 콜백 함수.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Programming Language/C/함수 포인터와 콜백 함수.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Study/Programming Language/C/함수 포인터와 콜백 함수.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -138,6 +130,7 @@
   },
   "active": "5081c3c99fafeafa",
   "lastOpenFiles": [
+    "Study/Programming Language/C/함수 포인터와 콜백 함수.md",
     "Study/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
     "Study/Programming Language/Win32 API/기본 용어.md",
     "Study/제목없음 메모.md",
@@ -146,7 +139,6 @@
     "Day Planners/Day Planner-20220906.md",
     "Day Planners/Day Planner-20220907.md",
     "RESOURCE/Image/Pasted image 20220903222551.png",
-    "RESOURCE/Image/Pasted image 20220902184711.png",
-    "RESOURCE/Image/Pasted image 20220830213032.png"
+    "RESOURCE/Image/Pasted image 20220902184711.png"
   ]
 }
