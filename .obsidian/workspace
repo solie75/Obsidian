@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "57ef08814e7c932c",
+        "id": "0fd286eceb529e15",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
+            "file": "Study/Programming Language/C++/미리 컴파일 된 헤더.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 196
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
+                "file": "Study/Programming Language/C++/미리 컴파일 된 헤더.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
+                "file": "Study/Programming Language/C++/미리 컴파일 된 헤더.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md"
+                "file": "Study/Programming Language/C++/미리 컴파일 된 헤더.md"
               }
             }
           }
@@ -134,19 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.5
+    "width": 146.5
   },
-  "active": "57ef08814e7c932c",
+  "active": "0fd286eceb529e15",
   "lastOpenFiles": [
-    "STUDY/AK/메모/09-07 ak 메모.md",
-    "STUDY/AK/메모/09-06 ak 메모.md",
-    "STUDY/Programming Language/Design Pattern/SingleTon.md",
-    "STUDY/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
-    "STUDY/Programming Language/Win32 API/05. Message System.md",
-    "ETC/Bucket List.md",
-    "STUDY/Programming Language/Win32 API/04. Window Class.md",
-    "STUDY/Programming Language/Win32 API/03. Event Object.md",
+    "Study/Programming Language/C++/정적 맴버 변수.md",
+    "Study/Programming Language/C/함수 포인터와 콜백 함수.md",
+    "Study/Programming Language/Design Pattern/SingleTon.md",
+    "Study/Programming Language/C/무제노트.md",
+    "2022-09-13.md",
     "Daily/09/3주차/2022-09-12.md",
-    "Daily/09/2주차/2022-09-09.md"
+    "Template/Game_Report_Template.md",
+    "Template/English_Word_Template.md",
+    "Template/Daily_Template.md",
+    "Template/Book_Report_Template.md"
   ]
 }
