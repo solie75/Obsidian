@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/Programming Language/C++/미리 컴파일 된 헤더.md",
+            "file": "Study/AK/메모/09-07 ak 메모.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Programming Language/C++/미리 컴파일 된 헤더.md",
+                "file": "Study/AK/메모/09-07 ak 메모.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Programming Language/C++/미리 컴파일 된 헤더.md",
+                "file": "Study/AK/메모/09-07 ak 메모.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Programming Language/C++/미리 컴파일 된 헤더.md"
+                "file": "Study/AK/메모/09-07 ak 메모.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "0fd286eceb529e15",
   "lastOpenFiles": [
+    "Daily/09/3주차/2022-09-13.md",
+    "Study/AK/메모/09-07 ak 메모.md",
+    "정리할 것들.md",
+    "Study/Programming Language/C++/미리 컴파일 된 헤더.md",
     "Study/Programming Language/C++/정적 맴버 변수.md",
     "Study/Programming Language/C/함수 포인터와 콜백 함수.md",
     "Study/Programming Language/Design Pattern/SingleTon.md",
     "Study/Programming Language/C/무제노트.md",
-    "2022-09-13.md",
     "Daily/09/3주차/2022-09-12.md",
-    "Template/Game_Report_Template.md",
-    "Template/English_Word_Template.md",
-    "Template/Daily_Template.md",
-    "Template/Book_Report_Template.md"
+    "Template/Game_Report_Template.md"
   ]
 }
