@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "839bc453558f539f",
+        "id": "be6fbeb438d92dab",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "STUDY/Programming Language/Win32 AK Project/01. 기본 코드 수정.md",
+            "file": "STUDY/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/Win32 AK Project/01. 기본 코드 수정.md",
+                "file": "STUDY/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/Win32 AK Project/01. 기본 코드 수정.md",
+                "file": "STUDY/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/Win32 AK Project/01. 기본 코드 수정.md"
+                "file": "STUDY/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 248.5
   },
-  "active": "839bc453558f539f",
+  "active": "be6fbeb438d92dab",
   "lastOpenFiles": [
-    "STUDY/사이버대학/컴퓨터 구조/01..md",
-    "STUDY/AK/메모/09-06 ak 메모.md",
-    "STUDY/AK/메모/09-05 ak 메모.md",
+    "STUDY/Programming Language/Win32 API/05. Message System.md",
+    "STUDY/Programming Language/Win32 AK Project/01. 기본 코드 수정.md",
     "STUDY/Programming Language/Win32 API/08. SetTimer, KillTimer.md",
-    "STUDY/Programming Language/Win32 API/07. GDI (Graphics Device Interface), DC (Device Context).md",
-    "STUDY/CS 용어/DC (Device Context).md",
-    "독서/독서 리스트.md",
+    "STUDY/공부 메모/memset() 함수.md",
+    "STUDY/사이버대학/데이터 통신/01. 데이터 통신 기본 개념.md",
+    "2022-09-16.md",
+    "STUDY/CS 용어/프로그래밍 용어/SAL.md",
+    "STUDY/CS 용어/Thread.md",
     "STUDY/CS 용어/Bitmap.md",
-    "STUDY/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
-    "STUDY/Programming Language/Win32 API/05. Message System.md"
+    "STUDY/CS 용어/프로그래밍 용어/ACL.md"
   ]
 }
