@@ -1,7 +1,7 @@
 컴퓨터의 화면은 하나의 점들이 모여 2차원의 형식을 이루고 데이터로 관리 되고 있다.
 
 흑백영상에 대하여 가로 16 세로 5의 픽셀이 있다고 할때 
-각 하나의 픽셀을 0또는 1로 채울 수 있고 이것을 메모리 비트 패턴 즉 비트 맵이라 한다.
+각 하나의 픽셀을 0또는 1로 채울 수 있고 이것을 <span style="color:orange">메모리 비트 패턴 즉 비트 맵이라 한다.</span>
 
 ## DDB
 
@@ -30,4 +30,90 @@ unsigned int pixel_color = 0xff507090; // 투명도 , R, G, B 순서
 하지만 Windows OS를 실행하는 보통의 CPU는 Little Endian 으로 되어 있기 때문에 메모리에는 역순으로 저장되어 있다. 즉, 메모리 배열상으로는 Blue값이 제일 먼저 있다는 뜻이다.(B, G, R, Alpha)
 
 따라서 포인트 문법을 사용해서 한 바이트 씩 읽는 경우는 색상 순서에 대해서 주의해야 한다.
+
+## 비트 맵 생성
+
+- CreateBitmap - DDB 형식의 비트맵을 직접 생산하는 함수.
+```c++
+HBITMAP CreateBitmap(int nWidth, int nHeight, UINT nPlanes, UINT nBitCount, CONSTvoid* lpBits);
+```
+
+1. nWidth : 생성할 비트맵의 폭.
+2. nHeight : 생성할 비트맵의 높이.
+3. nPlanes : 16색상을 사용하는 비트맵에서는 4개의 플랜, 대부분의 색상은 1개의 플랜 사용 따라서 '1이라고 명시'
+4. nBitCount : 색상을 표현하는데 필요한 비트 수
+5. lpBits : 초기 비트 패턴을 설정할 때 사용한다. 이 매개 변수에 전달되는 메모리는 생성할 비트맵이 사용할 메모리 크기와 일치해야 하기 때문에 'nWidth * nHeight * nBitCount /8' 의 크기를 가져야 한다. 또한 RGB 값이 나열되어 있어야 한다. 이 값이 NULL 이면 생성된 비트맵은 전체가 검은색(RGB 가 0, 0, 0)이다.
+
+## 비트맵 제거
+
+```c++
+BOOL DeleteObject(HGDIOBJ ho);
+```
+Deleteobject 함수는 비트맵 뿐만 아니라 GDI Object를 제거할 때 또한 사용할 수 있다.
+이 함수가 갖는 하나의 매개변수에 제거하고 싶은 GDI Object의 핸들을 명시하면 된다. 
+```c++
+HBITMAP h_my_bmp = CreateBitmap(16, 8, 1, 32, NULL);
+DeleteObject(h_my_bmp);
+```
+
+## CreateBitmap 사용시 주의사항
+
+CreateBitmap 함수는 그래픽 장치에 종속된 DDB 형식의 비트맵을 생성하기 때문에 <span style="color:orange">4번재 인자인 색상 수에 특정 값을 고정하여 사용하면 프로그램의 호환성이 떨어지게 된다.</span> ( 그래픽 장치마다 지원 색상수가 다른 경우, 운영체제 설정에서 색상 수 설정이 다르게 된 경우 등)  따라서 현재 장치가 어떤 색상 수를 사용하는지 얻어서 사용하는 것이 좋다. (이때 현재 프로그램에서 사용하는 그래픽 장치에 대한 속성은 DC(Device Context)가 가지고 있다.) 
+```c++
+// 화면의 색상수를 얻는다. h_dc는 현재 위도우의 dc 핸들 값.
+int color_depth = ::GetDeviceCaps(h_dc, BITSPIXEL);
+HBITMAP h_my-bmp = CreateBitmap(16, 8, 1, color_depth, null);
+```
+
+## CreateCompatibleBitmap
+
+사용중인 DC를 전달해서 비트맵을 생성한다. (비트 플랜의 개수, 생상 수 등이 불필요)
+```c++
+HBITMAP CreateCompatibleBitmap(HDC hdc, int nWidth, int nHeight);
+// 첫번째 인자가 NULL 이면 현재 윈도우가 사용하는 기본 DC 속성을 가지고 비트맵을 생성한다.
+```
+
+## 운영체제와 비트맴 생성의 과정
+
+<span style="color:orange">Windows 운영체제는 비트맴 생성에 대한 요청이 발생하면 비트맵을 생성하고 응용프로그램에는 HBITMAP 형식으로 핸들 값을 전달해 준다.</span>  그리고 해당 비트맵을 사용하고 싶을 때전달 받은 핸들 값으로 비트맵 관련 함수를 호출한다. 이렇게 비트맵을 운영체제가 직접 관리하기 때문에 비트맵의 '비트패턴'을 직접 조작할 수가 없다.
+
+## GetBitmapBits
+
+비트맵의 '비트 패턴'을 복사해오는 함수
+```c++
+LONG GetBitmapBits(HBITMAP hbmp, LONG cbBuffer, LPVOID lpvBits);
+```
+1. hbmp : '비트 패턴'을 복사할 비트맵의 핸들 값.
+2. cbBuffer : 복사할 바이트 수(폭 * 높이 * 색상 수). 이 값이 실제 비트 패턴 보다 크더라도 딱 실제 비트 만큼만 복사. GetObject()함수로 폭, 높이, 색상 수 를 알수 있다. 
+3. lpvBits : '비트 패턴'이 복사될 메모리의 주소를 명시.
+4. 반환 값 : 실제로 복사한 '비트 패턴'의 크기가 반환. 비트 패턴 복사에 실패하면 0을 반환.
+
+## SetBitmapBits
+
+비트맵에 새로운 비트 패턴을 설정하는 함수. 현재 SetDIBits 함수로 대체
+
+```c++
+LONG SetBitmapBits(HBITMAP hbmp, DWORD cb, const VOID *pvBits*)
+```
+1. hbmp : '비트 패턴'을 설정할 비트맵의 핸들 값.
+2. cb : 설정할 바이트 수
+3. pvBits : 새로운 '비트 패턴'이 저장된 메모리의 주소.
+
+```c++
+HBITMAP h_bitmap = CreateBitmap(300, 200, 1, 32, NULL);
+
+unsigned int* p_pattern = new unsigned int[300*200];
+
+for(int i = 0; i < 300*200; ++i)
+{
+	*(p_pattern + i) = 0xFF0000FF;
+}
+
+int copy_size = SetBitmapBits(h_bitmap, 300*200*4, p_pattern);
+
+delete[] p_pattern;
+DeleteObject(h_bitmap);
+```
+
+
 

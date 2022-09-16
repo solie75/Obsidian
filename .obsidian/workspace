@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0fd286eceb529e15",
+        "id": "839bc453558f539f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/AK/메모/09-07 ak 메모.md",
+            "file": "STUDY/Programming Language/Win32 AK Project/01. 기본 코드 수정.md",
             "mode": "source",
             "source": false
           }
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 196
+    "width": 237
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/AK/메모/09-07 ak 메모.md",
+                "file": "STUDY/Programming Language/Win32 AK Project/01. 기본 코드 수정.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/AK/메모/09-07 ak 메모.md",
+                "file": "STUDY/Programming Language/Win32 AK Project/01. 기본 코드 수정.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/AK/메모/09-07 ak 메모.md"
+                "file": "STUDY/Programming Language/Win32 AK Project/01. 기본 코드 수정.md"
               }
             }
           }
@@ -134,19 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 146.5
+    "width": 248.5
   },
-  "active": "0fd286eceb529e15",
+  "active": "839bc453558f539f",
   "lastOpenFiles": [
-    "Daily/09/3주차/2022-09-13.md",
-    "Study/AK/메모/09-07 ak 메모.md",
-    "정리할 것들.md",
-    "Study/Programming Language/C++/미리 컴파일 된 헤더.md",
-    "Study/Programming Language/C++/정적 맴버 변수.md",
-    "Study/Programming Language/C/함수 포인터와 콜백 함수.md",
-    "Study/Programming Language/Design Pattern/SingleTon.md",
-    "Study/Programming Language/C/무제노트.md",
-    "Daily/09/3주차/2022-09-12.md",
-    "Template/Game_Report_Template.md"
+    "STUDY/사이버대학/컴퓨터 구조/01..md",
+    "STUDY/AK/메모/09-06 ak 메모.md",
+    "STUDY/AK/메모/09-05 ak 메모.md",
+    "STUDY/Programming Language/Win32 API/08. SetTimer, KillTimer.md",
+    "STUDY/Programming Language/Win32 API/07. GDI (Graphics Device Interface), DC (Device Context).md",
+    "STUDY/CS 용어/DC (Device Context).md",
+    "독서/독서 리스트.md",
+    "STUDY/CS 용어/Bitmap.md",
+    "STUDY/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
+    "STUDY/Programming Language/Win32 API/05. Message System.md"
   ]
 }
