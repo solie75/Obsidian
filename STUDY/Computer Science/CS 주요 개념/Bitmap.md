@@ -115,5 +115,22 @@ delete[] p_pattern;
 DeleteObject(h_bitmap);
 ```
 
+## BitBlt
 
+지정된 소스 장치 컨텍스트에서 대상 장치 컨텍스트로 픽셀의 사각형에 해당하는 색상 데이터의 비트 블록 전송을 수행한다.
+
+```c++
+BOOL BitBlt(
+  [in] HDC   hdc,
+  [in] int   x,
+  [in] int   y,
+  [in] int   cx,
+  [in] int   cy,
+  [in] HDC   hdcSrc,
+  [in] int   x1,
+  [in] int   y1,
+  [in] DWORD rop
+);
+```
+	여기에서 첫번째 매개변수는 대상 장치 컨텍스트에 대한 핸들이다. 6번째 매개변수는 소스 장치 컨텍스트에 대한 핸들이다. 9번째 매개변수는 래스터 작업 코드이다. 그중 'SRCCOPY'는 원본 사각형을 대상 사각형에 직접 복사한다.
 
