@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c64548bc437a40c4",
+        "id": "a58f61a15b61f1fa",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "STUDY/AK/메모/09-15 ak 메모 (Missile, Component ).md",
+            "file": "Study/Programming Language/Win32 AK Project/08. 컴포넌트.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/메모/09-15 ak 메모 (Missile, Component ).md",
+                "file": "Study/Programming Language/Win32 AK Project/08. 컴포넌트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/메모/09-15 ak 메모 (Missile, Component ).md",
+                "file": "Study/Programming Language/Win32 AK Project/08. 컴포넌트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/메모/09-15 ak 메모 (Missile, Component ).md"
+                "file": "Study/Programming Language/Win32 AK Project/08. 컴포넌트.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 177.5
   },
-  "active": "c64548bc437a40c4",
+  "active": "a58f61a15b61f1fa",
   "lastOpenFiles": [
-    "STUDY/Programming Language/Win32 AK Project/07. Missile.md",
-    "STUDY/Computer Science/CS 주요 개념/Bitmap.md",
-    "STUDY/Programming Language/Win32 AK Project/06. 보조 비트맵(객체의 잔상 지우기).md",
-    "STUDY/Programming Language/Win32 AK Project/05. DC 설정.md",
-    "STUDY/Programming Language/Win32 AK Project/02. CEngine, CObject 생성.md",
-    "STUDY/Programming Language/Win32 AK Project/04. Level folder.md",
-    "정리할 것들.md",
-    "STUDY/사이버대학/데이터 통신/03. 신호의 해석.md",
-    "Daily/09/4주차/2022-09-23.md",
-    "STUDY/Programming Language/Error/Compilation Error/예외가 throw됨 읽기 액세스 위반입니다. m_pCurLevel이(가) nullptr였습니다..md"
+    "2022-09-25.md",
+    "Study/Programming Language/Win32 AK Project/08. 컴포넌트.md",
+    "Study/Programming Language/Win32 AK Project/09. 충돌체.md",
+    "Study/Programming Language/Win32 AK Project/07. Missile.md",
+    "Study/Programming Language/Win32 AK Project/05. DC 설정.md",
+    "Study/Programming Language/Win32 API/Win 구조체 및 함수/SelectObject.md",
+    "Study/Programming Language/Win32 API/07. GDI (Graphics Device Interface), DC (Device Context).md",
+    "Study/Programming Language/Win32 API/Win 구조체 및 함수/GetStockObject ( ).md",
+    "Study/AK/메모/09-15 ak 메모 (Missile, Component ).md",
+    "STUDY/Programming Language/Win32 AK Project/07. Missile.md"
   ]
 }
