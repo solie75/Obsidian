@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a58f61a15b61f1fa",
+        "id": "4d68ca8d5cefe323",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 177.5
   },
-  "active": "a58f61a15b61f1fa",
+  "active": "4d68ca8d5cefe323",
   "lastOpenFiles": [
-    "Study/Programming Language/Win32 AK Project/08. Monster & Layer.md",
-    "Study/Programming Language/Win32 AK Project/09. 충돌.md",
-    "Study/Programming Language/Win32 AK Project/04. Level folder.md",
-    "Study/Programming Language/Win32 AK Project/07. Missile.md",
-    "Study/Programming Language/Win32 AK Project/08. 컴포넌트.md",
-    "Study/Programming Language/Win32 AK Project/06. 보조 비트맵(객체의 잔상 지우기).md",
-    "Study/Programming Language/C/바이트 저장 순서 (byte order).md",
-    "2022-09-25.md",
-    "Study/Programming Language/Win32 AK Project/05. DC 설정.md",
-    "Study/Programming Language/Win32 API/Win 구조체 및 함수/SelectObject.md"
+    "정리할 것들.md",
+    "Study/Programming Language/Win32 API/08. SetTimer, KillTimer.md",
+    "Study/Programming Language/Win32 API/07. GDI (Graphics Device Interface), DC (Device Context).md",
+    "Study/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
+    "Study/Programming Language/Win32 API/05. Message System.md",
+    "Study/Programming Language/Win32 API/03. Event Object.md",
+    "Study/Programming Language/Win32 API/01. HANDLE.md",
+    "Study/Programming Language/Win32 API/02. HINSTANCE.md",
+    "Study/Programming Language/C++/정적 맴버 변수.md",
+    "Study/Programming Language/C++/전방 선언.md"
   ]
 }
