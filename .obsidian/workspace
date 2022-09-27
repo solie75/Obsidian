@@ -4,15 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "4d68ca8d5cefe323",
+        "id": "efc5e5cf5aaeef91",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Study/Programming Language/Win32 AK Project/09. 충돌.md",
-            "mode": "source",
+            "file": "독서/도서 기록/동물농장.md",
+            "mode": "preview",
             "source": false
           }
+        }
+      },
+      {
+        "id": "6037ef6b91d5e504",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -77,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Programming Language/Win32 AK Project/09. 충돌.md",
+                "file": "독서/도서 기록/동물농장.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Programming Language/Win32 AK Project/09. 충돌.md",
+                "file": "독서/도서 기록/동물농장.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Programming Language/Win32 AK Project/09. 충돌.md"
+                "file": "독서/도서 기록/동물농장.md"
               }
             }
           }
@@ -134,19 +142,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 177.5
+    "width": 100
   },
-  "active": "4d68ca8d5cefe323",
+  "active": "040d4039b80fd138",
   "lastOpenFiles": [
-    "정리할 것들.md",
-    "Study/Programming Language/Win32 API/08. SetTimer, KillTimer.md",
-    "Study/Programming Language/Win32 API/07. GDI (Graphics Device Interface), DC (Device Context).md",
-    "Study/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
-    "Study/Programming Language/Win32 API/05. Message System.md",
-    "Study/Programming Language/Win32 API/03. Event Object.md",
-    "Study/Programming Language/Win32 API/01. HANDLE.md",
-    "Study/Programming Language/Win32 API/02. HINSTANCE.md",
-    "Study/Programming Language/C++/정적 맴버 변수.md",
-    "Study/Programming Language/C++/전방 선언.md"
+    "독서/독서 리스트.md",
+    "독서/도서 기록/나는 나를 파괴할 권리가 있다.md",
+    "독서/도서 기록/동물농장.md",
+    "독서/도서 기록/오직 두 사람.md",
+    "독서/도서 기록/동물농장가짜.md",
+    "독서/도서 기록/파리대왕.md",
+    "독서/도서 기록/무정.md",
+    "Template/Book_Report_Template.md",
+    "README.md",
+    "Study/Programming Language/Win32 AK Project/09. 충돌.md"
   ]
 }
