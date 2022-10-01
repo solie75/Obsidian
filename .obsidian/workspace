@@ -4,23 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "efc5e5cf5aaeef91",
+        "id": "b73ec3a1a2199186",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "독서/도서 기록/동물농장.md",
-            "mode": "preview",
+            "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
+            "mode": "source",
             "source": false
           }
-        }
-      },
-      {
-        "id": "6037ef6b91d5e504",
-        "type": "leaf",
-        "state": {
-          "type": "empty",
-          "state": {}
         }
       }
     ],
@@ -48,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SelectObject",
+                "query": "SetWindow",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 188
+    "width": 337
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -85,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서/도서 기록/동물농장.md",
+                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서/도서 기록/동물농장.md",
+                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서/도서 기록/동물농장.md"
+                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md"
               }
             }
           }
@@ -144,17 +136,17 @@
     "direction": "horizontal",
     "width": 100
   },
-  "active": "040d4039b80fd138",
+  "active": "b73ec3a1a2199186",
   "lastOpenFiles": [
-    "독서/독서 리스트.md",
-    "독서/도서 기록/나는 나를 파괴할 권리가 있다.md",
-    "독서/도서 기록/동물농장.md",
-    "독서/도서 기록/오직 두 사람.md",
-    "독서/도서 기록/동물농장가짜.md",
-    "독서/도서 기록/파리대왕.md",
-    "독서/도서 기록/무정.md",
-    "Template/Book_Report_Template.md",
-    "README.md",
-    "Study/Programming Language/Win32 AK Project/09. 충돌.md"
+    "STUDY/Programming Language/C++/c_str().md",
+    "STUDY/Programming Language/Win32 AK Project/02. CEngine, CObject 생성.md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/LoadImage ( ).md",
+    "STUDY/Programming Language/Win32 API/01. HANDLE.md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/SelectObject ( ).md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/wsprintf ( ).md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetTickCount ( ).md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetStockObject ( ).md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetFocus ( ).md"
   ]
 }

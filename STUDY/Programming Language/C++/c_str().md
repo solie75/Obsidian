@@ -1,0 +1,1 @@
+https://codingdog.tistory.com/entry/c-string-cstr-%ED%95%A8%EC%88%98-string%EC%9D%84-char-%EB%A1%9C-%EB%B0%94%EA%BF%94%EB%B4%85%EC%8B%9C%EB%8B%A4
