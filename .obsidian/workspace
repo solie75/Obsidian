@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
+            "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/SelectObject ( ).md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SetWindow",
+                "query": "selectObejct",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
+                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/SelectObject ( ).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
+                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/SelectObject ( ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md"
+                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/SelectObject ( ).md"
               }
             }
           }
@@ -138,15 +139,15 @@
   },
   "active": "b73ec3a1a2199186",
   "lastOpenFiles": [
+    "STUDY/Programming Language/Win32 AK Project/06. 보조 비트맵(객체의 잔상 지우기).md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
     "STUDY/Programming Language/C++/c_str().md",
     "STUDY/Programming Language/Win32 AK Project/02. CEngine, CObject 생성.md",
-    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
     "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/LoadImage ( ).md",
     "STUDY/Programming Language/Win32 API/01. HANDLE.md",
     "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/SelectObject ( ).md",
     "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/wsprintf ( ).md",
     "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetTickCount ( ).md",
-    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetStockObject ( ).md",
-    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetFocus ( ).md"
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetStockObject ( ).md"
   ]
 }
