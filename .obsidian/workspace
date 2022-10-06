@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "492b70e98b8395ec",
+        "id": "45859f4290a1b6b6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "STUDY/Programming Language/Win32 AK Project/11. CResourceMgr.md",
+            "file": "STUDY/Programming Language/Win32 AK Project/15. File Save, File Load.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "selectObejct",
+                "query": "assert",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 154
+    "width": 337
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/Win32 AK Project/11. CResourceMgr.md",
+                "file": "STUDY/Programming Language/Win32 AK Project/15. File Save, File Load.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/Win32 AK Project/11. CResourceMgr.md",
+                "file": "STUDY/Programming Language/Win32 AK Project/15. File Save, File Load.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/Win32 AK Project/11. CResourceMgr.md"
+                "file": "STUDY/Programming Language/Win32 AK Project/15. File Save, File Load.md"
               }
             }
           }
@@ -134,19 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 100
   },
-  "active": "492b70e98b8395ec",
+  "active": "45859f4290a1b6b6",
   "lastOpenFiles": [
-    "STUDY/Programming Language/Win32 AK Project/12. CCameraMgr.md",
-    "STUDY/Programming Language/Win32 AK Project/11. CResourceMgr.md",
-    "STUDY/Programming Language/Win32 AK Project/08. 컴포?��?��.md",
-    "STUDY/Programming Language/Win32 AK Project/10. EventMgr.md",
-    "STUDY/Programming Language/Win32 API/Win 구조�?? �?? ?��?��/SelectObject ( ).md",
-    "STUDY/Programming Language/Win32 AK Project/06. 보조 비트�??(객체?�� ?��?�� �???���??).md",
-    "STUDY/Programming Language/Win32 API/Win 구조�?? �?? ?��?��/GetCurrentDirectory ( ).md",
-    "STUDY/Programming Language/C++/c_str().md",
-    "STUDY/Programming Language/Win32 AK Project/02. CEngine, CObject ?��?��.md",
-    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/LoadImage ( ).md"
+    "STUDY/Programming Language/Win32 AK Project/14. Animation.md",
+    "STUDY/AK/메모/09-27 Animation Save, Load.md",
+    "STUDY/Programming Language/C/기타(자료형)/size_t.md",
+    "STUDY/Programming Language/C/함수/_itow_s ( ).md",
+    "STUDY/Programming Language/C/함수/wcscmp ( ).md",
+    "STUDY/Programming Language/C/함수/sprintf ( ).md",
+    "STUDY/Programming Language/C/함수/open ( ), fopen_s ( ),  _wfopen_s ( ).md",
+    "STUDY/Programming Language/C/함수/fwrite ( ).md",
+    "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
+    "STUDY/Programming Language/C/바이트 저장 순서 (byte order).md"
   ]
 }

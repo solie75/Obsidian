@@ -9,3 +9,12 @@ size_t 는 32비트 운영체제에서는 '부호없는 32비트 정수'이고 6
 그러나  'unsigned int' 혹은 'int' 는 64비트 OS 라고 하여 꼭 64비트 정수는 아니다. 이것이 size_t 와 unsigned int 형의 차이이다.
 
 메모리나 문자열 등의 길이를 구할 때에는 'unsigned int' 대신 size_t 형 으로 길이가 반환된다.
+
+- printf ( )
+	- size_t 형 변수를 출력할 때는 서식지정자 z 를 붙인다. 
+	- 따라서 %zd 가 된다.
+```c++
+
+size_t i = 1;
+prinrf("%zd", i);
+```
