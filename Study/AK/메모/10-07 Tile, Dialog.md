@@ -34,4 +34,14 @@
 8. 리소스 뷰에서 타일개수 변경 추가 -> 임의 자동 id -> ID 변겅 -
 9. -=>resource.h 에 추가되어 있음
 10. wm_command 에 만든 id 를 case 로 둔다.
-11. 
+11. DialogBox() 의 makeintresource 로 저장해 놓은 디자인 사용
+12. 리소스 뷰는 윈도우 7이 형태로 보여준다. 실제로 적용되는건 10으로 리소스 뷰에서 보이는 형태랑 실제 형태랑 다르다는 것이다.
+13. DialogBox 함수의 About
+14. WM_COMMAND 는 대부분 버튼을 누를 때 발생한다.
+15. 모달방식 : 자식 윈도우가 직렬적 작용
+16.  모달less 방식; 자식 윈도우와 부모 윈도우가 병렬적 작용 ( CreateDialog)
+17. 리소스 뷰에서 타일갯수 정하는 다이얼 만들기
+18. main 의 About 함수를 CEditorLevel 에 가져다가 (Tile countDialof Proc) ABout->TileCount 함수명 변경
+19. TileCopunt 함수를 전방선언하여 main 에서 알 수 있게 한다.
+
+신중은의 상상은 현실이 된다.
