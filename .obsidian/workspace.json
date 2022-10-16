@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8bc66acc335f842a",
+        "id": "b3405cb4026a16ba",
         "type": "tabs",
         "children": [
           {
-            "id": "f75e121717c44ba8",
+            "id": "fb7f20d18cd78ee6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/AK/메모/10-07 Tile, Dialog.md",
+                "file": "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/AK/메모/10-07 Tile, Dialog.md",
+                "file": "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/AK/메모/10-07 Tile, Dialog.md",
+                "file": "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/AK/메모/10-07 Tile, Dialog.md"
+                "file": "STUDY/Programming Language/Win32 AK Project/23. Tile.md"
               }
             }
           }
@@ -147,17 +147,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "f75e121717c44ba8",
+  "active": "fb7f20d18cd78ee6",
   "lastOpenFiles": [
+    "STUDY/AK/메모/10-07 Tile, Dialog.md",
+    "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
+    "STUDY/Programming Language/Win32 AK Project/24. Dialog.md",
     "STUDY/Programming Language/Win32 AK Project/22. Clone.md",
+    "STUDY/Programming Language/C++/assert ( ).md",
     "STUDY/AK/메모/10-06 Clone.md",
     "STUDY/Programming Language/Win32 AK Project/21. Level Change.md",
     "STUDY/Programming Language/Win32 AK Project/20. Gravity & Ground Platform.md",
     "Pasted image 20221013042505.png",
-    "RESOURCE/Image/Pasted image 20221013042617.png",
-    "RESOURCE/Image/Pasted image 20221013043813.png",
-    "STUDY/Programming Language/Win32 AK Project/19. Force circle.md",
-    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/마우스 위치.md",
-    "무제노트.md"
+    "RESOURCE/Image/Pasted image 20221013042617.png"
   ]
 }
