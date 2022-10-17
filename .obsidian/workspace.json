@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b3405cb4026a16ba",
+        "id": "623f4342bf2340c4",
         "type": "tabs",
         "children": [
           {
-            "id": "fb7f20d18cd78ee6",
+            "id": "266c7e8f547b1674",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/Programming Language/Win32 AK Project/23. Tile.md",
+                "file": "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "c_str",
+                "query": "GetObject",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/Programming Language/Win32 AK Project/23. Tile.md",
+                "file": "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/Programming Language/Win32 AK Project/23. Tile.md",
+                "file": "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/Programming Language/Win32 AK Project/23. Tile.md"
+                "file": "STUDY/Programming Language/Win32 AK Project/23. Tile.md"
               }
             }
           }
@@ -148,17 +147,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "fb7f20d18cd78ee6",
+  "active": "266c7e8f547b1674",
   "lastOpenFiles": [
-    "Study/Programming Language/C++/c_str().md",
-    "Study/Programming Language/C/함수/open ( ), fopen_s ( ),  _wfopen_s ( ).md",
-    "Study/Programming Language/Win32 AK Project/23. Tile.md",
-    "Study/Programming Language/Win32 AK Project/24. Dialog.md",
-    "STUDY/AK/메모/10-07 Tile, Dialog.md",
     "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
+    "STUDY/AK/메모/10-07 Tile, Dialog.md",
     "STUDY/Programming Language/Win32 AK Project/24. Dialog.md",
     "STUDY/Programming Language/Win32 AK Project/22. Clone.md",
     "STUDY/Programming Language/C++/assert ( ).md",
-    "STUDY/AK/메모/10-06 Clone.md"
+    "STUDY/AK/메모/10-06 Clone.md",
+    "STUDY/Programming Language/Win32 AK Project/21. Level Change.md",
+    "STUDY/Programming Language/Win32 AK Project/20. Gravity & Ground Platform.md",
+    "Pasted image 20221013042505.png",
+    "RESOURCE/Image/Pasted image 20221013042617.png"
   ]
 }
