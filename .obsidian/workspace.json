@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aad7e34930996958",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/AK/메모/10-12 UI, UIMgr.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/Win32 AK Project/24. Dialog.md",
+                "file": "STUDY/AK/메모/10-12 UI, UIMgr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/Win32 AK Project/24. Dialog.md",
+                "file": "STUDY/AK/메모/10-12 UI, UIMgr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/Win32 AK Project/24. Dialog.md"
+                "file": "STUDY/AK/메모/10-12 UI, UIMgr.md"
               }
             }
           }
@@ -147,11 +160,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "266c7e8f547b1674",
+  "active": "aad7e34930996958",
   "lastOpenFiles": [
+    "STUDY/Programming Language/Win32 AK Project/24. Dialog.md",
     "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
     "STUDY/AK/메모/10-07 Tile, Dialog.md",
-    "STUDY/Programming Language/Win32 AK Project/24. Dialog.md",
     "STUDY/Programming Language/Win32 AK Project/22. Clone.md",
     "STUDY/Programming Language/C++/assert ( ).md",
     "STUDY/AK/메모/10-06 Clone.md",
