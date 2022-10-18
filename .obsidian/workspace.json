@@ -11,12 +11,8 @@
             "id": "266c7e8f547b1674",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/Win32 AK Project/24. Dialog.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -25,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/메모/10-12 UI, UIMgr.md",
+                "file": "Study/AK/메모/10-12 UI, UIMgr.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256
+    "width": 230
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/메모/10-12 UI, UIMgr.md",
+                "file": "Study/AK/메모/10-12 UI, UIMgr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/메모/10-12 UI, UIMgr.md",
+                "file": "Study/AK/메모/10-12 UI, UIMgr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/메모/10-12 UI, UIMgr.md"
+                "file": "Study/AK/메모/10-12 UI, UIMgr.md"
               }
             }
           }
@@ -155,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 189.5
+    "width": 200
   },
   "ribbon": {
     "mostRecentAction": ""
