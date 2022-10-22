@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "266c7e8f547b1674",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "aad7e34930996958",
+            "id": "232bea03b70bdbee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/AK/메모/10-12 UI, UIMgr.md",
+                "file": "Win Api Portfolio/계획.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230
+    "width": 214
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -94,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study/AK/메모/10-12 UI, UIMgr.md",
+                "file": "Win Api Portfolio/계획.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study/AK/메모/10-12 UI, UIMgr.md",
+                "file": "Win Api Portfolio/계획.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study/AK/메모/10-12 UI, UIMgr.md"
+                "file": "Win Api Portfolio/계획.md"
               }
             }
           }
@@ -151,22 +142,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "aad7e34930996958",
+  "active": "232bea03b70bdbee",
   "lastOpenFiles": [
+    "Study/AK/메모/10-12 UI, UIMgr.md",
+    "Win Api Portfolio/계획.md",
+    "Study/Programming Language/Win32 AK Project/24. Dialog.md",
     "STUDY/Programming Language/Win32 AK Project/24. Dialog.md",
     "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
     "STUDY/AK/메모/10-07 Tile, Dialog.md",
     "STUDY/Programming Language/Win32 AK Project/22. Clone.md",
     "STUDY/Programming Language/C++/assert ( ).md",
     "STUDY/AK/메모/10-06 Clone.md",
-    "STUDY/Programming Language/Win32 AK Project/21. Level Change.md",
-    "STUDY/Programming Language/Win32 AK Project/20. Gravity & Ground Platform.md",
-    "Pasted image 20221013042505.png",
-    "RESOURCE/Image/Pasted image 20221013042617.png"
+    "STUDY/Programming Language/Win32 AK Project/21. Level Change.md"
   ]
 }
