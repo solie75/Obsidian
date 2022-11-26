@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "623f4342bf2340c4",
+        "id": "e30f73789086e73c",
         "type": "tabs",
         "children": [
           {
-            "id": "232bea03b70bdbee",
+            "id": "b6ba6e4fdb88eb4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Win Api Portfolio/계획.md",
+                "file": "독서/독서 리스트.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GetObject",
-                "matchingCase": false,
+                "query": "Alpha",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214
+    "width": 315
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Win Api Portfolio/계획.md",
+                "file": "독서/독서 리스트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Win Api Portfolio/계획.md",
+                "file": "독서/독서 리스트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Win Api Portfolio/계획.md"
+                "file": "독서/독서 리스트.md"
               }
             }
           }
@@ -145,20 +145,17 @@
     "width": 200,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "232bea03b70bdbee",
+  "active": "b6ba6e4fdb88eb4f",
   "lastOpenFiles": [
-    "Study/AK/메모/10-12 UI, UIMgr.md",
-    "Win Api Portfolio/계획.md",
-    "Study/Programming Language/Win32 AK Project/24. Dialog.md",
-    "STUDY/Programming Language/Win32 AK Project/24. Dialog.md",
-    "STUDY/Programming Language/Win32 AK Project/23. Tile.md",
-    "STUDY/AK/메모/10-07 Tile, Dialog.md",
-    "STUDY/Programming Language/Win32 AK Project/22. Clone.md",
-    "STUDY/Programming Language/C++/assert ( ).md",
-    "STUDY/AK/메모/10-06 Clone.md",
-    "STUDY/Programming Language/Win32 AK Project/21. Level Change.md"
+    "독서/도서 기록/오직 두 사람.md",
+    "독서/도서 기록/동물농장.md",
+    "독서/도서 기록/나는 나를 파괴할 권리가 있다.md",
+    "STUDY/Programming Language/Win32 AK Project/16. AlphaBlend.md",
+    "STUDY/AK/메모/09-28 AlphaBlend.md",
+    "STUDY/Programming Language/C/함수/_itow_s ( ).md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/AlphaBlend ( ).md",
+    "2022-10-27.md",
+    "STUDY/Programming Language/Win32 AK Project/12. CResourceMgr.md",
+    "STUDY/Programming Language/Win32 AK Project/11. PathMgr.md"
   ]
 }

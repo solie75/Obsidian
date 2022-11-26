@@ -16,7 +16,7 @@ BOOL AlphaBlend(
 
 - 매개변수
 	1. hdcDest : 대상 장치 컨텍스트에 대한 핸들'
-	2. soriginDest : 대상 사각형의 왼쪽 위 모서리에 대한 좌표의 x값.
+	2. xoriginDest : 대상 사각형의 왼쪽 위 모서리에 대한 좌표의 x값.
 	3. yoriginDest : 대상 사각형의 왼쪽 위 모서리에 대한 좌표의 y값.
 	4. wDest : 대상 사각형의 너비(논리 단위)
 	5. hDest : 대상 사각형의 높이(논리 단위)

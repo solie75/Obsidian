@@ -2,7 +2,7 @@
 errno_t _itow_s( int value, wchar_t * buffer, size_t size, int radix);
 ```
 
-정수르 문자열로 변환한다 
+정수를 문자열로 변환한다 
 
 - 매개 변수
 	1. value : 변환할 숫자.
