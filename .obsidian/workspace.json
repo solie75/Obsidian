@@ -4,22 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "e30f73789086e73c",
+        "id": "405ccfc2f7ffddd8",
         "type": "tabs",
         "children": [
           {
-            "id": "b6ba6e4fdb88eb4f",
+            "id": "289ccdddc6eb0edb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "독서/독서 리스트.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/D3D11CreateDevice( ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f006e5479e854b00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/1강 정리 및 메모.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea8d3a8bd9115989",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f8045750fe317d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/3강 정리 및 메모.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab5cb9d6c0cb085f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "독서/독서 리스트.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "독서/독서 리스트.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "독서/독서 리스트.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md"
               }
             }
           }
@@ -145,17 +194,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "b6ba6e4fdb88eb4f",
+  "active": "ab5cb9d6c0cb085f",
   "lastOpenFiles": [
-    "독서/도서 기록/오직 두 사람.md",
-    "독서/도서 기록/동물농장.md",
-    "독서/도서 기록/나는 나를 파괴할 권리가 있다.md",
-    "STUDY/Programming Language/Win32 AK Project/16. AlphaBlend.md",
-    "STUDY/AK/메모/09-28 AlphaBlend.md",
-    "STUDY/Programming Language/C/함수/_itow_s ( ).md",
-    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/AlphaBlend ( ).md",
-    "2022-10-27.md",
-    "STUDY/Programming Language/Win32 AK Project/12. CResourceMgr.md",
-    "STUDY/Programming Language/Win32 AK Project/11. PathMgr.md"
+    "STUDY/Programming Language/DirectX 3D 11/Memo/3강 정리 및 메모.md",
+    "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
+    "STUDY/Programming Language/DirectX 3D 11/Memo/1강 정리 및 메모.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/D3D11CreateDevice( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateRenderTargetView( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateDepthStecilview( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateSwapChain( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/무제파일 2.md",
+    "2022-10-27.md"
   ]
 }
