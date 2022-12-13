@@ -35,9 +35,9 @@ HRESULT D3D11CreateDevice(
 
 6. UINT FeatureLevels : pFeatureLevels 의 element 수
 7. UINT SDKVersion : SDK의 버전. D3D11_SDK_VERSION 사용
-8. ID3D11Device **ppDevice : 생성된 Device를 나타내는 ID3D11Device 객체에 대한 포인터의 주소를 반환. 이 매개 변수가 NULL 이면 ID3D11Device는 반환되지 않는다.
+8. ID3D11Device **ppDevice : <span style="color:yellow">생성된 Device를 나타내는 ID3D11Device 객체에 대한 포인터의 주소를 반환.</span> 이 매개 변수가 NULL 이면 ID3D11Device는 반환되지 않는다.
 9. D3D_FEATURE_LEVEL *pFeatureLevel : 성공했을 경우, 성공한 pFeatureLevels 배열로부터 최초의 D3D_FEATURE_LEVEL을 돌려준다. 지원되는 기능 레벨을 판별 할 필요가 없는 경우 입력으로 NULL 제공할 것.
-10. ID3D11DeviceContext **ppImmediateContext : Device context 를 나타내는 ID3D11DeviceContext 객체에 대한 포인터의 주소를 반환한다. 이 매게변수가 NULL 인 경우, ID3D11DeviceContext 는 반환되지 않는다.
+10. ID3D11DeviceContext **ppImmediateContext : <span style="color:yellow">Device context 를 나타내는 ID3D11DeviceContext 객체에 대한 포인터의 주소를 반환한다.</span> 이 매게변수가 NULL 인 경우, ID3D11DeviceContext 는 반환되지 않는다.
 
 ## Return value
 
@@ -45,5 +45,5 @@ Type : HRESULT
 
 이 메서드는 Direct3D 11 반환 코드 중 하나를 반환할 수 있다. 
 pAdapter 매개 변수를 NULL이 아닌 값으로 설정하고 DriverType 매개 변수를 D3D_DRIVER_TYPE_HARDWARE 값으로 설정하면 이 메서드는 E_INVALIDARG를 반환한다.
-Flag 가 D3D11_CREATE_DEVICE_DEBUG 를 지정하면, 이 메소드는 DXGI_ERROR_SDK_COMPONENT_MISSING을 반환하며, 부정확한 버젼 의 디버그 층이 컴퓨터에 인스통 된다. 올바른 버전을 얻고 싶은 경우  최신 SDK 를 설치할 것.
+Flag 가 D3D11_CREATE_DEVICE_DEBUG 를 지정하면, 이 메소드는 DXGI_ERROR_SDK_COMPONENT_MISSING을 반환하며, 부정확한 버젼 의 디버그 층이 컴퓨터에 인스톨 된다. 올바른 버전을 얻고 싶은 경우  최신 SDK 를 설치할 것.
 

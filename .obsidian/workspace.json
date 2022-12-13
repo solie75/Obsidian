@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "9e31d93e3f18601c",
+        "id": "0bf0bcc564b05406",
         "type": "tabs",
         "children": [
           {
-            "id": "67b74b10fc6c5b30",
+            "id": "8e9738c8570e4fe3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/CreateSwapChain( ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1292c9b49a74dbdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/DXGI (DirectX Graphics Infrastructure).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "024f33bafbfeddce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/COM/QueryInterface( ).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md",
+                "file": "STUDY/Programming Language/COM/QueryInterface( ).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md",
+                "file": "STUDY/Programming Language/COM/QueryInterface( ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md"
+                "file": "STUDY/Programming Language/COM/QueryInterface( ).md"
               }
             }
           }
@@ -145,17 +170,54 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "67b74b10fc6c5b30",
+  "floating": {
+    "id": "fb36b631bb3f4bb0",
+    "type": "floating",
+    "children": [
+      {
+        "id": "9ce5e87558864a88",
+        "type": "window",
+        "children": [
+          {
+            "id": "53156443feaad6b3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "599651d16d876604",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/English/Word/Computer_Scienve_Word.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": -1335,
+        "y": 511,
+        "width": 715,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "024f33bafbfeddce",
   "lastOpenFiles": [
-    "Pasted image 20221015133336.png",
-    "TEMPLATE/English_Word_Template.md",
+    "STUDY/English/Word/Computer_Scienve_Word.md",
+    "STUDY/Programming Language/COM/QueryInterface( ).md",
+    "STUDY/Programming Language/무제파일.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/DXGI (DirectX Graphics Infrastructure).md",
     "STUDY/Programming Language/DirectX 3D 11/Function/CreateSwapChain( ).md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Device in Direct3d 11.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Feature Level.md",
+    "RESOURCE/Image/Pasted image 20221212211004.png",
     "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/3강 정리 및 메모.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/1강 정리 및 메모.md"
+    "STUDY/Programming Language/DirectX 3D 11/Function/D3D11CreateDevice( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateDepthStecilview( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateRenderTargetView( ).md"
   ]
 }
