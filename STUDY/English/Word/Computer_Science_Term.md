@@ -19,3 +19,5 @@ Each instruction is composed of a sequence 1s and 0s. Each individual 0 or 1 is 
 **Compiler** is program that reads source code and produces a stand-alone executable program that can then be run.
 
 **Interpreter** is a program that directly executes the instructions in the source code without requiring them to be compiled into an executable first.
+
+Query is a request for data or information from a datavase table or combination of table. 

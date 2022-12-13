@@ -1,0 +1,3 @@
+in queryInterface info...
+
+"Regardless of implementation, this method queries an object using the `IID` of the interface to which the caller wants a pointer."

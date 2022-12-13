@@ -13,26 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/CreateSwapChain( ).md",
+                "file": "STUDY/Programming Language/COM/QueryInterface( ).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1292c9b49a74dbdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/DXGI (DirectX Graphics Infrastructure).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "024f33bafbfeddce",
+            "id": "381c9e9f7090c9d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,8 +61,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Alpha",
-                "matchingCase": true,
+                "query": "__uuidof",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -175,15 +163,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "9ce5e87558864a88",
+        "id": "5dec9eea0e917a79",
         "type": "window",
         "children": [
           {
-            "id": "53156443feaad6b3",
+            "id": "ce3d201473d22f7b",
             "type": "tabs",
             "children": [
               {
-                "id": "599651d16d876604",
+                "id": "a8f82d427b7f12a7",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -198,26 +186,26 @@
           }
         ],
         "direction": "vertical",
-        "x": -1335,
-        "y": 511,
-        "width": 715,
+        "x": 18,
+        "y": 163,
+        "width": 1024,
         "height": 800,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "024f33bafbfeddce",
+  "active": "381c9e9f7090c9d9",
   "lastOpenFiles": [
     "STUDY/English/Word/Computer_Scienve_Word.md",
     "STUDY/Programming Language/COM/QueryInterface( ).md",
-    "STUDY/Programming Language/무제파일.md",
+    "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
+    "STUDY/English/Sentence.md",
+    "STUDY/English/Word/Computer_Science_Term.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/DXGI (DirectX Graphics Infrastructure).md",
     "STUDY/Programming Language/DirectX 3D 11/Function/CreateSwapChain( ).md",
+    "STUDY/Programming Language/무제파일.md",
     "RESOURCE/Image/Pasted image 20221212211004.png",
-    "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/D3D11CreateDevice( ).md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/CreateDepthStecilview( ).md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/CreateRenderTargetView( ).md"
+    "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md"
   ]
 }
