@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "0bf0bcc564b05406",
+        "id": "355d6bbb8aa47df4",
         "type": "tabs",
         "children": [
           {
-            "id": "8e9738c8570e4fe3",
+            "id": "552b2cbc1da807d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/COM/QueryInterface( ).md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/CreateRenderTargetView( ).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "381c9e9f7090c9d9",
+            "id": "da45ffacbf90f844",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/COM/QueryInterface( ).md",
+                "file": "2022-12-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "__uuidof",
+                "query": "CreateTexture",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/COM/QueryInterface( ).md",
+                "file": "2022-12-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/COM/QueryInterface( ).md",
+                "file": "2022-12-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/COM/QueryInterface( ).md"
+                "file": "2022-12-14.md"
               }
             }
           }
@@ -158,54 +158,17 @@
     "width": 200,
     "collapsed": true
   },
-  "floating": {
-    "id": "fb36b631bb3f4bb0",
-    "type": "floating",
-    "children": [
-      {
-        "id": "5dec9eea0e917a79",
-        "type": "window",
-        "children": [
-          {
-            "id": "ce3d201473d22f7b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "a8f82d427b7f12a7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "STUDY/English/Word/Computer_Scienve_Word.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 18,
-        "y": 163,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "381c9e9f7090c9d9",
+  "active": "da45ffacbf90f844",
   "lastOpenFiles": [
+    "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md",
     "STUDY/English/Word/Computer_Scienve_Word.md",
-    "STUDY/Programming Language/COM/QueryInterface( ).md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
-    "STUDY/English/Sentence.md",
-    "STUDY/English/Word/Computer_Science_Term.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/DXGI (DirectX Graphics Infrastructure).md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/CreateSwapChain( ).md",
-    "STUDY/Programming Language/무제파일.md",
-    "RESOURCE/Image/Pasted image 20221212211004.png",
-    "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md"
+    "STUDY/Programming Language/DirectX 3D 11/Function/D3D11CreateDevice( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/ID3D11Texture2D.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateRenderTargetView( ).md",
+    "2022-12-14.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateTexture2D.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Mipmap.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Texel.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Subresources.md"
   ]
 }

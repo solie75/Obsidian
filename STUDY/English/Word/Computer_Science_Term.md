@@ -20,4 +20,6 @@ Each instruction is composed of a sequence 1s and 0s. Each individual 0 or 1 is 
 
 **Interpreter** is a program that directly executes the instructions in the source code without requiring them to be compiled into an executable first.
 
-Query is a request for data or information from a datavase table or combination of table. 
+**Query** is a request for data or information from a datavase table or combination of table. 
+
+**capability** : An operating system security or access control model where specific types of access to a specific object are granted by giving a process this data structure or token.

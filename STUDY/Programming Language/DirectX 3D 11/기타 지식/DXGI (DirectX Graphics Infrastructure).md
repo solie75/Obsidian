@@ -17,10 +17,31 @@ IDXGIDevice* pDXGIDevice = nullptr;
 // Adapter 를 담아둘 포인터 변수
 IDXGIAdapter* padapte = nullptr;
 IDXGIFACTORY* pFactory = nullptr;
+
+// D3D11CreateDevice 로 생성된 디바이스를 m_Device 라고 할 때
+m_Device->QueryInterface(__uuidof(IDXGIDevice), (void**)&pDXGIDevice);
+pDXGIDevice->GetParent(__uuidof(IDXGIAdapter), (void**)&pAdapter);
+pAdapter->GetParent(__uuidof(IDXGIFactory), (void**)&pFactory);
+
 // Adapter들을 저장할 vector 컨테이너
 std::vector<IDXGIAdapter*> adapterList;
 
 // IDSGIFactory 객체를 통해 어뎁터들을 열거한다. i를 index로 활용
 // 만약 index가 시스템에 존재하는 어뎁터의 갯수와 같거나 더 크다면 while문을 종료한다.
-while()
+while(pFactory->EnumAdapters(i, &pAdapter != DXGI_ERROR_NOT_FOUNT)
+{
+	DXGI_ADAPTER_DESC desc;
+	pAdapter->GetDesc(&desc);
+	wstring pdes = desc.Description;
+	adapterList.push_back(pAdapter.Get());
+	++i;
+}
+```
+
+다음 코드를 실행하면 pdes 는 adapter를 순서대로 가지고 있는다.
+```
+pdes 결과 예시
+NVIDIA GeForce RTX 2070
+Microsoft Basic Render Driver
+(Microsoft Basic Render Driver 는 window 8 이상에 포함된 소프트웨어 디스플레이 어뎁터 이다.)
 ```

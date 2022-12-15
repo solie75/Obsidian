@@ -17,8 +17,25 @@ DXGI_SWAP_CHAIN_DESC 구조체를 채우고 IDXGISwapchian interface 를 초기�
   1.  D3D11CreateDeviceAndSwapChain( ) 함수를 사용하여 swap chain 과 device 를 동시에 초기화 한다. 
   2. IDXGIFactory::CreateSwapChain( ) 을 사용하여 미리  swap chain 을 소유한 상태에서[[D3D11CreateDevice( )]] 함수를 사용한다.
 
-### Process
+## Syntax
 
-1. DXGI_SWAP_CHAIN_DESC 구조체 설정
-2. 
-3. 
+```c++
+HRESULT CreateSwapChain(
+	[in] IUnknown *pDevice,
+	[in] DXGI_SWAP_CHAIN_DESC *pDesc, 
+	[out] IDXGISwapChain **ppSwapChain
+);
+```
+
+## Parameters
+
+1. IUnknown *pDevice : 스왑 체인에 대한 Direct 3D 디바이스를 가리키는 포인터. NULL 일 수 없다.
+2. DXGI_SWAP_CHAIN_DESC *pDesc : 스왑체인의 설정을 위한 DXGI_SWAP_CHAIN_DESC 구조체를 가리키는 포인터. NULL일 수 없다.
+3. IDXGISwapChain **ppSwapChain : CreateSwapChain() 이 생성하는 swap chain에 대한 IDXGISwapChian 인터페이스 를 가리키는 포인터를 받아들이는 변동가능한 포인터.
+
+## Return value
+
+HRESULT
+
+## Remarks
+
