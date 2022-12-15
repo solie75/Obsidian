@@ -1,9 +1,11 @@
 [
   "obsidian-tasks-plugin",
-  "obsidian-day-planner",
   "dataview",
   "obsidian-banners",
   "obsidian-style-settings",
   "obsidian-sortable",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-charts",
+  "obsidian-day-planner",
+  "calendar"
 ]
