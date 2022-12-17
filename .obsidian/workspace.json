@@ -4,35 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "355d6bbb8aa47df4",
+        "id": "566b34303cb232fb",
         "type": "tabs",
         "children": [
           {
-            "id": "552b2cbc1da807d7",
+            "id": "97007a25d899f89c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/Achievement Rate/2022-W51.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Subresources.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "989d68e4282947fb",
+            "id": "1d4c860bc0f7c72c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "RESOURCE/Image/Pasted image 20221217190213.png"
+              }
+            }
+          },
+          {
+            "id": "8c6651abe3114895",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "RESOURCE/Image/Pasted image 20221217162630.png"
+              }
+            }
+          },
+          {
+            "id": "931bc6dfbe3b54d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/Achievement Rate/2022-W51.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/Achievement Rate/2022-W51.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/Achievement Rate/2022-W51.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/Achievement Rate/2022-W51.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md"
               }
             }
           },
@@ -155,19 +175,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 200
   },
-  "active": "989d68e4282947fb",
+  "active": "931bc6dfbe3b54d1",
   "lastOpenFiles": [
     "STUDY/English/Word/Computer_Scienve_Word.md",
-    "Daily/Achievement Rate/2022-W51.md",
-    "Daily/Achievement Rate/2022-W52.md",
-    "Template/Weekend_Template.md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/CreateRenderTargetView( ).md",
-    "무제파일 1.md",
-    "무제파일.md",
-    "Daily/12/3주차/2022-12-15.md",
-    "Daily/12/3주차/2022-12-16.md",
-    "Daily/12/3주차/2022-12-14.md"
+    "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md",
+    "Daily/12/3주차/2022-12-17.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Subresources.md",
+    "RESOURCE/Image/Pasted image 20221217162630.png",
+    "RESOURCE/Image/Pasted image 20221217180419.png",
+    "RESOURCE/Image/Pasted image 20221217190213.png",
+    "RESOURCE/Image/Pasted image 20221217190143.png",
+    "RESOURCE/Image/Pasted image 20221217183524.png",
+    "Pasted image 20221217183444.png"
   ]
 }

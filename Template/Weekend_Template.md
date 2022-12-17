@@ -16,6 +16,7 @@ id: WeekendRateData
 layout: rows
 width: 100%
 beginAtZero: true
+yMax: 100
 bestFit: false
 bestFitTitle: undefined
 bestFitNumber: 0
