@@ -23,6 +23,8 @@
 			1. D3D11_TEXTURE2D_DESC 구조체 변수 생성 및 DepthStencil  용도에 맞게 내용 대입
 			2. [[CreateTexture2D( )]] 로 depth Stencil 용 텍스쳐를 생성한다.
 			3. [[CreateDepthStencilview( )]]로 Depth Stencil 용 view 를 생성한다.
+
+
 ### Process
 
 1. 
