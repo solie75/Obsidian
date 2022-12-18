@@ -57,14 +57,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Computer Science/CS 주요 개념/Binding.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6bd044cfcf5af43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRendrTargets( ).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -114,7 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223
+    "width": 337
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Computer Science/CS 주요 개념/Binding.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRendrTargets( ).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Computer Science/CS 주요 개념/Binding.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRendrTargets( ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Computer Science/CS 주요 개념/Binding.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRendrTargets( ).md"
               }
             }
           },
@@ -190,9 +202,10 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "c53f1e915cae42ae",
+  "active": "d6bd044cfcf5af43",
   "lastOpenFiles": [
     "STUDY/Programming Language/DirectX 3D 11/Process for DirectX Rendering.md",
+    "STUDY/Computer Science/CS 주요 개념/Binding.md",
     "STUDY/Programming Language/DirectX 3D 11/Function/CreateDepthStencilview( ).md",
     "STUDY/English/Word/Computer_Scienve_Word.md",
     "Daily/12/3주차/2022-12-17.md",
@@ -200,7 +213,6 @@
     "RESOURCE/Image/Pasted image 20221217162630.png",
     "RESOURCE/Image/Pasted image 20221217180419.png",
     "RESOURCE/Image/Pasted image 20221217190213.png",
-    "RESOURCE/Image/Pasted image 20221217190143.png",
-    "RESOURCE/Image/Pasted image 20221217183524.png"
+    "RESOURCE/Image/Pasted image 20221217190143.png"
   ]
 }
