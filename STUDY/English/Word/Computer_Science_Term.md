@@ -23,3 +23,5 @@ Each instruction is composed of a sequence 1s and 0s. Each individual 0 or 1 is 
 **Query** is a request for data or information from a datavase table or combination of table. 
 
 **capability** : An operating system security or access control model where specific types of access to a specific object are granted by giving a process this data structure or token.
+
+**Memory footprint** : refers to the amount of main memory that a program uses or references while running

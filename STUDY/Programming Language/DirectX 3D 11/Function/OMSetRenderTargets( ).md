@@ -1,4 +1,4 @@
-하나 혹은 그 이상의 render targets 과 depth-stencil buffer 을 output-nerger stage 에 원자적으로(atomically, 프로그램이 중간에 끼어들 수 없음) 바인딩 한다. 
+하나 혹은 그 이상의 render targets 과 depth-stencil buffer 을 output-merger stage 에 원자적으로(atomically, 프로그램이 중간에 끼어들 수 없음) 바인딩 한다. 
 
 ## Syntax
 
@@ -27,8 +27,9 @@ void OMSetRenderTargets(
 
 그 메서드는 전달된 인터페이스에 대한 참조를 가지고 있는다.
 
-만약 render target view 가 어떤 
+만약 render target view 가 array resoure type 으로 생성된다면 모든 render target view 는 모두 같은 array size (배열 크기)를 가져야 한다. 
 
+-> <span style="color:green ">array resource type 은 뭘까</span>
 
 
 https://learn.microsoft.com/en-us/windows/win32/api/d3d11/nf-d3d11-id3d11devicecontext-omsetrendertargets
