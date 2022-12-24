@@ -14,3 +14,58 @@ typeless 리소스로 생성된 view 는 언제나 각 component(구성요소)�
 그 지정된 포맷은 리소스가 생성될 때 사용되는 typeless format 과 같이 동일한 family의 출신이어야 한다.(<span style="color: green">format, family는 무엇인가.</span>) 예를 들어, R8G8B8A8_TYPELESS 포맷으로 생성된 리소스는 R32_FLOAT 리소스로서 뷰가 될 수 없다. 심지어 그 두 포맷이 메모리상 같은 크기 일지라도 말이다.
 
 view 는 또한 쉐이더의 back depth/ stencil surface 를 읽는 것, single pass에서 동적 cubemap을 만드는 것 그리고 volume의 여러 조각을 동시에 렌더링 하는 것 과 같은 다른 능력(기능)들을 제공한다.
+
+
+## CreateRenderTargetView( )
+
+```c++
+virtual HRESULT STDMETHODCALLTYPE CreateRenderTargetView( 
+            /* [annotation] */ 
+            _In_  ID3D11Resource *pResource,
+            /* [annotation] */ 
+            _In_opt_  const D3D11_RENDER_TARGET_VIEW_DESC *pDesc,
+            /* [annotation] */ 
+            _COM_Outptr_opt_  ID3D11RenderTargetView **ppRTView) = 0;
+```
+
+```c++
+#ifndef __ID3D11RenderTargetView_INTERFACE_DEFINED__
+#define __ID3D11RenderTargetView_INTERFACE_DEFINED__
+
+/* interface ID3D11RenderTargetView */
+/* [unique][local][object][uuid] */ 
+
+
+EXTERN_C const IID IID_ID3D11RenderTargetView;
+
+#if defined(__cplusplus) && !defined(CINTERFACE)
+    
+    MIDL_INTERFACE("dfdba067-0b8d-4865-875b-d7b4516cc164")
+    ID3D11RenderTargetView : public ID3D11View
+    {
+    public:
+        virtual void STDMETHODCALLTYPE GetDesc( 
+            /* [annotation] */ 
+            _Out_  D3D11_RENDER_TARGET_VIEW_DESC *pDesc) = 0;
+        
+    };
+```
+
+```c++
+typedef struct D3D11_RENDER_TARGET_VIEW_DESC
+    {
+    DXGI_FORMAT Format;
+    D3D11_RTV_DIMENSION ViewDimension;
+    union 
+        {
+        D3D11_BUFFER_RTV Buffer;
+        D3D11_TEX1D_RTV Texture1D;
+        D3D11_TEX1D_ARRAY_RTV Texture1DArray;
+        D3D11_TEX2D_RTV Texture2D;
+        D3D11_TEX2D_ARRAY_RTV Texture2DArray;
+        D3D11_TEX2DMS_RTV Texture2DMS;
+        D3D11_TEX2DMS_ARRAY_RTV Texture2DMSArray;
+        D3D11_TEX3D_RTV Texture3D;
+        } 	;
+    } 	D3D11_RENDER_TARGET_VIEW_DESC;
+```

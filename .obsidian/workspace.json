@@ -4,119 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "800b05b4326cce42",
+        "id": "ef51e9b3973049a5",
         "type": "tabs",
         "children": [
           {
-            "id": "76aab9e367f1a513",
+            "id": "71f8710a352b63c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Resource View.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Process for Vertex buffer Rendering.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fdc09e91c80a5835",
+            "id": "9bb8e7ca60b65da7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Resource.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Process for Vertex buffer Rendering.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8f798519576f1e24",
+            "id": "b9c829642630cab4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Subresources.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7f1b7171c6bbb1a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e7d092064a5ec1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Primitives.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75c879fa584da072",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Shading.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d71d077234ab15e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Texture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d045ba43005d82df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2022-12-24.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "992afe669733cf97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRenderTargets( ).md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -145,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "buffer",
+                "query": "mip slice",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -166,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337
+    "width": 392
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -182,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRenderTargets( ).md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRenderTargets( ).md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRenderTargets( ).md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md"
               }
             }
           },
@@ -241,18 +169,6 @@
     "direction": "horizontal",
     "width": 200,
     "collapsed": true
-  },
-  "left-ribbon": {
-    "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "workspaces:작업 공간 레이아웃 관리": false
-    }
   },
   "floating": {
     "id": "14de0315edaea39e",
@@ -282,8 +198,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 1059,
-        "y": 449,
+        "x": 546,
+        "y": 187,
         "width": 1024,
         "height": 800,
         "maximize": false,
@@ -291,17 +207,17 @@
       }
     ]
   },
-  "active": "992afe669733cf97",
+  "active": "b9c829642630cab4",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Resource View.md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRenderTargets( ).md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Resource.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Resource File Formats.md",
-    "2022-12-24.md",
-    "정리할 것들.md",
-    "README.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
+    "STUDY/Programming Language/DirectX 3D 11/Process for Vertex buffer Rendering.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateRenderTargetView( ).md",
+    "2022-12-25.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/RSSetViewports( ).md",
     "STUDY/English/Word/Computer_Scienve_Word.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Primitives.md"
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Viewport.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRenderTargets( ).md",
+    "Daily/12/4주차/2022-12-24.md",
+    "Win Api Portfolio/계획.md",
+    "Template/Daily_Template.md"
   ]
 }

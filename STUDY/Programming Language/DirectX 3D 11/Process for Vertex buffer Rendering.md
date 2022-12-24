@@ -2,7 +2,7 @@
 1. 작업 영역 크기 조절 및 창 생성 / SetWindowPos(), ShowWindow()
 2. Manager 생성 및 초기화 / ManagerInit()
 
-## Create ' Device, Context, SwapChain, RenderTargetView '
+## Create ' Device, Context, SwapChain, RenderTargetView ' in CEngine::EngineInit()
 
 1. Create CDevice class
 2. Device, Context, SwapChain, Rendertarget Texture, Rendertarget View, DepthStencil Texture, DepthStencil View 에 대한 변수 선언.
@@ -23,12 +23,15 @@
 			1. D3D11_TEXTURE2D_DESC 구조체 변수 생성 및 DepthStencil  용도에 맞게 내용 대입
 			2. [[CreateTexture2D( )]] 로 depth Stencil 용 텍스쳐를 생성한다.
 			3. [[CreateDepthStencilview( )]]로 Depth Stencil 용 view 를 생성한다.
-4. 출력 타겟 설정
-	1. 
-
-### Process
-
-1. 
-6. [[CreateRenderTargetView( )]]
-7. [[CreateDepthStencilview( )]]
-8. 
+	4. 출력 타겟 설정
+		1. [[OMSetRenderTargets( )]]  : 렌더타겟은 Output-Merger stage 에 해당 메소드로 설정한다. 
+	5. viewport 설정
+		1. D3D11_VIEWPORT 설정
+		2. RSSetViewports( ) 메서드로 뷰포트 배열을 파이프 라인의 rasterizer stage에 바인딩한다.
+4. 각 매니저 초기화
+5. 정점 버퍼 그리기 테스트(이하 Test)의 초기화
+	1. TestInit( ) 호출
+		1. struct.h 에 Vertex 구조체(이하 Vtx)를 추가.
+		2. 4개의 Vtx를 가지는 배열을 생성하고 인데스 0부터 2까지 세팅한다.(각각의 정점의 위치와 색 값을 설정한다.)
+		3. 버퍼 Desc 구조체 생성 및 set.
+		4. 
