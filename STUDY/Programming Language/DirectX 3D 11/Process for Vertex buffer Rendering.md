@@ -32,6 +32,7 @@
 5. 정점 버퍼 그리기 테스트(이하 Test)의 초기화
 	1. TestInit( ) 호출
 		1. struct.h 에 Vertex 구조체(이하 Vtx)를 추가.
-		2. 4개의 Vtx를 가지는 배열을 생성하고 인데스 0부터 2까지 세팅한다.(각각의 정점의 위치와 색 값을 설정한다.)
-		3. 버퍼 Desc 구조체 생성 및 set.
-		4. 
+		2. 4개의 Vtx를 가지는 배열(arrVtx)을 생성하고 인데스 0부터 2까지 세팅한다.(각각의 정점의 위치와 색 값을 설정한다.)
+		3. 버퍼 Desc 구조체([[D3D11_BUFFER_DESC]]) 생성 및 set.
+		4. 버퍼  Subresource 세팅 : D3D11_SUBRESOURCE_DATA 구조체 변수 선언 D3D11_SUBRESOURCE_DATA::pSysMem에 arrVtx 대입.
+		5. 

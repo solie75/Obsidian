@@ -56,3 +56,4 @@ ID3D11DeviceContext::PSSetConstantBuffers
 ID3D11DeviceContext::VSSetConstantBuffers
 
 shader 로부터 shader-constant buffer 를 읽기 위해서 HLSL load funtion을 사용한다. 각 shader stages는 15개의 shader-constant buffer 까지 허용한다. 각 buffer 는 4096까지의 상수(constant)를 hold 한다.
+

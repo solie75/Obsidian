@@ -29,3 +29,6 @@
 8. "The format specified must be from the same family as the typeless format used when creating the resource."
 -> @ 지정된 포맷은 리소스 생성할 때 사용된 typeless 포맷 같은 family 출신이어야 한다. 
 ->$ 지정된 형식은 리소스를 만들 때 사용된 유형 없는 형식과 동일한 패밀리에 속해야 합니다.
+
+9. "Identify how the buffer is expected to be read from and written to."
+-> @ 어떻게 버퍼를 읽고 쓰는지 식별한다.

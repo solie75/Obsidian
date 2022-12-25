@@ -30,3 +30,11 @@ Scene이 빌딩이라면 리소스는 하나의 블록이다.
 ## Resource View
 
 [[Resource View]]
+
+## Resource Type
+
+1. Read/Write Buffers and Textures
+2. Structured Buffer : structed buffer (구조화된 버퍼)는 동일한 크기의 요소를 포함한 버퍼이다. 이때 하나의 요소(구조체)는 하나 이상의 여러 맴버를 가질 수 있다.
+4. Byte Address Buffer
+5. Unordered Access Buffer or Texture
+6. Append and Consume Buffer
