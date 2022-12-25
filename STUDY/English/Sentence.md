@@ -32,3 +32,7 @@
 
 9. "Identify how the buffer is expected to be read from and written to."
 -> @ 어떻게 버퍼를 읽고 쓰는지 식별한다.
+
+10. "the number of depth slices in each level is half the number of the previous level (minimum 1) and rounded down if dividing by two results in a non-whole number"
+-> $ 각 수준의 깊이 슬라이스 수는 이전 수준 수의 절반(최소 1)이며 2로 나눈 결과 정수가 아닌 경우 내림된다.
+
