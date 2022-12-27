@@ -25,3 +25,8 @@ Each instruction is composed of a sequence 1s and 0s. Each individual 0 or 1 is 
 **capability** : An operating system security or access control model where specific types of access to a specific object are granted by giving a process this data structure or token.
 
 **Memory footprint** : refers to the amount of main memory that a program uses or references while running
+
+**NUll-terminated string** : a null-terminated string is a character string stored as an array containing the characters and terminated with a null character (a character with a value of zero).
+
+**String Constants** : String constants , alse known as string literals, are a special type of constants which store fixed wequences of charactors. A string literal is a sequence of any number of characters surrounded by double quotes.
+

@@ -26,8 +26,8 @@
 	4. 출력 타겟 설정
 		1. [[OMSetRenderTargets( )]]  : 해당 메서드로 Output-Merger stage 에 <span style="color:yellow ">렌더타겟을 설정</span>한다. 
 	5. viewport 설정
-		1. D3D11_VIEWPORT 설정
-		2. RSSetViewports( ) 메서드로 뷰포트 배열을 파이프 라인의 rasterizer stage에 바인딩한다.
+		1. [[Viewport]] 설정
+		2. [[RSSetViewports( )]] 메서드로 뷰포트 배열을 파이프 라인의 rasterizer stage에 바인딩한다.
 4. 각 매니저 초기화
 5. 정점 버퍼 그리기 테스트(이하 Test)의 초기화
 	1. TestInit( ) 호출
@@ -35,4 +35,9 @@
 		2. 4개의 Vtx를 가지는 배열(arrVtx)을 생성하고 인데스 0부터 2까지 세팅한다.(각각의 <span style="color: yellow">점의 위치와 색 값을 설정</span>정한다.)
 		3. 버퍼 Desc 구조체([[D3D11_BUFFER_DESC]]) 생성 및 set.
 		4. 버퍼  Subresource 세팅 : D3D11_SUBRESOURCE_DATA 구조체 변수 선언 D3D11_SUBRESOURCE_DATA::pSysMem에 arrVtx 대입.
-		5. CreateBuffer( ) 호출로 <span style="color: yellow">버퍼 생성</span> 
+		5. [[CreateBuffer( )]]호출로 <span style="color: yellow">버퍼 생성</span> 
+		6. shader file 생성 및 경로 가져오기 구현
+			-  해당 shader  file 에서는
+			1. (float3형 위치, float4형 색 정보를 가진)입력 구조체(VS_IN), (float4형 위치 정보를 가진)출력 구조체(VS_OUT)를 생성한다
+			2. vertex shader 프로그램(VS_Test) 와 pixel shader 프로그램(PS_Test)을 생성한다 .(<span style="color: green">프로그램이라고 말하는게 맞는걸까</span>) 이 때 pixel shader 프로그램은  vertex shader 프로그램의  출력 값을 입력값으로 받는다.
+		7. 

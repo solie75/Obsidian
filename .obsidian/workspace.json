@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4ccfdddd69c42756",
+        "id": "3ebc9dede25d3d78",
         "type": "tabs",
         "children": [
           {
-            "id": "a73540fd68d8e432",
+            "id": "170195ba5b5ffaed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "c01a5fec8cfee89a",
+            "id": "0b2f70683c56be95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/CreateBuffer( ).md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/D3DCompileFromFile( ).md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mip slice",
+                "query": "VIEWPORT",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238
+    "width": 313
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/CreateBuffer( ).md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/D3DCompileFromFile( ).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/CreateBuffer( ).md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/D3DCompileFromFile( ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/CreateBuffer( ).md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/D3DCompileFromFile( ).md"
               }
             }
           },
@@ -170,17 +170,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "c01a5fec8cfee89a",
+  "active": "0b2f70683c56be95",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/Process for Vertex buffer Rendering.md",
-    "2022-12-26.md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SUBRESOURCE_DATA.md",
-    "STUDY/English/Sentence.md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
-    "Daily/12/4주차/2022-12-25.md",
     "STUDY/English/Word/Computer_Scienve_Word.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Resource.md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/CreateRenderTargetView( ).md"
+    "STUDY/Programming Language/DirectX 3D 11/Function/D3DCompileFromFile( ).md",
+    "STUDY/English/Word/Computer_Science_Term.md",
+    "STUDY/Programming Language/DirectX 3D 11/Process for Vertex buffer Rendering.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRenderTargets( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/HLSL.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Shader.md",
+    "2022-12-27.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Shading.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md"
   ]
 }
