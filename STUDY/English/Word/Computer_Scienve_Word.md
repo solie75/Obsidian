@@ -86,7 +86,7 @@
 | <2022-12-23> | --- |
 | expose | (보통 때는 가려져 있는 것을)드러내다(=reveal), (비도덕적, 불법적인 것 등을)폭로하다, (유해한 환경 등에) 노출시키다 |
 | capability | 능력, 역량, 특성, 성능 |
-| <2022-12-23> | --- |
+| <2022-12-24> | --- |
 | group into | ~로 통합 정리되다 |
 | and so on | 기타 등등 |
 | delineate | (상세하게)기술하다[그리다/설명하다] |
@@ -94,21 +94,41 @@
 | identical | 동일한, 똑같은, 바로 그 |
 | in addition to | ...에 더하여, ...일 뿐 아니라 |
 | behave | (특정한 방식으로) 처힌[행동]하다, 예의바르게 행동하다 |
-| <2022-12-23> | --- |
+| <2022-12-25> | --- |
 | convey | (생각, 감정 등을)전달하다[전하다], 실어나르다, 운반[수송하다] |
 | attach | 붙이다, 첨부하다(->detach, (~에)중요성, 의미, 가치, 무게 등을 두다) |
 | intend | 의도[작정]하다, (~ 하려고)생각하다. |
 | intended | 대상[목표]로 삼은, 의도[겨냥]하는 |
 | terminate | 끝나다, 종점에 닿다 |
 | alphanumeric | 글자와 숫자를 쓴 |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
+| unified | 통일된 |
+| persistent | 끈질긴, 집요한, 끊임없이 지속[반복]되는, 잔류성 |
+| neutral | 중립적인, 중립국의, 중립, 중립적 위치에 있는 사람[국가] |
+| linkage | 연결, 결합; 연결 장치 |
+| <2022-12-26> | --- |
+| adjacent | 인접한, 가까운 |
+| straightforward | 간단한, 쉬운, 복잡하지 않은, 솔직한 |
+| invoke | (법, 규칙 등을) 들먹이다 [적용하다], (근거, 이유로 어떠한 인물, 이론 등을)언급하다, <컴퓨터> (프로그램 등을) 불러오다[작동시키다] |
+| degenerate | 악화되다, 퇴폐적인, 타락한 사람 |
+| <2022-12-30> | --- |
+| attribute | (~을...의)결과로[덕분으로]보다[말하다] |
+| attributes | 속성, 특성 |
+| detect | (특히 알아내기 쉽지 않은 것을) 발견하다[알아내다/ 감지하다] |
+| detected error | 검출된 오류 |
+| cull | 1. to select or choose / 2. 도태 : to control the size of ( a group of animals) by killing some animals |
+| culling A from B | B 애서 A 를 골라모으다. |
+| as well as | ...에 더하여, 게다가, ...과 마찬가지로 잘 |
+| A as well as B | B 뿐만 아니라 A도 (A를 강조하기 위한 말 ; not only B, but also A 과 같다) |
+| invocation | (법적 권한 등의) 발동[실시] |
+| propagate | (사상, 신조, 정보를) 전파[선전]하다. to make (someting, such as an idea or belief) known to many people |
+| As another example | 또 다른 예로 |
+| <2022-12-30> | --- |
+| involve | (중요 요소로, 필연적으로) 수반[포함]하다, (상황, 사건, 활동이 사람을) 관련[연루]시키다, 참여시키다 |
+| involved in | ...에 관련된(연루된) |
+| involved somebody in something | ~에게 ~을[에] 겪게[말려들게]하다 |
+| accommodate | (살거나 지낼)공간을 제공하다, 수용하다; (...을 위한)충분한 공간을 제공하다; (의견 등을) 수용하다[담다] |
+| assign | (일, 책임 등을)맡기다[배정하다, 부과하다]; 선임하다, 파견하다; (사람을)배치하다 |
+| against | 1. in opposition to (someone or something), 2. in competition with (someone or something), 3. used to indicate the person or thing that is affected or harmed by something |
 | --- | --- |
 | --- | --- |
 | --- | --- |

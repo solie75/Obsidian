@@ -30,3 +30,16 @@ Each instruction is composed of a sequence 1s and 0s. Each individual 0 or 1 is 
 
 **String Constants** : String constants , alse known as string literals, are a special type of constants which store fixed wequences of charactors. A string literal is a sequence of any number of characters surrounded by double quotes.
 
+**Blob** : a binary large object, a collection of binary data stored as a single entity. Blobs are typically image, audio, or other multimedia objects, though sometimes binary executable code is stored as a blob.
+
+**Overhead** : any combination of excess or indirect computation time, memory, bandwidth, or other resources that are required to perform a specific task. ; 어떤 처리를 하기 위해 들어가는 간접적인 처리시간. 메모리 등을 말한다. 예를 들어 a 라는 처리를 단순하기 실행하는데 10초가 걸린다고 가정할 때  안정성 고려와 B 라는 부가적 처리를 추가 했을 때 15초 걸렸다면 오버헤드는 5초가 된다. 
+
+**Strict subset** : A is a subset of B, but additionally, A is different from B.
+
+**Dummy vertex** :  represented by small circles with grey fills.
+
+**Degenerate** : lacking some property, order, distinctness of structure previously or usually present.
+
+**Attribute** : a chaneable property or characteristic of some component of a program that can be set to different values.
+
+**Invocation** : Each execution of a shader within a Rendering Command

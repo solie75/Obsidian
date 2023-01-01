@@ -36,3 +36,10 @@
 10. "the number of depth slices in each level is half the number of the previous level (minimum 1) and rounded down if dividing by two results in a non-whole number"
 -> $ 각 수준의 깊이 슬라이스 수는 이전 수준 수의 절반(최소 1)이며 2로 나눈 결과 정수가 아닌 경우 내림된다.
 
+11. " This may require providing a dummy vertex (forming a degenerate triangle), or perhaps by flagging in one of the vertex attributes whether the vertex exists or not."
+-> @ 이것은 더미 정점의 공급을 요
+-> $  이를 위해서는 더미 정점(퇴화 삼각형 형성)을 제공하거나 정점의 존재 여부에 관계없이 정점 속성 중 하나에 플래그를 지정해야 할 수 있습니다.
+
+12. "the shader must program its own choice of SV_PrimitiveID value for each output primitive if a subsequent pixel shader inputs SV_PrimtiveID."
+->$ 만약 다음 픽셀 쉐이더가 SV_PrimitiveID 를 입력한다면 shader는 각 출력 primitive 에 대해 자체적으로 선택한 SV_PrimitiveID를 프로그래밍 해야한다.
+

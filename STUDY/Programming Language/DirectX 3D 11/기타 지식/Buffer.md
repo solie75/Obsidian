@@ -4,6 +4,8 @@ buffer resource 는 요소(element)로 그룹화 된 fully typed data의 collect
 
 ## Vertex Buffer
 
+^2a545d
+
 <span style="color:yellow">정점 버퍼는 형상을 정의하는데 사용되는 정점 데이터를 포함한 배열</span>이다. 정점 데이터는 위치 좌표, 색 데이터, 텍스져 좌표, 법선 데이터 등을 포함한다.
 
 정점 버퍼의 가장 간단한 예는 오직 위치 데이터를 가지고 있는 것이다. 그것은 아래와 같이 시각화 할 수 있다.

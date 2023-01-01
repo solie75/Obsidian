@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3ebc9dede25d3d78",
+        "id": "3eb7eee2f50e070a",
         "type": "tabs",
         "children": [
           {
-            "id": "170195ba5b5ffaed",
+            "id": "324a17671bc83c91",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0b2f70683c56be95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/D3DCompileFromFile( ).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "VIEWPORT",
+                "query": "vertex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313
+    "width": 343
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/D3DCompileFromFile( ).md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Process for Vertex buffer Rendering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/D3DCompileFromFile( ).md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Process for Vertex buffer Rendering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/D3DCompileFromFile( ).md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Process for Vertex buffer Rendering.md"
               }
             }
           },
@@ -170,17 +157,54 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "0b2f70683c56be95",
+  "floating": {
+    "id": "1f2897495eb1dfd2",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a94ea9e81c12a5cc",
+        "type": "window",
+        "children": [
+          {
+            "id": "f4b611aa6f1f6247",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "339057ef4f73b983",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/English/Word/Computer_Scienve_Word.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1536,
+        "y": 321,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "324a17671bc83c91",
   "lastOpenFiles": [
-    "STUDY/English/Word/Computer_Scienve_Word.md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/D3DCompileFromFile( ).md",
-    "STUDY/English/Word/Computer_Science_Term.md",
+    "2..md",
     "STUDY/Programming Language/DirectX 3D 11/Process for Vertex buffer Rendering.md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRenderTargets( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
+    "Getting.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
+    "[[Getting.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/HLSL.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Shader.md",
-    "2022-12-27.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Shading.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md"
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/1. Input Assembler Stage.md",
+    "b.-getting-started-with-the-input-assembler-stage.md",
+    "b..md"
   ]
 }

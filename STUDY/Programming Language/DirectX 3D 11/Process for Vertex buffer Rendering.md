@@ -40,4 +40,8 @@
 			-  해당 shader  file 에서는
 			1. (float3형 위치, float4형 색 정보를 가진)입력 구조체(VS_IN), (float4형 위치 정보를 가진)출력 구조체(VS_OUT)를 생성한다
 			2. vertex shader 프로그램(VS_Test) 와 pixel shader 프로그램(PS_Test)을 생성한다 .(<span style="color: green">프로그램이라고 말하는게 맞는걸까</span>) 이 때 pixel shader 프로그램은  vertex shader 프로그램의  출력 값을 입력값으로 받는다.
-		7. 
+		7. Vertex shader 코드와 Pixel shader 코드를 대상으로 각각  [[D3DCompileFromFile( )]]을 호출하여 컴파일된 코드에 접근할 수 있는 ID3DBlob 인터페이스에 대한 이중 포인터를 각각 생성한다.
+		8. CreateVertexShader(), CreatePixelShader() 함수를 호출하여 VertexShader, PixelShader 생성.
+		9. <span style="color: orange">어떻게 input-assembler stage 에 input-buffer data 를 스트리밍을 할 것인지를 정의하는데 사용되는</span> **input layout object**를 생성한다.
+			1. 위치와 색에 대한 정보를 전달하기 위해서 [[D3D11_INPUT_ELEMENT_DESC]] 구조체를 두개 선언하여 위치와 색에 대한 설명을 각각 대입한다.
+			2. 

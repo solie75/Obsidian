@@ -1,0 +1,4 @@
+
+shader signature 은 shader 함수에 대한 입력 값 혹은 출력 값이 되는 매개 변수의 목록이다. Direct 10 에서 , 인접한 스테이지는 효율적으로 register array 를 공유한다. 이곳에서 ouput shader (혹은 파이프 라인 단계) 은 register array 내의 특정한 공간 에서 데이터를 작성하고 input shader 는 그와 같은 공간으로 부터 읽어야 한다. 그 API 는  sementic resolution의 overhead 없이 shader ouput과 shader input 을 바인딩 하기 위해 shader signatures 를 사용한다. 
+
+Direct3D 10 에서 , input signature 는 shader-input 선언에서  나타내어지고 output signature 는 shader-output 선언에서 나타내어진다. input signature은 output signature가 input signature의 strict subset 일 때, output signature와 호환 될 수 있다고 말한다. 이것을 가장 성립하기 쉬운 방법은 같은 구조체 유형으로 해당 shader의 input과 output 을 연결하는 것이다.
