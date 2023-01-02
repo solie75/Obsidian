@@ -130,16 +130,16 @@
 | involved somebody in something | ~에게 ~을[에] 겪게[말려들게]하다 |
 | accommodate | (살거나 지낼)공간을 제공하다, 수용하다; (...을 위한)충분한 공간을 제공하다; (의견 등을) 수용하다[담다] |
 | assign | (일, 책임 등을)맡기다[배정하다, 부과하다]; 선임하다, 파견하다; (사람을)배치하다 |
-| against | 1. in opposition to (someone or something), 2. in competition with (someone or something), 3. used to indicate the person or thing that is affected or harmed by something |
+| against | 1. in opposition to (someone or something), 2. in competition with (someone or something), 3. used to indicate the person or thing that is affected or harmed by something 4. 나아가는 진행 방향이 딱 막힘 |
 
 # 2023
 
 | Word | 뜻 |
 | --- | --- |
-| make sure | 확실하게 하다. |
-| --- | --- |
-| --- | --- |
-| --- | --- |
+| make sure | 확실하게 하다 |
+| allow A to B | A가 B하는 것을 허락하다 |
+| verify | (진실인지, 정확한지) 확인하다, 입증하다. |
+| ensure | 반드시...하게 하다, 보장하다 |
 | --- | --- |
 | --- | --- |
 | --- | --- |

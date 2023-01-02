@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2023/01/1주차/2023-01-02.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d70a58d0e929424",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/English/Word/Computer_Science_Term.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255
+    "width": 332
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2023/01/1주차/2023-01-02.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2023/01/1주차/2023-01-02.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily/2023/01/1주차/2023-01-02.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md"
               }
             }
           },
@@ -159,15 +171,15 @@
   },
   "active": "1ebe19b350e7b059",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
     "STUDY/English/Word/Computer_Scienve_Word.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
+    "STUDY/English/Word/Computer_Science_Term.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Validation.md",
+    "Daily/2023/01/1주차/2023-01-02.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Signatures.md",
     "STUDY/English/similar word/A number of 와 The number of.md",
-    "Daily/2023/01/1주차/2023-01-02.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/12-28.md",
     "Daily/2023/2023 계획.md",
-    "Daily/2023/01/1주차/2023-01-01.md",
-    "Daily/Achievement Rate/2022-W51.md",
-    "2022-12-30.md"
+    "Daily/2023/01/1주차/2023-01-01.md"
   ]
 }

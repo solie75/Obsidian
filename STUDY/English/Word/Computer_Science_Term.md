@@ -43,3 +43,6 @@ Each instruction is composed of a sequence 1s and 0s. Each individual 0 or 1 is 
 **Attribute** : a chaneable property or characteristic of some component of a program that can be set to different values.
 
 **Invocation** : Each execution of a shader within a Rendering Command
+
+**Validation : checking or verifying any data before it is allowed into a computer system. this process (data validation) helps ensure data was not compromied or corrupted during transmission
+
