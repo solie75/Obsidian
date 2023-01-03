@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b70c699de67410e5",
+        "id": "d128b9c892cf3068",
         "type": "tabs",
         "children": [
           {
-            "id": "1ebe19b350e7b059",
+            "id": "85614c20b7b91be6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/1. Input Assembler Stage.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8d70a58d0e929424",
+            "id": "7f013acc5814a165",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/English/Word/Computer_Science_Term.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/3. Primitive Topology.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332
+    "width": 281
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/3. Primitive Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/3. Primitive Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/3. Primitive Topology.md"
               }
             }
           },
@@ -169,17 +170,54 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "1ebe19b350e7b059",
+  "floating": {
+    "id": "7710b40abd6bccbb",
+    "type": "floating",
+    "children": [
+      {
+        "id": "06b9faefa1e853f8",
+        "type": "window",
+        "children": [
+          {
+            "id": "a22b36dda31647ec",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b4d222d58c082d35",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/English/Word/Computer_Scienve_Word.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1001,
+        "y": 111,
+        "width": 873,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "7f013acc5814a165",
   "lastOpenFiles": [
     "STUDY/English/Word/Computer_Scienve_Word.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/3. Primitive Topology.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
+    "3..md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/1. Input Assembler Stage.md",
     "STUDY/English/Word/Computer_Science_Term.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Validation.md",
     "Daily/2023/01/1주차/2023-01-02.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Signatures.md",
-    "STUDY/English/similar word/A number of 와 The number of.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/12-28.md",
-    "Daily/2023/2023 계획.md",
-    "Daily/2023/01/1주차/2023-01-01.md"
+    "STUDY/English/similar word/A number of 와 The number of.md"
   ]
 }
