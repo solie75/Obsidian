@@ -47,3 +47,10 @@
 
 -> @ (line strip 를 제외한) 인접성을 가진 Primitive는 인접성을 갖지 않고 나머지는 동등한(같은)  Primitive 의 딱 두배 많은 정점을 포함한다. (이때 각각의 추가적인 정점이 바로 adjacnet vertex 이다.)
 -> $ 인접성이 있는 프리미티브(라인 스트립 제외)는 인접성이 없는 동등한 프리미티브보다 정확히 두 배 많은 정점을 포함하며 각 추가 정점은 인접한 정점입니다.
+
+14. "Attach the vertex-id semantic to the shader input declaration to inform the IA stage to generate a per-vertex id."
+-> @ per-vertex id 를 생성하기 위해서는 vertex-id semantic 을 IA stage에 정보를 전달하기 위한 shader input 선언에 첨부해야 한다.
+-> $ vertex-id 시맨틱을 셰이더 입력 선언에 연결하여 IA 단계에 정점별 id를 생성하도록 알립니다.
+
+
+

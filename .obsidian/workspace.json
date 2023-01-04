@@ -8,55 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "85614c20b7b91be6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/1. Input Assembler Stage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7f013acc5814a165",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-01-04.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/5. Using System-Generated Value.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "536b54621185e830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/4. Using the Input-Assembler Stage without Buffers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07b0a326a56959e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/4. Using the Input-Assembler Stage without Buffers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a751bbf8de0b9e7",
+            "id": "15ab25e5fc9ce91d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vertex",
+                "query": "draw call",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,11 +78,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 281
+    "width": 272
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -211,15 +176,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "06b9faefa1e853f8",
+        "id": "89fb2c429c956c17",
         "type": "window",
         "children": [
           {
-            "id": "a22b36dda31647ec",
+            "id": "11393544e4522c0f",
             "type": "tabs",
             "children": [
               {
-                "id": "b4d222d58c082d35",
+                "id": "31bb666f836a59a7",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -234,26 +199,26 @@
           }
         ],
         "direction": "vertical",
-        "x": 1623,
-        "y": 131,
-        "width": 873,
+        "x": 37,
+        "y": 167,
+        "width": 905,
         "height": 800,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "5a751bbf8de0b9e7",
+  "active": "15ab25e5fc9ce91d",
   "lastOpenFiles": [
-    "STUDY/English/Word/Computer_Scienve_Word.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/5. Using System-Generated Value.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
-    "2023-01-04.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/4. Using the Input-Assembler Stage without Buffers.md",
-    "STUDY/Programming Language/C++/STD/clamp.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/3. Primitive Topology.md",
     "STUDY/English/Sentence.md",
+    "STUDY/English/Word/Computer_Scienve_Word.md",
+    "2023-01-04.md",
+    "STUDY/English/similar word/Each 와 Per.md",
+    "STUDY/English/similar word/Can 와 May.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Shadow Volume.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md"
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/4. Using the Input-Assembler Stage without Buffers.md",
+    "README.md"
   ]
 }
