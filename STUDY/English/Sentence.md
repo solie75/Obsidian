@@ -43,3 +43,7 @@
 12. "the shader must program its own choice of SV_PrimitiveID value for each output primitive if a subsequent pixel shader inputs SV_PrimtiveID."
 ->$ 만약 다음 픽셀 쉐이더가 SV_PrimitiveID 를 입력한다면 shader는 각 출력 primitive 에 대해 자체적으로 선택한 SV_PrimitiveID를 프로그래밍 해야한다.
 
+13. "Primitives with adjacency (except line strips) contain exactly twice as many vertices as the equivalent primitive without adjacency, where each additional vertex is an adjacent vertex. "
+
+-> @ (line strip 를 제외한) 인접성을 가진 Primitive는 인접성을 갖지 않고 나머지는 동등한(같은)  Primitive 의 딱 두배 많은 정점을 포함한다. (이때 각각의 추가적인 정점이 바로 adjacnet vertex 이다.)
+-> $ 인접성이 있는 프리미티브(라인 스트립 제외)는 인접성이 없는 동등한 프리미티브보다 정확히 두 배 많은 정점을 포함하며 각 추가 정점은 인접한 정점입니다.
