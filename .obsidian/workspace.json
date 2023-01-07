@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bde57210a1c7f1ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md"
               }
             }
           },
@@ -185,8 +198,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 107,
-        "y": 427,
+        "x": 697,
+        "y": 173,
         "width": 925,
         "height": 800,
         "maximize": false,
@@ -194,17 +207,17 @@
       }
     ]
   },
-  "active": "c15f73dc46b28372",
+  "active": "bde57210a1c7f1ae",
   "lastOpenFiles": [
     "STUDY/English/Word/Computer_Scienve_Word.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
-    "STUDY/English/ETC (단편 개념).md",
-    "2023-01-06.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/e. Using System-Generated Value.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/c. Primitive Topology.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/d. Using the Input-Assembler Stage without Buffers.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/b. Getting started with the Input Assembler stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Instance.md"
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Texture.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Mapping.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/shader derivative.md",
+    "[[2..md",
+    "2..md",
+    "STUDY/English/Word/Computer_Science_Term.md",
+    "STUDY/English/ETC (단편 개념).md"
   ]
 }
