@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7f013acc5814a165",
+            "id": "c15f73dc46b28372",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/5. Using System-Generated Value.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15ab25e5fc9ce91d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/5. Using System-Generated Value.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "draw call",
-                "matchingCase": false,
+                "query": "vertex level",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -78,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/5. Using System-Generated Value.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/5. Using System-Generated Value.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/5. Using System-Generated Value.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md"
               }
             }
           },
@@ -172,19 +158,19 @@
     }
   },
   "floating": {
-    "id": "7710b40abd6bccbb",
+    "id": "341d195c4c157f5e",
     "type": "floating",
     "children": [
       {
-        "id": "89fb2c429c956c17",
+        "id": "6c6b8632004d4479",
         "type": "window",
         "children": [
           {
-            "id": "11393544e4522c0f",
+            "id": "ecd639a85df85eda",
             "type": "tabs",
             "children": [
               {
-                "id": "31bb666f836a59a7",
+                "id": "3e9e6de19dc39cf6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -199,26 +185,26 @@
           }
         ],
         "direction": "vertical",
-        "x": 37,
-        "y": 167,
-        "width": 905,
+        "x": 107,
+        "y": 427,
+        "width": 925,
         "height": 800,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "15ab25e5fc9ce91d",
+  "active": "c15f73dc46b28372",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/2. Getting started with the Input Assembler stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/5. Using System-Generated Value.md",
-    "STUDY/English/Sentence.md",
     "STUDY/English/Word/Computer_Scienve_Word.md",
-    "2023-01-04.md",
-    "STUDY/English/similar word/Each 와 Per.md",
-    "STUDY/English/similar word/Can 와 May.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Shadow Volume.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/4. Using the Input-Assembler Stage without Buffers.md",
-    "README.md"
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
+    "STUDY/English/ETC (단편 개념).md",
+    "2023-01-06.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/e. Using System-Generated Value.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/c. Primitive Topology.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/d. Using the Input-Assembler Stage without Buffers.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/b. Getting started with the Input Assembler stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Instance.md"
   ]
 }

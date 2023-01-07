@@ -163,6 +163,22 @@
 | look for | 첮다 |
 | optimaze | ...을 최대한 좋게[적합하게] 만들다[활용하다] |
 | inform | (특히 공식적으로) 알리다[통지하다], (...에 대해 정보를) 알아내다 |
+| regardless of | ~에 상관없이[구애받지 않고] |
+| whichever | 어느 쪽이든, ...한 것, 누구든...한 사람, 어느 쪽을 ...하든 |
+| whenever | ...할 때는 언제든지, ...할 때마다(매번) |
+| all other | 그외의 모든것 |
+| <2023-01-06> | --- |
+| currently | 현재, 지금 |
+| dash line (= dashed line) | 점선  |
+| <2023-01-07> | --- |
+| comprise | ...으로 구성되다[이뤄지다]. 구성하다. |
+| a minimum of | [부사]최소한의((뒤에 반드시 명사)) |
+| consume | (특히 연료, 에너지, 시간을) 소모하다; 먹다, 마시다;  |
+| meaningful | 1. haveing a clear meaning; 2. expressing an emotion or idea without words; 3. having real importance or value |
+| feed | 1. 밥[우유]를 먹이다, 먹이를 주다, 먹을 것을 먹다, 2. 공급하다, (기계에) 넣다 |
+| run on | 1.계속되다, (필요, 예상보다) 길게 끌다; 2. ~을 연료로 삼다. 3. (+something) (생각, 논의 등이)~에 대해 계속되다. |
+| statistic | 통계, 통계학, 통계 자료 |
+| derivative | 파생어, 파생물; (derivatives = 파생상품) |
 | --- | --- |
 | --- | --- |
 | --- | --- |

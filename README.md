@@ -79,11 +79,7 @@ Copy
 -> alt + e : Book_Report_Template 선택
 주의 : 템플릿과 내가 쓰는 문자열 사이에 띄어쓰기가 한칸 있어야 한다. 서평 여부는 -와 ㅇ으로 구분한다. 
 
-- 글씨에 색 넣는 법
- <span style="color:red"> 가나다 </span>
 
-- 글씨에 형광 넣는법
-<span style="background-color:#fff5b1;">형광펜</span>
 
 - 윈도우 가상 데스크탑 단축키
 윈도우키  + tab : 가상데스크탑 작업 보기 ( 모든 가상 데스크톱 리스트, 실행프로그램, 타임라인)
@@ -91,3 +87,17 @@ Copy
 윈도우키 + ctrl + left : 왼쪽의 가상 데스크탑 화면으로 이동
 윈도우키 + ctrl + right : 오른쪽의 가상 데스크탑 화면으로 이동
 윈도우키 + ctrl + f4 : 현재의 가상 데스크탑 화면을 삭제
+
+
+## Markdown 문법
+
+- 글씨에 색 넣는 법
+ <span style="color:red"> 가나다 </span>
+
+- 글씨에 형광 넣는법
+<span style="background-color:#fff5b1;">형광펜</span>
+
+- 각주 다는 방법
+[^asdf]
+[^asdf] : asdfasdfasdf
+
