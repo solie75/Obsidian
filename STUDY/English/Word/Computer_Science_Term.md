@@ -46,3 +46,12 @@ Each instruction is composed of a sequence 1s and 0s. Each individual 0 or 1 is 
 
 **Validation : checking or verifying any data before it is allowed into a computer system. this process (data validation) helps ensure data was not compromied or corrupted during transmission
 
+textured surface : 
+
+**Refresh Rate** :   the number of times per second that a rster-based display device displays a new image (화면 주사율, 화면 빈도율, 화면 재생률)
+
+**Raster graphics** represents a two-dimensional picture as a rectangular matrx or grid of square pixels.
+
+**Bandwidth** : a measurement of the ability of an electronic communications device or system (such as a computer network) to send and receive information
+
+low frequency : 저주파, 30 ~ 300 kilohertZ

@@ -101,3 +101,12 @@ Copy
 [^asdf]
 [^asdf] : asdfasdfasdf
 
+- 수학적 수식 사용 방법
+
+https://rayc20.tistory.com/151
+
+https://velog.io/@d2h10s/LaTex-Markdown-%EC%88%98%EC%8B%9D-%EC%9E%91%EC%84%B1%EB%B2%95
+
+예시
+$$\upsilon(t) = \frac{dX(t)}{dt},\quad X(t) = X(t_0)\ + \  \int^{t_1}_{t_0}v(s)ds$$
+

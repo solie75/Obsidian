@@ -17,7 +17,7 @@
 | --- | --- |
 | <2022-12-13> |  |
 | implementation | [CS] 구현 |
-| implement | 시행하다 (= carry out) |
+| implement | 시행하다 (= carry out); 1, to begin to do or use (something, such as a plan); 2. to make (something) active or effective |
 | retrieve | (특히 제자리가 아닌 곳에 있는 것을)되찾아 오다[회수하다] (= recover), [CS] (정보를) 검색하다 |
 | Otherwise | (만약) 그렇지 않으면[않았다면], 그 외에는, (...와는)다르게[다른 방법으로] |
 | obey | 시키는 대로 하다, (명령, 법 등을) 따르다[지키다], 순종[복종]하다 |
@@ -185,6 +185,21 @@
 | convert | (형태목적시스템 등을) 전환시키다[개조하다], 전환되다[개조되다] |
 | tile |(컴퓨터)타일링하다 (컴퓨터 화면에서 여러 창을 겹치지 않게 늘어 놓는것), 바둑판식 배열 |
 | break up | 부서지다, 끝이나다 |
+| evaluate | (양, 가치, 품질 등을) 평가하다[감정하다] |
+| parallax | 시차(視差 : 관측 위치에 따른 물체의 위치나 방향의 차이) |
+| contrast | (둘 이상의 사람 사물을 비교했을 때 나타나는 뚜렷한)차이; 대조, 대비; 대조하다, 대비시키다; (뚜렷한)대조[대비]를 보이다 |
+| in contrast | 그에 반해서 (...와 비교(대조)하여 보면) |
+| <2023-01-09> | --- |
+| paralyze | 1. 마비시키다. 2. 무력하게 만들다; 쓸모없게 만들다, 무료가 되게 하다. |
+| bandwidth | 1. (주파수의)대역폭 |
+| measurement | 1. 측정, 측량; 2. (무엇의)치수[크기/길이/량] |
+| stun | 큰 충격을 주다[주어서 기절(망연자실/실신)하다] |
+| stunning | 굉장히 아름다운[멋진], 깜짝 놀랄, 전혀 뜻밖의 |
+| on the fly | 1. quickly and often without preparation; 2. while something else is also being done on a computer |
+| scalable | (저울로)달 수 있는; [컴퓨터]확장$\cdot$축소 하여도 난조가 생기지 않는 |
+| --- | --- |
+| --- | --- |
+| --- | --- |
 | --- | --- |
 | --- | --- |
 | --- | --- |

@@ -6,21 +6,10 @@
       {
         "id": "d128b9c892cf3068",
         "type": "tabs",
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "c15f73dc46b28372",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bde57210a1c7f1ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vertex level",
+                "query": "LOD",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272
+    "width": 291
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -150,8 +138,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,15 +162,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "6c6b8632004d4479",
+        "id": "80996510ab3005b9",
         "type": "window",
         "children": [
           {
-            "id": "ecd639a85df85eda",
+            "id": "0ecb43aa021b125d",
             "type": "tabs",
             "children": [
               {
-                "id": "3e9e6de19dc39cf6",
+                "id": "2f4716bcc8fa2b1e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -193,31 +180,44 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "d0cd1bb8257ab2b8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/English/Word/Computer_Science_Term.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical",
-        "x": 991,
-        "y": 299,
-        "width": 925,
-        "height": 800,
+        "x": 960,
+        "y": 0,
+        "width": 960,
+        "height": 1040,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "bde57210a1c7f1ae",
+  "active": "c15f73dc46b28372",
   "lastOpenFiles": [
-    "STUDY/English/Word/Computer_Scienve_Word.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Texture.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Mapping.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/shader derivative.md",
-    "[[2..md",
-    "2..md",
     "STUDY/English/Word/Computer_Science_Term.md",
-    "STUDY/English/ETC (단편 개념).md"
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
+    "STUDY/English/Word/Computer_Scienve_Word.md",
+    "2023-01-09.md",
+    "Daily/2022/12/3주차/2022-12-17.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/LOD(Level Of Detail).md",
+    "STUDY/Math/기하_벡터/Displace.md",
+    "README.md",
+    "STUDY/Math/무제 파일.md",
+    "STUDY/Math/수학적 함수/Saturate.md"
   ]
 }
