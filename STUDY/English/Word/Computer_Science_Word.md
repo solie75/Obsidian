@@ -197,10 +197,10 @@
 | stunning | 굉장히 아름다운[멋진], 깜짝 놀랄, 전혀 뜻밖의 |
 | on the fly | 1. quickly and often without preparation; 2. while something else is also being done on a computer |
 | scalable | (저울로)달 수 있는; [컴퓨터]확장$\cdot$축소 하여도 난조가 생기지 않는 |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
+| off-load | 1. to remove (something) from a truck, ship, etc; 2. to give away or sell (something unwanted) to someone, to get rid of (something) |
+| get rid of | 면하다, 제거하다, 끝내다, 쓸어버리다 |
+| rid | 1. (...에게서) 없애다, 제거[구축]하다; (...로부터)자유롭게 하다, 면하게 하다, 해방하다 |
+| give away | 1. 거져주다; 2.(결혼식에서 신부를) 신랑에게 인도하다; 3. 나누어 주다; 4. (좋은 기회를) 저버리다, 양보하다 |
 | --- | --- |
 | --- | --- |
 | --- | --- |

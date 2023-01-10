@@ -6,7 +6,6 @@
       {
         "id": "d128b9c892cf3068",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "c15f73dc46b28372",
@@ -157,67 +156,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "floating": {
-    "id": "341d195c4c157f5e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "80996510ab3005b9",
-        "type": "window",
-        "children": [
-          {
-            "id": "0ecb43aa021b125d",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "2f4716bcc8fa2b1e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "STUDY/English/Word/Computer_Scienve_Word.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "d0cd1bb8257ab2b8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "STUDY/English/Word/Computer_Science_Term.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical",
-        "x": 960,
-        "y": 0,
-        "width": 960,
-        "height": 1040,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "c15f73dc46b28372",
   "lastOpenFiles": [
-    "STUDY/English/Word/Computer_Science_Term.md",
+    "STUDY/English/Word/Computer_Science_Word.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
-    "STUDY/English/Word/Computer_Scienve_Word.md",
+    "Computer_Science_Word^2023.md",
+    "ㅇ라ㅓ.md",
+    "STUDY/English/Word/Computer_Science_Term.md",
+    "STUDY/English/Sentence.md",
     "2023-01-09.md",
     "Daily/2022/12/3주차/2022-12-17.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/LOD(Level Of Detail).md",
-    "STUDY/Math/기하_벡터/Displace.md",
-    "README.md",
-    "STUDY/Math/무제 파일.md",
-    "STUDY/Math/수학적 함수/Saturate.md"
+    "STUDY/Math/기하_벡터/Displace.md"
   ]
 }
