@@ -117,7 +117,7 @@
 | attributes | 속성, 특성 |
 | detect | (특히 알아내기 쉽지 않은 것을) 발견하다[알아내다/ 감지하다] |
 | detected error | 검출된 오류 |
-| cull | 1. to select or choose / 2. 도태 : to control the size of ( a group of animals) by killing some animals |
+| cull | 1. to select or choose / 2. 도태 : to control the size of ( a group of animals) by killing some animals (선별되어 제거 되다.의 뉘앙스)|
 | culling A from B | B 애서 A 를 골라모으다. |
 | as well as | ...에 더하여, 게다가, ...과 마찬가지로 잘 |
 | A as well as B | B 뿐만 아니라 A도 (A를 강조하기 위한 말 ; not only B, but also A 과 같다) |
@@ -201,6 +201,25 @@
 | get rid of | 면하다, 제거하다, 끝내다, 쓸어버리다 |
 | rid | 1. (...에게서) 없애다, 제거[구축]하다; (...로부터)자유롭게 하다, 면하게 하다, 해방하다 |
 | give away | 1. 거져주다; 2.(결혼식에서 신부를) 신랑에게 인도하다; 3. 나누어 주다; 4. (좋은 기회를) 저버리다, 양보하다 |
+| <2023-01-10> | --- |
+| intensive | 1. 집중적인(짧은 시간에 많은 일$\cdot$활동을 하는); 2. 철두철미한, 많은 주의를 기울여 하는; 3. 집약적인 |
+| rudimentary | 1. 가장 기본[기초]적인; 2. 제대로 발달하지 못한 |
+| arithmetic | 산수, 연산, 산술, 계산 |
+| sophisticated | 1. 세련된, 교양 있는; 2. 정교한, 복잡한 |
+| apploximate | 1. 거의 정확한, 근사치인; 2. 비슷하다[가깝다]; 3. 근사치를 내다[계산하다] |
+| programmable | (of a computer or other machine) able to be provided with coded instructions for the automatic performance of a task. (프로그래밍 할 수 있는)|
+| plane | 평평한 면 |
+| phase | 1. (변화$\cdot$발달 과정상의 한)단계[시기/국면]; 2. (주기적으로 형태가 변하는 달의) 상[모습]; 3. (일의 진행을) 단계적으로 하다. |
+| parallel | 1.(두개 이상의 선이) 평행한; 2. (둘 이상의 일이) 아주 유사한[병행하는]; 3. ...와 아주 유사한[상응하는] 사람[것], 유사점 |
+| in parallel | 동시에, 병렬적으로 |
+| parallelism | 유사성, 유사점 |
+| extract | 1. 발췌; 2. 추출물; 3. (화학적 과정 등을 거쳐)뽑다[얻다], 추출하다. |
+| --- | --- |
+| --- | --- |
+| --- | --- |
+| --- | --- |
+| --- | --- |
+| --- | --- |
 | --- | --- |
 | --- | --- |
 | --- | --- |

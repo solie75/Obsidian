@@ -55,3 +55,7 @@ textured surface :
 **Bandwidth** : a measurement of the ability of an electronic communications device or system (such as a computer network) to send and receive information
 
 low frequency : 저주파, 30 ~ 300 kilohertZ
+
+**Coprocessor** : an extra processor in a computer that is designed to perform specialized tasks (such as mathematical calculations)
+
+**Operation** : an action that is carried out to accomplish.
