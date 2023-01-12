@@ -13,31 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "516f3e6f7cdbca3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/English/Word/Computer_Science_Word.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54acdb4860c3eaf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/English/Word/Computer_Science_Term.md",
+                "file": "2023-01-12.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
+                "file": "2023-01-12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
+                "file": "2023-01-12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md"
+                "file": "2023-01-12.md"
               }
             }
           },
@@ -182,15 +158,15 @@
   },
   "active": "932f0d98831971ef",
   "lastOpenFiles": [
-    "STUDY/English/similar word/Can 와 May.md",
-    "STUDY/English/Word/Computer_Science_Word.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
+    "STUDY/Computer Science/CS 주요 개념/Floating Point 와 Fixed Point.md",
+    "2023-01-12.md",
+    "Daily/2023/01/2주차/2023-01-11.md",
+    "STUDY/English/Word/Computer_Science_Word.md",
+    "STUDY/English/similar word/Can 와 May.md",
     "STUDY/English/Word/Computer_Science_Term.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Edge Tessellation.md",
-    "2023-01-10.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/LOD(Level Of Detail).md",
-    "STUDY/Computer Science/CS 주요 개념/Offloading.md",
-    "STUDY/English/similar word/Create 와 Generate.md",
-    "Computer_Science_Word^2023.md"
+    "Daily/2023/01/2주차/2023-01-10.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/LOD(Level Of Detail).md"
   ]
 }
