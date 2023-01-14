@@ -176,6 +176,7 @@
 | consume | (특히 연료, 에너지, 시간을) 소모하다; 먹다, 마시다;  |
 | meaningful | 1. haveing a clear meaning; 2. expressing an emotion or idea without words; 3. having real importance or value |
 | feed | 1. 밥[우유]를 먹이다, 먹이를 주다, 먹을 것을 먹다, 2. 공급하다, (기계에) 넣다 |
+| feed to | ... 에 넣다. |
 | run on | 1.계속되다, (필요, 예상보다) 길게 끌다; 2. ~을 연료로 삼다. 3. (+something) (생각, 논의 등이)~에 대해 계속되다. |
 | statistic | 통계, 통계학, 통계 자료 |
 | derivative | 파생어, 파생물; (derivatives = 파생상품) |
@@ -219,6 +220,35 @@
 | round off | 반올림 |
 | rounding problem | 반올림 문제 |
 | fraction | 부분, 일부, 분수 |
+| result | 1. 결과; 2. (~의 결과로) 발생하다[생기다] |
+| <2023-01-13> | --- |
+| bring someting/somebody in | - something 의 경우 ( 1. (새 법을) 도입하다; 2. (장소$\cdot$사업에)유치하다;ㅣ 3. (판결을)내리다.) |
+|  | - somebody 의 경우 (1. ~를 관여[참여]하게 하다; 2. ~을 연행하다) |
+| fetch | 1. (어디를 가서)가지고[데리고/불러]오다; 2. (특정 가격에)팔리다. |
+| capable of | ~할 수 있는 |
+| emit | (빛, 열, 가스, 소리 등을) 내다[내뿜다] |
+| vary | 1. (크기, 모양 등에서) 서로[각기]다르다; 2. (상황에 따라)달라지다[다르다]; 3. (약간)달리하다[변화를 주다] |
+| within | (특정한 거리$\cdot$기간) 이내에[안에] |
+| invocation | (법적 권한 등의) 발동[실시] |
+| arbitrary | 임의적인, 제먹대로인 |
+| via | (어떤 장소를) 경우하여[거쳐], (특정한 사람$\cdot$시스템 등을) 통하여 |
+| passed down | 전수되다. 전수 받는 것 |
+| earlier | 1. Earlier is the comparative of early; 2. Earlier is used to refer to a point or period in time before the present the one you are talking about |
+| see as | ...로 상상하다; 간주하다 |
+| as if | 마치 ~ 인 것처럼 |
+| respective | 각자의, 각각의 |
+| except | (누구$\cdot$무엇을) 제외하고는[외에는] |
+| serial | 1. 연속극, 연재물; 2. 순차적인; 3. (같은 일은 여러 번) 계속하는, 상습[연쇄]적인 |
+| cereal | 곡물, 시리얼[가공 곡물] |
+| given | 1. (이미)정해진; 2. 특정한; 3. ...을 고려해 볼 때; 4. 기정사실 |
+| in addition to ~ | ~에 더하여, ~ 뿐만 아니라 |
+| rather than ~ | ~ 보다는 |
+| basis | 근거, 이유, 기준, 기반, 기초 |
+| partially | 부분적으로, 불완전하게 |
+| --- | --- |
+| --- | --- |
+| --- | --- |
+| --- | --- |
 | --- | --- |
 | --- | --- |
 | --- | --- |

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-01-12.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "may",
+                "query": "system generated value",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-01-12.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-01-12.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-01-12.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md"
               }
             }
           },
@@ -156,17 +156,54 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
+  "floating": {
+    "id": "eb7245c6269cf82b",
+    "type": "floating",
+    "children": [
+      {
+        "id": "04ff175580229c5e",
+        "type": "window",
+        "children": [
+          {
+            "id": "e4680563401cb509",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f26cce3f76eb9dde",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/English/Word/Computer_Science_Word.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 622,
+        "y": 498,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "932f0d98831971ef",
   "lastOpenFiles": [
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
-    "STUDY/Computer Science/CS 주요 개념/Floating Point 와 Fixed Point.md",
-    "2023-01-12.md",
-    "Daily/2023/01/2주차/2023-01-11.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
+    "2023-01-13.md",
     "STUDY/English/Word/Computer_Science_Word.md",
-    "STUDY/English/similar word/Can 와 May.md",
     "STUDY/English/Word/Computer_Science_Term.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Edge Tessellation.md",
-    "Daily/2023/01/2주차/2023-01-10.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/LOD(Level Of Detail).md"
+    "STUDY/English/similar word/Despite{In spite of} 와 Though{Although}.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/e. Using System-Generated Value.md"
   ]
 }
