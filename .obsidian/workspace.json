@@ -13,25 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
+                "file": "STUDY/English/Word/Computer_Science_Term.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f2f402dfcf2156b9",
+            "id": "c252d4836087d7d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-01-14.md",
+                "file": "STUDY/English/Sentence.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265
+    "width": 346
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
+                "file": "STUDY/English/Sentence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
+                "file": "STUDY/English/Sentence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md"
+                "file": "STUDY/English/Sentence.md"
               }
             }
           },
@@ -169,19 +170,19 @@
     }
   },
   "floating": {
-    "id": "eb7245c6269cf82b",
+    "id": "fd9e2a112f0158d9",
     "type": "floating",
     "children": [
       {
-        "id": "04ff175580229c5e",
+        "id": "39abc2c6c6ceccd4",
         "type": "window",
         "children": [
           {
-            "id": "e4680563401cb509",
+            "id": "f4bb10db6b9ca81b",
             "type": "tabs",
             "children": [
               {
-                "id": "f26cce3f76eb9dde",
+                "id": "20ddb70d87bc4bda",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -196,26 +197,26 @@
           }
         ],
         "direction": "vertical",
-        "x": 960,
-        "y": 0,
-        "width": 960,
-        "height": 1040,
+        "x": 272,
+        "y": 381,
+        "width": 1024,
+        "height": 800,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "932f0d98831971ef",
+  "active": "c252d4836087d7d5",
   "lastOpenFiles": [
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Face and vertex normal vectors.md",
+    "STUDY/English/Word/Computer_Science_Word.md",
+    "STUDY/English/Word/Computer_Science_Term.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/b. Getting started with the Input Assembler stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/c. Primitive Topology.md",
     "2023-01-14.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Surface in Direct3D.md",
-    "STUDY/Programming Language/C/Type conversion.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
-    "STUDY/English/Word/Computer_Science_Word.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
-    "2023-01-13.md"
+    "STUDY/Programming Language/C/Type conversion.md"
   ]
 }
