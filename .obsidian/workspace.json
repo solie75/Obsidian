@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2ad7f87984595327",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/English/Word/Computer_Science_Word.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -69,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346
+    "width": 319
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -156,54 +168,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "floating": {
-    "id": "fd9e2a112f0158d9",
-    "type": "floating",
-    "children": [
-      {
-        "id": "39abc2c6c6ceccd4",
-        "type": "window",
-        "children": [
-          {
-            "id": "f4bb10db6b9ca81b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "20ddb70d87bc4bda",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "STUDY/English/Word/Computer_Science_Word.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": -1915,
-        "y": 372,
-        "width": 831,
-        "height": 588,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "932f0d98831971ef",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
     "STUDY/English/Word/Computer_Science_Word.md",
-    "STUDY/English/Sentence.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
+    "STUDY/English/Word/Computer_Science_Term.md",
     "2023-01-20.md",
+    "2023-01-22.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/View Frustum.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
+    "STUDY/English/Sentence.md",
     "STUDY/English/grammer/Participle Phrases.md",
-    "GAME/IDRA/CONSOLE/Hide and Seek with Blind Murderer.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Face and vertex normal vectors.md",
-    "Pasted image 20230120125344.png.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
-    "Pasted image 20230120125344.png"
+    "GAME/IDRA/CONSOLE/Hide and Seek with Blind Murderer.md"
   ]
 }
