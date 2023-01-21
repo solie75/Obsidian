@@ -63,3 +63,5 @@ low frequency : 저주파, 30 ~ 300 kilohertZ
 **Fixed statement** : The Fixed statement prevents the garbage collector from relocating a moveable variable and declares a pointer to that variable. The address of a fixed, or pinned, variable doesn't change during execution of the statement.
 
 **Atomic** : Generally, you can summarize atomic as "one at a time". For example, when accessing or mutating a property is atomic, it means that only one read or write operation can be performed at a time. if you have a program that reads a property atomically, this means that the property cannot change during this read operation.
+
+**Gouraud shading** : (computer graphics) A method of sumulating the effects of light colour across the surface of an object, based on estimates of the surface normal of each vertex in a polygonal 3D model.  / 고러드 채식 , 3차원 그래픽에서 화면에 나타난 입체 표면에 색을 적당하게 입혀서 물체에 입체감과 질감을 주는 채색 알고리즘의 하나. 이것은 두 평면이 만나는 곳에서 색이 갑자기 변하는 것을 막기 위해 평면 중심에서 교차선까지 연속적으로 색이 점차로 변하게 된다. 

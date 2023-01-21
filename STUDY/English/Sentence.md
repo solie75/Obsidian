@@ -52,5 +52,6 @@
 -> @ per-vertex id 를 생성하기 위해서는 vertex-id semantic 을 IA stage에 정보를 전달하기 위한 shader input 선언에 첨부해야 한다.
 -> $ vertex-id 시맨틱을 셰이더 입력 선언에 연결하여 IA 단계에 정점별 id를 생성하도록 알립니다.
 
-15. "A front face is one in which vertices are defined in clockwise order."
--> @ 
+15. "The following code shows how to create a single buffer that can be used for vertex data, as well as for the SO stage to stream data into."
+->@ 다음의 코드는 입력할 데이터를 스트리밍하기 위해서 stream output stage 뿐 아니라 vertex data 로 사용될 수 있는 단일 버퍼를 생성하는 방법을 보여준다. 
+->$ 다음 코드는 버텍스 데이터와 SO 스테이지에서 데이터를 스트리밍하는 데 사용할 수 있는 단일 버퍼를 생성하는 방법을 보여줍니다.

@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/English/Word/Computer_Science_Term.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c252d4836087d7d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/English/Sentence.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "system generated value",
-                "matchingCase": true,
+                "query": "face normal",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/English/Sentence.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/English/Sentence.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/English/Sentence.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md"
               }
             }
           },
@@ -197,26 +184,26 @@
           }
         ],
         "direction": "vertical",
-        "x": 272,
-        "y": 381,
-        "width": 1024,
-        "height": 800,
+        "x": -1915,
+        "y": 372,
+        "width": 831,
+        "height": 588,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "c252d4836087d7d5",
+  "active": "932f0d98831971ef",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Face and vertex normal vectors.md",
-    "STUDY/English/Word/Computer_Science_Word.md",
-    "STUDY/English/Word/Computer_Science_Term.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
+    "STUDY/English/Word/Computer_Science_Word.md",
+    "STUDY/English/Sentence.md",
+    "2023-01-20.md",
+    "STUDY/English/grammer/Participle Phrases.md",
+    "GAME/IDRA/CONSOLE/Hide and Seek with Blind Murderer.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Face and vertex normal vectors.md",
+    "Pasted image 20230120125344.png.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/b. Getting started with the Input Assembler stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/c. Primitive Topology.md",
-    "2023-01-14.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Surface in Direct3D.md",
-    "STUDY/Programming Language/C/Type conversion.md"
+    "Pasted image 20230120125344.png"
   ]
 }
