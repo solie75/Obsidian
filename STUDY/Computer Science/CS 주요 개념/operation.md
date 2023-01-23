@@ -1,0 +1,1 @@
+https://www.techtarget.com/whatis/definition/operation
