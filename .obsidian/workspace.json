@@ -156,43 +156,6 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "floating": {
-    "id": "fa05f476c46312a5",
-    "type": "floating",
-    "children": [
-      {
-        "id": "7b24e6679ad059fa",
-        "type": "window",
-        "children": [
-          {
-            "id": "291f6c1cc5dc84f4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c1f4e8e49e4ceda0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "STUDY/English/Word/Computer_Science_Word.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 283,
-        "y": 96,
-        "width": 773,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "932f0d98831971ef",
   "lastOpenFiles": [
     "STUDY/English/Word/Computer_Science_Word.md",
