@@ -1,0 +1,1 @@
+https://microsoft.github.io/DirectX-Specs/d3d/archive/D3D11_3_FunctionalSpec.htm#Rasterizer

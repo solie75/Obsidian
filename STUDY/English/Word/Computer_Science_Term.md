@@ -69,3 +69,7 @@ low frequency : 저주파, 30 ~ 300 kilohertZ
 **Frustum** : 기하학에서 절두체는 입체(보통 원뿔이나 각뿔)를 절단하는 하나나 두 평행면 사이의 부분이다.
 
 **Snap** : snapping allows an object to be easily positioned in alignment with grid lines, guide lines or another object, by causing it to automatically jump to an exact position when the user drags it to the proximity of the desired locaion.
+
+**Element-wise** : 두 벡터와 행렬에서 같은 위치에 있는 원소끼리 덧셈과 뺄셈을 하는 것.
+
+**Unit vector** : 단위 벡터, 길이가 1인 벡터

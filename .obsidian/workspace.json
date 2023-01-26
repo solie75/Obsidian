@@ -8,18 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "932f0d98831971ef",
+            "id": "7fc668e4592ce5c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec60915cfc6f5b74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80c84acfbb9cb15d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0f0f703b4aeaf3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정리할 것들.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "709e9ce01fcbc71f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/English/Word/Computer_Science_Word.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md"
               }
             }
           },
@@ -156,17 +205,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "932f0d98831971ef",
+  "active": "ec60915cfc6f5b74",
   "lastOpenFiles": [
+    "2023-01-27.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Geometry Blending.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
     "STUDY/English/Word/Computer_Science_Word.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
-    "STUDY/English/Word/Computer_Science_Term.md",
-    "STUDY/Computer Science/CS 주요 개념/operation.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/HLSL.md",
-    "2023-01-23.md",
-    "Daily/2023/01/3주차/2023-01-20.md",
-    "Daily/2023/01/4주차/2023-01-22.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/View Frustum.md"
+    "정리할 것들.md",
+    "2023-01-25.md",
+    "STUDY/Computer Science/CG 개념/Clamping.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md",
+    "STUDY/Computer Science/CG 개념/Center Or Centroid.md",
+    "STUDY/Computer Science/CG 개념/Derivative.md"
   ]
 }
