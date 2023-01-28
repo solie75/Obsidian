@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7fc668e4592ce5c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ec60915cfc6f5b74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80c84acfbb9cb15d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -67,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319
+    "width": 291
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -207,15 +182,15 @@
   },
   "active": "ec60915cfc6f5b74",
   "lastOpenFiles": [
-    "2023-01-27.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Geometry Blending.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
     "STUDY/English/Word/Computer_Science_Word.md",
     "정리할 것들.md",
-    "2023-01-25.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
+    "2023-01-27.md",
+    "8. Output - Merger Stage^.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Geometry Blending.md",
+    "Daily/2023/01/4주차/2023-01-25.md",
     "STUDY/Computer Science/CG 개념/Clamping.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md",
-    "STUDY/Computer Science/CG 개념/Center Or Centroid.md",
-    "STUDY/Computer Science/CG 개념/Derivative.md"
+    "STUDY/Computer Science/CG 개념/Center Or Centroid.md"
   ]
 }
