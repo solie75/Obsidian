@@ -73,3 +73,14 @@ low frequency : 저주파, 30 ~ 300 kilohertZ
 **Element-wise** : 두 벡터와 행렬에서 같은 위치에 있는 원소끼리 덧셈과 뺄셈을 하는 것.
 
 **Unit vector** : 단위 벡터, 길이가 1인 벡터
+
+**dithering** : 간단히 점과 점을 일정 패턴으로 교차해서 찍으면서 멀리서 보면 색이 섞여 보이게끔 하는 기법이다. 원리 면으로 점묘법과 비슷하다. 컴퓨터에서 반투명 기법이 지원되지 않았을 때도 많이 썼다. 두 가지 색을 1픽셀씩 번갈아가며 찍은 뒤에, 색 한 가지를 프로그램에서 출력되지 않는 것으로 처리하면 반투명 꼼수가 완성된다. 색 표현수가 많아진 현재도 쓰이는 기법이다. 계단 현상을 제거하는 안티에일리어싱도 디더링 기법의 일종이고 사양을 덜 잡아먹기때문에 저사양 컴퓨터에서 그래픽적인 꼼수로 끄는 경우도 있다. 
+
+**quantization** : 양자화, 연속적으로 보이는 양을 자연수로 셀 수 있는 양으로 재해석하는 것을 말한다.
+
+**Screen door effect** : The screen door effect(SDE) is a visual artifact of displays, where the fine lines separating pixel (or subpixel) become visible in the displayed image. This can be seen in digital projector image and regulars under magnification or at close range, but the increases in display resolution have made this much less significant. More recently, the screen door effect has been an issue with virtual reality headsets and other head-mounted displays, because these are viewed at a much closer distance, and stretch a single display across a much wider filed of view.
+refer: https://en.wikipedia.org/wiki/Screen-door_effect
+
+**Swizzling** : in computer, swizzling is the ability to compose vectors by arbitratily rearranging and combining compnents of other vectors. for example, if A = {1, 2, 3, 4}, where the compoenents are x, y, z, w, respectively, you could compute B = A.wwxy, whereupon B would equal {4, 4, 1, 2} . Additionally, combining two two- component vectors can create a four-component vector, or any combination of vectors and swizzlnig. This is common in GPGPU application.
+
+**shadow acne** : 

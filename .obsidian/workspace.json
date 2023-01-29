@@ -42,6 +42,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d29048e894004325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/English/Word/Computer_Science_Term.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -93,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291
+    "width": 283,
+    "collapsed": true
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -183,14 +196,14 @@
   "active": "ec60915cfc6f5b74",
   "lastOpenFiles": [
     "STUDY/English/Word/Computer_Science_Word.md",
-    "정리할 것들.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
+    "STUDY/English/Word/Computer_Science_Term.md",
+    "정리할 것들.md",
     "2023-01-27.md",
     "8. Output - Merger Stage^.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Geometry Blending.md",
     "Daily/2023/01/4주차/2023-01-25.md",
     "STUDY/Computer Science/CG 개념/Clamping.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md",
-    "STUDY/Computer Science/CG 개념/Center Or Centroid.md"
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md"
   ]
 }
