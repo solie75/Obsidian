@@ -4,58 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "d128b9c892cf3068",
+        "id": "d3468140572b58cb",
         "type": "tabs",
         "children": [
           {
-            "id": "ec60915cfc6f5b74",
+            "id": "2df2952f4356b28b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/Application progress.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e0f0f703b4aeaf3a",
+            "id": "c172947452a3805c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "정리할 것들.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "709e9ce01fcbc71f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/English/Word/Computer_Science_Word.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d29048e894004325",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/English/Word/Computer_Science_Term.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "following code",
+                "query": "peek",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283,
-    "collapsed": true
+    "width": 283
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -122,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md"
-              }
+              "state": {}
             }
           },
           {
@@ -193,17 +161,67 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "ec60915cfc6f5b74",
+  "floating": {
+    "id": "a97327d3ffd83c6f",
+    "type": "floating",
+    "children": [
+      {
+        "id": "0c71ffbf4353bc30",
+        "type": "window",
+        "children": [
+          {
+            "id": "87c73feacb99aa81",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "62cd4ea0994eb782",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/Programming Language/DirectX 3D 11/Progress/Process for Vertex buffer Rendering.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a8376315a120fcda",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/Programming Language/DirectX 3D 11/Memo/1강 정리 및 메모.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": -1124,
+        "y": 429,
+        "width": 902,
+        "height": 859,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "040d4039b80fd138",
   "lastOpenFiles": [
-    "STUDY/English/Word/Computer_Science_Word.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
-    "STUDY/English/Word/Computer_Science_Term.md",
-    "정리할 것들.md",
-    "2023-01-27.md",
-    "8. Output - Merger Stage^.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Geometry Blending.md",
-    "Daily/2023/01/4주차/2023-01-25.md",
-    "STUDY/Computer Science/CG 개념/Clamping.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md"
+    "뉴홈 정책 정리.md",
+    "Daily/2023/2023 계획.md",
+    "STUDY/Computer Science/CS 주요 개념/정적 및 동적 라이브러리를 프로젝트에 적용.md",
+    "STUDY/Programming Language/DirectX 3D 11/Memo/1강 정리 및 메모.md",
+    "README.md",
+    "Daily/2023/01/5주차/2023-01-31.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/Application progress.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md"
   ]
 }

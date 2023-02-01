@@ -110,3 +110,68 @@ https://velog.io/@d2h10s/LaTex-Markdown-%EC%88%98%EC%8B%9D-%EC%9E%91%EC%84%B1%EB
 예시
 $$\upsilon(t) = \frac{dX(t)}{dt},\quad X(t) = X(t_0)\ + \  \int^{t_1}_{t_0}v(s)ds$$
 
+- 조직도(organization char) 작성 방법
+```mermaid
+flowchart LR
+
+A;
+A-->b;
+A-->c;
+```
+
+```mermaid
+flowchart TD
+
+A;
+A-->B;
+A-->C;
+```
+
+```mermaid
+flowchart LR 
+a(11111111111) <--> b(22222222222) 
+a(11111111111) <--> d(44444444444) 
+d(44444444444) <--> c(33333333333) 
+b(22222222222) <--> c(33333333333)
+```
+```mermaid
+flowchart LR 
+a <--> d 
+a <--> b 
+b <--> c 
+d <--> c
+```
+```mermaid
+flowchart LR 
+subgraph TOP 
+direction TB 
+subgraph B1 
+direction RL 
+i1 -->f1 
+end 
+subgraph B2 
+direction BT 
+i2 -->f2 
+end 
+end 
+A --> TOP --> B 
+B1 --> B2`
+```
+```mermaid
+flowchart LR
+	subgraph TOP
+		direction TB
+		subgraph B1
+			direction RL
+			i1 -->f1
+		end
+		subgraph B2
+			direction BT
+			i2 -->f2
+		end
+	end
+A --> TOP --> B
+B1 --> B2
+
+```
+
