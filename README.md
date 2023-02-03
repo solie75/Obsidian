@@ -97,9 +97,18 @@ Copy
 - 글씨에 형광 넣는법
 <span style="background-color:#fff5b1;">형광펜</span>
 
-- 각주 다는 방법
-[^asdf]
-[^asdf] : asdfasdfasdf
+- 링크
+**Wikilink format:**
+
+You can use the vertical bar (`|`) to change the text used to display a link.
+
+For example, `[[Internal links|custom display text]]` appears as [custom display text](https://help.obsidian.md/Linking+notes+and+files/Internal+links).
+
+**Markdown format:**
+
+Enter the display text between the square brackets (`[]`).
+
+For example, `[custom display text](Internal%20links.md)` appears as [custom display text](https://help.obsidian.md/Linking+notes+and+files/Internal+links).
 
 - 수학적 수식 사용 방법
 

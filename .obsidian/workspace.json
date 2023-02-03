@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d3468140572b58cb",
+        "id": "b7fb27f962fe0d41",
         "type": "tabs",
         "children": [
           {
-            "id": "2df2952f4356b28b",
+            "id": "64a1a262a4c9b508",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,17 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c172947452a3805c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "peek",
+                "query": "inline",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/Application progress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,8 +102,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/Application progress.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -131,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/Application progress.md"
+              }
             }
           },
           {
@@ -162,66 +157,53 @@
     }
   },
   "floating": {
-    "id": "a97327d3ffd83c6f",
+    "id": "7aee723622120a0e",
     "type": "floating",
     "children": [
       {
-        "id": "0c71ffbf4353bc30",
+        "id": "f7de44fbe56b8841",
         "type": "window",
         "children": [
           {
-            "id": "87c73feacb99aa81",
+            "id": "ff2c5d722c691361",
             "type": "tabs",
             "children": [
               {
-                "id": "62cd4ea0994eb782",
+                "id": "70c8a61e55a3eb37",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "STUDY/Programming Language/DirectX 3D 11/Progress/Process for Vertex buffer Rendering.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "a8376315a120fcda",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "STUDY/Programming Language/DirectX 3D 11/Memo/1강 정리 및 메모.md",
+                    "file": "STUDY/English/Word/Computer_Science_Word.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical",
-        "x": -1124,
-        "y": 429,
-        "width": 902,
-        "height": 859,
+        "x": 768,
+        "y": 300,
+        "width": 1024,
+        "height": 800,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "040d4039b80fd138",
+  "active": "64a1a262a4c9b508",
   "lastOpenFiles": [
-    "뉴홈 정책 정리.md",
-    "Daily/2023/2023 계획.md",
-    "STUDY/Computer Science/CS 주요 개념/정적 및 동적 라이브러리를 프로젝트에 적용.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/1강 정리 및 메모.md",
-    "README.md",
-    "Daily/2023/01/5주차/2023-01-31.md",
+    "STUDY/English/Word/Computer_Science_Word.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/Application progress.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md"
+    "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
+    "STUDY/Programming Language/Design Pattern/SingleTon.md",
+    "2023-02-02.md",
+    "STUDY/English/Word/Computer_Science_Term.md",
+    "정리할 것들.md",
+    "2023-02-03.md",
+    "STUDY/Programming Language/C/기타/typedef.md",
+    "STUDY/Programming Language/C/기타/함수포인터.md"
   ]
 }
