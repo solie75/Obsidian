@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GAME/Setting.md",
+                "file": "STUDY/Programming Language/C/기타.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GAME/Setting.md",
+                "file": "STUDY/Programming Language/C/기타.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GAME/Setting.md",
+                "file": "STUDY/Programming Language/C/기타.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GAME/Setting.md"
+                "file": "STUDY/Programming Language/C/기타.md"
               }
             }
           },
@@ -183,6 +183,7 @@
   },
   "active": "2c57eec699de6ccb",
   "lastOpenFiles": [
+    "GAME/Setting.md",
     "STUDY/Programming Language/C/기타.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/Application progress.md",
     "STUDY/English/Word/Computer_Science_Word.md",
@@ -191,7 +192,6 @@
     "2023-02-02.md",
     "STUDY/English/Word/Computer_Science_Term.md",
     "정리할 것들.md",
-    "2023-02-03.md",
-    "STUDY/Programming Language/C/기타/typedef.md"
+    "2023-02-03.md"
   ]
 }
