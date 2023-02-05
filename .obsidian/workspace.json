@@ -181,12 +181,49 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
+  "floating": {
+    "id": "eef19744bc2a2392",
+    "type": "floating",
+    "children": [
+      {
+        "id": "df73e51120ef9fdc",
+        "type": "window",
+        "children": [
+          {
+            "id": "9e343a03a9bb7b74",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "80e7e178a78bbe31",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/English/Word/Computer_Science_Word.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 41,
+        "y": 134,
+        "width": 878,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "2c57eec699de6ccb",
   "lastOpenFiles": [
-    "GAME/Setting.md",
+    "STUDY/English/Word/Computer_Science_Word.md",
     "STUDY/Programming Language/C/기타.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/Application progress.md",
-    "STUDY/English/Word/Computer_Science_Word.md",
+    "GAME/Setting.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
     "STUDY/Programming Language/Design Pattern/SingleTon.md",
     "2023-02-02.md",
