@@ -50,3 +50,9 @@ mip slice (하얀 사각형으로 표현된다.)는 한 array 속 모든 텍스�
 
 render-target view는 오직 단 하나의 subresource 혹은 mip slice 사용할 수 있다. 그리고 둘 이상의 mip Slice 의 subresource 를 포함할 수 없다. 즉, render-target view 안의 모든 텍스쳐는 같은 사이즈여야 한다. 하나의 shader-resource view 는 subresource의 어떤 직사각형 영역을 선택할 수 있다.
 
+
+# 다시 정리 할것
+
+^48ce75
+
+https://learn.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources

@@ -1,3 +1,14 @@
 {
-  "items": []
+  "items": [
+    {
+      "type": "file",
+      "title": "Computer_Science_Word",
+      "path": "STUDY/English/Word/Computer_Science_Word.md"
+    },
+    {
+      "type": "file",
+      "title": "2. Process for Vertex buffer Rendering (output triangle)",
+      "path": "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md"
+    }
+  ]
 }

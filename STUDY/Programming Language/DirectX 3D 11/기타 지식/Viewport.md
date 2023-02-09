@@ -1,4 +1,4 @@
-렌더링을 할 render target(back buffer) 영역을 나타내는 구조체이다. 뷰포트를 설정하는 것은 렌더링할 화면 영역을 설정하는 것이다. 
+<span style="color: yellow">렌더링을 할 render target(back buffer) 영역을 나타내는 구조체</span>이다. 뷰포트를 설정하는 것은 렌더링할 화면 영역을 설정하는 것이다. 
 
 보통 render target 전체를 설정한다. 깊이 값은 0.0f~ 1.0f이다. rasterizer stage 에서 다시 화면에 객체들을 매핑할 때 깊이 값을 0 ~ 1 로 바꿔준다. 
 

@@ -17,7 +17,7 @@ BOOL QueryPerformanceCounter(LARGE_INTEGER *lpPerformanceCount);
 매개변수로 넘어간 변수에 '함수가 호출된 시점의 타이머 값'을 넘겨준다.
 
 
-QueryPerformanceFrequency
+## QueryPerformanceFrequency
 
 ```c++
 BOOL QueryPerformanceFrequency(LARGE_INTEGER *lpFrequency);

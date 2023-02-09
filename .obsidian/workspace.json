@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b7fb27f962fe0d41",
+        "id": "a02ce1d42c304b8e",
         "type": "tabs",
         "children": [
           {
-            "id": "64a1a262a4c9b508",
+            "id": "d80131c8df44e34a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/Application progress.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5de72880a539ce2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/C/기타.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c57eec699de6ccb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/C/기타.md",
+                "file": "2023-02-10.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inline",
-                "matchingCase": false,
+                "query": "BUFFER_DESC",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C/기타.md",
+                "file": "2023-02-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C/기타.md",
+                "file": "2023-02-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C/기타.md"
+                "file": "2023-02-10.md"
               }
             }
           },
@@ -181,54 +156,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "floating": {
-    "id": "eef19744bc2a2392",
-    "type": "floating",
-    "children": [
-      {
-        "id": "df73e51120ef9fdc",
-        "type": "window",
-        "children": [
-          {
-            "id": "9e343a03a9bb7b74",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "80e7e178a78bbe31",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "STUDY/English/Word/Computer_Science_Word.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 41,
-        "y": 134,
-        "width": 878,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "2c57eec699de6ccb",
+  "active": "d80131c8df44e34a",
   "lastOpenFiles": [
+    "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
+    "2023-02-10.md",
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SUBRESOURCE_DATA.md",
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
+    "2023-02-09.md",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11Buffer.md",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11InputLayout.md",
     "STUDY/English/Word/Computer_Science_Word.md",
-    "STUDY/Programming Language/C/기타.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/Application progress.md",
-    "GAME/Setting.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
-    "STUDY/Programming Language/Design Pattern/SingleTon.md",
-    "2023-02-02.md",
-    "STUDY/English/Word/Computer_Science_Term.md",
-    "정리할 것들.md",
-    "2023-02-03.md"
+    "STUDY/Programming Language/DirectX 3D 11/Interface/IUnknown.md",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11DeviceChild.md"
   ]
 }
