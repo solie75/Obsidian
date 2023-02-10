@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-02-10.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2a00b39d0b7866e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "정리할 것들.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "BUFFER_DESC",
+                "query": "GetContentPath",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-02-10.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-02-10.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-02-10.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md"
               }
             }
           },
@@ -158,15 +171,15 @@
   },
   "active": "d80131c8df44e34a",
   "lastOpenFiles": [
+    "STUDY/Programming Language/Win32 AK Project/11. PathMgr.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
-    "2023-02-10.md",
+    "Pasted image 20230211020938.png",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/NDC.md",
+    "정리할 것들.md",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SUBRESOURCE_DATA.md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
-    "2023-02-09.md",
-    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11Buffer.md",
-    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11InputLayout.md",
-    "STUDY/English/Word/Computer_Science_Word.md",
-    "STUDY/Programming Language/DirectX 3D 11/Interface/IUnknown.md",
-    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11DeviceChild.md"
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateBuffer( ).md",
+    "Pasted image 20230210174833.png",
+    "Pasted image 20230210174715.png",
+    "STUDY/English/Word/Computer_Science_Word.md"
   ]
 }

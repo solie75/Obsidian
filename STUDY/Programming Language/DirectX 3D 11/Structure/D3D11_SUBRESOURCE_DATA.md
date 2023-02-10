@@ -12,7 +12,7 @@ typedef struct D3D11_SUBRESOURCE_DATA
 
 ## Members
 
-1. const void *pSysMem : 초기화 데이터 를 가리키는 포인터.
+1. const void *pSysMem : 초기화 데이터 를 가리키는 포인터. (GPU로 보낼 시스템 메모리의 시작 주소)
 2. UINT SysMemPitch : 텍스쳐의 한 라인의 시작부터 다음 라인까지의 distance(in byte). system-memory pitch 는 다른 resource type 에는 의미가 없기 때문에 2D와 3D 텍스쳐 데이터 에만 사용된다. 3D 텍스쳐의 2D slice 의 첫번째 픽셀부터 SysMemSlicePitch 맴버의 해당 텍스쳐에 있는 다음 2D slice 의 첫번째 픽셀까지의 거리를 지정한다.
 3. UINT SysMemSlicePitch : 하나의 depth level의 시작부터  그 다음 까지의 Distance. System-memory-slice pitch는 다른 resource type 에대해서는 의미를 갖지 않기 때문에 오직 3D 텍스쳐 데이터 에 대해서만 사용된다. 
 

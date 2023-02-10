@@ -1,6 +1,6 @@
 Direct3D는 전체 리소스를 참조하거나 혹은 리소스의 일부을 참조할 수 있다. subresource(하위 리소스) 라는 용어는 리소스의 한 부분을 나타낸다.
 
-하나의 버퍼는 하나의 subresource 로 정의된다. Texture는 mipmap level 및/ 또는 Texture array(텍스쳐 배열)을 지원하는 몇가지 다른 텍스쳐 유형을 가지고 있기 때문에 조금 더 복잡하다.  가장 간단한 경우를 들어 시작하면 1D texture 는 하나의 subresource 로 정의된다.
+<span style="color: yellow">하나의 버퍼는 하나의 subresource 로 정의된다. </span>Texture는 mipmap level 및/ 또는 Texture array(텍스쳐 배열)을 지원하는 몇가지 다른 텍스쳐 유형을 가지고 있기 때문에 조금 더 복잡하다.  가장 간단한 경우를 들어 시작하면 <span style="color: yellow ">1D texture 는 하나의 subresource 로 정의된다.</span>
 ![[Pasted image 20221217180419.png]]
 
 이것은 1D texture을 구성하는 텍셀 배열이 하나의 subresource 에 포함되어 있다는 것을 의미한다. 만약 1D texture을 3개의 mipmap level 로 확장한 다면, 그것은 다음과 같이 시각화 할 수 있다.
