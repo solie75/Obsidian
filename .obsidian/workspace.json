@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/Error/Compilation Error/C2504 기본 클래스를 정의하지 않았습니다..md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4eccf1880bb0906",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/Win32 AK Project/11. PathMgr.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,8 +85,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GetBufferPointer",
-                "matchingCase": true,
+                "query": "중간 디렉터리",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -90,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/Error/Compilation Error/C2504 기본 클래스를 정의하지 않았습니다..md",
+                "file": "STUDY/Programming Language/Error/Compilation Error/예외가 throw됨 읽기 액세스 위반입니다. m_pCurLevel이(가) nullptr였습니다..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/Error/Compilation Error/C2504 기본 클래스를 정의하지 않았습니다..md",
+                "file": "STUDY/Programming Language/Error/Compilation Error/예외가 throw됨 읽기 액세스 위반입니다. m_pCurLevel이(가) nullptr였습니다..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/Error/Compilation Error/C2504 기본 클래스를 정의하지 않았습니다..md"
+                "file": "STUDY/Programming Language/Error/Compilation Error/예외가 throw됨 읽기 액세스 위반입니다. m_pCurLevel이(가) nullptr였습니다..md"
               }
             }
           },
@@ -181,17 +194,17 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "1b6a5e4262102910",
+  "active": "62073d2ebe73e75e",
   "lastOpenFiles": [
-    "정리할 것들.md",
-    "STUDY/Programming Language/Error/Compilation Error/C2504 기본 클래스를 정의하지 않았습니다..md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
     "STUDY/Programming Language/Error/Compilation Error/예외가 throw됨 읽기 액세스 위반입니다. m_pCurLevel이(가) nullptr였습니다..md",
-    "STUDY/Programming Language/Error/프로그래밍 에러 종류.md",
+    "STUDY/Programming Language/Error/Compilation Error/무제 파일.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
+    "STUDY/Programming Language/Error/Compilation Error/C2504 기본 클래스를 정의하지 않았습니다..md",
+    "정리할 것들.md",
+    "STUDY/Programming Language/Error/프로그래밍 에러 종류.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/1. Project structure setting.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/12-28.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/3강 정리 및 메모.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md"
+    "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md"
   ]
 }
