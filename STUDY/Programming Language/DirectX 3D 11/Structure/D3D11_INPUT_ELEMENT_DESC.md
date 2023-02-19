@@ -28,7 +28,7 @@ typedef struct D3D11_INPUT_ELEMENT_DESC {
 	element data의 데이터 유형. ( [DXGI_FORMAT](https://learn.microsoft.com/en-us/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)) semantic의 크기. 
 
 4. UINT InputSlot 
-	input-assembler 를 확인(식별)하는 정수 값. 유효한 값은 0과 15 사이이다. 
+	input-assembler 를 확인(식별)하는 정수 값. 유효한 값은 0과 15 사이이다. 예를 들어 위치와 색상 성분으로 구성된 정점의 경우 두 종류의 겅분들을 하나의 입력 슬롯을 통해서 파이프 라인에 동급할 수도 있고, 둘을 나누어서 위치 성분들은 첫 번째 입력 슬롯을 통해서, 색 상 성분들은 두 번째 입력 슬롯을 통해서 공급할 수도 있다. Direct3D 는 서로 다른 입력 슬롯들로부터 입력된 성분들을 조합해서 정점을 생성한다.
 
 5. UINT AlignedByteOffset
 	선택적 사항이다. 정점의 시작부터의 Offset ( in byte )이다. SemanticName 이 가리키는 값의 크기는 알지만 하나의 정점 데이터에서 해당 SemanticName 이 가리키는 값이 어디에 있는지는 모른다. 따라서 정점 시작 주소로부터 얼마만큼의 offset 이후에 POSITION 이 존재하는지 알아야 한다.

@@ -1,6 +1,7 @@
 ID3D11DeviceContext::Draw( );
 
 인덱스 화 되지 않고, 인스턴스 화 되지 않은 primitive 를 그린다.
+두 매개변수는 vertex buffer 내의 연속된 vectex 들의 구가능ㄹ 지정한다.
 
 # Syntax
 
@@ -15,7 +16,7 @@ void Draw(
 	그려질 정점의 수.
 
 2. StartVertexLocation
-	일반적으로 정점 버퍼의 오프셋인 첫 번째 정점의 인덱스.
+	일반적으로 정점 버퍼의 오프셋인 첫 번째 정점의 인덱스를 지정.
 
 
 # Remark
