@@ -111,6 +111,7 @@ Enter the display text between the square brackets (`[]`).
 For example, `[custom display text](Internal%20links.md)` appears as [custom display text](https://help.obsidian.md/Linking+notes+and+files/Internal+links).
 
 - 수학적 수식 사용 방법
+http://tomoyo.ivyro.net/123/wiki.php/TeX_%EB%B0%8F_LaTeX_%EC%88%98%EC%8B%9D_%EB%AC%B8%EB%B2%95
 
 https://rayc20.tistory.com/151
 
