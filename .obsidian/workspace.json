@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249
+    "width": 200
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -158,6 +158,8 @@
   },
   "active": "65b7f05b5f6210ad",
   "lastOpenFiles": [
+    "Pasted image 20230301142052.png",
+    "Pasted image 20230301141111.png",
     "README.md",
     "Template/English_Word_Template.md",
     "STUDY/Math/삼각함수와 복소수/2. Complex plane & Polar form.md",
@@ -178,7 +180,6 @@
     "STUDY/Programming Language/C/바이트 저장 순서 (byte order).md",
     "RESOURCE/Image/Pasted image 20230226225105.png",
     "RESOURCE/Image/Pasted image 20230226225103.png",
-    "RESOURCE/Image/Pasted image 20230226220013.png",
     "STUDY/Math/삼각함수와 복소수/1. Complex Number.md",
     "STUDY/Math/기하_벡터/Displace.md",
     "STUDY/Math/삼각함수와 복소수",
