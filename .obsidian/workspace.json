@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C/기본 개념.md",
+                "file": "STUDY/Math/삼각함수와 복소수/2. Complex plane & Polar form.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C/기본 개념.md",
+                "file": "STUDY/Math/삼각함수와 복소수/2. Complex plane & Polar form.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C/기본 개념.md",
+                "file": "STUDY/Math/삼각함수와 복소수/2. Complex plane & Polar form.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C/기본 개념.md"
+                "file": "STUDY/Math/삼각함수와 복소수/2. Complex plane & Polar form.md"
               }
             }
           },
@@ -158,31 +158,34 @@
   },
   "active": "65b7f05b5f6210ad",
   "lastOpenFiles": [
-    "STUDY/Programming Language/C/부록.md",
+    "README.md",
+    "Template/English_Word_Template.md",
+    "STUDY/Math/삼각함수와 복소수/2. Complex plane & Polar form.md",
+    "RESOURCE/Image/Pasted image 20230301014351.png",
+    "RESOURCE/Image/Pasted image 20230228232229.png",
+    "RESOURCE/Image/Pasted image 20230228220731.png",
+    "RESOURCE/Image/Pasted image 20230228204327.png",
+    "RESOURCE/Image/Pasted image 20230228204234.png",
+    "STUDY/Math/선형대수/4. Orthogonal projection & Orthogonalization.md",
+    "STUDY/Math/선형대수/5. Cross product.md",
+    "RESOURCE/Image/Pasted image 20230228015822.png",
+    "RESOURCE/Image/Pasted image 20230228015818.png",
     "STUDY/Programming Language/C/기본 개념.md",
+    "STUDY/Programming Language/C/부록.md",
     "정리할 것들.md",
     "STUDY/Programming Language/C/Type conversion.md",
     "STUDY/Programming Language/C/함수 포인터와 콜백 함수.md",
     "STUDY/Programming Language/C/바이트 저장 순서 (byte order).md",
-    "STUDY/Math/삼각함수와 복소수/2. Complex plane & Polar form.md",
-    "Pasted image 20230226225105.png",
-    "Pasted image 20230226225103.png",
-    "Pasted image 20230226220013.png",
+    "RESOURCE/Image/Pasted image 20230226225105.png",
+    "RESOURCE/Image/Pasted image 20230226225103.png",
+    "RESOURCE/Image/Pasted image 20230226220013.png",
     "STUDY/Math/삼각함수와 복소수/1. Complex Number.md",
-    "STUDY/Math/선형대수/5. Cross product.md",
-    "STUDY/Math/선형대수/4. Orthogonal projection & Orthogonalization.md",
     "STUDY/Math/기하_벡터/Displace.md",
     "STUDY/Math/삼각함수와 복소수",
     "2023-02-25.md",
-    "RESOURCE/Image/Pasted image 20230225103346.png",
-    "RESOURCE/Image/Pasted image 20230225102609.png",
     "STUDY/Math/선형대수/3. Row Vector & Dot product.md",
     "STUDY/Math/선형대수/2. Linear Transformation.md",
     "STUDY/Math/선형대수/1. Vector & Scalar & Basis & Span.md",
-    "RESOURCE/Image/Pasted image 20230225000538.png",
-    "README.md",
-    "RESOURCE/Image/Pasted image 20230224223448.png",
-    "RESOURCE/Image/Pasted image 20230220235540.png",
     "Daily/2023/02/4주차/2023-02-23.md",
     "2023-02-20.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/12-28.md"
