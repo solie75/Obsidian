@@ -230,7 +230,7 @@
 | vary | 1. (크기, 모양 등에서) 서로[각기]다르다; 2. (상황에 따라)달라지다[다르다]; 3. (약간)달리하다[변화를 주다] |
 | within | (특정한 거리$\cdot$기간) 이내에[안에] |
 | invocation | (법적 권한 등의) 발동[실시] |
-| arbitrary | 임의적인, 제먹대로인 |
+| arbitrary | 임의적인, 제멋대로인 |
 | via | (어떤 장소를) 경우하여[거쳐], (특정한 사람$\cdot$시스템 등을) 통하여 |
 | passed down | 전수되다. 전수 받는 것 |
 | earlier | 1. Earlier is the comparative of early; 2. Earlier is used to refer to a point or period in time before the present the one you are talking about |
@@ -345,11 +345,11 @@
 | lay out | ~을 배치하다 |
 | <2023-02-13> | --- |
 | verify | 1.(진실인지, 정확한지)확인하다; 2. 입증하다 |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
+| <2023-03-04> | --- |
+| notation | (특히 수학$\cdot$과학$\cdot$음악에서) 표기법[기호] |
+| uniform | 균등한 |
+| elsewhere | (어딘가) 다른 곳에서[으로] |
+| concatenate | 사슬같이 잇다; 연쇄시키다.연관시키다 |
 | --- | --- |
 | --- | --- |
 | --- | --- |
