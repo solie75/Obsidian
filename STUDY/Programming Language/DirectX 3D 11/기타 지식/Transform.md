@@ -115,15 +115,29 @@ D3DXMATRIX* WINAPI D3DXMatrixRotationX
 
 행렬의 장점은 두개 이상의 matrix 들을 곱함으로써 효과를 결합할 수 있다. 이것은 model 을 rotate 한 뒤 다른 위치로 translate 하는데에 두개의 matrix 가 필요하지 않음을 의미한다. 대신에 그 효과를 모두 포함하기 위해서 composite matirx 를 생성하기 위해서 rotation 과 translation matrix 를 곱해야 한다. 이 과정은 matrix concatenation 으로 불리며 다음의 등식과 같이 작성할 수 있다.
 $$C=M_1\cdot M_2\cdot M_{n-1}\cdot M_n$$
-위의 등식에서 C는 생성되는 composite matrix 이고 $M_1$ 
+위의 등식에서 C는 생성되는 composite matrix 이고 $M_1$ 부터 $M_n$ 은 모두 개별적인 matrix 이다. 대부분의 경우, 두개에서 세개의 matrix 가 concatenated 된다. 그러나 여기에 한계가 있는 것은 아니다.
+
+D3DXMatrixMultiply 함수를 사용하여 matrix multiplication 을 수행한다.
+
+matrix multiplication 에서 순서대로 수행되는 것은 매우 중요하다. 좌에서 우로 의 matrix mulriplication 법칙이다. 즉, compowite matrix 를 생성하는데 사용되는 matrix 들의 시각적 효과는 좌 -> 우 순서로 발생한다. 전형적인 world matrix 는 다음의 예시와 같다. 
+전형적인 비행 접시를 위해서 world matrix 를 생성했다고 생상해 보자. 사용자는 아마도 그 비행 접시가 model space 의 y 축을 기준으로 회전하고 장면상의 어느 지점에 translate 되기를 원할 것이다. 이러한 효과를 내기 위해서, 다음의 등식과 같이 먼저 rotation matrix 를 생성하고 그 다음 translation matrix 를 multiply 해주어야 한다. $$W=R_y\cdot T_w$$
+위의 식에서 $R_y$ 는 y축을 기준으로 회전하는 rotation matrix 이고 $T_w$ 는 world 좌표계의 어느 지점으로 translate 한다.
+
+matrix 들을 multiply 하는 순서는 중요하다. 두 개의 스칼라 값을 곱하는 것과 달리 matrix multiplication 은 교환법칙이 성립하지 않기 때문이다. 반대의 순서로 matrix multiplication 을 실시하면 비행 접시를 world space 에 tranlate 하고 세계 원점(origin) 을 중심으로 회전시키는 시작적 효과가 있을 것이다.
 # World Transform
 Local Space 에서 정의된 오브젝트를 World Space 에 사용자가 의도한 위치와 방향으로 배치해야 한다. 구체적으로, World Space 좌표계를 기준으로 한 Local Space 좌표계의 원점과 축들의 위치 및 방향을 지정하고, 그에 해당하는 좌표 변환을 수행해야 한다.
 
 이때 local space 기준의 좌표를 world space 기준의 좌표로 변경하는 과정을 World Transform 이라 하고 해당 변환 행렬을 World Matrix 라 부른다. 이에 모든 오브젝트는 각자의 World Matrix 를 갖는다.
 
+world transform 은 model 의 local 원점에 관련되어 정의된 정점인 model space로부터 보통 모든 오브젝트들이 존재하는 장면의 원점에 관련되어 정의된 정점들인 World space 로 좌표계를 전환한다. 본질적으로 world transform 은 model 을 world 에 위치시킨다.
+
+world transfor 은 어떤 translation, rotation, scaling 에 대한 결합이라도 모두 포함 할 수 있다.
+
+### Setting Up a World Matrix
+
+다른 transform 과 마찬가지로 일련의 matrix 를 효과들을 합친 단일 matrix에 concatenating 함으로써 world transform 을 생성한다. 가장 간단한 경우로
 
 
-https://learn.microsoft.com/en-us/windows/win32/direct3d9/transforms
 
 
 # Camera Transform
