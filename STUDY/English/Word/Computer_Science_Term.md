@@ -66,7 +66,7 @@ low frequency : 저주파, 30 ~ 300 kilohertZ
 
 **Gouraud shading** : (computer graphics) A method of sumulating the effects of light colour across the surface of an object, based on estimates of the surface normal of each vertex in a polygonal 3D model.  / 고러드 채식 , 3차원 그래픽에서 화면에 나타난 입체 표면에 색을 적당하게 입혀서 물체에 입체감과 질감을 주는 채색 알고리즘의 하나. 이것은 두 평면이 만나는 곳에서 색이 갑자기 변하는 것을 막기 위해 평면 중심에서 교차선까지 연속적으로 색이 점차로 변하게 된다. 
 
-**Frustum** : 기하학에서 절두체는 입체(보통 원뿔이나 각뿔)를 절단하는 하나나 두 평행면 사이의 부분이다.
+**Frustum** : 기하학에서 절두체는 입체(보통 원뿔이나 각뿔)를 절단하는 하나 혹은  두 평행면 사이의 부분이다. 컴퓨터 그래픽스에서 viewing frustum 은 스크린에서 볼 수 있는 삼차원 영역인다.
 
 **Snap** : snapping allows an object to be easily positioned in alignment with grid lines, guide lines or another object, by causing it to automatically jump to an exact position when the user drags it to the proximity of the desired locaion.
 
@@ -83,4 +83,10 @@ refer: https://en.wikipedia.org/wiki/Screen-door_effect
 
 **Swizzling** : in computer, swizzling is the ability to compose vectors by arbitratily rearranging and combining compnents of other vectors. for example, if A = {1, 2, 3, 4}, where the compoenents are x, y, z, w, respectively, you could compute B = A.wwxy, whereupon B would equal {4, 4, 1, 2} . Additionally, combining two two- component vectors can create a four-component vector, or any combination of vectors and swizzlnig. This is common in GPGPU application.
 
-**shadow acne** : 
+**shadow acne** :
+
+identity matrix : In linear algebra, the identity matrix of size n is the nxn square matrix with ones on the main diagonal and zeros elsewhere,
+
+alignment : 그래픽 요소가 정렬하느 가상의 선의 방향에 대해 기술하는 것
+
+aspect ratio : 영상의 가로 세로의 비

@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "STUDY/English/Word/Computer_Science_Word.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3e833a1add04a0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c23ffb9b2a25bd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/English/Word/Computer_Science_Term.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "local space",
+                "query": "viewport rectangle",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,10 +193,20 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "76361ad2c24d7789",
+  "active": "c3e833a1add04a0a",
   "lastOpenFiles": [
+    "Pasted image 20230307022329.png",
     "STUDY/English/Word/Computer_Science_Word.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Viewport.md",
+    "Daily/2023/01/4주차/2023-01-22.md",
+    "STUDY/English/Word/Computer_Science_Term.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Viewports and Clipping.md",
+    "Pasted image 20230307012422.png",
+    "Pasted image 20230306235332.png",
+    "Pasted image 20230306232909.png",
+    "Pasted image 20230306231930.png",
+    "Pasted image 20230306203011.png",
     "Pasted image 20230304224806.png",
     "Pasted image 20230304212119.png",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Space.md",
@@ -180,7 +215,6 @@
     "RESOURCE/Image/Pasted image 20230303204603.png",
     "RESOURCE/Image/Pasted image 20230303203904.png",
     "RESOURCE/Image/Pasted image 20230303203856.png",
-    "RESOURCE/Image/Pasted image 20230303193351.png",
     "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/1. Project structure setting.md",
     "STUDY/Math/수학적 함수/Saturate.md",
@@ -199,15 +233,7 @@
     "Daily/2023/02/4주차/2023-02-25.md",
     "STUDY/사이버대학/응급처치/정리.md",
     "STUDY/사이버대학/응급처치",
-    "RESOURCE/Image/Pasted image 20230303163707.png",
-    "RESOURCE/Image/Pasted image 20230303163607.png",
-    "RESOURCE/Image/Pasted image 20230303153829.png",
-    "RESOURCE/Image/Pasted image 20230303152318.png",
     "Template/운동 기록.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Face and vertex normal vectors.md",
-    "README.md",
-    "Template/English_Word_Template.md",
     "STUDY/Math/삼각함수와 복소수"
   ]
 }

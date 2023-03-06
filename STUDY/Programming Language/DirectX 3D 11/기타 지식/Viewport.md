@@ -28,4 +28,3 @@ typedef struct D3D11_VIEWPORT
 ## Remarks
 
 모든 경우에 있어서 width와 height는 0보다 크거나 같아야 하고  TopLeftX + Width 와 TopLeftY + Height 는 D3D11_VIEWPORT_BOUNDS_MAX보다 작거나 같아야 한다.
-
