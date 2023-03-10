@@ -174,3 +174,24 @@ XMMATRIX XMMatrixPerspectiveFovLH( // 투영 행렬 반환
 	FLOAT FarZ           // far plane 까지의 거리
 )
 ```
+
+## 사용 예시
+
+```c++
+XMMATRIX P = XMMatrixPerspectiveFovLH(
+	0.25f*MathX::Pi,
+	AspectRatio(),
+	1.0f,
+	1000.0f
+);
+```
+
+위의 코드는 수직 시야각을 45도로 설정하고 near plane 은 z = 1 에 far plane 은 z = 1000에 둔다. (view space 기준)
+
+이때 aspect ratio 계산은 다음과 같다.
+```c++
+float D3DApp::AspectRatio()const
+{
+	return static_cast<float>(mClientWidth)/(mClientHeight);
+}
+```
