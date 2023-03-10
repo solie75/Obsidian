@@ -51,7 +51,17 @@ buffer resource 는 요소(element)로 그룹화 된 fully typed data의 collect
 
 ![[Pasted image 20221224195826.png]]
 
-각 요소는 데이터의 형식이 저장되는 것에 따라 결정되는 1에서 4 가지 구성요소 상수를 저장한다. shader-contant 버퍼를 생성하려면 ID3D11Device::CreateBuffer 를 호출하고, D3D11_BIND_FLAG 열거형의 맴버인 D3D11_BIND_CONSTANT_BUFFER 를 지정한다.
+각 요소는 데이터의 형식이 저장되는 것에 따라 결정되는 1에서 4 가지 구성요소 상수를 저장한다.
+
+상수 버퍼는 장면의 물체마다 달라지는 상수 데이터를 담기 위한 저장 공간이다. 이 크기는 최소 하드웨어 할당 크기인 256 byte 의 배유여야 한다. vertex buffer 나 index buffer 는 cpu 가 프레임당 한번 갱신하는 것이 일반적이다. (예를 들어 카메라가 매 프레임 이동한다면, 프레임마다 상수 버퍼를 새로운 view matrix 로 갱신해야 한다.)
+
+
+constant buffer 의 생성시 다음의 주의사항 2가지가 존재한다.
+1. default heap 이 아닌 upload heap 에 생성해야 한다.(그래야 cpu 가 버퍼의 내용을 갱신할 수 있다. default heap은 cpu 가 생성 물가.) 
+2. 크기는 256 byte의 배수여야 한다.
+
+장면의 물체의 특성을 저장하는 특성상, 같은 종류의 상수 버퍼를 여러개 사용해야 하는 경우가 생기는데 장면의 물체가 n 개이면 이 종류의 상수 버퍼가 n 개 필요하다. 
+shader-contant 버퍼를 생성하려면 ID3D11Device::CreateBuffer 를 호출하고, D3D11_BIND_FLAG 열거형의 맴버인 D3D11_BIND_CONSTANT_BUFFER 를 지정한다.
 
 상수 버퍼는 다른 어떠한 bind flag도 포함 될 수 없는 오직 하나의 bind flag 를 사용한다. shader-contant buffer 를 파이프 라인에 바인딩하기 위해서 다음의 메소드중 하나를 호출하다.
 ID3D11DeviceContext::GSSetConstantBuffers
@@ -60,3 +70,9 @@ ID3D11DeviceContext::VSSetConstantBuffers
 
 shader 로부터 shader-constant buffer 를 읽기 위해서 HLSL load funtion을 사용한다. 각 shader stages는 15개의 shader-constant buffer 까지 허용한다. 각 buffer 는 4096까지의 상수(constant)를 hold 한다.
 
+### 상수 버퍼의 갱신 (update)
+
+상수 버퍼를 upload heap 에서 생성하였다면, cpu에서 상수 버퍼 에 자료를 올릴 수 있다. (cpu 에서 update 가능) 그 절차는 다음과 같다.
+
+- Map() 메서드를 사용하여 상수 버퍼의 subresource 주소를 얻는다. (자료를 올리기 위해서 자원 자료를 가리키는 포인터를 얻어야 한다. 이때 ComPtr 의 Get() 메서드는 buffer 의 주소를 얻는데 쓰이고 Map 메서드로 얻은 주소는 buffer의 저장공간 주소이다.)
+- memcpy를 이용하여 subresource 의 자원을 BYTE* type 의 변수에 복사한다.

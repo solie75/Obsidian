@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/3. 무제.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "212cb7002e39b944",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2023-03-10.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "XMMatrixPerspectiveFovLH",
+                "query": "map(",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382
+    "width": 256
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/3. 무제.md",
+                "file": "2023-03-10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/3. 무제.md",
+                "file": "2023-03-10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/3. 무제.md"
+                "file": "2023-03-10.md"
               }
             }
           },
@@ -181,10 +193,16 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "d89e3e89a7a31e39",
+  "active": "212cb7002e39b944",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/Progress/1. Project structure setting.md",
+    "Pasted image 20230310141541.png",
+    "Pasted image 20230310140832.png",
+    "STUDY/Programming Language/DirectX 3D 11/Function/Map( ).md",
+    "2023-03-10.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
+    "STUDY/Programming Language/Win32 AK Project/13. CCameraMgr.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/3. 무제.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/1. Project structure setting.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md",
     "RESOURCE/Image/Pasted image 20230309213855.png",
@@ -203,7 +221,6 @@
     "Daily/2023/03/1주차/2023-03-03.md",
     "STUDY/English/Word/Computer_Science_Word.md",
     "STUDY/English/Word/Computer_Science_Term.md",
-    "RESOURCE/Image/Pasted image 20230307022329.png",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Viewport.md",
     "Daily/2023/01/4주차/2023-01-22.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Viewports and Clipping.md",
@@ -214,11 +231,6 @@
     "STUDY/Math/선형대수/4. Orthogonal projection & Orthogonalization.md",
     "STUDY/Math/선형대수/5. Cross product.md",
     "STUDY/Math/선형대수/2. Linear Transformation.md",
-    "STUDY/Math/선형대수/1. Vector & Scalar & Basis & Span.md",
-    "STUDY/Math/삼각함수와 복소수/2. Complex plane & Polar form.md",
-    "STUDY/Math/삼각함수와 복소수/1. Complex Number.md",
-    "STUDY/Math/기하_벡터/Displace.md",
-    "Daily/2023/2023 계획.md",
     "Daily/2023/03/1주차",
     "Daily/2023/03",
     "STUDY/사이버대학/응급처치",
