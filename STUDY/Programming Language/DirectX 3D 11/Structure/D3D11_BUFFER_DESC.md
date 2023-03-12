@@ -16,7 +16,7 @@ typedef struct D3D11_BUFFER_DESC
 	버퍼의 크기.
 
 2. D3D11_USAGE Usage 
-	버퍼가 쓰이는 방식(버퍼가 CPU 에 접슨하는 방식)
+	버퍼가 쓰이는 방식(버퍼가 CPU 에 접슨하는 방식) ^8317a2
 	- D3D11_USAGE_DEFAULT
 		GPU 가 buffer 의 resource 를 읽고 사용하고자 할 때 설정한다. CPU 는 해당 용도를 가진 resource 를 ID3D11DeviceContext::Map 을 통해서 읽거나 쓸 수 없다. ( 대신 ID3D11DeviceContext::UpdataSubresource 를 사용하는 것은 가능하다.)
 	- D3D11_USAGE_IMMUTABLE

@@ -13,7 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/Map( ).md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/ClearDepthStencilView( ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc8ec985d89156c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Function/Unmap( ).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af7fe221dde362d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/How to. Use dynamic resource.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "map",
+                "query": "USAGE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,11 +114,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 373
+    "width": 282
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -110,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_Map enumeration.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/How to. Use dynamic resource.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_Map enumeration.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/How to. Use dynamic resource.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_Map enumeration.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/How to. Use dynamic resource.md"
               }
             }
           },
@@ -181,11 +206,16 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "917024e81ece5f47",
+  "active": "af7fe221dde362d6",
   "lastOpenFiles": [
-    "STUDY/English/Word/Computer_Science_Word.md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_Map enumeration.md",
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/How to. Use dynamic resource.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/Unmap( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/ClearDepthStencilView( ).md",
     "STUDY/Programming Language/DirectX 3D 11/Function/Map( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_Map enumeration.md",
+    "STUDY/English/Word/Computer_Science_Word.md",
+    "Pasted image 20230313043041.png",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Mapping.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/3. 무제.md",
@@ -208,17 +238,12 @@
     "RESOURCE/Image/Pasted image 20230309020910.png",
     "RESOURCE/Image/Pasted image 20230307203438.png",
     "RESOURCE/Image/Pasted image 20230307203019.png",
-    "RESOURCE/Image/Pasted image 20230307202639.png",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
     "Daily/2023/03/1주차/2023-03-03.md",
     "STUDY/English/Word/Computer_Science_Term.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Viewport.md",
     "Daily/2023/01/4주차/2023-01-22.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Viewports and Clipping.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Space.md",
-    "Daily/2023/02/3주차/2023-02-16.md",
-    "STUDY/Math/수학적 함수/Saturate.md",
-    "STUDY/Math/선형대수/3. Row Vector & Dot product.md",
     "Daily/2023/03/1주차",
     "Daily/2023/03",
     "STUDY/사이버대학/응급처치",

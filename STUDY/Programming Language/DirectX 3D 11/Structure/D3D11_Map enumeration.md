@@ -34,5 +34,13 @@ access (see [D3D11_CPU_ACCESS_WRITE](https://learn.microsoft.com/en-us/windows/
 
 ## Meaning of D3D11_MAP_WRITE_NO_OVERWRITE
 
-D3D11_MAP_WRITE_NO_OVERWRITE 은 응용 프로그램이 input assembler 단계에서 사용중인 data 에 write 하지 않는 다는 의미이다. 
+D3D11_MAP_WRITE_NO_OVERWRITE 은 응용 프로그램이 input assembler 단계에서 사용중인 data 에 write 하지 않는다는 의미이다. 
+그 대신 GPU는 응용프로그램이 같은 버퍼의 다른 부분에 write 하는 것을 허락한다. 응용프로그램은 input assembler 단계에서 사용되는 데이터를 덮어쓰지(write over) 않도록 해야 한다.
 
+예를 들어, 다음의 그림과 같은 버퍼를 생각해 보자. 정점4에서 6까지를 사용하는 Draw 호출이 실행된 경우, 해당 버퍼에 Map 을 호출한 응용프로그램은 Draw 호출이 렌더링 중에 엑세스 할 정점에 write 하지 않도록 해야 한다.
+![[Pasted image 20230313043041.png]]
+
+이하 생략
+다음 참고
+
+https://learn.microsoft.com/en-us/windows/win32/api/d3d11/ne-d3d11-d3d11_map
