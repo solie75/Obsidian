@@ -86,6 +86,16 @@ void TriangleRenderer::MapDoubleVertices()
 }
 ```
 
+# Remarks
+
+### Using dynamic textures
+
+하나의 format 및 가능하면 각 크기 별 오직 하나의 dynamic texture 를 생성하기가 권장된다. 모든 수준을 mapping하는 추가적인 overhead 때문에 dynamic mipmap, cubes, volumes 를 생성하는 것은 추천하지 않는다. mipmap 의 경우, 오직 top level 에 대해서 D3D11_MAP_WRITE_DISCARD 를 지정할 수 있다. 모든 level은 오직 top level만 mapping 함으로써 discard 된다. 이는 volume 과 cube 도 마찬가지이다. cube 의 경우 top level 과 face 0 은 매핑된다.
+
+### Using dynamic buffers
+
+GPU 가 buffer 를 사용하는 동안 static vertex buffer에 Map 을 호출한 경우 중요한 수행적 패널티가 발생할 수 있다. 이러한 경우, Map 은 응용프로그램에 반환값을 넘기기 전에 GPU 가 vertex 혹은 index data 를 다 읽을 때까지 기다려야 하기에 딜레이가 발생한다. Map을 호출한 다음 프레임당 여러번 static buffer 에서 렌더링 하는 것은 map pointer 를 반환하기 전에 command 를 끝내야 하기 때문에 렌더링 command 를 버퍼링 하지 못한다. 버퍼링된 command 없으면 GPU 는 응용프로그램이 정점 버퍼 또는 인덱스 버퍼를 채우고 렌더링 명령을 실행할 때까지 idle 상태를 유지한다. 
+
 
 # Reference
 
