@@ -53,12 +53,21 @@ buffer resource 는 요소(element)로 그룹화 된 fully typed data의 collect
 
 각 요소는 데이터의 형식이 저장되는 것에 따라 결정되는 1에서 4 가지 구성요소 상수를 저장한다.
 
-상수 버퍼는 장면의 물체마다 달라지는 상수 데이터를 담기 위한 저장 공간이다. 이 크기는 최소 하드웨어 할당 크기인 256 byte 의 배유여야 한다. vertex buffer 나 index buffer 는 cpu 가 프레임당 한번 갱신하는 것이 일반적이다. (예를 들어 카메라가 매 프레임 이동한다면, 프레임마다 상수 버퍼를 새로운 view matrix 로 갱신해야 한다.)
+상수 버퍼는 정점 및 픽셀 쉐이더 에서 사용될 상수를 모아 놓은 버퍼이다. 
+
+상수 버퍼 사용 과정 : cpp 코드 영역에 상부 버퍼 타입의 구조체 정의 -> 세이더에 동일한 포맷으로 상수 버퍼 구조체를 정의 -> 시스템 메모리에서 구조체 변수 생성 및 값 설정 -> 정점 혹은 픽셀 쉐이더에 set 한다.
+
+값 설정 및 set 은 보통 매 프레임 실행 되는 Render() 함수에 적용한다. 그러면 이 Set 시킨 데이터를 설정한 쉐이더에서 사용할 수 있다.
+
+상수 버퍼 사용 이유 : 쉐이더에서 매번 사용되는 상수(여기에서 상수는 하나의 프레임 별로 scene 의 물체가 달라지는 정도말한다) 를 cpp 파일에서 전달해 주어야 한다고 가정할 때, 개별적으로 값을 전달해주는 것은 bandwidth(대역폭)크고 부담이 많다. 따라서 하나의 구조체로 묶어 보내기 위해 constant buffer 개념을 사용한다.
+하지만 하나의 상수 버퍼 구조체에 모든 데이터를 넣는 것이 아니라 업데이트 주기에 따라 상수 버퍼를 구성하는 것이 좋다. 예를 들어, 절대 변경되지 않는 고정 데이터, 특정 조건에 따라 변하는 데이터, 매 프레임마다 변하는 데이터와 같은 방식으로 나누는 것이 효율적이다.  ^1bccd9
 
 
 constant buffer 의 생성시 다음의 주의사항 2가지가 존재한다.
-1. default heap 이 아닌 upload heap 에 생성해야 한다.(그래야 cpu 가 버퍼의 내용을 갱신할 수 있다. default heap은 cpu 가 생성 물가.) 
-2. 크기는 256 byte의 배수여야 한다.
+1. default heap 이 아닌 upload heap 에 생성해야 한다.(그래야 cpu 가 버퍼의 내용을 갱신할 수 있다. default heap은 cpu 가 생성 불가.) 
+->https://learn.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type
+(D3D12 에서는 heap type 을 정할 수 가 있는데 D3D11 에서는 constant buffer 를 생성할 때 기본으로 upload heap 에 생성이 되는 건가.)
+3. 크기는 256 byte의 배수여야 한다.
 
 장면의 물체의 특성을 저장하는 특성상, 같은 종류의 상수 버퍼를 여러개 사용해야 하는 경우가 생기는데 장면의 물체가 n 개이면 이 종류의 상수 버퍼가 n 개 필요하다. 
 shader-contant 버퍼를 생성하려면 ID3D11Device::CreateBuffer 를 호출하고, D3D11_BIND_FLAG 열거형의 맴버인 D3D11_BIND_CONSTANT_BUFFER 를 지정한다.
@@ -68,7 +77,8 @@ ID3D11DeviceContext::GSSetConstantBuffers
 ID3D11DeviceContext::PSSetConstantBuffers
 ID3D11DeviceContext::VSSetConstantBuffers
 
-shader 로부터 shader-constant buffer 를 읽기 위해서 HLSL load funtion을 사용한다. 각 shader stages는 15개의 shader-constant buffer 까지 허용한다. 각 buffer 는 4096까지의 상수(constant)를 hold 한다.
+shader 로부터 shader-constant buffer 를 읽기 위해서 HLSL load funtion을 사용한다. 각 shader stages는 15개의 shader-constant buffer 까지 허용한다. 상수 버퍼는 업데이트 및 전송이 빈번하기 때문에 처리하기에 효율적인 메모리 정렬이 되어 있어야 한다. 따라서 상수 버퍼를 구성하는 구조체는 16 바이트 정렬이 되어 있어야 한다 따라서 전체 크기는 16배수가 되며, 최대 4096x16 바이트 가질 수 있다.
+(하나의 구조체를 정의할 때는 12 바이트를 정의한다고 나머지 4바이트가 자동 패딩 된다고 생각하지말고 애초에 16바이트로 정의할 것 https://woo-dev.tistory.com/271)
 
 ### 상수 버퍼의 갱신 (update)
 

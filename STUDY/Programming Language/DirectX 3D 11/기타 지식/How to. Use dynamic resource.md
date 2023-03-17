@@ -85,7 +85,14 @@ void TriangleRenderer::MapDoubleVertices()
     m_d3dContext->Unmap(vertexBuffer2.Get(), 0);
 }
 ```
-
+-> Map() 함수는 메모리를 잠그는 함수이다. 여기서 잠그다는 뜻은 다른 프로세스가 해당 메모리에 접근을 하지 못하게 막는 것을 의미한다. 현재의 운영체제는 멀티프로세스로 작동하기 때문에 같은 메모리 영역의 내용을 여러개의 프로세스 들이 동시에 사용하게 된다. 따라서 단순히 정보를 읽어가기 위한 동시 접근은 일반적으로 문제가 없으나 특정 프로세스가 기록을 하는 행위를 하게 되면 기록이 끝날 때까지 데이터가 계속해서 변경이 되고 있는 상태기 때문에 기록이 끝나지 않은 메모리 부터 데이터를 읽어가는 것과 같은 불안정한 데이터를 가져가는 결과가 된다. 따라서 메머리 데이터를 변경하기 전에 잠가서(lock 를 해서) 타 프로세스의 접근을 제한하고 write 작업이 다 끝나고 나면 잠갔던 것을 해제 (unlock)하게 된다. 따라서 Map() 함수 호출 뒤에는 반드시 Unmap( ) 으로 잠금 상태를 해제해 주어야 한다.
+DirectX 에서는 GPU 메모리에 대한 lock, unlock 을 Map(), Unmap() 으로 구현한다.
+따라서 과정은 다름과 같다. ^909bc3
+```
+잠근다 Map()
+메모리 작업 (쓰기, 변경, 지우기 등) memcpy 등
+잠금을 해제한다. Unmap()
+```
 # Remarks
 
 ### Using dynamic textures
@@ -96,7 +103,17 @@ void TriangleRenderer::MapDoubleVertices()
 
 GPU 가 buffer 를 사용하는 동안 static vertex buffer에 Map 을 호출한 경우 중요한 수행적 패널티가 발생할 수 있다. 이러한 경우, Map 은 응용프로그램에 반환값을 넘기기 전에 GPU 가 vertex 혹은 index data 를 다 읽을 때까지 기다려야 하기에 딜레이가 발생한다. Map을 호출한 다음 프레임당 여러번 static buffer 에서 렌더링 하는 것은 map pointer 를 반환하기 전에 command 를 끝내야 하기 때문에 렌더링 command 를 버퍼링 하지 못한다. 버퍼링된 command 없으면 GPU 는 응용프로그램이 정점 버퍼 또는 인덱스 버퍼를 채우고 렌더링 명령을 실행할 때까지 idle 상태를 유지한다. 
 
+vertex 또는  index data가 변하지 않는것이 이상적이지만 언제나 그렇지는 않다. 응용프로그램이 매 프레임 마다. vertex 또는 index data 의 변경을 필요로 하는 상황은 많다. 이러한 상황에서, vertex 또는 index buffer 를 D3D11_USAGE_DYNAMIC 으로 생성하는 것이 추천된다. 이 usage flag 로 인해 runtime 은 잦은 mapping 작업에 맞게 최적화 된다. D3D_USAGE_DYNAMIC 은 오직 buffer 가 자주 mapping 될 때 유용하다. data 를 변함없이 유지하고 싶다면 해당 데이터를 static vertex Ehsms index buffer 에 배치한다.
 
+dynamic vertex buffer 를 사용할 때 수행 향상을 위해서 응용프로그램은 적절한 D3D11_MAP 값으로 Map 을 호출해야 한다.
+D3D11_MAP_WRITE_DISCARD 는 응용프로그램이 buffer 에 오래된 vertex 또는 index data 를 유지할 필요가 없다는 것을 나타낸다. 이는 GPU 가 응용프로그램이 새로운 버퍼에 데이터를 배치하는 동안 오래된 데이터를 계속 사용하는 것을 허락한다는 것을 나타낸다. 추가적인 메모리 관리가 요구되지 않는다. 오랜된 buffer 는 재사용 되거나 GPU의 사용이 끝나면 자동적으로 파괴된다. 
+
+- note
+	buffer를 D3D11_MAP_WRITE_DISCARD 로 매핑하면 , 런타임은 언제나 모든 buffer 를 discard 한다. nonzero offset 또는 제한된 크기의 field 를 특정하는 것으로 buffer 의 매핑되지 않은 영역에 정보를 보존할 수는 없다.
+
+There are cases where the amount of data the app needs to store per map is small, such as adding four vertices to render a sprite. [**D3D11_MAP_WRITE_NO_OVERWRITE**](https://learn.microsoft.com/en-us/windows/desktop/api/D3D11/ne-d3d11-d3d11_map) indicates that the app will not overwrite data already in use in the dynamic buffer. The [**Map**](https://learn.microsoft.com/en-us/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-map) call will return a pointer to the old data, which will allow the app to add new data in unused regions of the vertex or index buffer. The app must not modify vertices or indices that are used in a draw operation as they might still be in use by the GPU. We recommend that the app then use [**D3D11_MAP_WRITE_DISCARD**](https://learn.microsoft.com/en-us/windows/desktop/api/D3D11/ne-d3d11-d3d11_map) after the dynamic buffer is full to receive a new region of memory, which discards the old vertex or index data after the GPU is finished.
+
+The asynchronous query mechanism is useful to determine if vertices are still in use by the GPU. Issue a query of type [**D3D11_QUERY_EVENT**](https://learn.microsoft.com/en-us/windows/desktop/api/D3D11/ne-d3d11-d3d11_query) after the last draw call that uses the vertices. The vertices are no longer in use when [**ID3D11DeviceContext::GetData**](https://learn.microsoft.com/en-us/windows/desktop/api/D3D11/nf-d3d11-id3d11devicecontext-getdata) returns S_OK. When you map a buffer with [**D3D11_MAP_WRITE_DISCARD**](https://learn.microsoft.com/en-us/windows/desktop/api/D3D11/ne-d3d11-d3d11_map) or no map values, you are always guaranteed that the vertices are synchronized properly with the GPU. But, when you map without map values, you will incur the performance penalty described earlier.
 # Reference
 
 https://learn.microsoft.com/en-us/windows/win32/direct3d11/how-to--use-dynamic-resources

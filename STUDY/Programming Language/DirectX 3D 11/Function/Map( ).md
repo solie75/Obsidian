@@ -24,6 +24,7 @@ subresource의 인덱스 주소
 
 3. MapType
 resource 에 대한 CPU의 읽고 쓰기의 권한을 특정하는 D3D11_MAP 유형의 값
+[[D3D11_Map enumeration]]
 
 4. MapFlags
 GPU가 바쁠때 CPU 는 무엇을 할지 특정하는 flag. optional 이다.
@@ -38,7 +39,8 @@ type : HRESULT
 해당 메서드는 MapFlags 매개변수가 D3D11_FLAG_DO_NOT_WAIT 으로 특정되고  GPU 가 resource 를 끝마치지 않았다면 DXGI_ERROR_WAS_STILL_DRAWING 을 반환한다.
 
 해당 메서드는 또한 MapType 매개변수가 CPU 가 읽기 접근하는 것을 허용하고 video card 는 제거 되었을 때 DXGI_ERROR_DEVICE_REMOVED 를 반환한다.
-## Remarks
+
+# Remarks
 
 deferred context 에서 Map 을 호출한 경우, MapType 매개변수에 [D3D11_MAP_WRITE_DISCARD](https://learn.microsoft.com/en-us/windows/desktop/api/d3d11/ne-d3d11-d3d11_map), [D3D11_MAP_WRITE_NO_OVERWRITE](https://learn.microsoft.com/en-us/windows/desktop/api/d3d11/ne-d3d11-d3d11_map)나 혹은 둘다를 전달할 수 있다. 다른 D3D11_MAP_TYPED value 는 deferred context 를 지원하지 않는다.
 
