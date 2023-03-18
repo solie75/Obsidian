@@ -90,3 +90,8 @@ identity matrix : In linear algebra, the identity matrix of size n is the nxn sq
 alignment : 그래픽 요소가 정렬하느 가상의 선의 방향에 대해 기술하는 것
 
 aspect ratio : 영상의 가로 세로의 비
+
+swizzling : in computer graphics, swizzling is the ability to compose vectors by arbitrarily rearranging and combining components of other vectors. 
+- HLSL 의 swizzling 은 HLSL 코드를 간결하게 만드는데 큰 역할을 하는 독특한 표기법으로, 벡터 배정문에서 성분들의 순서를 임의로 지정할 수 있게 하는 것이다. 
+
+Assignment statement : Assignment(배정) 연산은 변수의 내용을 변경하는 윈시적인 연산이다.
