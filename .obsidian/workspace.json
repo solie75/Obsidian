@@ -30,6 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e40a7359ef987c4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/공부 메모/memcpy() 함수.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CPUAccessFlags",
+                "query": "memcpy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,10 +181,12 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "b66ef33b352dfbf0",
+  "active": "040d4039b80fd138",
   "lastOpenFiles": [
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
+    "STUDY/공부 메모/memcpy() 함수.md",
     "12.05 ~.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
     "2023-03-18.md",
     "무제 파일.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/3. 무제.md",
@@ -197,7 +211,6 @@
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_MAPPED_SUBRESOURCE.md",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_Map enumeration.md",
     "STUDY/Programming Language/DirectX 3D 11/Function/Unmap( ).md",
-    "STUDY/공부 메모/memcpy() 함수.md",
     "STUDY/Programming Language/DirectX 3D 11/Function/Map( ).md",
     "Daily/2023/03/3주차",
     "Daily/2023/03/3주차/2023-03-14.md",
@@ -207,7 +220,6 @@
     "STUDY/Programming Language/DirectX 3D 11/Function/ClearDepthStencilView( ).md",
     "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/DeltaTime.md",
     "STUDY/Programming Language/C++/프로그램 실행 시간 측정.md",
-    "STUDY/Programming Language/Win32 AK Project/02. CEngine, CObject 생성.md",
     "Daily/2023/03/1주차",
     "Daily/2023/03",
     "STUDY/사이버대학/응급처치",
