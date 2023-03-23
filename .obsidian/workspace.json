@@ -4,52 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a9822890bb099987",
+        "id": "cb1226ccb879e886",
         "type": "tabs",
         "children": [
           {
-            "id": "2672bbb9fee2fa19",
+            "id": "1065fa470250c434",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/HLSL/Shader Constants.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b03aae51d9d26bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-03-19.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d062d2e3a32bd62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/사이버대학/암호와 네트워크 보안/01. 개요.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e28cc14afee81cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/English/Word/Computer_Science_Word.md",
+                "file": "12.05 ~.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shader constant",
-                "matchingCase": false,
+                "query": "pipeline",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -105,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291
+    "width": 271
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -121,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/HLSL/Shader Constants.md",
+                "file": "12.05 ~.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/HLSL/Shader Constants.md",
+                "file": "12.05 ~.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/HLSL/Shader Constants.md"
+                "file": "12.05 ~.md"
               }
             }
           },
@@ -192,51 +156,53 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "2672bbb9fee2fa19",
+  "active": "1065fa470250c434",
   "lastOpenFiles": [
-    "STUDY/사이버대학/암호와 네트워크 보안/01. 개요.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/1. Project structure setting.md",
+    "12.05 ~.md",
+    "Daily/2023/03/4주차/2023-03-23.md",
+    "STUDY/AK/메모/10-06 Clone.md",
+    "STUDY/Programming Language/Win32 AK Project/22. Clone.md",
+    "STUDY/Programming Language/DirectX 3D 11/HLSL/register, packoffset.md",
+    "STUDY/Programming Language/DirectX 3D 11/HLSL/Common-Shader Core.md",
+    "RESOURCE/Image/Pasted image 20230319191735.png",
+    "Daily/2023/03/4주차/2023-03-22.md",
+    "Daily/2023/03/4주차/2023-03-19.md",
+    "Daily/2023/03/4주차",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
+    "STUDY/English/Word/Computer_Science_Term.md",
     "STUDY/English/Word/Computer_Science_Word.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Shader Constants.md",
-    "2023-03-19.md",
-    "Pasted image 20230319052308.png",
-    "Pasted image 20230319052123.png",
-    "Pasted image 20230319052004.png",
-    "Pasted image 20230319051911.png",
-    "Pasted image 20230319051833.png",
-    "Pasted image 20230319051441.png",
-    "Pasted image 20230319051431.png",
+    "STUDY/Programming Language/DirectX 3D 11/HLSL/HLSL.md",
+    "STUDY/Programming Language/DirectX 3D 11/HLSL/Swizzling.md",
+    "무제 파일.md",
+    "정리할 것들.md",
+    "STUDY/사이버대학/인공지능/02.텐서플로우.md",
+    "STUDY/사이버대학/인공지능/01. 인공지능 개론.md",
+    "STUDY/사이버대학/모바일 컴퓨팅/01. 개요.md",
+    "STUDY/사이버대학/모바일 컴퓨팅",
+    "STUDY/사이버대학/응급처치/정리.md",
+    "STUDY/사이버대학/암호와 네트워크 보안/01. 개요.md",
+    "RESOURCE/Image/Pasted image 20230319052308.png",
+    "RESOURCE/Image/Pasted image 20230319052123.png",
+    "RESOURCE/Image/Pasted image 20230319052004.png",
+    "RESOURCE/Image/Pasted image 20230319051911.png",
+    "RESOURCE/Image/Pasted image 20230319051833.png",
+    "RESOURCE/Image/Pasted image 20230319051441.png",
+    "RESOURCE/Image/Pasted image 20230319051431.png",
     "STUDY/사이버대학/암호와 네트워크 보안",
     "Daily/2023/03/3주차/2023-03-15.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/Swizzling.md",
-    "STUDY/English/Word/Computer_Science_Term.md",
     "STUDY/사이버대학/자료구조/01. 개요.md",
-    "Pasted image 20230319033808.png",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/HLSL.md",
+    "RESOURCE/Image/Pasted image 20230319033808.png",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
     "STUDY/공부 메모/memcpy() 함수.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/Common-Shader Core.md",
-    "12.05 ~.md",
-    "Daily/2023/2023 계획.md",
-    "Daily/2023/03/3주차/2023-03-18.md",
     "Daily/2023/03/4주차",
-    "STUDY/사이버대학/인공지능/01. 인공지능 개론.md",
     "STUDY/사이버대학/자료구조",
     "RESOURCE/Image/Pasted image 20230319004523.png",
-    "RESOURCE/Image/Pasted image 20230319004406.png",
     "STUDY/사이버대학/인공지능",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
-    "무제 파일.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/3. 무제.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
-    "정리할 것들.md",
-    "README.md",
-    "LH 정리.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/How to. Use dynamic resource.md",
-    "SH 정리.md",
     "Daily/2023/03/3주차",
     "Daily/2023/03/1주차",
     "Daily/2023/03",
-    "STUDY/사이버대학/응급처치",
-    "STUDY/Math/삼각함수와 복소수"
+    "STUDY/사이버대학/응급처치"
   ]
 }

@@ -95,3 +95,5 @@ swizzling : in computer graphics, swizzling is the ability to compose vectors by
 - HLSL 의 swizzling 은 HLSL 코드를 간결하게 만드는데 큰 역할을 하는 독특한 표기법으로, 벡터 배정문에서 성분들의 순서를 임의로 지정할 수 있게 하는 것이다. 
 
 Assignment statement : Assignment(배정) 연산은 변수의 내용을 변경하는 윈시적인 연산이다.
+
+memory bandwidth : 메모리 대역폭, GPU 의 VRAM 에 한번에 얼마나 많은 양을 넣고(copy to), 뺄 수(copy from) 있는 지를 알려준다. 같은 해당도 에서 시각효과가 많을 수록 더 높은 memory bandwidth 가 필요하다.

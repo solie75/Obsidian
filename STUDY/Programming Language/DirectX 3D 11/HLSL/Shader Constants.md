@@ -33,7 +33,47 @@ constant data 를 수동적으로 압축(pack) 하는데 사용되는 선택적 
 constant buffer 는 개별적으로 각 constant 를 커밋하기 위한 개별적인 호출을 하는 것보다  shader constant가 그룹화 되고 동시에 커밋 되는 것을 허용함으로써 shader constant 가 update(갱신)되는 것을 요구하는 bandwidth(대역폭)를 줄인다.
 
 constant buffer 는 buffer 와 같이 접근되는 특정된 buffer resource 이다.
+각 상수 버퍼는 벡터를 4096개 까지 가질 수 있다. 각 벡터는 네개의 32비트 값 까지를 포함 할 수 있다. 각 pipeline stage 에 14 개 까지의 constant buffer 를 바인딩 할 수 있다. (2개의 추가적인 slot 은 내부용으로 예약 되어있다.)
 
+texture buffer 는 texture 과 같이 엑서스가 되는 특정된 buffer resouce이다. 
+texture 접근 (buffer access 과 비교하여) 은 임의의 인덱싱된 데이터에 대해 더 높은 성능을 낼 수 있다. 128개 가지의 texture buffer 를 각 pipeline 에 바인딩 할 수 있다. 
+
+buffer resource 는 shader constant 의 세팅의 overhead 를 최소화 하도록 디자인 되었다.  constant 와 texture buffer 의 업데이트 를 관리하는데 effect framework  (see [**ID3D10Effect Interface**](https://learn.microsoft.com/en-us/windows/desktop/api/d3d10effect/nn-d3d10effect-id3d10effect))를 사용하거나 Direct3D API (see [Copying and Accessing Resource Data (Direct3D 10)](https://learn.microsoft.com/en-us/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-mapping) 를 사용할 수 있다. 응용프로그램은 또한 데이터를 다른 버퍼(render target 또는 stream-output target 과 같은)에서 constant buffer 로 복사 할 수 있다.
+
+For morel info on using constant buffers in a D3D11 application, see [Introduction to Buffers in Direct3D 11](https://learn.microsoft.com/en-us/windows/desktop/direct3d11/overviews-direct3d-11-resources-buffers-intro) and [How to: Create a Constant Buffer](https://learn.microsoft.com/en-us/windows/desktop/direct3d11/overviews-direct3d-11-resources-buffers-constant-how-to).
+
+constant buffer 는 pipeline 에 바인딩 되는 것에 view 를 필요로 하지 않는다. 그러나 texture buffer 는 view 를 요구하고 texture slot 에 바운딩 되어야 한다. (또는 effect 를 사용할 때 [**SetTextureBuffer**](https://learn.microsoft.com/en-us/windows/desktop/api/d3d10effect/nf-d3d10effect-id3d10effectconstantbuffer-settexturebuffer) 를 사용하여 바운딩 되어야 한다. )
+
+constant data 를 pack 하는 데에는 두가지 방법이 있다.
+1. [register (DirectX HLSL)](https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-variable-register)
+2. [packoffset (DirectX HLSL)](https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-variable-packoffset)
+
+# constant buffer 의 구조
+
+constant buffer 는 개별적으로 각 constant 를 커밋하기 위한 개별적인 호출을 하는 것보다  shader constant가 그룹화 되고 동시에 커밋 되는 것을 허용함으로써 shader constant 가 update(갱신)되는 것을 요구하는 bandwidth(대역폭)를 줄인다.
+
+constant buffer를 효율적으로 사용하는 가장 좋은 방법은 shader 변수들을  업데이트 빈도에 따라 constant buffer 를 구성하는 것이다. 이것은 응용프로그램이 shader constant 를 요구하는 bandwidth(대역폭) 를 최소화 하도록 (허용) 한다. 예를 들어 shader 가 두 개의 constant buffer 를 선언하고, 각 업데이트 빈도에 따라 구성할 수 있다. 개체별로 업데이트 되어야 하는 데이터 (예를 들어 world matrix) 는 constant buffer로 그룹화 되며 각 개체에 대해 업데이트 된다. 이것은 장면을 특정 짓는 데이터와 별개이고 따라서 업데이트 빈도가 훨씬 덜해질 가능성이 높다.
+
+```c++
+cbuffer myObject
+{       
+    float4x4 matWorld;
+    float3   vObjectPosition;
+    int      arrayIndex;
+}
+ 
+cbuffer myScene
+{
+    float3   vSunPosition;
+    float4x4 matView;
+}
+```
+
+# 기본 constant buffers
+
+$Global and $Param. 두 가지의 default constant buffer 가 사용가능하다. 전역 범위의 변수는 cbuffer 에 사용되는 것과 동일한 packing method (압축 방법)을 사용하여 암시적으로 $Global cbuffer 에 추가된다. 함수의 매개변수 리스트 내의 균일한 (uniform) 매개변수는 shader rk effect framework 외부에서 컴파일 될 때 $Param constant buffer 에 나타난다. effect framework 안에서 컴파일 될 때 모든 uniform 은 전역으로 정의된 변수 에 resolve 되어야 한다.
+
+전역 범위에 있는 변수는 cbuffer에 사용되는 것과 동일한 압축 방법을 사용하여 암시적으로 $Global cbuffer에 추가됩니다. 함수의 매개변수 목록에 있는 균일 매개변수는 효과 프레임워크 외부에서 셰이더를 컴파일할 때 $Param 상수 버퍼에 나타납니다. 효과 프레임워크 내에서 컴파일될 때 모든 유니폼은 전역 범위에 정의된 변수로 해석되어야 합니다.
 
 register란 무엇인가. starting register 란 무엇인가
 swizzling 이란 무엇인가. (https://chulin28ho.tistory.com/666) -> hlsl 책으로 더 알아보고 hlsl 항목에 정리할 것
@@ -42,17 +82,3 @@ https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-co
 
 
 
-CEntity.h 에서
-
-~CEntity() 가 virtual 로 선언되는 이유
--> 모든 object 들의 소멸자 순서는 생성과 ?반대로 되어야 하기 때문에?
-
- g_iNextID 는 어떤 용도로 쓰는 것이고 왜 static 으로 선언한거지?
-->g_iID 는 모든 CEntity를 상속받은 클래스들에 부여된다. 이때 생성되는 자식 클래스 순서대로 다른 고유의 ID 를 가져야 하며 이를 위한 방법으로 ID 를 0으로 초기화 하고 CEntity 를 상속받는 클래스가 생성될 때마다 그 ID 에 1을 더하는 것이다. 따라서 g_iNextID 는 생성자에서 사용되어 그 전에 생성된 entity 자식 클래스보다 1이 더큰 고유 아이디를 갖게 된다.
-
- m_strName 은 그냥 wstring형 인데 왜 SetName 함수의 인자 _strName 은 const wstring& 형 인가?
-->
-
-virtual CEntity* Clone() = 0; 순수가상함수 선언으로 모든 자식 클래스는 클론 함수를 필수로 가져야 한다. 왜 모든 자식 클래스는 Clone() 함수를 가져야 하는다 이때 CEntity가 아닌 CEntity*인 이유는 무엇인가.
-
--> CEntity의 생성자 중 매개변수로 const CEntity& _other 를 받는 rjtdms 그 _other 로부터 똑같은 m_strName 을 얻고 g_iNextID 는 상관없이 증가되어 생성된다. 이때 _other 는 변형이 없어야 됨으로 const CEntity& 형으로 복사하고자 하는 entity 자식 클래스로 정의된 객체의 주소를 가져온다.
