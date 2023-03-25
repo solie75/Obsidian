@@ -1,3 +1,5 @@
+# Computer Science Term
+
 **Computer program** : A set of instructions that the computer can perform in order to perform some task.
 
 **Programming** : The process of creating a program.
@@ -97,3 +99,41 @@ swizzling : in computer graphics, swizzling is the ability to compose vectors by
 Assignment statement : Assignment(배정) 연산은 변수의 내용을 변경하는 윈시적인 연산이다.
 
 memory bandwidth : 메모리 대역폭, GPU 의 VRAM 에 한번에 얼마나 많은 양을 넣고(copy to), 뺄 수(copy from) 있는 지를 알려준다. 같은 해당도 에서 시각효과가 많을 수록 더 높은 memory bandwidth 가 필요하다.
+
+
+# Math and Physics Terms
+
+Rigid Body ( 강체 )
+	어떤 힘을 받아도 절대로 변형이 일어나지 않는 물체 (물체 내 임의의 두 점(입자)간의 거리가 일정 불변인 경우)
+
+Friction ( 마찰력 )
+	두 물체의 접촉면 사이에서 물체의 운동을 방해하는 힘
+
+Mass ( 질량 )
+	물리학에서 물질이 가지고 있는 고유한 양 (중력과 관계 없는 물질의 기본 속성)
+
+Weight ( 무게 )
+	지구가 지구상의 물체에 가하는 중력의 정도 (중력이 존재해야 한다.)
+
+Velocity ( 속도 )
+	움직이는 물체의 시간 당 위치 변화를 나타내는 물리량. (벡터)
+
+Speed ( 속력 )
+	시간당 물체가 얼마나 이동했는지에 대한 개념.
+	속력 = (위치 변화량 / 시간 차). (스칼라)
+
+Acceleration ( 가속도 )
+	시간에 따라 속도가 변하는 정도를 나타내는 물리량.
+
+Ratio ( 비율 )
+	어떤 수가 다른 한 수의 몇 배 인지를 나타내는 관계.
+
+Diameter ( 지름 )
+
+Radius ( 반지름 )
+
+Ellipse ( 타원 )
+	평면 위의 두 정점에서 거리의 합이 일정한 점들의 집합으로 만들어지는 곡선, 혹은 원의 정사영
+
+Circle ( 원 )
+	평면 위의 한 점에서 이르는 거리가 같은 일정한 평면 위의 점들의 집합

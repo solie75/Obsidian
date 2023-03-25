@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "cb1226ccb879e886",
+        "id": "3cd84930a4dcd901",
         "type": "tabs",
         "children": [
           {
-            "id": "1065fa470250c434",
+            "id": "15611c3bf72220d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "12.05 ~.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48c207f8ab31e0d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "12.05 ~.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af265cdb7077e3fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Function/CreatePixelShader( ).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "memcpy",
+                "query": "Dynamic",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271,
-    "collapsed": true
+    "width": 388
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -182,37 +156,37 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "040d4039b80fd138",
+  "active": "15611c3bf72220d1",
   "lastOpenFiles": [
-    "STUDY/공부 메모/memcpy() 함수.md",
+    "무제 파일.md",
+    "STUDY/English/Word/Term.md",
+    "STUDY/English/Word/Word.md",
+    "정리할 것들.md",
+    "STUDY/Programming Language/C++/Cast.md",
+    "STUDY/Programming Language/DirectX 3D 11/Memo/12-28.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Device & Context.md",
+    "STUDY/Programming Language/DirectX 3D 11/Memo/12-07.md",
+    "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md",
+    "STUDY/Programming Language/DirectX 3D 11/Memo/3강 정리 및 메모.md",
+    "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
+    "STUDY/Programming Language/DirectX 3D 11/Memo/1강 정리 및 메모.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/1. Project structure setting.md",
     "12.05 ~.md",
     "STUDY/Programming Language/DirectX 3D 11/Function/CreatePixelShader( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Directx reference.md",
+    "Win Api Portfolio/계획.md",
+    "STUDY/공부 메모/memcpy() 함수.md",
     "Daily/2022/12/5주차/2022-12-27.md",
     "STUDY/Programming Language/DirectX 3D 11/Function/CreateVertexShader( ).md",
     "알아봐야 할 것.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/1. Project structure setting.md",
     "Daily/2023/03/4주차/2023-03-23.md",
     "STUDY/AK/메모/10-06 Clone.md",
     "STUDY/Programming Language/Win32 AK Project/22. Clone.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/register, packoffset.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Common-Shader Core.md",
     "RESOURCE/Image/Pasted image 20230319191735.png",
-    "Daily/2023/03/4주차/2023-03-22.md",
-    "Daily/2023/03/4주차/2023-03-19.md",
     "Daily/2023/03/4주차",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
-    "STUDY/English/Word/Computer_Science_Term.md",
-    "STUDY/English/Word/Computer_Science_Word.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/Shader Constants.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/HLSL.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/Swizzling.md",
-    "정리할 것들.md",
-    "STUDY/사이버대학/인공지능/02.텐서플로우.md",
-    "STUDY/사이버대학/인공지능/01. 인공지능 개론.md",
-    "STUDY/사이버대학/모바일 컴퓨팅/01. 개요.md",
     "STUDY/사이버대학/모바일 컴퓨팅",
-    "STUDY/사이버대학/응급처치/정리.md",
-    "STUDY/사이버대학/암호와 네트워크 보안/01. 개요.md",
     "RESOURCE/Image/Pasted image 20230319052308.png",
     "RESOURCE/Image/Pasted image 20230319052123.png",
     "RESOURCE/Image/Pasted image 20230319052004.png",
