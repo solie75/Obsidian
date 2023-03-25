@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388
+    "width": 212
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -158,6 +158,8 @@
   },
   "active": "15611c3bf72220d1",
   "lastOpenFiles": [
+    "Pasted image 20230326032855.png",
+    "Pasted image 20230326032849.png",
     "무제 파일.md",
     "STUDY/English/Word/Term.md",
     "STUDY/English/Word/Word.md",
@@ -183,7 +185,6 @@
     "STUDY/AK/메모/10-06 Clone.md",
     "STUDY/Programming Language/Win32 AK Project/22. Clone.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/register, packoffset.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/Common-Shader Core.md",
     "RESOURCE/Image/Pasted image 20230319191735.png",
     "Daily/2023/03/4주차",
     "STUDY/사이버대학/모바일 컴퓨팅",
@@ -198,7 +199,6 @@
     "RESOURCE/Image/Pasted image 20230319033808.png",
     "Daily/2023/03/4주차",
     "STUDY/사이버대학/자료구조",
-    "RESOURCE/Image/Pasted image 20230319004523.png",
     "STUDY/사이버대학/인공지능",
     "Daily/2023/03/3주차",
     "Daily/2023/03/1주차",
