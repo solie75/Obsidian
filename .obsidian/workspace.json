@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RSSetViewports",
+                "query": "RTTI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 208
+    "width": 210
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -159,10 +158,12 @@
   },
   "active": "342329a33ab32166",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/Function/RSSetViewports( ).md",
-    "12.05 ~.md",
-    "SH 정리.md",
     "정리할 것들.md",
+    "12.05 ~.md",
+    "STUDY/Programming Language/C++/Cast.md",
+    "STUDY/Programming Language/C++/Inline 함수.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/RSSetViewports( ).md",
+    "SH 정리.md",
     "README.md",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
     "STUDY/Programming Language/DirectX 3D 11/Function/CreateBuffer( ).md",
@@ -182,7 +183,6 @@
     "무제 파일.md",
     "STUDY/English/Word/Term.md",
     "STUDY/English/Word/Word.md",
-    "STUDY/Programming Language/C++/Cast.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/12-28.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Device & Context.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/12-07.md",
@@ -194,7 +194,6 @@
     "STUDY/Programming Language/DirectX 3D 11/Directx reference.md",
     "Win Api Portfolio/계획.md",
     "STUDY/공부 메모/memcpy() 함수.md",
-    "Daily/2022/12/5주차/2022-12-27.md",
     "RESOURCE/Image/Pasted image 20230319191735.png",
     "Daily/2023/03/4주차",
     "STUDY/사이버대학/모바일 컴퓨팅",
