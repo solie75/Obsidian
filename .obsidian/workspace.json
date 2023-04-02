@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "372a17bb3f26b751",
+        "id": "2c2c441277484621",
         "type": "tabs",
         "children": [
           {
-            "id": "e116138649b551f5",
+            "id": "169790984d4279b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343
+    "width": 287
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -161,15 +161,15 @@
     "type": "floating",
     "children": [
       {
-        "id": "36043df9c813e10c",
+        "id": "6a13babffe1d07a9",
         "type": "window",
         "children": [
           {
-            "id": "8514b36a7eb665fb",
+            "id": "d6f9d37e1a246d8b",
             "type": "tabs",
             "children": [
               {
-                "id": "f51e1a927f3dfd35",
+                "id": "6a89f44aaebfba62",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -184,21 +184,27 @@
           }
         ],
         "direction": "vertical",
-        "x": 1342,
-        "y": 31,
-        "width": 895,
-        "height": 1332,
+        "x": 960,
+        "y": 520,
+        "width": 960,
+        "height": 520,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "f51e1a927f3dfd35",
+  "active": "6a89f44aaebfba62",
   "lastOpenFiles": [
     "Test 코드 모듈화.md",
     "무제 파일.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/4. 출력 대상 정적 배열의 오브젝트화.md",
     "Pasted image 20230402223035.png",
+    "Pasted image 20230329175654.png.md",
+    "Pasted image 20230403031759.png",
+    "Pasted image 20230403031959.png",
+    "Pasted image 20230403043219.png",
+    "Pasted image 20230403052438.png",
+    "Pasted image 20230403052633.png",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/4. 출력 대상 정적 배열의 오브젝트화.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/2. Process for Vertex buffer Rendering (output triangle).md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/1. Project structure setting.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/3. 정점 버퍼의 수정.md",
@@ -218,10 +224,6 @@
     "기록/영화",
     "기록",
     "RESOURCE/Image/Pasted image 20230326032855.png",
-    "RESOURCE/Image/Pasted image 20230327031309.png",
-    "Pasted image 20230326032849.png",
-    "RESOURCE/Image/Pasted image 20230328220218.png",
-    "Pasted image 20230328111546.png",
     "STUDY/English/Word/Term.md",
     "STUDY/English/Word/Word.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/12-28.md",
@@ -230,8 +232,6 @@
     "STUDY/Programming Language/DirectX 3D 11/Memo/4강 정리 및 메모.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/3강 정리 및 메모.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/1강 정리 및 메모.md",
-    "RESOURCE/Image/Pasted image 20230319191735.png",
     "Daily/2023/03/4주차",
     "STUDY/사이버대학/모바일 컴퓨팅",
     "STUDY/사이버대학/암호와 네트워크 보안",
