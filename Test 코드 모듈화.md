@@ -1,66 +1,3 @@
-0. clone 추가 -> define.h
-0. global.h 에 assert.h 추가. 
-2. Component 추가
-	1.  define.h 에 Component_type 추가
-
-3. Test.cpp 의 const buffer 추가
-이때 const buffer 의 desc 에서 usage 를 dynamic 으로, CPUAccessFlags 를 D3D11_CPU_ACCESS_WRITE로 설정하고 기존의 vertex buffer 의 desc 의 usage 를 dynamic 에서 default 로, CPUAccessFlags 를 0으로 변경한다. 
-->
-	D3D11_BUFFER_DESC 에서 usage 가 default 일때 gpu 가 resource 를 일고 사용할 수 있지만 Map 을 통해서 읽거나 쓸 수 없다. 이와 달리 usage 가 dynamic 일 때, GPU 가 resource 를 읽고 사용하는 것은 같지만 Map 을 통해서 자료를 기록할 수 있다.
-->
-	D3D12 에서는 HEAP_TYPE 을 지정해야 하며 constant buffer 의 경우 upload heap 을 지정해야 한다고 나와있다. D3D11 에서 constant buffer를 생성하는 경우 D3D11_BUFFER_DESC 의 맴버인 Usage 를 Dynamic 으로 설정하는데 이때 어떤 heap 부분이 지정되는지는 03-17기준 모름
-->
-	vertex buffer가 아닌 const buffer 의 D3D11_BUFFER_DESC usage 를 dynamic 으로 하는 이유는 const buffer 를 사용하는 것이 매 프레임 별로 업데이트 되는 정점의 위치 등과 같은 데이터 변화에 더욱 효과적으로 메모리 처리가 가능하기 때문이다 [[Buffer#^1bccd9|상수 버퍼 사용 이유]]
-->
-	CPUAccessFlags는 usage와 조합하여 사용자가 CPU를 통해 접근하여 버퍼를 조작할 수 있는데 그 조작하는 역할을 상수 버퍼가 하게 되었으니 그에 맞는 usage 와 CPUAccessFlag 를 각 vertex 버퍼 와 constant 버퍼의 생성에 적용한다.
-->
-	기존의 vertex buffer 에 맞춰져 있던 map, memcpy, unmap 부분을 constant buffer 에 맞춰 g_CB로 바꾸고, map()을 FAILED 안으로 넣어 map 이 제대로 작동했을 때에만 memcpy 와 Unmap 이 호출되도록 한다.
-->
-	TestRender에서 CONTEXT->VSSetConstantBuffers 로 vertex shader pipeline stage 에서 사용될 constant buffer 를 설정한다.
-->
-	CTest.cpp 에서 플레이어 객체의 위치 정보를 선언 
-	Vec4 g_PlayerPos;
-	-> 기존의 TestTick() 에서 방향키의 로 조작하는 대상이 단순 정점 배열이었던것을 g_PlayerPos 로 변경
-	-> memcpy 함수의 복사할 대상이 되는 매개변수를 g_PlayerPos의 주소로 하고 사이즈 또한 그에 맞춘다.
-
-4. Engine Library / Source 폴더에 Entity 클래스 추가
-
-5. Engine/source 폴더에 07.Resource 폴더, 05.GameObject 폴더, 06.Component 폴더를 추가한다.
-
-6. CTest.cpp에 GameObject 추가
-	1. 06.Component 폴더에 CComponent 클래스 추가
-		1. component 가 속하게 될 object 를 나타내는 변수 m_pOwner와 component type 을 나타내는 변수 m_Type 을 맴버로 둔다.
-		2. ComponentFinaltick() 과 Clone 을 순수가상함수로 둔다. (<span style="color:green ">이건 왜 필요 한거지..?</span>)
-		3. 생성자는 Component type 을 인자로 받아 component 가 생성됨가 동시에 m_Type 에 저장한다. 
-	2. 05.GameObject 폴더에 CGameObject 클래스 추가
-		1. Component 종류의 총 개수를 크기로 하는 배열 (m_arrCom) 을 맴버로 갖는다.
-		2. AddComponent(CComponent* _Component) 함수로 호출 시점에 보유하고 있지 않는 컴포넌트를 추가하여 배열에 저장한다. 이때 추가 되는 component 에 소유자가 누구인지 알려주어야 하므로 CComponent 클래스 에서 CGameObject 를 friend class 선언하여 CGameObject::AddComponent 에서 CComponent class 의 맴버 변수에 접근 가능하게 한다.
-		3. 소멸자에서는 m_arrCom 을 삭제하여 이에 대한 코드는 00.Header 폴더에 func.h 를 추가하여 해당 파일에 템플릿으로 구현한다. -> func.h 는 global.h 에 include 한다.
-	3.  object 생성
-		1. CTest.cpp 에 CGameObject 를 include 하고 CGameObject 형 변수g_Obj를 생성한다.
-		2. TestInit() 함수 내에서 g_Obj에 new CGameObject 로 메모리를 할당한다.
-		3. TestRelease() 함수에서 생성한 object 를 삭제한다.
-
-7. CResource class 생성
-	1. CResouce class
-		1. resource type 에 대한 변수 (m_Type)와 reference count 에 대한 변수(m_iRefCount : <span style="color:green ">어디에 쓰이는지 아직 모름</span>)를 맴버로 같는다.
-		2. 생성자에서 resource type 을 인자로 받아서 바로 m_Type 에 저장한다.
-
-8. 06.Component 폴더에 1. Transform 폴더 생성 후 CTransform class 생성
-	3. CTransform.h 에서 위치, 스케일, 로테이션 에 대한 변수를 Vec3 형으로 선언한다. (각, m_VRelative, m_vRelativeScale, m_vRelativeRot)
-	4. ComponentFinaltick() 을 override 한다.
-	5. CTransform.cpp 의 생성자에서 부모 클라스인 CComponent 생성자에 대해 COMPONENT_TYPE::TRANSFORM 을 인자로 준다.
-
-9. 06.Component 폴더에 renderComponent 폴더를 생성 -> 해당 폴더 안에 1. MeshRender 폴더 생성 -> 해당 폴더 안에 CMeshRender 클래스 생성
-	1. CMeshRender.h 에서 ComponentFinaltick() 을 override 한다.
-	2. CMeshRende 의 생성자에서 부모 클라스인 CComponent 생성자 에 대해 COMPONENT_TYPE::MESHRENDER 를 인자로 준다.
-
-10. CTest.cpp 의 g_Obj 에 컴포넌트 추가 
-	1. CTransform 과 CMeshRender 를 include한다.
-	2. TestInit() 에서 'g_Obj -> AddComponent(new ~); ' 로 CTransform 과 CMeshRender 를 g_Obj 에 추가한다.
-
-# Test 코드 모듈화
-
 지금까지의 CTest.cpp 의 내용을 각자 모듈화 시키고 그것을 활용하여 Client  프로젝트에서 구현한다.
 
 - 버퍼 생성 부터 실제 출력까지의 코드를 모듈화
@@ -77,7 +14,6 @@
 
 4. 4. Shader 폴더에 GraphicsShader 폴더 추가 ->해당 폴더에 CGraphicsShader class 생성
 	1. rendering pipeline 의 각 stage 에 대한 shader 인터페이스 변수, 컴파일된 shader 를 담을 blob 형 변수, inputlayout에 대한 변수, topology 에 대한 변수 들을 맴버로 갖는다.
-	 ![[Pasted image 20230326032855.png]]
 	2. 기존의 CTest.cpp 의 TestInit () 에서 생성하던 생성하는 함수 생성
 		1. 생성하려는 shader 의 기본 코드가 작성되어 있는 .fx 파일의 이름과 경로를 인자로 받는다.
 		2. shader 파일의 경로를 지역변수 선언하여 저장한다.
