@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "cafde2b3e7515e7f",
+            "id": "305afeeaa1745903",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Visual Studio/Unity Build.md",
+                "file": "08. CTexture 추가와 DirectTex.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,10 +61,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "RTTI",
+                "query": "assert",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376
+    "width": 278
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Visual Studio/Unity Build.md",
+                "file": "08. CTexture 추가와 DirectTex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Visual Studio/Unity Build.md",
+                "file": "08. CTexture 추가와 DirectTex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Visual Studio/Unity Build.md"
+                "file": "08. CTexture 추가와 DirectTex.md"
               }
             }
           },
@@ -160,20 +160,23 @@
   "left-ribbon": {
     "hiddenItems": {
       "canvas:새 캔버스 만들기": false,
-      "templater-obsidian:Templater": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "workspaces:작업 공간 레이아웃 관리": false
+      "workspaces:작업 공간 레이아웃 관리": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "cafde2b3e7515e7f",
+  "active": "305afeeaa1745903",
   "lastOpenFiles": [
+    "08. CTexture 추가와 DirectTex.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Hint Files.md",
-    "2023-04-06.md",
-    "07. Object - Layout - Level 구조.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/07. Object - Layout - Level 구조.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/06. Singleton 구조 변경 및 Ptr 포함 적용.md",
+    "STUDY/Programming Language/C++/assert ( ).md",
+    "Daily/2023/04/2주차/2023-04-06.md",
     "STUDY/Visual Studio/Unity Build.md",
     "STUDY/Computer Science/CG 개념/Grid Computing.md",
     "Daily/2023/04/2주차/2023-04-04.md",
@@ -189,7 +192,6 @@
     "STUDY/Visual Studio",
     "STUDY/Programming Language/Algorithm/Heuristic.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/06. Singleton 구조 변경 및 Ptr 포함 적용.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/04. 출력 대상 정적 배열의 오브젝트화.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/01. Project structure setting.md",
@@ -209,10 +211,8 @@
     "Pasted image 20230329175654.png.md",
     "Pasted image 20230403031759.png",
     "Pasted image 20230403052438.png",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/02. Process for Vertex buffer Rendering (output triangle).md",
     "Pasted image 20230329175645.png",
     "Pasted image 20230329175642.png",
-    "STUDY/Programming Language/C++/Cast.md",
     "기록/영화",
     "기록",
     "Daily/2023/03/4주차",
