@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a3f45fb3b237d13b",
+        "id": "cfd0df2536e128ee",
         "type": "tabs",
         "children": [
           {
-            "id": "d8c644d62876be8b",
+            "id": "833676ff27ddb068",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Hint Files.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "305afeeaa1745903",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "08. CTexture 추가와 DirectTex.md",
+                "file": "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "assert",
+                "query": "invok",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08. CTexture 추가와 DirectTex.md",
+                "file": "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08. CTexture 추가와 DirectTex.md",
+                "file": "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08. CTexture 추가와 DirectTex.md"
+                "file": "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md"
               }
             }
           },
@@ -169,10 +156,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "305afeeaa1745903",
+  "active": "833676ff27ddb068",
   "lastOpenFiles": [
+    "2023-04-08.md",
     "08. CTexture 추가와 DirectTex.md",
+    "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Hint Files.md",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11Texture2D.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/07. Object - Layout - Level 구조.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/06. Singleton 구조 변경 및 Ptr 포함 적용.md",
     "STUDY/Programming Language/C++/assert ( ).md",
@@ -199,7 +189,6 @@
     "알아봐야 할 것.md",
     "README.md",
     "LH 정리.md",
-    "SH 정리.md",
     "RESOURCE/Image/Pasted image 20230403052633.png",
     "Daily/2023/04/2주차",
     "Daily/2023/04/1주차",
@@ -207,8 +196,6 @@
     "RESOURCE/Image/Pasted image 20230403043219.png",
     "RESOURCE/Image/Pasted image 20230403031959.png",
     "RESOURCE/Image/Pasted image 20230402223035.png",
-    "Test 코드 모듈화.md",
-    "Pasted image 20230329175654.png.md",
     "Pasted image 20230403031759.png",
     "Pasted image 20230403052438.png",
     "Pasted image 20230329175645.png",
