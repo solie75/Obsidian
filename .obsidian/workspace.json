@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "833676ff27ddb068",
+            "id": "ea679754ddc65356",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CreateShaderResourceView",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278
+    "width": 304
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -156,14 +156,24 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "833676ff27ddb068",
+  "active": "ea679754ddc65356",
   "lastOpenFiles": [
-    "2023-04-09.md",
-    "2023-04-08.md",
-    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11Texture2D.md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/CreateShaderResourceView( ).md",
-    "STUDY/English/Sentence.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/07. Object - Layout - Level 구조.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/06. Singleton 구조 변경 및 Ptr 포함 적용.md",
     "08. CTexture 추가와 DirectTex.md",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11DeviceContext.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/04. 출력 대상 정적 배열의 오브젝트화.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/PSSetShaderResources( ).md",
+    "STUDY/English/Word/Word.md",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11DeviceChild.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateShaderResourceView( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/무제 파일.md",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11Texture2D.md",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11ShaderResourceView.md",
+    "2023-04-09.md",
+    "Daily/2023/04/2주차/2023-04-08.md",
+    "STUDY/English/Sentence.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/a. Input Assembler Stage.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/b. Getting started with the Input Assembler stage.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/c. Primitive Topology.md",
@@ -175,17 +185,7 @@
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md",
     "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
-    "STUDY/Computer Science/CS 주요 개념/Bitmap.md",
     "Pasted image 20230409174859.png",
-    "STUDY/Computer Science/CG 개념/Graphics Format.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Hint Files.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/07. Object - Layout - Level 구조.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/06. Singleton 구조 변경 및 Ptr 포함 적용.md",
-    "STUDY/Programming Language/C++/assert ( ).md",
-    "Daily/2023/04/2주차/2023-04-06.md",
-    "STUDY/Visual Studio/Unity Build.md",
-    "STUDY/Computer Science/CG 개념/Grid Computing.md",
-    "Daily/2023/04/2주차/2023-04-04.md",
     "Daily/2023/04/2주차",
     "Daily/2023/04",
     "RESOURCE/Image/Pasted image 20230406215725.png",

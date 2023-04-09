@@ -5,3 +5,7 @@
 ## Inheritance
 
 ID3D11DeviceContext 인터페이스 는 ID3D11DeviceChild 를 상속 받았다. 
+
+# Method
+
+- [[PSSetShaderResources( )]]

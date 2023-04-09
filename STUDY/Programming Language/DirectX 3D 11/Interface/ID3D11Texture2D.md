@@ -6,6 +6,21 @@ ID3D11Texture2D interface
 
  ID3D11Texture2D 인터페이스는 ID3D11Resource 를 상속받는다.
 
+# Method
+
+- ID3D11Texture2D::GetDesc ^e22223
+
+texture resource 의 특징을 가져와 인자로 받은 변수에 저장한다.
+
+- Syntax
+```c++
+void GetDesc(
+  [out] D3D11_TEXTURE2D_DESC *pDesc
+);
+```
+pDesc : resource description 을 가리키는 포인터.
+
+
 ## Remarks
 
 하나의 빈 Texture2D recource 를 생성하기 위해서  ID3D11Device::CreateTexture2D를 호출해야 한다. 
