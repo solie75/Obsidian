@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
+                "file": "08. CTexture 추가와 DirectTex.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "invok",
+                "query": "CreateShaderResourceView",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
+                "file": "08. CTexture 추가와 DirectTex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
+                "file": "08. CTexture 추가와 DirectTex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md"
+                "file": "08. CTexture 추가와 DirectTex.md"
               }
             }
           },
@@ -158,11 +158,27 @@
   },
   "active": "833676ff27ddb068",
   "lastOpenFiles": [
+    "2023-04-09.md",
     "2023-04-08.md",
-    "08. CTexture 추가와 DirectTex.md",
-    "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Hint Files.md",
     "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11Texture2D.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateShaderResourceView( ).md",
+    "STUDY/English/Sentence.md",
+    "08. CTexture 추가와 DirectTex.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/a. Input Assembler Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/b. Getting started with the Input Assembler stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/c. Primitive Topology.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/d. Using the Input-Assembler Stage without Buffers.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/e. Using System-Generated Value.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex/LoadFromDDSFile, LoadFromTGAFile, LoadFromWICFile.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md",
+    "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
+    "STUDY/Computer Science/CS 주요 개념/Bitmap.md",
+    "Pasted image 20230409174859.png",
+    "STUDY/Computer Science/CG 개념/Graphics Format.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Hint Files.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/07. Object - Layout - Level 구조.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/06. Singleton 구조 변경 및 Ptr 포함 적용.md",
     "STUDY/Programming Language/C++/assert ( ).md",
@@ -170,25 +186,11 @@
     "STUDY/Visual Studio/Unity Build.md",
     "STUDY/Computer Science/CG 개념/Grid Computing.md",
     "Daily/2023/04/2주차/2023-04-04.md",
-    "Daily/2023/2023 계획.md",
     "Daily/2023/04/2주차",
     "Daily/2023/04",
     "RESOURCE/Image/Pasted image 20230406215725.png",
-    "STUDY/English/Word/Word.md",
     "RESOURCE/Image/Pasted image 20230406210104.png",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
-    "STUDY/문제/C/정수의 각 자릿수를 역순으로 확인.md",
-    "STUDY/Visual Studio/IntelliSense.md",
     "STUDY/Visual Studio",
-    "STUDY/Programming Language/Algorithm/Heuristic.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/04. 출력 대상 정적 배열의 오브젝트화.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/01. Project structure setting.md",
-    "정리할 것들.md",
-    "알아봐야 할 것.md",
-    "README.md",
-    "LH 정리.md",
     "RESOURCE/Image/Pasted image 20230403052633.png",
     "Daily/2023/04/2주차",
     "Daily/2023/04/1주차",
@@ -199,10 +201,8 @@
     "Pasted image 20230403031759.png",
     "Pasted image 20230403052438.png",
     "Pasted image 20230329175645.png",
-    "Pasted image 20230329175642.png",
     "기록/영화",
     "기록",
-    "Daily/2023/03/4주차",
-    "STUDY/사이버대학/모바일 컴퓨팅"
+    "Daily/2023/03/4주차"
   ]
 }
