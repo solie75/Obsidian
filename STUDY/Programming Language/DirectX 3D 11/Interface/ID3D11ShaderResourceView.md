@@ -18,7 +18,7 @@ pDesc : D3D11_SHADER_RESOURCE_VIEW_DESC 구조체 변수를 가리키는 포인�
 
 # Remark
 
-shader resource view 는 resource 를 shader stage 에 바인딩할 때 사용된다. 바인딩은 다음을 호출하여 실행된다.
+<span style="color: yellow">shader resource view 는 resource 를 shader stage 에 바인딩할 때 사용</span>된다. 바인딩은 다음을 호출하여 실행된다.
 [ID3D11DeviceContext::GSSetShaderResources](https://learn.microsoft.com/en-us/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-gssetshaderresources), [ID3D11DeviceContext::VSSetShaderResources](https://learn.microsoft.com/en-us/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-vssetshaderresources) or [ID3D11DeviceContext::PSSetShaderResources](https://learn.microsoft.com/en-us/windows/desktop/api/d3d11/nf-d3d11-id3d11devicecontext-pssetshaderresources).
 
 
