@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Material",
+                "query": "enum class",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -158,6 +158,9 @@
   },
   "active": "0c725a3b1f8662be",
   "lastOpenFiles": [
+    "STUDY/Programming Language/C++/0x00.md",
+    "09. material 추가.md",
+    "STUDY/Programming Language/C++/enum & enum class.md",
     "2023-04-14.md",
     "STUDY/Physics/빛과 재질의 상호작용.md",
     "STUDY/English/Word/Word.md",
@@ -177,7 +180,6 @@
     "STUDY/English/Word/Term.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/무제 파일.md",
     "Daily/2023/04/3주차/2023-04-11.md",
-    "09. material 추가.md",
     "STUDY/Programming Language/C++/Preprocessor/define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING.md",
     "STUDY/Programming Language/C++/Preprocessor",
     "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
@@ -195,7 +197,6 @@
     "Daily/2023/04/3주차/2023-04-09.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Texture Sampling.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Swizzling.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/Common-Shader Core.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex",
     "Daily/2023/04/2주차",
     "Daily/2023/04",
