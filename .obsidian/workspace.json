@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5831d6bd1bc67f5a",
+        "id": "f806385747d7e9c2",
         "type": "tabs",
         "children": [
           {
-            "id": "273bcfe69645f830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6093e9ca6b23c8b5",
+            "id": "0c725a3b1f8662be",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Script",
+                "query": "Material",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -169,17 +156,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6093e9ca6b23c8b5",
+  "active": "0c725a3b1f8662be",
   "lastOpenFiles": [
+    "2023-04-14.md",
+    "STUDY/Physics/빛과 재질의 상호작용.md",
+    "STUDY/English/Word/Word.md",
+    "RESOURCE/Image/Pasted image 20230414233711.png",
+    "RESOURCE/Image/Pasted image 20230414231855.png",
+    "RESOURCE/Image/Pasted image 20230414121709.png",
+    "RESOURCE/Image/Pasted image 20230414033803.png",
+    "RESOURCE/Image/Pasted image 20230414022525.png",
+    "RESOURCE/Image/Pasted image 20230414013710.png",
+    "RESOURCE/Image/Pasted image 20230414010301.png",
+    "RESOURCE/Image/Pasted image 20230414003503.png",
+    "RESOURCE/Image/Pasted image 20230413193937.png",
+    "RESOURCE/Image/Pasted image 20230413163434.png",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Lights and Materials.md",
+    "README.md",
+    "SH 정리.md",
+    "STUDY/English/Word/Term.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/무제 파일.md",
+    "Daily/2023/04/3주차/2023-04-11.md",
+    "09. material 추가.md",
+    "STUDY/Programming Language/C++/Preprocessor/define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING.md",
+    "STUDY/Programming Language/C++/Preprocessor",
     "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
-    "2023-04-11.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/04. 출력 대상 정적 배열의 오브젝트화.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/02. Process for Vertex buffer Rendering (output triangle).md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/07. Object - Layout - Level 구조.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/06. Singleton 구조 변경 및 Ptr 포함 적용.md",
-    "09. material 추가.md",
     "STUDY/Programming Language/C++/ERROR/비정적 맴버 참조는 특정 객체에 상대적이어야 합니다..md",
     "STUDY/Programming Language/C++/ERROR",
     "알아봐야 할 것.md",
@@ -189,33 +196,12 @@
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Texture Sampling.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Swizzling.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Common-Shader Core.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/HLSL.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Viewport.md",
-    "STUDY/Programming Language/C++/register 예약어.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/register, packoffset.md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/OMSetRenderTargets( ).md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/ClearRenderTargetView( ).md",
-    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11ShaderResourceView.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SUBRESOURCE_DATA.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex",
-    "Pasted image 20230409174859.png",
     "Daily/2023/04/2주차",
     "Daily/2023/04",
-    "RESOURCE/Image/Pasted image 20230406215725.png",
-    "RESOURCE/Image/Pasted image 20230406210104.png",
     "STUDY/Visual Studio",
-    "RESOURCE/Image/Pasted image 20230403052633.png",
     "Daily/2023/04/2주차",
     "Daily/2023/04/1주차",
-    "Daily/2023/04",
-    "RESOURCE/Image/Pasted image 20230403043219.png",
-    "RESOURCE/Image/Pasted image 20230403031959.png",
-    "RESOURCE/Image/Pasted image 20230402223035.png",
-    "Pasted image 20230403031759.png",
-    "Pasted image 20230403052438.png",
-    "Pasted image 20230329175645.png",
-    "기록/영화"
+    "Daily/2023/04"
   ]
 }
