@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0c725a3b1f8662be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/HLSL/Texture Sampling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7e0a26b1f110d597",
             "type": "leaf",
             "state": {
@@ -30,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "43b83417db588f2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "VSSetConstantBuffers",
-                "matchingCase": false,
+                "query": "SamplerState",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -90,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 245
+    "width": 269
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -184,11 +158,21 @@
   },
   "active": "7e0a26b1f110d597",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/Progress/04. 출력 대상 정적 배열의 오브젝트화.md",
-    "09. material 추가.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/Texture Sampling.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
+    "09. material 추가.md",
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
+    "Pasted image 20230417223742.png",
+    "Pasted image 20230417223726.png",
+    "Pasted image 20230417223711.png",
+    "Pasted image 20230417223651.png",
+    "Pasted image 20230417223637.png",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11SamplerState.md",
+    "STUDY/Programming Language/DirectX 3D 11/HLSL/Texture Sampling.md",
+    "STUDY/Programming Language/C++/STD/clamp.md",
+    "STUDY/English/similar word/For 과 About (~에 대해).md",
+    "Template/Font color.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/04. 출력 대상 정적 배열의 오브젝트화.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
     "STUDY/Programming Language/C++/0x00.md",
     "STUDY/Programming Language/C++/enum & enum class.md",
@@ -200,11 +184,6 @@
     "RESOURCE/Image/Pasted image 20230414121709.png",
     "RESOURCE/Image/Pasted image 20230414033803.png",
     "RESOURCE/Image/Pasted image 20230414022525.png",
-    "RESOURCE/Image/Pasted image 20230414013710.png",
-    "RESOURCE/Image/Pasted image 20230414010301.png",
-    "RESOURCE/Image/Pasted image 20230414003503.png",
-    "RESOURCE/Image/Pasted image 20230413193937.png",
-    "RESOURCE/Image/Pasted image 20230413163434.png",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Lights and Materials.md",
     "README.md",
     "SH 정리.md",
@@ -215,14 +194,8 @@
     "STUDY/Programming Language/C++/Preprocessor",
     "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/02. Process for Vertex buffer Rendering (output triangle).md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/07. Object - Layout - Level 구조.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/06. Singleton 구조 변경 및 Ptr 포함 적용.md",
-    "STUDY/Programming Language/C++/ERROR/비정적 맴버 참조는 특정 객체에 상대적이어야 합니다..md",
     "STUDY/Programming Language/C++/ERROR",
-    "알아봐야 할 것.md",
-    "Daily/2023/04/3주차/2023-04-10.md",
     "Daily/2023/04/3주차",
-    "Daily/2023/04/3주차/2023-04-09.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex",
     "Daily/2023/04/2주차",
     "Daily/2023/04",

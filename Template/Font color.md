@@ -1,1 +1,1 @@
-<span style="color: "></span>
+<span style="color: yellow"></span>
