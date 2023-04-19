@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7e0a26b1f110d597",
+            "id": "d5e3e15e61778078",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "09. material 추가.md",
+                "file": "10. World, Projection, View Matrix 적용.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d5e3e15e61778078",
+            "id": "af17ecfa72cee488",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Lights and Materials.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,11 +60,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "material",
+                "query": "XMFLOAT4X4A",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               }
             }
@@ -77,12 +77,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 222
+    "width": 296
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "09. material 추가.md",
+                "file": "10. World, Projection, View Matrix 적용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "09. material 추가.md",
+                "file": "10. World, Projection, View Matrix 적용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "09. material 추가.md"
+                "file": "10. World, Projection, View Matrix 적용.md"
               }
             }
           },
@@ -169,17 +168,63 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7e0a26b1f110d597",
+  "floating": {
+    "id": "d9a730e306183e9a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "2891432b5ad890a1",
+        "type": "window",
+        "children": [
+          {
+            "id": "717d2ad933f4b8d9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7e0a26b1f110d597",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 998,
+        "y": 5,
+        "width": 622,
+        "height": 972,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "d5e3e15e61778078",
   "lastOpenFiles": [
+    "Pasted image 20230419193232.png",
+    "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
+    "10. World, Projection, View Matrix 적용.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
+    "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function/무제 파일.md",
+    "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function",
+    "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath",
+    "STUDY/Programming Language/DirectX 3D 11/Library",
+    "STUDY/English/Word/Term.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Lights and Materials.md",
-    "09. material 추가.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
-    "Pasted image 20230417223742.png",
-    "Pasted image 20230417223726.png",
-    "Pasted image 20230417223711.png",
-    "Pasted image 20230417223651.png",
-    "Pasted image 20230417223637.png",
+    "RESOURCE/Image/Pasted image 20230417223742.png",
+    "RESOURCE/Image/Pasted image 20230417223726.png",
+    "RESOURCE/Image/Pasted image 20230417223711.png",
+    "RESOURCE/Image/Pasted image 20230417223651.png",
+    "RESOURCE/Image/Pasted image 20230417223637.png",
     "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11SamplerState.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Texture Sampling.md",
     "STUDY/Programming Language/C++/STD/clamp.md",
@@ -190,7 +235,7 @@
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
     "STUDY/Programming Language/C++/0x00.md",
     "STUDY/Programming Language/C++/enum & enum class.md",
-    "2023-04-14.md",
+    "Daily/2023/04/3주차/2023-04-14.md",
     "STUDY/Physics/빛과 재질의 상호작용.md",
     "STUDY/English/Word/Word.md",
     "RESOURCE/Image/Pasted image 20230414233711.png",
@@ -200,21 +245,13 @@
     "RESOURCE/Image/Pasted image 20230414022525.png",
     "README.md",
     "SH 정리.md",
-    "STUDY/English/Word/Term.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/무제 파일.md",
-    "Daily/2023/04/3주차/2023-04-11.md",
-    "STUDY/Programming Language/C++/Preprocessor/define _SILENCE_EXPERIMENTAL_FILESYSTEM_DEPRECATION_WARNING.md",
     "STUDY/Programming Language/C++/Preprocessor",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/02. Process for Vertex buffer Rendering (output triangle).md",
     "STUDY/Programming Language/C++/ERROR",
     "Daily/2023/04/3주차",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex",
     "Daily/2023/04/2주차",
     "Daily/2023/04",
-    "STUDY/Visual Studio",
-    "Daily/2023/04/2주차",
-    "Daily/2023/04/1주차",
-    "Daily/2023/04"
+    "STUDY/Visual Studio"
   ]
 }

@@ -1,4 +1,4 @@
-<span style="color: yellow">transform engine</span> 은 고정함수인 geometry pipeline 을 거쳐 다음의 작용을 한다.  transform engine 은 model 과 viewer 를 <span style="color: yellow">world space</span> 에 위치키고, 스크린에 display할 정점을 투영하며, viewport에 정점들을 clip 한다. <span style="color: yellow">transform engine 은 또한 각 정점에 대하여 빛 확산 과 반사 컴포넌트를 결정하는 조명연산을 수행한다.</span>
+<span style="color: yellow">transform engine</span> 은 고정함수인 geometry pipeline 을 거쳐 다음의 작용을 한다.  transform engine 은 model 과 viewer 를 <span style="color: yellow">world space</span> 에 위치시키고, 스크린에 display할 정점을 투영하며, viewport에 정점들을 clip 한다. <span style="color: yellow">transform engine 은 또한 각 정점에 대하여 빛 확산 과 반사 컴포넌트를 결정하는 조명연산을 수행한다.</span>
 
 geometry pipeline 은 입력으로 정점을 취한다(take). transform engine 은 해당 정점에 대해서 world, view projection transform, 결과물에 대한 clip 을 적용시키고 모든 것들을 rasterizer 에 전달한다.
 
@@ -14,8 +14,8 @@ pipeline 의 마지막 부분에서는 화면상에 시각화 되지 않은 정�
 
 # Matrix Transforms
 
-3D 그래픽을 작업하는 응용프로그램에서 사용자는 다음의 과정을 ㅓ따라 geometrical transform를 사용할 수 있다.
-- 다른 오브젝트와의 연관하여 오브젝느의 위치를 표현
+3D 그래픽을 작업하는 응용프로그램에서 사용자는 다음의 과정을 따라 geometrical transform를 사용할 수 있다.
+- 다른 오브젝트와의 연관하여 오브젝트의 위치를 표현
 - 오브젝트의 회전과 크기
 - 시점에 따른 위치, 방향, 원근법
 
@@ -177,7 +177,7 @@ void C3DModel::MakeWorldMatrix(D3DXMATRIX*  pMatWorld)
 
 정점들을  camera space 로 변환 시키면서, viewer 를 world space 에 위치시킨다. camera space 에서 camera 또는 viewer 는 +z 방향을 바라보며 원점에 위치한다.  Direct3D 는 왼손 좌표계를 사용하므로 z 는 scene 안쪽으로 + 이다. view matrix 는 world 의 오브젝트들을 카메라의 위치와 원점 주위로 재배치한다.
 
-view matrix 를 생성하는 방법은 많다. 그 모든 경우에서 camera 는 world space 에서 논리적인 위치와 방향을 가지며, scene의 모델들에게 적용시킬 view matrix 를 생상하는 시작점으로 사용된다. view matrix 는 object 를 카메라 자체가 원점이 되는 camera space 에 위치시키기 위해서 translate 하고 rotate 한다. view matrix 를 생성하는 한가지 방법은 각 축에 대한 translation 및 rotation matrix 를 결합하는 것이다. 이러한 방법으로는 다음의 등식이 적용된다.
+view matrix 를 생성하는 방법은 많다. 그 모든 경우에서 camera 는 world space 에서 논리적인 위치와 방향을 가지며, scene의 모델들에게 적용시킬 view matrix 를 생성하는 시작점으로 사용된다. view matrix 는 object 를 카메라 자체가 원점이 되는 camera space 에 위치시키기 위해서 translate 하고 rotate 한다. view matrix 를 생성하는 한가지 방법은 각 축에 대한 translation 및 rotation matrix 를 결합하는 것이다. 이러한 방법으로는 다음의 등식이 적용된다.
 $$V=T\cdot R_Z\cdot R_y\cdot R_x$$
 위의 공식에서, V 는 view matrix, T 는 translation matrix, 그리고 $R_Z, R_y,R_x$ 는 각각 z, y, x 축에 대한 rotation 행렬이다. translation 및 rotation matrix 는 camera 의 world space 내의 논리적인 위치와 방향을 기준으로 한다. 따라서, camera 의 world 내의 논리적인 위치가 <10,20,100> 인 경우, translation matrix 은 객체를 x 축으로  -10, y  축으로 -20, z 축으로 -100 만큼 이동시킨다. 위 공식에서 rotation matrix 들은 camera space 의 축들이 world space 에 대해 회전한 양으로 환산한 카메라의 방향을 기준으로 한다. 예를 들어 위에서 언급한 camera가 바로 아래를 가리킨다면, 그것의 z 축은 아래의 그림과 같이 world space의 z 축에 대해 $\frac{\pi}{2}\theta$ 회전한다.
 ![[Pasted image 20230306203011.png]]
