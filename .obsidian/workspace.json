@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d5e3e15e61778078",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Lights and Materials.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SamplerState",
+                "query": "material",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +77,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 269
+    "width": 222
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -158,8 +171,9 @@
   },
   "active": "7e0a26b1f110d597",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Lights and Materials.md",
     "09. material 추가.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
     "Pasted image 20230417223742.png",
     "Pasted image 20230417223726.png",
@@ -184,7 +198,6 @@
     "RESOURCE/Image/Pasted image 20230414121709.png",
     "RESOURCE/Image/Pasted image 20230414033803.png",
     "RESOURCE/Image/Pasted image 20230414022525.png",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Lights and Materials.md",
     "README.md",
     "SH 정리.md",
     "STUDY/English/Word/Term.md",
