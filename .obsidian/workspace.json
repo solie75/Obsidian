@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "XMFLOAT4X4A",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -168,49 +169,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "floating": {
-    "id": "d9a730e306183e9a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "2891432b5ad890a1",
-        "type": "window",
-        "children": [
-          {
-            "id": "717d2ad933f4b8d9",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "7e0a26b1f110d597",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 998,
-        "y": 5,
-        "width": 622,
-        "height": 972,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "d5e3e15e61778078",
   "lastOpenFiles": [
-    "Pasted image 20230419193232.png",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
     "10. World, Projection, View Matrix 적용.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
+    "Pasted image 20230419193232.png",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function/무제 파일.md",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath",
@@ -242,7 +207,6 @@
     "RESOURCE/Image/Pasted image 20230414231855.png",
     "RESOURCE/Image/Pasted image 20230414121709.png",
     "RESOURCE/Image/Pasted image 20230414033803.png",
-    "RESOURCE/Image/Pasted image 20230414022525.png",
     "README.md",
     "SH 정리.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/무제 파일.md",
