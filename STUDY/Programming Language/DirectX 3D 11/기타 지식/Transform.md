@@ -177,12 +177,12 @@ void C3DModel::MakeWorldMatrix(D3DXMATRIX*  pMatWorld)
 
 정점들을  camera space 로 변환 시키면서, viewer 를 world space 에 위치시킨다. camera space 에서 camera 또는 viewer 는 +z 방향을 바라보며 원점에 위치한다.  Direct3D 는 왼손 좌표계를 사용하므로 z 는 scene 안쪽으로 + 이다. view matrix 는 world 의 오브젝트들을 카메라의 위치와 원점 주위로 재배치한다.
 
-view matrix 를 생성하는 방법은 많다. 그 모든 경우에서 camera 는 world space 에서 논리적인 위치와 방향을 가지며, scene의 모델들에게 적용시킬 view matrix 를 생성하는 시작점으로 사용된다. view matrix 는 object 를 카메라 자체가 원점이 되는 camera space 에 위치시키기 위해서 translate 하고 rotate 한다. view matrix 를 생성하는 한가지 방법은 각 축에 대한 translation 및 rotation matrix 를 결합하는 것이다. 이러한 방법으로는 다음의 등식이 적용된다.
+view matrix 를 생성하는 방법은 많다. 그 모든 경우에서 <span style="color: yellow">camera 는</span> world space 에서 논리적인 위치와 방향을 가지며, <span style="color: yellow">scene의 모델들에게 적용시킬 view matrix 를 생성하는 시작점으로 사용</span>된다. <span style="color: yellow">view matrix 는 object 를 카메라 자체가 원점이 되는 camera space 에 위치시키기 위해서 translate 하고 rotate 한다.</span> view matrix 를 생성하는 한가지 방법은 각 축에 대한 translation 및 rotation matrix 를 결합하는 것이다. 이러한 방법으로는 다음의 등식이 적용된다.
 $$V=T\cdot R_Z\cdot R_y\cdot R_x$$
-위의 공식에서, V 는 view matrix, T 는 translation matrix, 그리고 $R_Z, R_y,R_x$ 는 각각 z, y, x 축에 대한 rotation 행렬이다. translation 및 rotation matrix 는 camera 의 world space 내의 논리적인 위치와 방향을 기준으로 한다. 따라서, camera 의 world 내의 논리적인 위치가 <10,20,100> 인 경우, translation matrix 은 객체를 x 축으로  -10, y  축으로 -20, z 축으로 -100 만큼 이동시킨다. 위 공식에서 rotation matrix 들은 camera space 의 축들이 world space 에 대해 회전한 양으로 환산한 카메라의 방향을 기준으로 한다. 예를 들어 위에서 언급한 camera가 바로 아래를 가리킨다면, 그것의 z 축은 아래의 그림과 같이 world space의 z 축에 대해 $\frac{\pi}{2}\theta$ 회전한다.
+위의 공식에서, V 는 view matrix, T 는 translation matrix, 그리고 $R_Z, R_y,R_x$ 는 각각 z, y, x 축에 대한 rotation 행렬이다. translation 및 rotation matrix 는 camera 의 world space 내의 논리적인 위치와 방향을 기준으로 한다. 따라서, camera 의 world 내의 논리적인 위치가 <10,20,100> 인 경우, translation matrix 은 객체를 x 축으로  -10, y  축으로 -20, z 축으로 -100 만큼 이동시킨다. 위 공식에서 rotation matrix 들은 camera space 의 축들이 world space 에 대해 회전한 양으로 환산한 카메라의 방향을 기준으로 한다. 예를 들어 위에서 언급한 camera가 바로 아래를 가리킨다면, 그것의 z 축은 아래의 그림과 같이 world space의 x 축에 대해 $\frac{\pi}{2}\theta$ 회전한다.
 ![[Pasted image 20230306203011.png]]
 
-rotation matrix 들은 scene 의 model 에 크기는 같지만 방향은 반대인 회전을 적용시킨다. dnldml camera 에 대한 view matrix 는 x 축 기준 -90도 회전을 포함하고 있다. rotation matrix 는 translatio matrix 와 결합하여 scene 속 오브젝트의 위치와 원점을 조정하는 view matrix 를 생성하다. 따라서 카메라가 오브젝트의 위쪽에 있는 모양으로 오브젝트들의 위쪽은 카메라를 마주본다.
+rotation matrix 들은 scene 의 model 에 크기는 같지만 방향은 반대인 회전을 적용시킨다. 위의 camera 에 대한 view matrix 는 x 축 기준 -90도 회전을 포함하고 있다. rotation matrix 는 translatio matrix 와 결합하여 scene 속 오브젝트의 위치와 원점을 조정하는 view matrix 를 생성하다. 따라서 카메라가 오브젝트의 위쪽에 있는 모양으로 오브젝트들의 위쪽은 카메라를 마주본다.
 
 ### Setting up a View Matrix
 
@@ -208,7 +208,7 @@ $\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&-D&1\end{bmatrix}$
 translation matrix 에 projection matrix 를 곱하면 (T*P) 다음과 같이 composite projection matrix 가 된다.
 $\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&\frac{1}{D}\\0&0&-D&1\end{bmatrix}$ 
 
-perspectivetransform 은 viewing frustum 을 새로운 좌표 공간으로 변환시킨다. frustum은 cuboid가 되고 원점은 다음의 그림과 같이 scene의 우측 상단에서 중앙으로 이동한다. 
+perspective transform 은 viewing frustum 을 새로운 좌표 공간으로 변환시킨다. frustum은 cuboid가 되고 원점은 다음의 그림과 같이 scene의 우측 상단에서 중앙으로 이동한다. 
 ![[Pasted image 20230307012422.png]]
 
 perspective transform 에서 x, y 방향의 범위는 -1 에서 1 까지이다. z 방향의 front plane 은 0, back plane 은 1이다. 

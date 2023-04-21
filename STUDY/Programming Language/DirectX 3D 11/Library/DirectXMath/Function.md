@@ -79,3 +79,25 @@ XMFLOAT3 또는 XMVECTOR 형태의 위치 벡터를 인자로 받아 4x4 이동 
 0       0       1       0
 OffsetX OffsetY OffsetZ 1
 ```
+
+# XMMatrixOrthographicLH()
+
+왼손 좌표계용 직교 투영 행렬을 작성한다.
+
+### Syntax
+```c++
+XMMATRIX XM_CALLCONV XMMatrixOrthographicLH(
+  [in] float ViewWidth,
+  [in] float ViewHeight,
+  [in] float NearZ,
+  [in] float FarZ
+) noexcept;
+```
+1. ViewWidth : 가까운 clipping plane 에서 frustum 의 너비.
+2. ViewHeight  : 가까운 clipping plane 에서 frustum 의 높이.
+3. NearZ : near Clipping plane 까지의 거리
+4. FarZ : far Clipping plane 까지의 거리.
+
+### Return value
+
+직교 투영 행렬(orthogonal projection)을 반환한다.
