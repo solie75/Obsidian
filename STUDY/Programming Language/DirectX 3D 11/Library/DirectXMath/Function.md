@@ -57,7 +57,7 @@ Angle 이 $\frac{\pi}{2}$ (90도) 라면, 생성된 회전 변환 행렬은 다�
 또한 회전 행렬은 중첩이 가능하다.
 
 
-# XMMatrixTramslation()
+# XMMatrixTranslation()
 
 4x4 행렬을 생성하여 주어진 x, y, z 값으로 이동 변환을 적용하는 함수.
 
@@ -81,6 +81,8 @@ OffsetX OffsetY OffsetZ 1
 ```
 
 # XMMatrixOrthographicLH()
+
+^11ffd0
 
 왼손 좌표계용 직교 투영 행렬을 작성한다.
 

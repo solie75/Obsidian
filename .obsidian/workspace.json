@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5580459b54963f82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4b504d35f1e635d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "선형대수",
+                "query": "fov",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -78,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md"
               }
             }
           },
@@ -169,17 +194,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3cb0b5a051d3ffe6",
+  "active": "62073d2ebe73e75e",
   "lastOpenFiles": [
-    "10. World, Projection, View Matrix 적용.md",
-    "STUDY/Math/선형대수/5. Cross product.md",
     "STUDY/Math/선형대수/4. Orthogonal projection & Orthogonalization.md",
+    "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
+    "10. World, Projection, View Matrix 적용.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
+    "STUDY/Math/선형대수/5. Cross product.md",
     "STUDY/Math/선형대수/3. Row Vector & Dot product.md",
     "STUDY/Math/선형대수/2. Linear Transformation.md",
     "STUDY/Math/선형대수/1. Vector & Scalar & Basis & Span.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
-    "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
     "Pasted image 20230419193232.png",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function/무제 파일.md",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function",
