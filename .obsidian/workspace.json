@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fov",
+                "query": "동차 좌표",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -196,9 +196,9 @@
   },
   "active": "62073d2ebe73e75e",
   "lastOpenFiles": [
+    "10. World, Projection, View Matrix 적용.md",
     "STUDY/Math/선형대수/4. Orthogonal projection & Orthogonalization.md",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
-    "10. World, Projection, View Matrix 적용.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
     "STUDY/Math/선형대수/5. Cross product.md",
     "STUDY/Math/선형대수/3. Row Vector & Dot product.md",

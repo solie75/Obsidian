@@ -85,7 +85,7 @@ view space 에서 near plane(가까운 평면) 과 far plane(먼 평면) 은 모
 투영 창은 결국 view space 의 안의 장면의 2차원 이미지이다. 이 <span style="color: yellow">이미지가 back buffer 에 mapping 되므로 투영창의 너비와 높이를 back buffer 의 너비와 높이의 비율과 같게 만드는 것이 바람직하다.</span>
 따라서 일반적으로 투영 창의 aspect ratio 는 back buffer의 aspect ratio 를 따른다. 예를 들어 back buffer 가 800x600 이면 $r=\frac{800}{600}$ 으로 대략 1.333 이다. 투영창의 aspect ratio 와 back buffer 의 aspect ratio 가 다른 경우 투영창을 back buffer 에 projection 할 대 비균등 비례가 필요하고 이러면 이미지가 왜곡된다.
 
-수평 시양각을 $\beta$ 로 표기하는데, 이 시야각은 수직 시야각 $\alpha$ 와 aspect ratio 인 $r$ 로 구할 수 있다. 
+수평 시야각을 $\beta$ 로 표기하는데, 이 시야각은 수직 시야각 $\alpha$ 와 aspect ratio 인 $r$ 로 구할 수 있다. 
 
 투영창의 높이를 2로 할 때 (투영창을 ndc 변형 할 때에 x, y 둘 중 하나를 기준 삼고 다른 하나는 비율대로 변형해야 하기 때문에 높이를 ndc 의 높이에 따라서 2로 고정하여 x, d 등을 계산한다.)
 
