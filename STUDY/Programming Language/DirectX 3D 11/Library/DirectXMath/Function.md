@@ -103,3 +103,25 @@ XMMATRIX XM_CALLCONV XMMatrixOrthographicLH(
 ### Return value
 
 직교 투영 행렬(orthogonal projection)을 반환한다.
+
+# XMMatrixPerspectiveFovLH()
+
+왼손 좌표계용 원근 투영 행렬을 작성한다.
+
+## Syntax
+```c++
+XMMATRIX XM_CALLCONV XMMatrixPerspectiveFovLH(
+  [in] float FovAngleY,
+  [in] float AspectRatio,
+  [in] float NearZ,
+  [in] float FarZ
+) noexcept;
+```
+1. FovAngleY : 세로 시야각
+2. AspectRatio : 종횡비 (가로/세로)
+3. NearZ : 시야에서 근 평면 까지의 거리
+4. FarZ : 시야에서 원 평면 까지의 거리
+
+### Return value
+
+원근 투영 행렬(perspective projection)을 반환한다.
