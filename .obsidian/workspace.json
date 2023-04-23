@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283
+    "width": 200
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -197,8 +197,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 283,
-        "y": 176,
+        "x": 1032,
+        "y": 29,
         "width": 845,
         "height": 972,
         "maximize": false,
