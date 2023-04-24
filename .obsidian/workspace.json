@@ -169,50 +169,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "floating": {
-    "id": "2827b036dba61e07",
-    "type": "floating",
-    "children": [
-      {
-        "id": "e7f42072e43939bb",
-        "type": "window",
-        "children": [
-          {
-            "id": "52081a33bf0ec144",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e70c7c0d732ec134",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 1032,
-        "y": 29,
-        "width": 845,
-        "height": 972,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "1a037a641e418c47",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md",
+    "Pasted image 20230424202157.png",
+    "Pasted image 20230424201623.png",
+    "Pasted image 20230424194905.png",
+    "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
     "Projection Calculate in DirectX.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md",
     "Pasted image 20230423221230.png",
     "Pasted image 20230423215059.png",
-    "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
     "README.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
     "Pasted image 20230423052943.png",
@@ -236,7 +202,6 @@
     "RESOURCE/Image/Pasted image 20230417223726.png",
     "RESOURCE/Image/Pasted image 20230417223711.png",
     "RESOURCE/Image/Pasted image 20230417223651.png",
-    "RESOURCE/Image/Pasted image 20230417223637.png",
     "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11SamplerState.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Texture Sampling.md",
     "STUDY/Programming Language/C++/STD/clamp.md",
@@ -245,7 +210,6 @@
     "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/04. 출력 대상 정적 배열의 오브젝트화.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
-    "RESOURCE/Image/Pasted image 20230414233711.png",
     "STUDY/Programming Language/C++/Preprocessor",
     "STUDY/Programming Language/C++/ERROR",
     "Daily/2023/04/3주차",
