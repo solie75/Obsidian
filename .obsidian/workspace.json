@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projection Calculate in DirectX.md",
+                "file": "10. World, Projection, View Matrix 적용.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 270
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projection Calculate in DirectX.md",
+                "file": "10. World, Projection, View Matrix 적용.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projection Calculate in DirectX.md",
+                "file": "10. World, Projection, View Matrix 적용.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projection Calculate in DirectX.md"
+                "file": "10. World, Projection, View Matrix 적용.md"
               }
             }
           },
@@ -171,24 +171,25 @@
   },
   "active": "1a037a641e418c47",
   "lastOpenFiles": [
-    "Pasted image 20230424202157.png",
-    "Pasted image 20230424201623.png",
-    "Pasted image 20230424194905.png",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
+    "10. World, Projection, View Matrix 적용.md",
     "Projection Calculate in DirectX.md",
+    "LH 정리.md",
+    "RESOURCE/Image/Pasted image 20230424202157.png",
+    "RESOURCE/Image/Pasted image 20230424201623.png",
+    "RESOURCE/Image/Pasted image 20230424194905.png",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Perspective Projection Matrix.md",
-    "Pasted image 20230423221230.png",
-    "Pasted image 20230423215059.png",
+    "RESOURCE/Image/Pasted image 20230423221230.png",
+    "RESOURCE/Image/Pasted image 20230423215059.png",
     "README.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform.md",
-    "Pasted image 20230423052943.png",
-    "10. World, Projection, View Matrix 적용.md",
+    "RESOURCE/Image/Pasted image 20230423052943.png",
     "STUDY/Math/선형대수/4. Orthogonal projection & Orthogonalization.md",
     "STUDY/Math/선형대수/5. Cross product.md",
     "STUDY/Math/선형대수/3. Row Vector & Dot product.md",
     "STUDY/Math/선형대수/2. Linear Transformation.md",
     "STUDY/Math/선형대수/1. Vector & Scalar & Basis & Span.md",
-    "Pasted image 20230419193232.png",
+    "RESOURCE/Image/Pasted image 20230419193232.png",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function/무제 파일.md",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function",
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath",
@@ -201,7 +202,6 @@
     "RESOURCE/Image/Pasted image 20230417223742.png",
     "RESOURCE/Image/Pasted image 20230417223726.png",
     "RESOURCE/Image/Pasted image 20230417223711.png",
-    "RESOURCE/Image/Pasted image 20230417223651.png",
     "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11SamplerState.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Texture Sampling.md",
     "STUDY/Programming Language/C++/STD/clamp.md",
