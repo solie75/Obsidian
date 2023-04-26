@@ -125,3 +125,27 @@ XMMATRIX XM_CALLCONV XMMatrixPerspectiveFovLH(
 ### Return value
 
 원근 투영 행렬(perspective projection)을 반환한다.
+
+
+# XMVector3TransformNormal()
+
+3차원 벡터를 변환하는 함수로, 주어진 벡터를 4x4 행렬로 변환하고, 결과 벡터를 반홚나다. 이 때 주어진 벡터는 법선(normal) 벡터로 취급된다. 법선 벡터는 크기가 1인 벡터로 정규화된 상태를 가지며, 벡터가 가리키는 방향은 변환에 영향을 미치지 않는다.
+
+## Syntax
+```c++
+XMVECTOR XM_CALLCONV XMVector3TransformNormal(
+  [in] FXMVECTOR V,
+  [in] FXMMATRIX M
+) noexcept;
+```
+1. V : 변환할 법선 벡터
+2. M : 변환 행렬
+
+## Return value
+
+ 변형된 벡터를 반환한다.
+
+## Remarks
+
+해당 함수는 주어진 벡터를 4차원 벡터 '(x, y, z, 0)' 으로 변환한 뒤, 이를 주어진 행렬 ' M' 으로 곱하여 결과 벡터를 반환한다. 이 때 반환된 벡터는 마지막 요소가 0인 4차 벡터이르모, 법선 벡터로 취급된다.
+따라서 M 이 이동 변환이면 어차피 4차원 벡터의 w 가0 이기 때문에 원하는 데로 연산되지 않는다.
