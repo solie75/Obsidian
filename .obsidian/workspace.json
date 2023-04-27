@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "XMLoadFloat3",
+                "query": "XMStoreFloat4x4",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,6 +184,7 @@
   "active": "1a037a641e418c47",
   "lastOpenFiles": [
     "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
+    "STUDY/English/Word/Word.md",
     "10. World, Projection, View Matrix 적용.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/01. Project structure setting.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/02. Process for Vertex buffer Rendering (output triangle).md",
@@ -221,7 +222,6 @@
     "STUDY/Programming Language/C++/STD/clamp.md",
     "STUDY/English/similar word/For 과 About (~에 대해).md",
     "Template/Font color.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
     "STUDY/Programming Language/C++/Preprocessor",
     "STUDY/Programming Language/C++/ERROR",
     "Daily/2023/04/3주차",

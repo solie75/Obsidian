@@ -179,3 +179,56 @@ pSource 매개변수의 데이터로 로드 된 XMVECTOR 를 반환한다.
 
 XMFLOAT3 의 x, y, z는 그에 맞게 XMVECTOR 의 요소에 로드된다. 리턴된 XMVECTOR의 맴버 w 는 0으로 초기화 된다.
 
+# XMStoreFloat4x4
+
+XMFLOAT4X4 에 XMMATRIX 를 저장한다.
+
+## Syntax
+
+```c++
+void XM_CALLCONV XMStoreFloat4x4(
+  [out] XMFLOAT4X4 *pDestination,
+  [in]  FXMMATRIX  M
+) noexcept;
+```
+
+## Parameters
+
+1. pDestination
+데이터를 저장할 주소
+
+2. M
+저장될 데이터를 포함하는 Matrix
+
+## Return Value
+
+반환값이 없다.
+
+## Remarks
+
+XMFLOAT4X4 는 행 중심의 matrix 형식이다. 열 중심으로 작성하려면 저장 함수를 호출하기 전에 XMMatrixTranspose 로 XMMATRIX 를 치환해야 한다. 
+해당 함수는 matrix 를 사용하여 16개의 single-precusion floating-point 값을  주어진 주소에 작성한다.
+다음의 함수의 작동을 의사 코드로 표현하면 다음과 같다.
+
+```c++
+pDestination->_11 = M[0].x; // 4 bytes to address (uint8_t*)pDestination
+pDestination->_12 = M[0].y; // 4 bytes to address (uint8_t*)pDestination + 4
+pDestination->_13 = M[0].z; // 4 bytes to address (uint8_t*)pDestination + 8
+pDestination->_14 = M[0].w; // 4 bytes to address (uint8_t*)pDestination + 12
+
+pDestination->_21 = M[1].x; // 4 bytes to address (uint8_t*)pDestination + 16
+pDestination->_22 = M[1].y; // 4 bytes to address (uint8_t*)pDestination + 20
+pDestination->_23 = M[1].z; // 4 bytes to address (uint8_t*)pDestination + 24
+pDestination->_24 = M[1].w; // 4 bytes to address (uint8_t*)pDestination + 28
+
+pDestination->_31 = M[2].x; // 4 bytes to address (uint8_t*)pDestination + 32
+pDestination->_32 = M[2].y; // 4 bytes to address (uint8_t*)pDestination + 36
+pDestination->_33 = M[2].z; // 4 bytes to address (uint8_t*)pDestination + 40
+pDestination->_34 = M[2].w; // 4 bytes to address (uint8_t*)pDestination + 44
+
+pDestination->_41 = M[3].x; // 4 bytes to address (uint8_t*)pDestination + 48
+pDestination->_42 = M[3].y; // 4 bytes to address (uint8_t*)pDestination + 52
+pDestination->_43 = M[3].z; // 4 bytes to address (uint8_t*)pDestination + 56
+pDestination->_44 = M[3].w; // 4 bytes to address (uint8_t*)pDestination + 60
+```
+
