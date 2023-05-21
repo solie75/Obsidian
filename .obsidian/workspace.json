@@ -8,55 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ad3bee4bc4098d71",
+            "id": "1bc489ce1fab96a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c3746f5f5732c867",
+            "id": "a323e2626c1881e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/d. Using the Input-Assembler Stage without Buffers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "498e32e9fba5e405",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c84c412a184170d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2023-05-19.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,10 +60,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Geometry",
+                "query": "primitive",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -114,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 343
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -130,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-05-19.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-05-19.md",
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-05-19.md"
+                "file": "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md"
               }
             }
           },
@@ -210,28 +185,76 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "c84c412a184170d9",
+  "floating": {
+    "id": "ae0343c264bc63cf",
+    "type": "floating",
+    "children": [
+      {
+        "id": "8a49e305f8ba50f1",
+        "type": "window",
+        "children": [
+          {
+            "id": "8e23b686e6f97142",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2c195a7538658034",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/AK/46, DirectX11 진도/1. Rendering Pipeline.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1160,
+        "y": 78,
+        "width": 1035,
+        "height": 1173,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "1bc489ce1fab96a9",
   "lastOpenFiles": [
-    "STUDY/Programming Language/assortrock 46 memo/2023-05-18.md",
-    "2023-05-19.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/c. Primitive Topology.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/d. Using the Input-Assembler Stage without Buffers.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
-    "STUDY/Programming Language/assortrock 46 memo",
+    "STUDY/AK/46, DirectX11 진도/1. Rendering Pipeline.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md",
+    "STUDY/Programming Language/assortrock 46 memo/2023-05-19.md",
     "STUDY/Programming Language/assortrock 46 memo/2023-05-17.md",
+    "STUDY/Programming Language/assortrock 46 memo/2023-05-18.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/5. Stream - Output Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/4. Geometry Shader Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/3. Tessellation Stage.md",
+    "STUDY/Programming Language/assortrock 46 memo/2023-05-16.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/e. Using System-Generated Value.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/b. Getting started with the Input Assembler stage.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/a. Input Assembler Stage.md",
-    "STUDY/Programming Language/Win32 AK Project/20. Gravity & Ground Platform.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/2. Vertex - Shader Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Buffer.md",
+    "STUDY/AK/46, DirectX11 진도/2. Transformation.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/c. Primitive Topology.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/b. Getting started with the Input Assembler stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/d. Using the Input-Assembler Stage without Buffers.md",
+    "Pasted image 20230520111341.png",
+    "STUDY/Programming Language/Win32 API/01. HANDLE.md",
+    "STUDY/Programming Language/Win32 API/02. HINSTANCE.md",
+    "STUDY/Programming Language/Win32 API/03. Event Object.md",
+    "STUDY/Programming Language/Win32 API/04. Window Class.md",
+    "STUDY/Programming Language/Win32 API/05. Message System.md",
+    "STUDY/Programming Language/Win32 API/06. Win32 프로젝트 기본 코드.md",
+    "STUDY/Programming Language/Win32 API/07. GDI (Graphics Device Interface), DC (Device Context).md",
+    "STUDY/AK/46, DirectX11 진도",
+    "STUDY/Programming Language/assortrock 46 memo",
     "Pasted image 20221013042505.png",
     "RESOURCE/Image/Pasted image 20221013042617.png",
-    "RESOURCE/Image/Pasted image 20221013043813.png",
-    "STUDY/Programming Language/Win32 AK Project/19. Force circle.md",
-    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/마우스 위치.md",
-    "무제노트.md",
-    "Study/Math/수학적 함수/Saturate.md",
-    "Study/Programming Language/Win32 AK Project/19. Force circle.md",
-    "Daily/10/2주차/2022-10-11.md"
+    "RESOURCE/Image/Pasted image 20221013043813.png"
   ]
 }
