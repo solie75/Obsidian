@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
+                "file": "2023-06-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,12 +73,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 312
+    "width": 407
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
+                "file": "2023-06-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
+                "file": "2023-06-07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md"
+                "file": "2023-06-07.md"
               }
             }
           },
@@ -176,34 +175,34 @@
   },
   "active": "f79506b7b715f56e",
   "lastOpenFiles": [
+    "STUDY/Programming Language/assortrock 46 memo/2023-06-01.md",
+    "2023-06-07.md",
+    "STUDY/Programming Language/assortrock 46 memo/2023-05-31.md",
+    "STUDY/Programming Language/assortrock 46 memo/2023-06-02.md",
+    "STUDY/Programming Language/assortrock 46 memo/2023-05-16.md",
+    "STUDY/Programming Language/assortrock 46 memo/2023-05-22.md",
+    "STUDY/Programming Language/assortrock 46 memo/2023-05-25.md",
+    "STUDY/Programming Language/assortrock 46 memo/2023-05-24.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/Direct3D 그리기 연산 정리.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/1. Input-Assembler Stage/b. Getting started with the Input Assembler stage.md",
     "Daily/2023/02/4주차/2023-02-23.md",
     "STUDY/Programming Language/DirectX 3D 11/Function/DrawIndexed( ).md",
     "STUDY/Programming Language/DirectX 3D 11/Function/CreateBuffer( ).md",
-    "2023-05-25.md",
-    "2023-05-24.md",
     "Pasted image 20230520111341.png",
     "Projection Calculate in DirectX.md",
     "무제 파일.canvas",
     "STUDY/Programming Language/DirectX 3D 11/Progress/01. Project structure setting.md",
     "STUDY/English/Word/Word.md",
-    "2023-05-22.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/02. Process for Vertex buffer Rendering (output triangle).md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/04. 출력 대상 정적 배열의 오브젝트화.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/06. Singleton 구조 변경 및 Ptr 포함 적용.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/07. Object - Layout - Level 구조.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
     "STUDY/AK/46, DirectX11 진도/1. Rendering Pipeline.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md",
-    "STUDY/Programming Language/assortrock 46 memo/2023-05-19.md",
-    "STUDY/Programming Language/assortrock 46 memo/2023-05-17.md",
-    "STUDY/Programming Language/assortrock 46 memo/2023-05-18.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/6. Rasterizer Stage.md",
     "STUDY/AK/46, DirectX11 진도",
     "STUDY/Programming Language/assortrock 46 memo",
     "Pasted image 20221013042505.png",
