@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/assortrock 46 memo/2023-06-15.md",
+                "file": "2023-06-16.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/assortrock 46 memo/2023-06-15.md",
+                "file": "2023-06-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/assortrock 46 memo/2023-06-15.md",
+                "file": "2023-06-16.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/assortrock 46 memo/2023-06-15.md"
+                "file": "2023-06-16.md"
               }
             }
           },
@@ -173,9 +173,10 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "040d4039b80fd138",
+  "active": "625596569099b1d5",
   "lastOpenFiles": [
     "STUDY/Programming Language/assortrock 46 memo/2023-06-15.md",
+    "2023-06-16.md",
     "STUDY/Programming Language/Assortrock 46 portfolio/2. Rendering Pipeline.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/02. Process for Vertex buffer Rendering (output triangle).md",
     "STUDY/Programming Language/Assortrock 46 portfolio/1. Setting.md",
@@ -201,7 +202,6 @@
     "STUDY/Programming Language/assortrock 46 memo/2023-05-16.md",
     "STUDY/Programming Language/assortrock 46 memo/2023-05-25.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
     "Pasted image 20230520111341.png",
     "무제 파일.canvas",
     "STUDY/AK/46, DirectX11 진도",
