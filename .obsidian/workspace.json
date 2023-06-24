@@ -13,7 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023-06-16.md",
+=======
+                "file": "2023-06-21.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407
+    "width": 358
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -93,7 +97,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023-06-16.md",
+=======
+                "file": "2023-06-21.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +118,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023-06-16.md",
+=======
+                "file": "2023-06-21.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +153,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "2023-06-16.md"
+=======
+                "file": "2023-06-21.md"
+>>>>>>> Stashed changes
               }
             }
           },
@@ -175,26 +191,40 @@
   },
   "active": "625596569099b1d5",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "STUDY/Programming Language/assortrock 46 memo/2023-06-15.md",
     "2023-06-16.md",
+=======
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-20.md",
+    "2023-06-21.md",
+    "STUDY/AK/메모/기타/09-05 ak 메모.md",
+    "STUDY/AK/메모/기타",
+    "STUDY/AK/메모/기타/09-28 AlphaBlend.md",
+    "STUDY/AK/메모/기타/09-29 CameraEffect.md",
+    "STUDY/AK/메모/기타/09-27 Animation Save, Load.md",
+    "STUDY/AK/메모/기타/09-06 ak 메모.md",
+    "STUDY/AK/메모/기타/09-07 ak 메모.md",
+    "STUDY/AK/메모/기타/09-15 ak 메모 (Missile, Component ).md",
+    "STUDY/AK/46, DirectX11 진도/1. Rendering Pipeline.md",
+    "STUDY/AK/46, DirectX11 진도/2. Transformation.md",
+    "GAME/GOAL_OF_GAME_DESIGN.md",
+    "GAME/Setting.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-19.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-16.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-15.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-14.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-07.md",
+>>>>>>> Stashed changes
     "STUDY/Programming Language/Assortrock 46 portfolio/2. Rendering Pipeline.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/02. Process for Vertex buffer Rendering (output triangle).md",
     "STUDY/Programming Language/Assortrock 46 portfolio/1. Setting.md",
-    "STUDY/Programming Language/assortrock 46 memo/2023-05-22.md",
-    "STUDY/Programming Language/assortrock 46 memo/2023-05-24.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-05-22.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-05-24.md",
     "STUDY/Programming Language/C++/Inline 함수.md",
-    "STUDY/Programming Language/assortrock 46 memo/2023-05-19.md",
-    "STUDY/Programming Language/assortrock 46 memo/2023-05-18.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
-    "GAME/GOAL_OF_GAME_DESIGN.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/01. Project structure setting.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
-    "STUDY/Programming Language/Error/LinkError/LNK1120.md",
-    "STUDY/Programming Language/Error/LinkError/LNK2019.md",
-    "STUDY/Programming Language/Error/LinkError/LNK4006.md",
-    "STUDY/Visual Studio/Shared Items Project.md",
-    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11Buffer.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-05-19.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-05-18.md",
     "STUDY/Programming Language/Assortrock 46 portfolio",
+<<<<<<< Updated upstream
     "STUDY/Programming Language/assortrock 46 memo/2023-06-07.md",
     "STUDY/Programming Language/assortrock 46 memo/2023-06-01.md",
     "STUDY/Programming Language/assortrock 46 memo/2023-05-31.md",
@@ -202,10 +232,12 @@
     "STUDY/Programming Language/assortrock 46 memo/2023-05-16.md",
     "STUDY/Programming Language/assortrock 46 memo/2023-05-25.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
+=======
+>>>>>>> Stashed changes
     "Pasted image 20230520111341.png",
     "무제 파일.canvas",
     "STUDY/AK/46, DirectX11 진도",
-    "STUDY/Programming Language/assortrock 46 memo",
+    "STUDY/AK/메모/assortrock 46 memo",
     "Pasted image 20221013042505.png",
     "RESOURCE/Image/Pasted image 20221013042617.png",
     "RESOURCE/Image/Pasted image 20221013043813.png"
