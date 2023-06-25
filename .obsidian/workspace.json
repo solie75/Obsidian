@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-06-22.md",
+                "file": "STUDY/AK/46 Win 진도/2..md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205
+    "width": 200
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-06-22.md",
+                "file": "STUDY/AK/46 Win 진도/2..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-06-22.md",
+                "file": "STUDY/AK/46 Win 진도/2..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-06-22.md"
+                "file": "STUDY/AK/46 Win 진도/2..md"
               }
             }
           },
@@ -175,19 +175,36 @@
   },
   "active": "ad3bee4bc4098d71",
   "lastOpenFiles": [
-    "2023-06-16.md",
-    "2023-06-22.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-16.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-21.md",
-    "STUDY/Programming Language/Win32 AK Project/20. Gravity & Ground Platform.md",
+    "STUDY/AK/46 Win 진도/1. wWinMain().md",
+    "STUDY/AK/46 Win 진도/2..md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/10. World, Projection, View Matrix 적용.md",
+    "STUDY/AK/46 Win 진도",
+    "SH 정리.md",
+    "Win Api Portfolio/계획.md",
+    "README.md",
+    "Projection Calculate in DirectX.md",
+    "Pasted image 20230520111341.png",
+    "STUDY/Programming Language/Win32 AK 42 Project/12. CResourceMgr.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/13. CCameraMgr.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/14. Animation.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/15. File Save, File Load.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/16. AlphaBlend.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/17. CameraEffect.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/18. RigidBody.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/19. Force circle.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/20. Gravity & Ground Platform.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/21. Level Change.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/22. Clone.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/23. Tile.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/24. Dialog.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/01. 기본 코드 수정.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/02. CEngine, CObject 생성.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/03. KeyMgr, TimeMgr 생성.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/04. Level folder.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/05. DC 설정.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/07. Missile.md",
     "Pasted image 20221013042505.png",
     "RESOURCE/Image/Pasted image 20221013042617.png",
-    "RESOURCE/Image/Pasted image 20221013043813.png",
-    "STUDY/Programming Language/Win32 AK Project/19. Force circle.md",
-    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/마우스 위치.md",
-    "무제노트.md",
-    "Study/Math/수학적 함수/Saturate.md",
-    "Study/Programming Language/Win32 AK Project/19. Force circle.md",
-    "Daily/10/2주차/2022-10-11.md"
+    "RESOURCE/Image/Pasted image 20221013043813.png"
   ]
 }
