@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/STD/bitset.md",
+                "file": "STUDY/AK/메모/assortrock 46 memo/2023-06-29.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "D3D11_DEPTH_STENCIL_DESC ",
+                "query": "build",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,11 +85,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 480
+    "width": 242,
+    "collapsed": true
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/STD/bitset.md",
+                "file": "STUDY/AK/메모/assortrock 46 memo/2023-06-29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/STD/bitset.md",
+                "file": "STUDY/AK/메모/assortrock 46 memo/2023-06-29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/STD/bitset.md"
+                "file": "STUDY/AK/메모/assortrock 46 memo/2023-06-29.md"
               }
             }
           },
@@ -187,19 +189,21 @@
   },
   "active": "ad3bee4bc4098d71",
   "lastOpenFiles": [
-    "STUDY/Programming Language/Algorithm/BitMask.md",
-    "STUDY/Programming Language/C++/STD/bitset.md",
+    "STUDY/Visual Studio/Unity Build.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-29.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-30.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-06-27.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-26.md",
+    "STUDY/Programming Language/C++/STD/bitset.md",
+    "STUDY/Programming Language/Algorithm/BitMask.md",
     "STUDY/Unity/Unity 용어.md",
     "GAME/IDEA/다은 협작/독각의 지옥으로!.md",
     "GAME/IDEA/다은 협작",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-28.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-05-25.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-05-24.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-05-22.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-05-18.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-05-31.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-30.md",
     "Pasted image 20230701111533.png",
     "Projection Calculate in DirectX.md",
     "STUDY/Unity",
@@ -207,7 +211,6 @@
     "STUDY/Programming Language/Error/Compilation Error/'auto'는 참조를 추론하지 않습니다. 의도하지 않을 수 있는 복사본이 만들어지고 있습니다..md",
     "RESOURCE/Image/Pasted image 20230630125309.png",
     "RESOURCE/Image/Pasted image 20230630125257.png",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-26.md",
     "STUDY/Programming Language/Assortrock 46 portfolio/2. Rendering Pipeline.md",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BLEND, D3D11_BLEND_OP.md",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_RENDER_TARGET_BLEND_DESC.md",
@@ -218,7 +221,6 @@
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_MAPPED_SUBRESOURCE.md",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_Map enumeration.md",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_INPUT_ELEMENT_DESC.md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
     "STUDY/AK/46 Win 진도",
     "RESOURCE/Image/Pasted image 20230520111341.png",
     "Pasted image 20221013042505.png",
