@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
+                "file": "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,12 +98,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 423
+    "width": 335
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
+                "file": "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
+                "file": "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md"
+                "file": "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md"
               }
             }
           },
@@ -201,6 +200,8 @@
   },
   "active": "615a374047e5460e",
   "lastOpenFiles": [
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
     "STUDY/Computer Science/CG 개념/Anisotropy.md",
     "Daily/2023/01/4주차/2023-01-25.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md",
@@ -230,8 +231,6 @@
     "STUDY/Programming Language/Error/Compilation Error/'auto'는 참조를 추론하지 않습니다. 의도하지 않을 수 있는 복사본이 만들어지고 있습니다..md",
     "RESOURCE/Image/Pasted image 20230630125309.png",
     "RESOURCE/Image/Pasted image 20230630125257.png",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BLEND, D3D11_BLEND_OP.md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_RENDER_TARGET_BLEND_DESC.md",
     "RESOURCE/Image/Pasted image 20230630004907.png",
     "STUDY/AK/46 Win 진도",
     "RESOURCE/Image/Pasted image 20230520111341.png",
