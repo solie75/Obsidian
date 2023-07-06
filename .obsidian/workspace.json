@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
+                "file": "2023-07-06.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
+                "file": "2023-07-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
+                "file": "2023-07-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md"
+                "file": "2023-07-06.md"
               }
             }
           },
@@ -200,8 +200,9 @@
   },
   "active": "615a374047e5460e",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
+    "2023-07-06.md",
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
     "STUDY/Computer Science/CG 개념/Anisotropy.md",
     "Daily/2023/01/4주차/2023-01-25.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/7. Pixel Shader Stage.md",
@@ -228,7 +229,6 @@
     "Projection Calculate in DirectX.md",
     "STUDY/Unity",
     "STUDY/Programming Language/Error/프로그래밍 에러 종류.md",
-    "STUDY/Programming Language/Error/Compilation Error/'auto'는 참조를 추론하지 않습니다. 의도하지 않을 수 있는 복사본이 만들어지고 있습니다..md",
     "RESOURCE/Image/Pasted image 20230630125309.png",
     "RESOURCE/Image/Pasted image 20230630125257.png",
     "RESOURCE/Image/Pasted image 20230630004907.png",
