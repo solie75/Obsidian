@@ -102,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417
+    "width": 349
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -200,8 +200,11 @@
   },
   "active": "e21f76995258b756",
   "lastOpenFiles": [
-    "STUDY/AK/Assortrock 46 portfolio/2. Device.md",
+    "STUDY/AK/Assortrock 46 portfolio/포폴 도중 오류 모음.md",
     "STUDY/AK/Assortrock 46 portfolio/4. RenderTarget, DepthStnecil, View.md",
+    "STUDY/AK/Assortrock 46 portfolio/2. Device.md",
+    "STUDY/AK/46, DirectX11 진도/2. Transformation.md",
+    "STUDY/AK/46, DirectX11 진도/1. Rendering Pipeline.md",
     "STUDY/Programming Language/DirectX 3D 11/Function/CreateRenderTargetView( ).md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/Device & Context.md",
     "STUDY/AK/Assortrock 46 portfolio/3. Manager.md",
@@ -223,9 +226,6 @@
     "STUDY/AK/Assortrock 46 portfolio/Rendering Pipeline.md",
     "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/SwapChain.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/DXGI (DirectX Graphics Infrastructure).md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/12-28.md",
-    "STUDY/Programming Language/COM/개념.md",
     "RESOURCE/Image/Pasted image 20230701111533.png",
     "GAME/IDEA/다은 협작",
     "STUDY/Unity",
