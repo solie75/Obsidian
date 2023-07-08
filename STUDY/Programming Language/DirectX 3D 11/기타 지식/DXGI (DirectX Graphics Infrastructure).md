@@ -45,3 +45,99 @@ NVIDIA GeForce RTX 2070
 Microsoft Basic Render Driver
 (Microsoft Basic Render Driver 는 window 8 이상에 포함된 소프트웨어 디스플레이 어뎁터 이다.)
 ```
+
+- DXGIDevice
+	이 인터페이스는 주로 그래픽 처리 장치(GPU)와 상호 작용하는 데 사용된다. IDXGIDevice를 사용하여 그래픽 디바이스의 속성과 기능을 확인하고, 디바이스와의 통신을 관리한다. DXGI 디바이스를 생성하고, DirectX 그래픽 애플리케이션과 그래픽 디바이스 간의 상호 작용을 조정하는 데 사용된다.
+```c++
+IDXGIDevice : public IDXGIObject
+    {
+    public:
+        virtual HRESULT STDMETHODCALLTYPE GetAdapter( 
+            /* [annotation][out] */ 
+            _COM_Outptr_  IDXGIAdapter **pAdapter) = 0;
+        
+        virtual HRESULT STDMETHODCALLTYPE CreateSurface( 
+            /* [annotation][in] */ 
+            _In_  const DXGI_SURFACE_DESC *pDesc,
+            /* [in] */ UINT NumSurfaces,
+            /* [in] */ DXGI_USAGE Usage,
+            /* [annotation][in] */ 
+            _In_opt_  const DXGI_SHARED_RESOURCE *pSharedResource,
+            /* [annotation][out] */ 
+            _COM_Outptr_  IDXGISurface **ppSurface) = 0;
+        
+        virtual HRESULT STDMETHODCALLTYPE QueryResourceResidency( 
+            /* [annotation][size_is][in] */ 
+            _In_reads_(NumResources)  IUnknown *const *ppResources,
+            /* [annotation][size_is][out] */ 
+            _Out_writes_(NumResources)  DXGI_RESIDENCY *pResidencyStatus,
+            /* [in] */ UINT NumResources) = 0;
+        
+        virtual HRESULT STDMETHODCALLTYPE SetGPUThreadPriority( 
+            /* [in] */ INT Priority) = 0;
+        
+        virtual HRESULT STDMETHODCALLTYPE GetGPUThreadPriority( 
+            /* [annotation][retval][out] */ 
+            _Out_  INT *pPriority) = 0;
+        
+    };
+```
+
+- DXGIAdaptor
+	그래픽 어댑터를 나타내며 이는 시스템에 설치된 그래픽 카드를 나타낸다. 해당 인터페이스로 시스템에 설치된 그래픽 목록을 가져오고, 각 어댑터에 대한 정보를 얻을 수 있다. 또한 DXGI 디바이스를 생성할 때 특정 어댑터를 선택할 수 있고 이는 어플이 특정 그래픽 카드를 사용하도록 지정하는데 영향을 끼친다.
+```c++
+IDXGIAdapter : public IDXGIObject
+    {
+    public:
+        virtual HRESULT STDMETHODCALLTYPE EnumOutputs( 
+            /* [in] */ UINT Output,
+            /* [annotation][out][in] */ 
+            _COM_Outptr_  IDXGIOutput **ppOutput) = 0;
+        
+        virtual HRESULT STDMETHODCALLTYPE GetDesc( 
+            /* [annotation][out] */ 
+            _Out_  DXGI_ADAPTER_DESC *pDesc) = 0;
+        
+        virtual HRESULT STDMETHODCALLTYPE CheckInterfaceSupport( 
+            /* [annotation][in] */ 
+            _In_  REFGUID InterfaceName,
+            /* [annotation][out] */ 
+            _Out_  LARGE_INTEGER *pUMDVersion) = 0;
+        
+    };
+```
+
+- DXGIFactory
+	DXGI 객체를 생성한다. 해당 인터페이스를 활용하여 DXGI 디바이스, DXGI 스왑 체인 등을 생성할 수 있다. 
+```c++
+ IDXGIFactory : public IDXGIObject
+    {
+    public:
+        virtual HRESULT STDMETHODCALLTYPE EnumAdapters( 
+            /* [in] */ UINT Adapter,
+            /* [annotation][out] */ 
+            _COM_Outptr_  IDXGIAdapter **ppAdapter) = 0;
+        
+        virtual HRESULT STDMETHODCALLTYPE MakeWindowAssociation( 
+            HWND WindowHandle,
+            UINT Flags) = 0;
+        
+        virtual HRESULT STDMETHODCALLTYPE GetWindowAssociation( 
+            /* [annotation][out] */ 
+            _Out_  HWND *pWindowHandle) = 0;
+        
+        virtual HRESULT STDMETHODCALLTYPE CreateSwapChain( 
+            /* [annotation][in] */ 
+            _In_  IUnknown *pDevice,
+            /* [annotation][in] */ 
+            _In_  DXGI_SWAP_CHAIN_DESC *pDesc,
+            /* [annotation][out] */ 
+            _COM_Outptr_  IDXGISwapChain **ppSwapChain) = 0;
+        
+        virtual HRESULT STDMETHODCALLTYPE CreateSoftwareAdapter( 
+            /* [in] */ HMODULE Module,
+            /* [annotation][out] */ 
+            _COM_Outptr_  IDXGIAdapter **ppAdapter) = 0;
+        
+    };
+```

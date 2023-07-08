@@ -1,7 +1,7 @@
 어떻게 두 개 이상의 렌더링이나 디스플레이에 사용되는 버퍼를 encapsulates(요약)하는 swap chain 을 생성하는가
 
 swapchain은 대체로 display device 에 수여되는 front buffer 와 render target 의 역할을 하는 back buffer 를 포함하고 있다. Immediate context가 back buffer 에 대한 렌더링을 끝낸 후에, swap chain 은 back buffer를 두 버퍼를 스와핑 함으로서 표시한다.
-예를 들어 두개의 버퍼를 가지는 swap chain 이 있다고 가정할 때 하나는 front buffer 이고 남은 하나는 back buffer 이다. 이때 back buffer 에 immediate context가 렌더링을 하고 그것이 끝나면 해당 back buffer 를 front buffer로 변경한다. 또한  반대로  기존의 front buffer 는 back buffer 가 된다. 그리고 front buffer 를 출력하는 것이다.
+예를 들어 두개의 버퍼를 가지는 swap chain 이 있다고 가정할 때 하나는 front buffer 이고 남은 하나는 back buffer 이다. 이때 back buffer 에 immediate context가 렌더링을 하고 그것이 끝나면 해당 back buffer 를 front buffer로 변경한다. 또한  반대로  기존의 front buffer 는 back buffer 가 된다. 그리고 front buffer 를 출력하는 것이다. ^64e5f9
 
 Swap chain 은 아래의 몇가지 랜더링 특징을 포함하여 정의한다.
 1. render area 크기

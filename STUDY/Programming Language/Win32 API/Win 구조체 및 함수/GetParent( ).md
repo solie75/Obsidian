@@ -26,3 +26,4 @@ type : HWND
 ## Remarks
 
 GetParent 를 대신하여 윈도우의 소유자 윈도우를 얻기 위해서 GW_OWNER flag 를 가지고 GetWindow 를 사용한다. GetParent 사용 대신에 소유자 없이 부모 윈도우를 얻기 위해서는 GA_PARENT flag 를 가지고 GetAncestor 를 사용한다.
+
