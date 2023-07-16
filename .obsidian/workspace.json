@@ -20,24 +20,24 @@
             }
           },
           {
-            "id": "5231687f278229e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/DirectX 3D 11/Progress/10. World, Projection, View Matrix 적용.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e21f76995258b756",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "STUDY/AK/Assortrock 46 portfolio/포폴 도중 오류 모음.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42eb980c262ec76b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/AK/메모/assortrock 46 memo/2023-06-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Projection",
+                "query": "RasterizerState",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,13 +199,17 @@
   },
   "active": "8cb668654babc1c1",
   "lastOpenFiles": [
-    "STUDY/AK/Assortrock 46 portfolio/11. Transform, Camera, MoveScript.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-26.md",
     "STUDY/AK/Assortrock 46 portfolio/12. Rasterizer State, DepthStencil State, Blend State.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/RasterizerState, DepthStencilState, BlendState.md",
+    "STUDY/AK/Assortrock 46 portfolio/포폴 도중 오류 모음.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/10. World, Projection, View Matrix 적용.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex/LoadFromDDSFile, LoadFromTGAFile, LoadFromWICFile.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex/무제 파일.md",
+    "STUDY/AK/Assortrock 46 portfolio/11. Transform, Camera, MoveScript.md",
     "STUDY/AK/Assortrock 46 portfolio/10. ResourceManager, Scene, Layer, SceneManager.md",
     "STUDY/AK/Assortrock 46 portfolio/9. Material, MeshRender.md",
     "STUDY/AK/Assortrock 46 portfolio/8. Resource, Texture, UV.md",
-    "STUDY/AK/Assortrock 46 portfolio/포폴 도중 오류 모음.md",
     "Pasted image 20230713101535.png",
     "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
@@ -225,11 +229,7 @@
     "STUDY/AK/메모/assortrock 46 memo/2023-06-19.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-06-20.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-06-21.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-26.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-06-22.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-27.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-02.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-01.md",
     "RESOURCE/Image/Pasted image 20230701111533.png",
     "GAME/IDEA/다은 협작",
     "STUDY/Unity",
