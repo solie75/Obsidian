@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CGameObject",
+                "query": "tag:#define",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,11 +73,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 351
+    "width": 452
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -175,6 +176,9 @@
   },
   "active": "9f8f17f9ab5b602b",
   "lastOpenFiles": [
+    "STUDY/Programming Language/DirectX 3D 11/HLSL/Arithmetic Operations.md",
+    "STUDY/Programming Language/DirectX 3D 11/HLSL/HLSL.md",
+    "STUDY/Programming Language/DirectX 3D 11/HLSL/TEXCOORD.md",
     "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-18.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-19.md",
@@ -204,9 +208,6 @@
     "Pasted image 20230710133819.png",
     "Pasted image 20230711010603.png",
     "Projection Calculate in DirectX.md",
-    "README.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-16.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Lights and Materials.md",
     "RESOURCE/Image/Pasted image 20230701111533.png",
     "GAME/IDEA/다은 협작",
     "STUDY/Unity",
