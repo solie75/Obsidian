@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
+                "file": "2023-07-25.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
+                "file": "2023-07-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
+                "file": "2023-07-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md"
+                "file": "2023-07-25.md"
               }
             }
           },
@@ -175,11 +175,12 @@
   },
   "active": "9f8f17f9ab5b602b",
   "lastOpenFiles": [
+    "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
+    "2023-07-25.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-19.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-18.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-06.md",
-    "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Arithmetic Operations.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/HLSL.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/TEXCOORD.md",
@@ -202,7 +203,6 @@
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex/LoadFromDDSFile, LoadFromTGAFile, LoadFromWICFile.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex/무제 파일.md",
     "Pasted image 20230713101535.png",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
     "Pasted image 20230710031214.png",
     "Pasted image 20230710062501.png",
     "Pasted image 20230710133819.png",
