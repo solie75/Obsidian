@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/16. Light.md",
+                "file": "STUDY/AK/Assortrock 46 portfolio/17. Collider.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422,
-    "collapsed": true
+    "width": 384
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/16. Light.md",
+                "file": "STUDY/AK/Assortrock 46 portfolio/17. Collider.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/16. Light.md",
+                "file": "STUDY/AK/Assortrock 46 portfolio/17. Collider.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/16. Light.md"
+                "file": "STUDY/AK/Assortrock 46 portfolio/17. Collider.md"
               }
             }
           },
@@ -176,9 +175,11 @@
   },
   "active": "9f8f17f9ab5b602b",
   "lastOpenFiles": [
-    "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
     "STUDY/AK/Assortrock 46 portfolio/16. Light.md",
-    "2023-07-25.md",
+    "STUDY/AK/Assortrock 46 portfolio/17. Collider.md",
+    "RESOURCE/Image/Pasted image 20230726115913.png",
+    "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-07-25.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-19.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-18.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
@@ -196,24 +197,22 @@
     "STUDY/AK/Assortrock 46 portfolio/8. Resource, Texture, UV.md",
     "STUDY/AK/46 Win 진도/2..md",
     "STUDY/AK/Assortrock 46 portfolio/13. Rendering Mode.md",
-    "Pasted image 20230718022040.png",
+    "RESOURCE/Image/Pasted image 20230718022040.png",
     "STUDY/AK/Assortrock 46 portfolio/12. Rasterizer State, DepthStencil State, Blend State.md",
     "STUDY/AK/Assortrock 46 portfolio/포폴 도중 오류 모음.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-06-26.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/RasterizerState, DepthStencilState, BlendState.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/10. World, Projection, View Matrix 적용.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/DirectXTex/LoadFromDDSFile, LoadFromTGAFile, LoadFromWICFile.md",
-    "Pasted image 20230713101535.png",
-    "Pasted image 20230710031214.png",
-    "Pasted image 20230710062501.png",
-    "Pasted image 20230710133819.png",
-    "Pasted image 20230711010603.png",
+    "RESOURCE/Image/Pasted image 20230713101535.png",
+    "RESOURCE/Image/Pasted image 20230710031214.png",
+    "RESOURCE/Image/Pasted image 20230710062501.png",
+    "RESOURCE/Image/Pasted image 20230710133819.png",
+    "RESOURCE/Image/Pasted image 20230711010603.png",
     "RESOURCE/Image/Pasted image 20230701111533.png",
     "GAME/IDEA/다은 협작",
     "STUDY/Unity",
     "RESOURCE/Image/Pasted image 20230630125309.png",
     "RESOURCE/Image/Pasted image 20230630125257.png",
-    "RESOURCE/Image/Pasted image 20230630004907.png",
     "STUDY/AK/46 Win 진도"
   ]
 }
