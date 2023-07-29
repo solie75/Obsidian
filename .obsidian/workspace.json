@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/17. Collider.md",
+                "file": "STUDY/Math/선형대수/5. Cross product.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#define",
+                "query": "내적",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/17. Collider.md",
+                "file": "STUDY/Math/선형대수/5. Cross product.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/17. Collider.md",
+                "file": "STUDY/Math/선형대수/5. Cross product.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/Assortrock 46 portfolio/17. Collider.md"
+                "file": "STUDY/Math/선형대수/5. Cross product.md"
               }
             }
           },
@@ -175,8 +176,13 @@
   },
   "active": "9f8f17f9ab5b602b",
   "lastOpenFiles": [
-    "STUDY/AK/Assortrock 46 portfolio/16. Light.md",
+    "Daily/2023/03/4주차/2023-03-19.md",
+    "STUDY/Math/선형대수/3. Row Vector & Dot product.md",
+    "STUDY/Math/선형대수/1. Vector & Scalar & Basis & Span.md",
+    "STUDY/Programming Language/C++/프로그램 실행 시간 측정.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Resource View.md",
     "STUDY/AK/Assortrock 46 portfolio/17. Collider.md",
+    "STUDY/AK/Assortrock 46 portfolio/16. Light.md",
     "RESOURCE/Image/Pasted image 20230726115913.png",
     "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-25.md",
@@ -198,11 +204,6 @@
     "STUDY/AK/46 Win 진도/2..md",
     "STUDY/AK/Assortrock 46 portfolio/13. Rendering Mode.md",
     "RESOURCE/Image/Pasted image 20230718022040.png",
-    "STUDY/AK/Assortrock 46 portfolio/12. Rasterizer State, DepthStencil State, Blend State.md",
-    "STUDY/AK/Assortrock 46 portfolio/포폴 도중 오류 모음.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-26.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/RasterizerState, DepthStencilState, BlendState.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/10. World, Projection, View Matrix 적용.md",
     "RESOURCE/Image/Pasted image 20230713101535.png",
     "RESOURCE/Image/Pasted image 20230710031214.png",
     "RESOURCE/Image/Pasted image 20230710062501.png",
