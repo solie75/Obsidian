@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Math/선형대수/5. Cross product.md",
+                "file": "STUDY/Programming Language/C++/STD/map.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "내적",
+                "query": "std",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Math/선형대수/5. Cross product.md",
+                "file": "STUDY/Programming Language/C++/STD/map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Math/선형대수/5. Cross product.md",
+                "file": "STUDY/Programming Language/C++/STD/map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Math/선형대수/5. Cross product.md"
+                "file": "STUDY/Programming Language/C++/STD/map.md"
               }
             }
           },
@@ -176,6 +175,11 @@
   },
   "active": "9f8f17f9ab5b602b",
   "lastOpenFiles": [
+    "STUDY/Programming Language/C++/STD/sort.md",
+    "STUDY/Programming Language/C++/STD/map.md",
+    "STUDY/Programming Language/C++/STD/getline.md",
+    "STUDY/공부 메모/memset() 함수.md",
+    "STUDY/Math/선형대수/5. Cross product.md",
     "Daily/2023/03/4주차/2023-03-19.md",
     "STUDY/Math/선형대수/3. Row Vector & Dot product.md",
     "STUDY/Math/선형대수/1. Vector & Scalar & Basis & Span.md",
@@ -198,11 +202,6 @@
     "STUDY/AK/Assortrock 46 portfolio/10. ResourceManager, Scene, Layer, SceneManager.md",
     "STUDY/AK/Assortrock 46 portfolio/11. Transform, Camera, MoveScript.md",
     "STUDY/AK/Assortrock 46 portfolio/5. Vertex, Buffer, Shader, InputLayout, ViewPort.md",
-    "STUDY/AK/Assortrock 46 portfolio/6. Index Buffer, Constant Buffer.md",
-    "STUDY/AK/Assortrock 46 portfolio/7. Mesh, Shader.md",
-    "STUDY/AK/Assortrock 46 portfolio/8. Resource, Texture, UV.md",
-    "STUDY/AK/46 Win 진도/2..md",
-    "STUDY/AK/Assortrock 46 portfolio/13. Rendering Mode.md",
     "RESOURCE/Image/Pasted image 20230718022040.png",
     "RESOURCE/Image/Pasted image 20230713101535.png",
     "RESOURCE/Image/Pasted image 20230710031214.png",
