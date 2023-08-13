@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-08-11.md",
+                "file": "사막 보스 구현 숙제.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-08-11.md",
+                "file": "사막 보스 구현 숙제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2023-08-11.md",
+                "file": "사막 보스 구현 숙제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-08-11.md"
+                "file": "사막 보스 구현 숙제.md"
               }
             }
           },
@@ -189,11 +189,11 @@
   },
   "active": "9bf863899e478cd0",
   "lastOpenFiles": [
+    "STUDY/Programming Language/C++/STD/map.md",
+    "사막 보스 구현 숙제.md",
     "알아봐야 할 것.md",
-    "2023-08-11.md",
     "STUDY/AK/메모/기타/10-06 Clone.md",
     "STUDY/Programming Language/C++/STD/sort.md",
-    "STUDY/Programming Language/C++/STD/map.md",
     "STUDY/Programming Language/C++/STD/getline.md",
     "STUDY/공부 메모/memset() 함수.md",
     "STUDY/Math/선형대수/5. Cross product.md",
