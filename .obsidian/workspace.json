@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "clone",
+                "query": "월드 변환",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,11 +86,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 384,
+    "width": 204,
     "collapsed": true
   },
   "right": {
@@ -189,6 +190,7 @@
   },
   "active": "9bf863899e478cd0",
   "lastOpenFiles": [
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-21.md",
     "STUDY/Programming Language/C++/STD/map.md",
     "사막 보스 구현 숙제.md",
     "알아봐야 할 것.md",
@@ -215,7 +217,6 @@
     "STUDY/Programming Language/DirectX 3D 11/HLSL/HLSL.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/TEXCOORD.md",
     "STUDY/AK/Assortrock 46 portfolio/14. Grid.md",
-    "STUDY/AK/Assortrock 46 portfolio/9. Material, MeshRender.md",
     "RESOURCE/Image/Pasted image 20230718022040.png",
     "RESOURCE/Image/Pasted image 20230713101535.png",
     "RESOURCE/Image/Pasted image 20230710031214.png",
