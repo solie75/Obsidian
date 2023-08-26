@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "사막 보스 구현 숙제.md",
+                "file": "Compute Shader 부터 particle 까지.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사막 보스 구현 숙제.md",
+                "file": "Compute Shader 부터 particle 까지.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사막 보스 구현 숙제.md",
+                "file": "Compute Shader 부터 particle 까지.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사막 보스 구현 숙제.md"
+                "file": "Compute Shader 부터 particle 까지.md"
               }
             }
           },
@@ -190,9 +190,12 @@
   },
   "active": "9bf863899e478cd0",
   "lastOpenFiles": [
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-21.md",
-    "STUDY/Programming Language/C++/STD/map.md",
+    "Pasted image 20230826141950.png",
     "사막 보스 구현 숙제.md",
+    "Compute Shader 부터 particle 까지.md",
+    "STUDY/Programming Language/C++/STD/map.md",
+    "2023-08-21.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-21.md",
     "알아봐야 할 것.md",
     "STUDY/AK/메모/기타/10-06 Clone.md",
     "STUDY/Programming Language/C++/STD/sort.md",
@@ -214,9 +217,6 @@
     "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-06.md",
     "STUDY/Programming Language/DirectX 3D 11/HLSL/Arithmetic Operations.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/HLSL.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/TEXCOORD.md",
-    "STUDY/AK/Assortrock 46 portfolio/14. Grid.md",
     "RESOURCE/Image/Pasted image 20230718022040.png",
     "RESOURCE/Image/Pasted image 20230713101535.png",
     "RESOURCE/Image/Pasted image 20230710031214.png",
