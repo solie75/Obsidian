@@ -1338,3 +1338,5 @@ CRenderMgr 에서 ParticleShader 생성
 	ya::Resources::Insert(L"ParticleSystemShader", psSystemShader);
 ```
 
+
+## Dust Particle 생성

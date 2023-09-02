@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9f8f17f9ab5b602b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/C++/STD/map.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9bf863899e478cd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Compute Shader 부터 particle 까지.md",
+                "file": "사막 보스 구현 숙제.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "월드 변환",
+                "query": "투명",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,13 +73,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 204,
-    "collapsed": true
+    "width": 312
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -108,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compute Shader 부터 particle 까지.md",
+                "file": "사막 보스 구현 숙제.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Compute Shader 부터 particle 까지.md",
+                "file": "사막 보스 구현 숙제.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Compute Shader 부터 particle 까지.md"
+                "file": "사막 보스 구현 숙제.md"
               }
             }
           },
@@ -190,10 +175,17 @@
   },
   "active": "9bf863899e478cd0",
   "lastOpenFiles": [
-    "Pasted image 20230826141950.png",
-    "사막 보스 구현 숙제.md",
     "Compute Shader 부터 particle 까지.md",
+    "GAME/IDEA/INDIE/덜떨어진 퇴마병.md",
+    "GAME/IDEA/CONSOLE/OVERWATCH_with_Stationary.md",
+    "GAME/IDEA/INDIE",
+    "GAME/IDEA/CONSOLE/mountain keeper.md",
+    "GAME/IDEA/CONSOLE/Find Eyes.md",
+    "GAME/IDEA/CONSOLE/Blind_Swordsman(with 심청전).md",
+    "GAME/IDEA/CONSOLE/Escape_From_The_AssassinCompany.md",
+    "사막 보스 구현 숙제.md",
     "STUDY/Programming Language/C++/STD/map.md",
+    "Pasted image 20230826141950.png",
     "2023-08-21.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-06-21.md",
     "알아봐야 할 것.md",
@@ -212,11 +204,6 @@
     "RESOURCE/Image/Pasted image 20230726115913.png",
     "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-07-25.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-07-19.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-07-18.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-07-06.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/Arithmetic Operations.md",
     "RESOURCE/Image/Pasted image 20230718022040.png",
     "RESOURCE/Image/Pasted image 20230713101535.png",
     "RESOURCE/Image/Pasted image 20230710031214.png",
@@ -227,7 +214,6 @@
     "GAME/IDEA/다은 협작",
     "STUDY/Unity",
     "RESOURCE/Image/Pasted image 20230630125309.png",
-    "RESOURCE/Image/Pasted image 20230630125257.png",
     "STUDY/AK/46 Win 진도"
   ]
 }
