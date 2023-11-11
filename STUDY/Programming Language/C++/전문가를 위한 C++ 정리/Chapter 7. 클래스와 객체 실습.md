@@ -179,112 +179,37 @@ int main()
 
 \- 힙에 객체를 생성하는 경우
 new 연산자를 이용해서 동적으로 객체를 생성한다.
-
-
 ```c++
-#include <iostream>
-#include <sstream>
-#include <string>
-
-#include "CSpreadsheetCell.h"
-
 int main()
 {
-	CSpreadsheetCell* myCell = new CSpreadsheetCell;
-	myCell->setValue(3.7);
-	std::
+	auto pSmartCell = make_unique<SpreadsheetCell>(4);
+
+	CSpreadsheetCell* pMyCell = new CSpreadsheetCell(5);
+	CSpreadsheetCell* pAnotherCell = nullptr;   //...1)
+	pAnotherCell = new CSpreadsheetCell(4);   //...2_)
+
+	delete pAyCell;
+	pMyCell = nullptr;
+	delete pAnotherCell;
+	pAnotherCell = nullptr;
 }
 ```
+1. 스택 객체와 달리 객체의 포인터 변수를 선언할 때에는 바로 생성자를 호출하지 않아도 된다. 그리고 필수는 아니지만 nullptr 로 초기화 해 두는 것이 바람직하다.
+2. new 연산자를 이용해서 실제로 객체를 생성하는 시점에 생성자 파라미터를 클래스명에 전달하면서 생성자를 호출한다.
+
+- 디폴트 생성자
+  파라미터가 없는 생성자를 디폴트 생성자라 한다.
+  객체 저장에 std::vector 와 같은 STL 컨테이너를 이용하려면 디폴트 생성자를 반드시 만들어야한다.
 
 ```c++
-#include "CSpreadsheetCell.h"
-#include <iostream>
-#include <sstream>
+CSpreadsheetCell myCell;
+myCell.setValue(6);
 
-std::string CSpreadsheetCell::doubleToString(double inputValue) const
-{
-    std::ostringstream ostr;
-    ostr << inputValue;
-    return ostr.str();
-}
-
-double CSpreadsheetCell::stringToDouble(const std::string& inputString) const
-{
-    double temp;
-    std::istringstream istr(inputString);
-    istr >> temp;
-    if (istr.fail() || !istr.eof())
-    {
-        return 0;
-    }
-    return temp;
-}
-
-//CSpreadsheetCell::CSpreadsheetCell()
-//{
-//}
-//
-//CSpreadsheetCell::~CSpreadsheetCell()
-//{
-//}
-
-void printCell(const CSpreadsheetCell& inputCell)
-{
-    std::cout << inputCell.getString() << std::endl;
-}
-
-void CSpreadsheetCell::setValue(double inputValue)
-{
-    mValue = inputValue;
-    mString = doubleToString(mValue);
-    printCell(*this);
-}
-
-double CSpreadsheetCell::getValue() const
-{
-    return mValue;
-}
-
-void CSpreadsheetCell::setString(const std::string& inputString)
-{
-    mString = inputString;
-    mValue = stringToDouble(mString);
-}
-
-const std::string& CSpreadsheetCell::getString() const
-{
-    return mString;
-}
-
-
-
-
-
+CSpreadsheetCell anotherCell();   //...(컴파일은 된다) ...1)
+anotherCell.setValue(3);   //...(컴파일 되지 않는다.)
 ```
+ 스택 기반의 객체에 디폴트 생성자를 호출할 대에는 다른 생성자와 달리 함수 호출 형태를 쓰면 안되다. 
+ 1. 디폴트 생성자를 함수 호출 형태로 사용하게 되면  함수명이 anotherCell 이고 공백 파라미터에 리턴 타입이 CSpreadsheetCell 인 함수로 인식하기 때문이다.
 
 
-```c++
-#pragma once
-#include <string>
-
-class CSpreadsheetCell
-{
-private:
-	double mValue;
-	std::string mString;
-
-	std::string doubleToString(double inputValue) const;
-	double stringToDouble(const std::string& inputString) const;
-	
-public:
-	//CSpreadsheetCell();
-	//~CSpreadsheetCell();
-
-	void setValue(double inputValue);
-	double getValue() const;
-
-	void setString(const std::string& inputString);
-	const std::string& getString() const;
-};
-
-```
+  
