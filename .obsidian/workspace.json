@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 7. 클래스와 객체 실습.md",
+                "file": "STUDY/공부 메모/new 와 new[]의 차이.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d50c82226ed41a1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Big-o",
+                "query": "new",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 7. 클래스와 객체 실습.md",
+                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 7. 클래스와 객체 실습.md",
+                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 7. 클래스와 객체 실습.md"
+                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md"
               }
             }
           },
@@ -174,10 +187,14 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "e4ee6683079ee578",
+  "active": "d50c82226ed41a1e",
   "lastOpenFiles": [
-    "STUDY/Programming Language/C++/STL/sstream.md",
+    "STUDY/공부 메모/new 와 new[]의 차이.md",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 7. 클래스와 객체 실습.md",
+    "STUDY/Programming Language/C++/STL/stdexcept.md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
+    "README.md",
+    "STUDY/Programming Language/C++/STL/sstream.md",
     "STUDY/Programming Language/C++/STL/cstring.md",
     "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 6. 재사용성을 높이는 디자인.md",
@@ -203,14 +220,10 @@
     "STUDY/Programming Language/C++/assert ( ).md",
     "STUDY/Programming Language/C++/기타 개념/정적 맴버 변수.md",
     "STUDY/Programming Language/C++/기타 개념/Inline 함수.md",
-    "STUDY/Programming Language/C++/0x00.md",
     "STUDY/Programming Language/C++/기타 개념",
-    "STUDY/Programming Language/C++/미리 컴파일 된 헤더.md",
     "Pasted image 20230826141950.png",
     "Pasted image 20231030002916.png",
     "Pasted image 20231030152741.png",
-    "README.md",
-    "Projection Calculate in DirectX.md",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리",
     "GAME/IDEA/INDIE",
     "RESOURCE/Image/Pasted image 20230726115913.png",
