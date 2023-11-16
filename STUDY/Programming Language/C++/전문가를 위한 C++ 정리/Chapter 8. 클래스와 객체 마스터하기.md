@@ -279,4 +279,95 @@ CSpreadsheet::CSpreadsheet(const CSpreadsheet& src)
 public 으로 선언한다면 클래스 바깥에서도 접근 가능. 하지만 public 으로 하지 않고 private 으로 선언한 다음 게터와 세터로 접근하도록 한다. 이때 게터와 세터 메서드를 구현하는데 static 메서드를 사용해야 한다.
 
 - const 데이터 멤버
- 
+클래스의 데이터 멤버를 const 선언하면 생성 시점에서 초깃값을 부여한 뒤로 더는 값을 변경할 수 없게 된다. 이처럼 객체 수준에서 상수값을 보유하는 것은 대부분 메모리 낭비이기에 static const 맴버를 이용해서 개체 간 상수 값을 공유하도록 한다.
+
+```c++
+// CSpreadsheet의 최대값을 지정한다.
+class CSpreadsheet
+{
+public :
+	static const int kMaxHeight = 100;
+	static const int kMaxWidth = 100;
+...
+}
+```
+
+```c++
+// CSpreadsheet 생성자에서 최대값을 넘지 않도록 한다.
+CSpreadsheet::CSpreadsheet(int inputWidth, int inputHeight)
+    : mWidth(inputWidth < kMaxWidth ? inputWidth : kMaxWidth)
+    , mHeight(inputHeight < kMaxHeight ? inputHeight : kMaxHeight)
+{
+    ...
+}
+```
+
+- 참조형 데이터 멤버
+spread sheet 프로그램의 작동을 위해 Spreadsheet 과 SpreadsheetCell를  모두 관리하는 CSpreadsheetApplication 클래스를 생성한다. 이때 CSpreadsheet 과 CSpreadsheetCell 은 CSpreadsheetApplication을 CSpreadsheetApplication 은 CSpreadsheet과 CSpreadsheetCell 을 참조해야한다. 즉, 클래스끼리 서로 참조를 해야하는 상황이 생길 수 있다는 것이다. 이와 같은 경우를 전방선언 ('포워드 선언') 으로 해결한다. 교차 참조되는 클래스의 헤더 파일 중 어느 한쪽에 상대편 클래스를 전방 선언하면 컴파일러가 나중에 해당 정의를 찾아서 타입 매칭을 한다.
+
+```c++
+// CSpreadsheet.h
+Class CSpreadsheetApplication; // 전방 선언
+class CSpreadsheet
+{
+public:
+	Spreadsheet(int inWidth, int inHeight, SpreadsheetApplication& theApp);
+	...
+private:
+	...
+	CSpreadsheetApplication& mTheApp;	
+}
+
+// CSpreadsheet.cpp
+CSpreadsheet::CSpreadsheet(int inputWidth, int inputHeight, CSpreadsheetApplication& theApp)
+    : mWidth(inputWidth < kMaxWidth ? inputWidth : kMaxWidth)
+    , mHeight(inputHeight < kMaxHeight ? inputHeight : kMaxHeight)
+    , mTheApp(theApp)
+{
+    mId = sCounter++;
+    mCells = new CSpreadsheetCell * [mWidth];
+    for (int i = 0; i < mWidth; i++)
+    {
+        mCells[i] = new CSpreadsheetCell[mHeight];
+    }
+}
+
+CSpreadsheet::CSpreadsheet(const CSpreadsheet& src)
+    : mWidth(src.mWidth)
+    , mHeight(src.mHeight)
+    , mCells(nullptr)
+    , mTheApp(src.mTheApp)
+{
+    mId = sCounter++;
+
+    mCells = new CSpreadsheetCell * [mWidth];
+    for (int i = 0; i < mWidth; i++)
+    {
+        mCells[i] = new CSpreadsheetCell[mHeight];
+    }
+    for (int i = 0; i < mWidth; i++)
+    {
+        for (int j = 0; j < mHeight; j++)
+        {
+            mCells[i][j] = src.mCells[i][j];
+        }
+    }
+}
+```
+
+참조형 변수는 생성과 동시에 다른 객체를 참조하도록 초기화되어야 하므로 객체가 생성되고 나서 나중에 세팅할 수 없다. 따라서 생성자 초기화 리스트에서 참조형 변수를 초기화 하며 이는 복사 생성자에서도 마찬가지이다.
+
+- const 참조형 데이터 멤버
+참조형 데이터가 const 객체를 참조하기 위해서는 해당 변수를 const 로 선언하면 된다.
+```c++
+class CSpreadsheet
+{
+private :
+	const CSpreadsheetApplicaion& mTheApp;
+
+public: CSpreadsheet(int inputWidth, int inputHeight, const CSpreadsheetApplication.theApp)
+}
+```
+
+const 참조현 변수로 참조된 CSpreadsheetApplication 데이터 멤버는 CSpreadsheetApplication 객체에 대해 const 메서드만 호출할 수 있다.
+
