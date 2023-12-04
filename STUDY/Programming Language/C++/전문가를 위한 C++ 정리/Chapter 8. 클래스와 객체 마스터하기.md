@@ -371,3 +371,342 @@ public: CSpreadsheet(int inputWidth, int inputHeight, const CSpreadsheetApplicat
 
 const 참조현 변수로 참조된 CSpreadsheetApplication 데이터 멤버는 CSpreadsheetApplication 객체에 대해 const 메서드만 호출할 수 있다.
 
+## 메서드 종류
+
+- static
+메서드가 특정 객체에 종속되는 부분 없이 모든 객체에 대해 공통적으로 적용되어야 할 때에 사용된다. 
+```c++
+class SpreadsheetCell
+{
+	...
+	private:
+		static std::string doubleToString(double val);
+		static double stringToDouble(const std::string& str);
+	...
+}
+```
+
+static 멤버 변수와 같이 클래스 만으로도 접근이 가능하다.
+객체와 독립적으로 객체의 생성과 상관이 없다. 객체가 생성되어야 지만 할당되는 기본 맴버 변수를 사용할 수 없다. 하지만 객체 생성과 상관없는 static 멤버 변수는 사용이 가능하다.
+객체 생성과 상관이 없으므로 당연히 this 포인터 또한 사용할 수 없다.
+
+ - const
+```c++
+// CSpreadsheetCell.h
+class CSpreadsheetCell
+{
+	public:
+	...
+	double getValue() const;
+	const std::string& getString() const;
+}
+
+// CSpreadsheetCell.cpp
+double CSpreadsheetCell::getValue() const   //...1)
+{
+    return mValue;
+}
+
+const std::string& CSpreadsheetCell::getString() const   //...1)
+{
+    return mString;
+}
+```
+메서드를 const로 선언하는 것은 메서드가 객체의 데이터 값을 바꾸지 않는다는 뜻이다.
+const 메서드 내에서 접근하는 모든 데이터 멤버를 const 로 취급하는 것으로 구현한다.
+...1 )  const 제한자는 메서드 프로토타입 선언에 포함되기 때문에 구현부에서도 똑같이 적용해야 한다.
+static 메서드는 객체에 연계되지 않으므로 const 선언이 무의미하다. 따라서 static 메서드에는 const 제한자를 적용할 수 없다.
+
+```c++
+int main()
+{
+	CSpreadsheetCell myCell(5);
+	std::cout << myCell.getValue() << std::endl;
+
+	myCell.setString("6");
+	const CSpreadsheetCell& anotherCell = myCell;
+
+	std::cout << anotherCell.getValue() << std::endl;
+	anotherCell.setString("6");   //...1)
+
+	return 0;
+}
+```
+
+...1 )  에서 '객체에 멤버 함수 "CSpreadsheetCell::setString" 과(와) 호환되지 않는 형식 한정자가 있습니다. 개체 형식 : const CSpreadsheetCell ' 오류가 뜬다.
+const 객체에 대해서는 const 객체만 호출 가능하다. 가능하다면 객체를 변경하지 않는 모든 메서드에 const 제한자를 적용하여 const 객체에서도 호출할 수 있게 하는 것이 바람직하다.
+
+- mutable
+mutable 로 선언된 멤버 변수는 const 함수에서도 값을 변경할 수 있다.
+```c++
+// CSpreadsheetCell.h
+class CSpreadsheetCell
+{
+private:
+	mutable std::string mString;
+	...
+public:
+	...
+}
+
+// CSpreadsheetCell.cpp
+const std::string& CSpreadsheetCell::getString() const
+{
+    std::string str;
+    mString = str;   //...1)
+    return mString;
+}
+```
+...1 )  에서 메서드가 const 이기 때문에 원래는 맴버 변수의 값의 변경이 불가능 하지만 mString 맴버 변수가 mutable 선언되었기 때문에 값의 변경이 가능하다.
+
+- 메서드 오버로딩
+이름이 같은 메서드 또는 함수를 파라미터만 달리하여 정의하는 것을 말한다.
+```c++
+class CTest()
+{
+private:
+	mNum;
+public:
+	printNum(int input);
+	printNum(int input1, std::string input2);
+}
+
+CTest::printNum(int input)
+{
+	return input;
+}
+
+CTest::printNum(int input1, std::string input2)
+{
+	std::cout << input2 << std::endl;
+	return input1;
+}
+```
+컴파일러가 printNum() 메서드의 호출을 만나면 인자의 데이터 타입과 개수를 보고 적합한 메서드로 매핑 한다. 이러한 매핑 메커니즘을 오버로드 지정 이라고 한다.
+리턴타입만 다른 메서드 혹은 함수에 대해서는 오버로딩을 허용하지 않는다.
+const 제한자에 기반한 오버로딩도 가능하다. 예로 두 개의 이름도 같고 파라미터도 같은 메서드 중 어느 한쪽이 const 라면, 그 메서드를 호출한 객체의 타입이 const 인지 아닌지 에 맞춰서 컴파일러가 호출할 메서드를 지정할 수 있다.
+
+```c++
+class CTest()
+{
+public:
+	void testFnc(int i);
+}
+
+int main()
+{
+	CTest test;
+	test.testFnc(3);
+	test.testFnc(1.1);   //...1)
+}
+```
+... 1 )  에서 1.1 을 1 로 타입 캐스팅하여 testFnc(int i) 를 호출한다. double 자료형을 입력했을 때 testFnc(int i) 가 호출되지 않게 하기 위해서는 다음을 추가한다.
+```c++
+class CTest()
+{
+public:
+	void testFnc(int i);
+	void testFnc(double d) = delete;   //...1)
+}
+```
+...1) 과 같이 선언하면 double 타입 인자로 testFnc() 메서드가 호출될 때 컴파일러가 int 로 타입캐스팅을 하는 대신 에러 메시지를 출력한다.
+
+- 디폴트 파라미터
+함수나 메서드의 프로토 타입을 선언 할 때 파라미터에 디폴트 값을 지정할 수 있다. 사용자가 함수나 메서드에 인자를 전달하면 디폴트값이 아닌 전달한 값이 적용 된다.
+디폴트 파라미터는 가장 마지막(가장 오른쪽)의 파라미터부터 시작해서 건너뜀 없이 연속으로 적용할 수 있다.
+```c++
+class CTest
+{
+public:
+	void testFnc(int numI = 10, double numD, float numF = 0.3f)   //...1)
+	{}
+};
+```
+...1 )  디폴트 파라미터가 오른쪽 부터 건너뜀 없이 적용되어야 하는데 double numD 에는 디폴트 파라미터가 적용되지 않았는데 int numI = 10 은 디폴트 파라미터가 적용되어 있다. 이때 int numI = 10 에 '기본 인수가 매개 변수 목록의 끝에 없습니다.' 오류가 뜬다.
+
+- inline
+메서드나 함수를 별도의 분리된 코드 블록으로 호출하는 대신, 호출 지점에 바로 메서드나 함수의 바디를 옮겨놓아 호출 오버헤드를 줄이는 방법을 인라이닝(inlining)이라하고 인라이닝되는 메서드 또는 함수를 inline 메서드, inline 함수 라 한다.
+인라이닝은 \#define 매크로를 이용해서 코드를 삽입하는 방법보다 훨신 안전하다.
+```c++
+// CSpreadsheetCell.cpp
+inline double CSpreadsheetCell::getValue() const
+{
+    return mValue;
+}
+
+inline const std::string& CSpreadsheetCell::getString() const
+{
+    return mString;
+}
+```
+위의 예제는 getValue() 와 getString() 메서드를 inline 화 한것이다.
+컴파일러가 위의 두 메서드의 호출을 만날 때마다 메서드 호출 코드 대신 메서드 바디를 해당 위치에 삽입한다.
+이를 위해서는 해당 메서드와 함수의 바디가 inline 할 소스 파일에서 보여야 한다.
+따라서 inline 함수는 헤더파일에 해당 프로토 타입과 함께 정의부가 들어간다. 예를 들어 클래스 메서드라면 클래스 정의가 있듣 .h 파일에 정의되어야 한다.
+
+```c++
+// CSpreadsheetCell.h
+class CSpreadsheetCell
+{
+public:
+	double getValue() const { return mValue; };
+	const std::string& getString() const { return mString; }
+}
+```
+위의 예제는 클래스 정의 안에 구현부를 정의한 것으로 인라이닝이 적용된다. 
+디버거를 이용해서 라인 단위로 디버깅을 할 때 만약 함수가 인라이닝 되어 있다면 인라이닝 된 함수로 점프한다.
+
+- friend 속성
+friend 설정을 이용하면 다른 클래스 또는 다른 클래스의 메서드에서 private나 protected 로 선언된 멤버와 메서드에 접근할 수 있게 열어줄 수 있다.
+```c++
+class CTestOne
+{
+private:
+	int mNum;
+public:
+	friend class CTestTwo;
+};
+
+class CTestTwo
+{
+private:
+	CTestOne t1;
+public:
+	int getNum() { return t1.mNum; }
+};
+```
+
+class 전체가 아니라 하나의 메서드 혹은 함수에도 friend 선언이 가능하다.
+```c++
+class CTestOne;
+
+class CTestTwo
+{
+public:
+    void printNum(CTestOne& t);
+};
+
+void CTestTwo::printNum(CTestOne& t)
+{
+    std::cout << t.num << std::endl;
+}
+
+class CTestOne
+{
+private:
+    int num;
+public:
+    friend void CTestTwo::printNum(CTestOne&);
+};
+```
+
+- 연산자 오버로딩
+```c++
+// CSpreadsheetCell.h
+class CSpreadsheetCell
+{
+public:
+	CSpreadsheetCell add(const CSpreadsheetCell& cell) const;
+	CSpreadsheetCell operator+ (const CSpreadsheetCell& cell) const;
+}
+
+// CSpreadsheetCell.cpp
+CSpreadsheetCell CSpreadsheetCell::add(const CSpreadsheetCell& cell) const
+{
+    CSpreadsheetCell newCell;
+    newCell.setValue(mValue + cell.mValue);
+    return newCell;
+}
+
+CSpreadsheetCell CSpreadsheetCell::operator+(const CSpreadsheetCell& cell) const
+{
+    CSpreadsheetCell newCell;
+    newCell.setValue(mValue + cell.mValue);
+    return newCell;
+}
+
+// main
+int main()
+{
+	CSpreadsheetCell cellOne(4), cellTwo(9);
+
+	CSpreadsheetCell cellThree = cellOne.add(cellTwo);   //...1)
+	CSpreadsheetCell cellFour = cellOne + cellTwo;   //...2)
+
+	return 0;
+}
+```
+
+1과 2 모두 결과가 같다. 상황에 따라 알맞은 방식으로 사용한다.
+
+- 묵시적인 타입 캐스팅
+```c++
+int main()
+{
+	CSpreadsheetCell cellOne(4), cellTwo(9);
+
+	CSpreadsheetCell cellThree = cellOne.add(cellTwo);
+	CSpreadsheetCell cellFour = cellOne + cellTwo;
+	CSpreadsheetCell cellFive = cellOne + 4;   //...1)
+	CSpreadsheetCell cellsix = cellOne + 5.6;   //...2)
+	std::string str = "game";
+	CSpreadsheetCell cellsix = cellOne + str;
+	return 0;
+}
+```
+
+위의 예제는 오류없이 컴파일 된다. 이는 operator+ 를 컴파일러가 처리할 때 적합한 타입을 찾을 뿐아니라 적합한 타입으로 변환할 방법도 찾기 때문이다. 
+만약 생성자 중에 부적합한 타입을 인자로 받는 것이 있다면 그 생성자를 이용해서 적합한 타입의 임시 객체를 자동으로 생성한다.
+
+풀어서 설명하면
+...1 ) 의 ' 4 ' 는 CSpreadsheetCell 임시객체(4) 가 된다. 즉, cellFive 는 cellOne 과 임시객체(4) 에 대한 operator+ 연산의 반환값이 대입된다.
+...2 ) 의 ' 5.6 ' 은 CSpreadsheetCell 임시객체(5.6) 이 된다. 하지만 이때 인자를 int 또는 string 으로 하는 생성자와 디폴트 생성자만 있을 뿐 double 에 대한 생성자는 존재하지 않는다. 따라서 컴파일러는 5.6 에 묵시적인 타입 캐스팅을 적용하여 int 형 ' 5 ' 로 변환 하고 CSpreadsheetCell(int inputInt) 생성자를 호출한다.
+
+이러한 암묵적인 변환을 막고 싶다면 해당 생성자에 explicit 키워드를 붙인다.
+' explicit CSpreadsheetCell(int inputInt);  ' 와 같이 생성자를 생성하면 위의 예제 코드에서 ...1 ) 의 + 와 ...2 ) 의 + 에 오류가 생긴다.
+explicit 키워드는 클래스 정의에서만 사용이 가능하고 파라미터가 하나뿐인 생성자에서만 의미가 있다.
+
+묵시적 생성자가 실행되어 임시 객체가 생성되었다가 사라지는 것은 비효율 적으로 explicit 로 금지하고 operator+ 메서드를 의도에 맞게 오버로딩하는 것이 옳다.
+
+- 전역함수 operator+
+```c++
+	CSpreadsheetCell cellFive = cellOne + 4;
+	CSpreadsheetCell cellSix = cellOne + 5.6;
+	CSpreadsheetCell cellSeven = 4 + cellOne;   //...1)
+	CSpreadsheetCell cellEight = 5.6 + cellOne;   //...2)
+```
+
+묵시적인 변환은 CSpreadsheetCell 객체에 int 와 double 을 더할 수 있게 해주었지만 ...1) 과 ...2) 의 경우 오류를 일으킨다. 즉, 교환법칙이 성립하지 않는다.
+이는 operator+ 를 CSpreadsheetCell 의 메서드로서 오버로딩하면 묵시적 타입 변환의 대상이 우항에 있는 객체만을 대상으로 하기 때문이다. 이는 다음의 코드와 같이 operator+ 를 전역 함수로 정의하여 특정 객체에 종속되지 않게 하면 위의 오류가 해결된다.
+
+```c++
+class CSpreadsheetCell
+{
+private:
+	double mValue;
+	...
+public:
+	...
+	friend CSpreadsheetCell operator+(const CSpreadsheetCell& lhs, const CSpreadsheetCell& rhs);   //...1)
+}
+
+CSpreadsheetCell operator+ (const CSpreadsheetCell& lhs, const CSpreadsheetCell& rhs)
+{
+	CSpreadsheetCell newCell;
+	newCell.setValue(lhs.mValue + rhs.mValue);
+	return newCell;
+}
+```
+...1 )  operator+ 에서 private 인 mValue 에 접근하기 위해 operator+ 를 CSpreadsheetCell 에서 friend 선언한다.
+
+=> operator -, \*, /   또란 구현해 보자
+operatoir/ 를 구현할 대 0으로 나누지 않도록 조심하자
+
+=> C++ 에서는 연산자의 우선순위를 바꿀 수 없다. 프로그래머는 각 연산자의 실제 구현 부분만 커스터마이즈 할 수 있다. 또한 C++ 은 새로운 연산자 기호를 만드는 것을 허용하지 않는다.
+
+이 방법과 같이 축약형 산술 연산자, 비교 연산자 를 오버로딩 할 수 있다.
+=> 비교 연산자 오버로딩에서 부동 소수점 변수 간에 동일 값인지에 대한 테스트는 오버헤드가 크다. 이 때에는 ' 엡실론 값 비교를 한다.'
+
+- pimpl 를 구현할 것인가
+pimpl 은 컴파일 시간을 줄이는 데 가장 의의를 두는데 현대 c++ 의 컴파일러는 이미 컴파일 시간이 많이 줄어들었기 때문에 사용에 의문점이 있다. 20 버전의 서적을 보고 판단할 것.
+

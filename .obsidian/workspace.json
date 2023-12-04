@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e4ee6683079ee578",
+            "id": "a0991469c3ff8248",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/공부 메모/new 와 new[]의 차이.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d50c82226ed41a1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
+                "file": "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "new",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 441,
+    "width": 388,
     "collapsed": true
   },
   "right": {
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
+                "file": "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
+                "file": "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md"
+                "file": "STUDY/AK/46 DirecX3D 진도/11-28 (6).md"
               }
             }
           },
@@ -187,13 +174,30 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "d50c82226ed41a1e",
+  "active": "a0991469c3ff8248",
   "lastOpenFiles": [
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 10. C++ 기타 사항.md",
+    "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
+    "STUDY/AK/46 DirecX3D 진도/11-27 (5).md",
+    "STUDY/AK/46 DirecX3D 진도/11-24 (4).md",
+    "Pasted image 20231127154543.png",
+    "STUDY/AK/46 DirecX3D 진도/11-23 (3).md",
+    "STUDY/AK/46 DirecX3D 진도/11-22 (2).md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 9. 클래스 상속 활용.md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
+    "STUDY/AK/46 DirecX3D 진도/11-21 (1).md",
+    "STUDY/AK/46 DirecX3D 진도",
+    "GAME/IDEA/FANGAME/리와인드.md",
+    "README.md",
+    "STUDY/Programming Language/C++/기타 개념/함수 포인터.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-06-20.md",
+    "STUDY/Programming Language/C/기타/함수포인터.md",
+    "STUDY/Programming Language/C++/기타 개념/try, throw, catch.md",
+    "정리할 것들.md",
+    "STUDY/AK/46 Win 진도/1. wWinMain().md",
     "STUDY/공부 메모/new 와 new[]의 차이.md",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 7. 클래스와 객체 실습.md",
     "STUDY/Programming Language/C++/STL/stdexcept.md",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
-    "README.md",
     "STUDY/Programming Language/C++/STL/sstream.md",
     "STUDY/Programming Language/C++/STL/cstring.md",
     "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
@@ -201,25 +205,10 @@
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 5. 객체를 이용한 디자인.md",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 4. 프로그램 디자인.md",
     "Pasted image 20231107145748.png",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 1. (기초, ).md",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 3. 코딩 스타일.md",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/무제 폴더",
     "STUDY/Programming Language/Clean Code",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 2. 문자열의 활용.md",
-    "STUDY/Programming Language/C++/기타 개념/C 스타일 문자열 활용.md",
     "STUDY/Programming Language/C++/STL",
-    "STUDY/Programming Language/C++/기타 개념/try, throw, catch.md",
-    "STUDY/Programming Language/C++/기타 개념/Smart Pointer.md",
     "Pasted image 20231103122211.png",
-    "STUDY/Programming Language/C++/기타 개념/전방 선언.md",
-    "STUDY/Programming Language/C++/ERROR/비정적 맴버 참조는 특정 객체에 상대적이어야 합니다..md",
-    "STUDY/Programming Language/C++/기타 개념/register 예약어.md",
-    "STUDY/Programming Language/C++/기타 개념/enum & enum class.md",
-    "STUDY/Programming Language/C++/Cast.md",
-    "STUDY/Programming Language/C++/c_str().md",
-    "STUDY/Programming Language/C++/assert ( ).md",
-    "STUDY/Programming Language/C++/기타 개념/정적 맴버 변수.md",
-    "STUDY/Programming Language/C++/기타 개념/Inline 함수.md",
     "STUDY/Programming Language/C++/기타 개념",
     "Pasted image 20230826141950.png",
     "Pasted image 20231030002916.png",
@@ -230,7 +219,6 @@
     "RESOURCE/Image/Pasted image 20230718022040.png",
     "RESOURCE/Image/Pasted image 20230713101535.png",
     "RESOURCE/Image/Pasted image 20230710031214.png",
-    "RESOURCE/Image/Pasted image 20230710062501.png",
     "GAME/IDEA/다은 협작",
     "STUDY/Unity",
     "STUDY/AK/46 Win 진도"
