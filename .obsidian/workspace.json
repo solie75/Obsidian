@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/11-28 (6).md"
+                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md"
               }
             }
           },
@@ -176,8 +176,11 @@
   },
   "active": "a0991469c3ff8248",
   "lastOpenFiles": [
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 10. C++ 기타 사항.md",
+    "STUDY/AK/46 DirecX3D 진도/11-30 (8).md",
+    "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
+    "STUDY/AK/46 DirecX3D 진도/11-29 (7).md",
     "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 10. C++ 기타 사항.md",
     "STUDY/AK/46 DirecX3D 진도/11-27 (5).md",
     "STUDY/AK/46 DirecX3D 진도/11-24 (4).md",
     "Pasted image 20231127154543.png",
@@ -201,9 +204,6 @@
     "STUDY/Programming Language/C++/STL/sstream.md",
     "STUDY/Programming Language/C++/STL/cstring.md",
     "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 6. 재사용성을 높이는 디자인.md",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 5. 객체를 이용한 디자인.md",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 4. 프로그램 디자인.md",
     "Pasted image 20231107145748.png",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/무제 폴더",
     "STUDY/Programming Language/Clean Code",
