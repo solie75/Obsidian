@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6bd6bfde2e8ad05d",
+        "id": "5b6958e5a486add2",
         "type": "tabs",
         "children": [
           {
-            "id": "a0991469c3ff8248",
+            "id": "c5e03a6c4788e1bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388,
-    "collapsed": true
+    "width": 388
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md"
+                "file": "STUDY/AK/46 DirecX3D 진도/12-06 (11).md"
               }
             }
           },
@@ -174,10 +173,12 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "a0991469c3ff8248",
+  "active": "c5e03a6c4788e1bf",
   "lastOpenFiles": [
-    "STUDY/AK/46 DirecX3D 진도/11-30 (8).md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
+    "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
     "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
+    "STUDY/AK/46 DirecX3D 진도/11-30 (8).md",
     "STUDY/AK/46 DirecX3D 진도/11-29 (7).md",
     "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 10. C++ 기타 사항.md",
@@ -202,8 +203,6 @@
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 7. 클래스와 객체 실습.md",
     "STUDY/Programming Language/C++/STL/stdexcept.md",
     "STUDY/Programming Language/C++/STL/sstream.md",
-    "STUDY/Programming Language/C++/STL/cstring.md",
-    "STUDY/Programming Language/C++/_splitpath_s, _wstplitpath_s.md",
     "Pasted image 20231107145748.png",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/무제 폴더",
     "STUDY/Programming Language/Clean Code",
