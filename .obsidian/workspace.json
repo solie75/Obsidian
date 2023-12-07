@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 388
+    "width": 388,
+    "collapsed": true
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-06 (11).md"
+                "file": "STUDY/AK/46 DirecX3D 진도/12-01 (9).md"
               }
             }
           },
@@ -175,8 +176,8 @@
   },
   "active": "c5e03a6c4788e1bf",
   "lastOpenFiles": [
-    "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
     "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
     "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
     "STUDY/AK/46 DirecX3D 진도/11-30 (8).md",
     "STUDY/AK/46 DirecX3D 진도/11-29 (7).md",
