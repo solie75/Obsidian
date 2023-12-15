@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c5e03a6c4788e1bf",
+            "id": "b3a4ed4f8b49c825",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-08 (14).md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dbd5f21269774e21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/Win32 AK 42 Project/11. PathMgr.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b6818037062b25b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "GetAsyncKeyState",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-08 (14).md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-08 (14).md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-08 (14).md"
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md"
               }
             }
           },
@@ -174,53 +199,53 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "c5e03a6c4788e1bf",
+  "active": "b6818037062b25b7",
   "lastOpenFiles": [
-    "STUDY/AK/46 DirecX3D 진도/12-07 (13).md",
+    "Pasted image 20231214182244.png",
+    "STUDY/Programming Language/Win32 AK 42 Project/03. KeyMgr, TimeMgr 생성.md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetAsynckeyState ( ).md",
+    "STUDY/Programming Language/Win32 AK 42 Project/11. PathMgr.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/20. Gravity & Ground Platform.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/22. Clone.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
+    "STUDY/AK/Assortrock 46 portfolio/3. Manager.md",
+    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/01. Project structure setting.md",
+    "Pasted image 20231212182644.png",
+    "Pasted image 20231212181700.png.md",
+    "Pasted image 20231212181700.png",
+    "STUDY/AK/Assortrock 46 portfolio/1. Setting.md",
+    "Pasted image 20231212104838.png",
+    "RESOURCE/Image/Pasted image 20231211114917.png",
+    "RESOURCE/Image/Pasted image 20231212103019.png",
+    "GAME/Setting.md",
+    "RESOURCE/Image/Pasted image 20231127154543.png",
+    "RESOURCE/Image/Pasted image 20231211173438.png",
+    "STUDY/AK/Assortrock 46 portfolio/8. Resource, Texture, UV.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
+    "Pasted image 20231211172010.png",
+    "STUDY/AK/46 DirecX3D 진도/11-21 (1).md",
+    "STUDY/Computer Science/CS 주요 개념/배치파일.md",
+    "Pasted image 20231211114917.png",
+    "Projection Calculate in DirectX.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project",
+    "STUDY/AK/무제 폴더",
+    "RESOURCE/Image/Pasted image 20231107145748.png",
+    "2023-06-16.md",
+    "2023-08-21.md",
     "STUDY/AK/46 DirecX3D 진도/12-08 (14).md",
+    "STUDY/AK/46 DirecX3D 진도/12-07 (13).md",
     "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
     "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
-    "STUDY/AK/46 DirecX3D 진도/11-30 (8).md",
-    "STUDY/AK/46 DirecX3D 진도/11-29 (7).md",
-    "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 10. C++ 기타 사항.md",
-    "STUDY/AK/46 DirecX3D 진도/11-27 (5).md",
-    "STUDY/AK/46 DirecX3D 진도/11-24 (4).md",
-    "Pasted image 20231127154543.png",
-    "STUDY/AK/46 DirecX3D 진도/11-23 (3).md",
-    "STUDY/AK/46 DirecX3D 진도/11-22 (2).md",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 9. 클래스 상속 활용.md",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
-    "STUDY/AK/46 DirecX3D 진도/11-21 (1).md",
     "STUDY/AK/46 DirecX3D 진도",
-    "GAME/IDEA/FANGAME/리와인드.md",
-    "README.md",
-    "STUDY/Programming Language/C++/기타 개념/함수 포인터.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-06-20.md",
-    "STUDY/Programming Language/C/기타/함수포인터.md",
-    "STUDY/Programming Language/C++/기타 개념/try, throw, catch.md",
-    "정리할 것들.md",
-    "STUDY/AK/46 Win 진도/1. wWinMain().md",
-    "STUDY/공부 메모/new 와 new[]의 차이.md",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 7. 클래스와 객체 실습.md",
-    "Pasted image 20231107145748.png",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/무제 폴더",
     "STUDY/Programming Language/Clean Code",
     "STUDY/Programming Language/C++/STL",
-    "Pasted image 20231103122211.png",
     "STUDY/Programming Language/C++/기타 개념",
-    "Pasted image 20230826141950.png",
-    "Pasted image 20231030002916.png",
-    "Pasted image 20231030152741.png",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리",
     "GAME/IDEA/INDIE",
-    "RESOURCE/Image/Pasted image 20230726115913.png",
-    "RESOURCE/Image/Pasted image 20230718022040.png",
-    "RESOURCE/Image/Pasted image 20230713101535.png",
-    "RESOURCE/Image/Pasted image 20230710031214.png",
-    "GAME/IDEA/다은 협작",
-    "STUDY/Unity",
-    "STUDY/AK/46 Win 진도"
+    "GAME/IDEA/다은 협작"
   ]
 }
