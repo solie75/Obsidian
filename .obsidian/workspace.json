@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "5b6958e5a486add2",
+        "id": "09b000ae6283b54e",
         "type": "tabs",
         "children": [
           {
-            "id": "b3a4ed4f8b49c825",
+            "id": "65bb8c8f32095d02",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dbd5f21269774e21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/DeltaTime.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6818037062b25b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TimeMgr",
+                "query": "D3D11_CREATE_DEVICE_DEBUG",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,12 +69,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 388
+    "width": 355
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -119,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/DeltaTime.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/DeltaTime.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/DeltaTime.md"
-              }
+              "state": {}
             }
           },
           {
@@ -199,45 +165,46 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "dbd5f21269774e21",
+  "active": "65bb8c8f32095d02",
   "lastOpenFiles": [
-    "STUDY/Programming Language/Win32 AK 42 Project/03. KeyMgr, TimeMgr 생성.md",
-    "STUDY/Programming Language/Win32 AK 42 Project/11. PathMgr.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
-    "Pasted image 20231214182244.png",
-    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetAsynckeyState ( ).md",
-    "STUDY/Programming Language/Win32 AK 42 Project/20. Gravity & Ground Platform.md",
-    "STUDY/Programming Language/Win32 AK 42 Project/22. Clone.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_TEXTURE2D_DESC.md",
+    "Daily/2023/02/2주차/2023-02-08.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/D3D11CreateDevice( ).md",
+    "STUDY/AK/Assortrock 46 portfolio/4. RenderTarget, DepthStnecil, View.md",
     "STUDY/AK/Assortrock 46 portfolio/3. Manager.md",
-    "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/01. Project structure setting.md",
-    "Pasted image 20231212182644.png",
-    "Pasted image 20231212181700.png.md",
-    "Pasted image 20231212181700.png",
+    "STUDY/AK/Assortrock 46 portfolio/2. Device.md",
+    "STUDY/Programming Language/Error/LinkError/LNK1120.md",
+    "STUDY/Programming Language/COM/Smart pointer.md",
     "STUDY/AK/Assortrock 46 portfolio/1. Setting.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/13. CCameraMgr.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/11. PathMgr.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/09. 충돌.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/08. Monster & Layer.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/07. Missile.md",
+    "STUDY/Programming Language/Win32 AK 42 Project/06. 보조 비트맵(객체의 잔상 지우기).md",
+    "STUDY/Programming Language/Win32 AK 42 Project/05. DC 설정.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
+    "Compute Shader 부터 particle 까지.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
+    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateBuffer( ).md",
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_Map enumeration.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/How to. Use dynamic resource.md",
+    "STUDY/AK/Assortrock 46 portfolio/11. Transform, Camera, MoveScript.md",
+    "Pasted image 20231216120021.png",
+    "Pasted image 20231214182244.png",
+    "Pasted image 20231212182644.png",
+    "Pasted image 20231212181700.png",
     "Pasted image 20231212104838.png",
     "RESOURCE/Image/Pasted image 20231211114917.png",
     "RESOURCE/Image/Pasted image 20231212103019.png",
-    "GAME/Setting.md",
     "RESOURCE/Image/Pasted image 20231127154543.png",
     "RESOURCE/Image/Pasted image 20231211173438.png",
-    "STUDY/AK/Assortrock 46 portfolio/8. Resource, Texture, UV.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
     "Pasted image 20231211172010.png",
-    "STUDY/AK/46 DirecX3D 진도/11-21 (1).md",
-    "STUDY/Computer Science/CS 주요 개념/배치파일.md",
-    "Pasted image 20231211114917.png",
-    "Projection Calculate in DirectX.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project",
     "STUDY/AK/무제 폴더",
-    "2023-06-16.md",
-    "2023-08-21.md",
-    "STUDY/AK/46 DirecX3D 진도/12-08 (14).md",
-    "STUDY/AK/46 DirecX3D 진도/12-07 (13).md",
-    "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
-    "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
     "STUDY/AK/46 DirecX3D 진도",
     "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/무제 폴더",
     "STUDY/Programming Language/Clean Code",

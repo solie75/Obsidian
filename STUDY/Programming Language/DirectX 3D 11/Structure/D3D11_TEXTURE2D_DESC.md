@@ -29,7 +29,19 @@ texture array 내의 texture 수. The range is from 1 to D3D11_REQ_TEXTURE2D_ARR
 Texture 형식 (see [DXGI_FORMAT](https://learn.microsoft.com/en-us/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)).
 
 #### 6. SampleDesc
-텍스쳐에 대한 multisampling 매개변수를 특정하는 구조체.  See [DXGI_SAMPLE_DESC](https://learn.microsoft.com/en-us/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc).
+텍스쳐에 대한 multisampling 매개변수를 특정하는 구조체.  See [DXGI_SAMPLE_DESC](https://learn.microsoft.com/en-us/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc)
+```c++
+typedef struct DXGI_SAMPLE_DESC {
+  UINT Count;
+  UINT Quality;
+} DXGI_SAMPLE_DESC;
+```
+Count  : The number of multisamples per pixel.
+Quality : The image quality level. The higher the quality, the lower the performance. The valid range is between zero and one less than the level returned by [ID3D10Device::CheckMultisampleQualityLevels](https://learn.microsoft.com/en-us/windows/desktop/api/d3d10/nf-d3d10-id3d10device-checkmultisamplequalitylevels) for Direct3D 10 or [ID3D11Device::CheckMultisampleQualityLevels](https://learn.microsoft.com/en-us/windows/desktop/api/d3d11/nf-d3d11-id3d11device-checkmultisamplequalitylevels) for Direct3D 11.
+
+remark : This structure is a member of the [DXGI_SWAP_CHAIN_DESC1](https://learn.microsoft.com/en-us/windows/desktop/api/dxgi1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) structure.
+
+The default sampler mode, with no anti-aliasing, has a count of 1 and a quality level of 0. If multi-sample antialiasing is being used, all bound render targets and depth buffers must have the same sample counts and quality levels.
 
 #### 7. Usage
 텍스쳐가 어떻게 일히고 작성될지를 식별하는 값. D3D11_USAGE_DEFAULT 가 가장 흔히 쓰인다. 
