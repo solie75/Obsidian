@@ -11,8 +11,12 @@
             "id": "65bb8c8f32095d02",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/AK/46 DirecX3D 진도/12-15 (15).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "STUDY/AK/46 DirecX3D 진도/12-15 (15).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "STUDY/AK/46 DirecX3D 진도/12-15 (15).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "STUDY/AK/46 DirecX3D 진도/12-15 (15).md"
+              }
             }
           },
           {
@@ -167,6 +175,11 @@
   },
   "active": "65bb8c8f32095d02",
   "lastOpenFiles": [
+    "STUDY/AK/46 DirecX3D 진도/12-14 (14).md",
+    "STUDY/AK/46 DirecX3D 진도/12-15 (15).md",
+    "STUDY/AK/46 DirecX3D 진도/12-08 (13).md",
+    "STUDY/AK/46 DirecX3D 진도/12-07 (12).md",
+    "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
     "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_TEXTURE2D_DESC.md",
     "Daily/2023/02/2주차/2023-02-08.md",
     "STUDY/Programming Language/DirectX 3D 11/Function/D3D11CreateDevice( ).md",
@@ -188,11 +201,6 @@
     "Compute Shader 부터 particle 까지.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
     "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_BUFFER_DESC.md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/CreateBuffer( ).md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_Map enumeration.md",
-    "STUDY/Programming Language/DirectX 3D 11/기타 지식/How to. Use dynamic resource.md",
-    "STUDY/AK/Assortrock 46 portfolio/11. Transform, Camera, MoveScript.md",
     "Pasted image 20231216120021.png",
     "Pasted image 20231214182244.png",
     "Pasted image 20231212182644.png",
