@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-15 (15).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-18 (16).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-15 (15).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-18 (16).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-15 (15).md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-18 (16).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-15 (15).md"
+                "file": "STUDY/AK/46 DirecX3D 진도/12-18 (16).md"
               }
             }
           },
@@ -175,8 +175,9 @@
   },
   "active": "65bb8c8f32095d02",
   "lastOpenFiles": [
-    "STUDY/AK/46 DirecX3D 진도/12-14 (14).md",
     "STUDY/AK/46 DirecX3D 진도/12-15 (15).md",
+    "STUDY/AK/46 DirecX3D 진도/12-18 (16).md",
+    "STUDY/AK/46 DirecX3D 진도/12-14 (14).md",
     "STUDY/AK/46 DirecX3D 진도/12-08 (13).md",
     "STUDY/AK/46 DirecX3D 진도/12-07 (12).md",
     "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
@@ -200,7 +201,6 @@
     "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
     "Compute Shader 부터 particle 까지.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
-    "STUDY/Programming Language/DirectX 3D 11/Graphics pipeline/8. Output - Merger Stage.md",
     "Pasted image 20231216120021.png",
     "Pasted image 20231214182244.png",
     "Pasted image 20231212182644.png",
