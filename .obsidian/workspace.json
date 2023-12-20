@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-19 (17).md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355
+    "width": 488,
+    "collapsed": true
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-19 (17).md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-19 (17).md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/AK/46 DirecX3D 진도/12-19 (17).md"
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md"
               }
             }
           },
@@ -175,8 +176,13 @@
   },
   "active": "65bb8c8f32095d02",
   "lastOpenFiles": [
-    "STUDY/AK/46 DirecX3D 진도/12-18 (16).md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
+    "STUDY/AK/메모/assortrock 46 memo/2023-05-16.md",
+    "STUDY/AK/46, DirectX11 진도/2. Transformation.md",
+    "STUDY/AK/46, DirectX11 진도/1. Rendering Pipeline.md",
     "STUDY/AK/46 DirecX3D 진도/12-19 (17).md",
+    "STUDY/AK/46 DirecX3D 진도/12-18 (16).md",
     "STUDY/AK/46 DirecX3D 진도/12-15 (15).md",
     "STUDY/AK/46 DirecX3D 진도/12-14 (14).md",
     "STUDY/AK/46 DirecX3D 진도/12-08 (13).md",
@@ -196,11 +202,6 @@
     "STUDY/Programming Language/Win32 AK 42 Project/09. 충돌.md",
     "STUDY/Programming Language/Win32 AK 42 Project/08. Monster & Layer.md",
     "STUDY/Programming Language/Win32 AK 42 Project/07. Missile.md",
-    "STUDY/Programming Language/Win32 AK 42 Project/06. 보조 비트맵(객체의 잔상 지우기).md",
-    "STUDY/Programming Language/Win32 AK 42 Project/05. DC 설정.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
-    "Compute Shader 부터 particle 까지.md",
     "Pasted image 20231216120021.png",
     "Pasted image 20231214182244.png",
     "Pasted image 20231212182644.png",
