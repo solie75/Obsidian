@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-20 (18).md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 488,
-    "collapsed": true
+    "width": 488
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-20 (18).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-20 (18).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md"
+                "file": "STUDY/AK/46 DirecX3D 진도/12-20 (18).md"
               }
             }
           },
@@ -176,8 +175,9 @@
   },
   "active": "65bb8c8f32095d02",
   "lastOpenFiles": [
-    "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
+    "STUDY/AK/46 DirecX3D 진도/12-20 (18).md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
     "STUDY/AK/메모/assortrock 46 memo/2023-05-16.md",
     "STUDY/AK/46, DirectX11 진도/2. Transformation.md",
     "STUDY/AK/46, DirectX11 진도/1. Rendering Pipeline.md",
@@ -201,7 +201,6 @@
     "STUDY/Programming Language/Win32 AK 42 Project/11. PathMgr.md",
     "STUDY/Programming Language/Win32 AK 42 Project/09. 충돌.md",
     "STUDY/Programming Language/Win32 AK 42 Project/08. Monster & Layer.md",
-    "STUDY/Programming Language/Win32 AK 42 Project/07. Missile.md",
     "Pasted image 20231216120021.png",
     "Pasted image 20231214182244.png",
     "Pasted image 20231212182644.png",
