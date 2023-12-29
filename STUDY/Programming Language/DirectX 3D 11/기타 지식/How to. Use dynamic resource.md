@@ -106,7 +106,7 @@ GPU 가 buffer 를 사용하는 동안 static vertex buffer에 Map 을 호출한
 vertex 또는  index data가 변하지 않는것이 이상적이지만 언제나 그렇지는 않다. 응용프로그램이 매 프레임 마다. vertex 또는 index data 의 변경을 필요로 하는 상황은 많다. 이러한 상황에서, vertex 또는 index buffer 를 D3D11_USAGE_DYNAMIC 으로 생성하는 것이 추천된다. 이 usage flag 로 인해 runtime 은 잦은 mapping 작업에 맞게 최적화 된다. D3D_USAGE_DYNAMIC 은 오직 buffer 가 자주 mapping 될 때 유용하다. data 를 변함없이 유지하고 싶다면 해당 데이터를 static vertex Ehsms index buffer 에 배치한다.
 
 dynamic vertex buffer 를 사용할 때 수행 향상을 위해서 응용프로그램은 적절한 D3D11_MAP 값으로 Map 을 호출해야 한다.
-D3D11_MAP_WRITE_DISCARD 는 응용프로그램이 buffer 에 오래된 vertex 또는 index data 를 유지할 필요가 없다는 것을 나타낸다. 이는 GPU 가 응용프로그램이 새로운 버퍼에 데이터를 배치하는 동안 오래된 데이터를 계속 사용하는 것을 허락한다는 것을 나타낸다. 추가적인 메모리 관리가 요구되지 않는다. 오랜된 buffer 는 재사용 되거나 GPU의 사용이 끝나면 자동적으로 파괴된다. 
+<span style="color:#ffd33d"> D3D11_MAP_WRITE_DISCARD 는 응용프로그램이 buffer 에 오래된 vertex 또는 index data 를 유지할 필요가 없다는 것을 나타낸다. </span> 이는 GPU 가 응용프로그램이 새로운 버퍼에 데이터를 배치하는 동안 오래된 데이터를 계속 사용하는 것을 허락한다는 것을 나타낸다. 추가적인 메모리 관리가 요구되지 않는다. 오랜된 buffer 는 재사용 되거나 GPU의 사용이 끝나면 자동적으로 파괴된다. 
 
 - note
 	buffer를 D3D11_MAP_WRITE_DISCARD 로 매핑하면 , 런타임은 언제나 모든 buffer 를 discard 한다. nonzero offset 또는 제한된 크기의 field 를 특정하는 것으로 buffer 의 매핑되지 않은 영역에 정보를 보존할 수는 없다.
