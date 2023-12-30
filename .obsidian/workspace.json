@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/4. Constant Buffer.md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-29 (25).md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365
+    "width": 319
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/4. Constant Buffer.md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-29 (25).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/4. Constant Buffer.md",
+                "file": "STUDY/AK/46 DirecX3D 진도/12-29 (25).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/4. Constant Buffer.md"
+                "file": "STUDY/AK/46 DirecX3D 진도/12-29 (25).md"
               }
             }
           },
@@ -187,9 +187,12 @@
   },
   "active": "65bb8c8f32095d02",
   "lastOpenFiles": [
+    "STUDY/AK/46 DirecX3D 진도/12-26 (22).md",
+    "STUDY/AK/46 DirecX3D 진도/12-22 (20).md",
+    "STUDY/AK/46 DirecX3D 진도/12-29 (25).md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/4. Constant Buffer.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/3. Mesh.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/4. Constant Buffer.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
     "STUDY/AK/Assortrock 46 portfolio/6. Index Buffer, Constant Buffer.md",
     "STUDY/AK/Assortrock 46 portfolio/8. Resource, Texture, UV.md",
@@ -206,14 +209,11 @@
     "STUDY/AK/Assortrock 46 portfolio/17. Collider.md",
     "STUDY/AK/Assortrock 46 portfolio/16. Light.md",
     "Pasted image 20231225091109.png",
-    "STUDY/AK/46 DirecX3D 진도/12-22 (20).md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/05. Test 코드의 모듈화.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/06. Singleton 구조 변경 및 Ptr 포함 적용.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/07. Object - Layout - Level 구조.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/04. 출력 대상 정적 배열의 오브젝트화.md",
     "STUDY/Programming Language/DirectX 3D 11/Progress/03. 정점 버퍼의 수정.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/02. Process for Vertex buffer Rendering (output triangle).md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
     "Pasted image 20231216120021.png",
     "Pasted image 20231214182244.png",
     "Pasted image 20231212182644.png",
