@@ -25,38 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/3. Mesh.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce713ed0a5e70299",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/6. Texture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "180fb269ee24bd93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/C++/assert ( ).md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/7. Material.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,8 +61,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "복사 생성자",
-                "matchingCase": true,
+                "query": "UV",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -130,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/6. Texture.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/7. Material.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/6. Texture.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/7. Material.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/6. Texture.md"
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/7. Material.md"
               }
             }
           },
@@ -210,36 +186,74 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "ce713ed0a5e70299",
+  "floating": {
+    "id": "3aa19c6eafb5a649",
+    "type": "floating",
+    "children": [
+      {
+        "id": "859ed84fe9802114",
+        "type": "window",
+        "children": [
+          {
+            "id": "af50760562b5c462",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "180fb269ee24bd93",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 1203,
+        "y": 0,
+        "width": 717,
+        "height": 1032,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "ae50fb37154c7518",
   "lastOpenFiles": [
-    "STUDY/Programming Language/C++/DirectX_3D_Project/5. Resource Manager.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/7. Material.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/3. Mesh.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/6. Texture.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/4. Constant Buffer.md",
+    "사막 보스 구현 숙제.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/X. GameObject, Component.md",
+    "01-09.md",
+    "Pasted image 20240109193716.png",
+    "STUDY/Programming Language/C++/assert ( ).md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/5. Resource Manager.md",
+    "STUDY/Programming Language/DirectX 3D 11/Function/CreateShaderResourceView( ).md",
+    "2023-06-16.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
     "Pasted image 20240108223628.png",
     "STUDY/Programming Language/C++/질문/소멸자가 두 번 호출 되는 문제.md",
     "정리할 것들.md",
     "STUDY/Programming Language/C++/질문",
     "알아봐야 할 것.md",
-    "사막 보스 구현 숙제.md",
     "2023-08-21.md",
-    "2023-06-16.md",
     "texture, uv, Resource Manager 의 메모.md",
     "Projection Calculate in DirectX.md",
     "README.md",
     "Compute Shader 부터 particle 까지.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/3. Mesh.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/4. Constant Buffer.md",
-    "STUDY/Programming Language/C++/assert ( ).md",
     "Daily/2022/10/1주차/2022-10-04.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/2. Device.md",
     "STUDY/AK/Assortrock 46 portfolio/3. Manager.md",
     "STUDY/Programming Language/Win32 API/Win 구조체 및 함수/GetCurrentDirectory ( ).md",
-    "STUDY/Programming Language/Win32 AK 42 Project/11. PathMgr.md",
-    "STUDY/Programming Language/gitignore.md",
-    "STUDY/AK/Assortrock 46 portfolio/6. Index Buffer, Constant Buffer.md",
-    "STUDY/AK/46 DirecX3D 진도/12-29 (25).md",
-    "STUDY/AK/46 DirecX3D 진도/12-26 (22).md",
-    "STUDY/AK/46 DirecX3D 진도/12-22 (20).md",
     "RESOURCE/Pasted image 20231225091109.png",
     "RESOURCE/Pasted image 20231216120021.png",
     "RESOURCE/Pasted image 20231214182244.png",
@@ -248,7 +262,6 @@
     "Pasted image 20231212104838.png",
     "RESOURCE/Image/Pasted image 20231211114917.png",
     "RESOURCE/Image/Pasted image 20231212103019.png",
-    "RESOURCE/Image/Pasted image 20231127154543.png",
     "STUDY/Programming Language/C++/DirectX_3D_Project",
     "STUDY/AK/무제 폴더",
     "STUDY/AK/46 DirecX3D 진도",
