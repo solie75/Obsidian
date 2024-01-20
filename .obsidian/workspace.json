@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/08. Level, Layer, GameObject.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/09. Level, Layer.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432,
-    "collapsed": true
+    "width": 432
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/08. Level, Layer, GameObject.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/09. Level, Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/08. Level, Layer, GameObject.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/09. Level, Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/08. Level, Layer, GameObject.md"
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/09. Level, Layer.md"
               }
             }
           },
@@ -189,8 +188,9 @@
   },
   "active": "ae50fb37154c7518",
   "lastOpenFiles": [
+    "STUDY/Programming Language/C++/DirectX_3D_Project/08. GameObject.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/09. Level, Layer.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/7. Material.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/08. Level, Layer, GameObject.md",
     "STUDY/AK/Assortrock 46 portfolio/9. Material, MeshRender.md",
     "STUDY/AK/Assortrock 46 portfolio/8. Resource, Texture, UV.md",
     "STUDY/AK/Assortrock 46 portfolio/7. Mesh, Shader.md",
@@ -217,7 +217,6 @@
     "2023-08-21.md",
     "texture, uv, Resource Manager 의 메모.md",
     "Projection Calculate in DirectX.md",
-    "README.md",
     "RESOURCE/Pasted image 20231225091109.png",
     "RESOURCE/Pasted image 20231216120021.png",
     "RESOURCE/Pasted image 20231214182244.png",
