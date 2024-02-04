@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, World Matrix.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, Camera, World Matrix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d30ca5c6ad2fbe0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "UV",
+                "query": "힌트",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5110321044922
+    "width": 236.5110321044922
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, World Matrix.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, Camera, World Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, World Matrix.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, Camera, World Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, World Matrix.md"
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, Camera, World Matrix.md"
               }
             }
           },
@@ -175,36 +187,36 @@
   },
   "active": "660778b89577cb23",
   "lastOpenFiles": [
-    "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, World Matrix.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, World Matrix.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/X. GameObject, Component.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/08. GameObject.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, Camera, World Matrix.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/09. Level, Layer.md",
-    "Pasted image 20240126230001.png",
-    "Pasted image 20240126225935.png",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/7. Material.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
+    "README.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/Hint Files.md",
+    "사막 보스 구현 숙제.md",
+    "2023-06-16.md",
+    "RESOURCE/Pasted image 20240126230001.png",
+    "Projection Calculate in DirectX.md",
+    "RESOURCE/Pasted image 20240126225935.png",
+    "RESOURCE/Pasted image 20240109193716.png",
+    "RESOURCE/Pasted image 20240108223628.png",
+    "Compute Shader 부터 particle 까지.md",
+    "01-09.md",
+    "2023-08-21.md",
+    "무제 파일.md",
+    "무제 파일 1.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/10. World, Projection, View Matrix 적용.md",
+    "STUDY/Programming Language/DirectX 3D 11/Library/DirectXMath/Function.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, Camera.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/X. GameObject, Component.md",
     "STUDY/AK/Assortrock 46 portfolio/6. Index Buffer, Constant Buffer.md",
     "STUDY/AK/Assortrock 46 portfolio/7. Mesh, Shader.md",
     "STUDY/AK/Assortrock 46 portfolio/9. Material, MeshRender.md",
     "STUDY/AK/Assortrock 46 portfolio/5. Vertex, Buffer, Shader, InputLayout, ViewPort.md",
     "STUDY/AK/Assortrock 46 portfolio/4. RenderTarget, DepthStnecil, View.md",
-    "무제 파일 1.md",
-    "무제 파일.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/7. Material.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/08. GameObject.md",
     "STUDY/AK/Assortrock 46 portfolio/8. Resource, Texture, UV.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/1. Project Setting.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/09. Material 추가.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/6. Texture.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/3. Mesh.md",
-    "STUDY/Programming Language/DirectX 3D 11/Progress/08. CTexture 추가와 DirectTex.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/4. Constant Buffer.md",
-    "사막 보스 구현 숙제.md",
-    "01-09.md",
-    "Pasted image 20240109193716.png",
-    "STUDY/Programming Language/C++/assert ( ).md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/5. Resource Manager.md",
-    "STUDY/Programming Language/DirectX 3D 11/Function/CreateShaderResourceView( ).md",
-    "Pasted image 20240108223628.png",
     "STUDY/Programming Language/C++/질문",
     "RESOURCE/Pasted image 20231225091109.png",
     "RESOURCE/Pasted image 20231216120021.png",
