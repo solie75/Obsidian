@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5110321044922
+    "width": 236.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -185,7 +186,7 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "660778b89577cb23",
+  "active": "040d4039b80fd138",
   "lastOpenFiles": [
     "STUDY/Programming Language/C++/DirectX_3D_Project/08. GameObject.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, Camera, World Matrix.md",
