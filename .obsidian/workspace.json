@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Sample",
+                "query": "npos",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "메모.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "메모.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "메모.md"
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md"
               }
             }
           },
@@ -187,10 +186,12 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "f2565a3b55b2c4d1",
+  "active": "660778b89577cb23",
   "lastOpenFiles": [
-    "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md",
+    "Pasted image 20240222000438.png",
+    "Pasted image 20240222000358.png",
     "메모.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md",
     "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11SamplerState.md",
     "texture, uv, Resource Manager 의 메모.md",
     "README.md",
@@ -223,9 +224,7 @@
     "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/X. GameObject, Component.md",
     "STUDY/AK/Assortrock 46 portfolio/6. Index Buffer, Constant Buffer.md",
-    "STUDY/AK/Assortrock 46 portfolio/7. Mesh, Shader.md",
     "STUDY/Programming Language/C++/질문",
-    "RESOURCE/Pasted image 20231225091109.png",
     "STUDY/Programming Language/C++/DirectX_3D_Project",
     "STUDY/AK/무제 폴더",
     "STUDY/AK/46 DirecX3D 진도",
