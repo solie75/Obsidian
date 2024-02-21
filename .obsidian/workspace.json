@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "a5eebfba301155f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "texture, uv, Resource Manager 의 메모.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f2565a3b55b2c4d1",
             "type": "leaf",
             "state": {
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,8 +61,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CopyRectangle",
-                "matchingCase": false,
+                "query": "Sample",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -98,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,10 +189,11 @@
   },
   "active": "f2565a3b55b2c4d1",
   "lastOpenFiles": [
+    "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md",
     "메모.md",
+    "STUDY/Programming Language/DirectX 3D 11/Interface/ID3D11SamplerState.md",
     "texture, uv, Resource Manager 의 메모.md",
     "README.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/11. Script.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/10. Transform, Camera, World Matrix.md",
     "Pasted image 20240208151022.png",
@@ -234,7 +224,6 @@
     "STUDY/Programming Language/C++/DirectX_3D_Project/X. GameObject, Component.md",
     "STUDY/AK/Assortrock 46 portfolio/6. Index Buffer, Constant Buffer.md",
     "STUDY/AK/Assortrock 46 portfolio/7. Mesh, Shader.md",
-    "STUDY/AK/Assortrock 46 portfolio/9. Material, MeshRender.md",
     "STUDY/Programming Language/C++/질문",
     "RESOURCE/Pasted image 20231225091109.png",
     "STUDY/Programming Language/C++/DirectX_3D_Project",
