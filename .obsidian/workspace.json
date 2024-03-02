@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/기타 개념/연산자.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/14. Domain, Camera Manager, UI.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "50e3ddd322daf920",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/Programming Language/C++/기타 개념/연산자.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "233838d12dff18b5",
             "type": "leaf",
             "state": {
@@ -54,9 +42,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "539397425e76ee7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "메모.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,14 +209,16 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "f678abe7d32e2b47",
+  "active": "f2565a3b55b2c4d1",
   "lastOpenFiles": [
-    "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md",
-    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
     "STUDY/Programming Language/C++/기타 개념/연산자.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/14. Domain, Camera Manager, UI.md",
-    "STUDY/AK/Assortrock 46 portfolio/8. Resource, Texture, UV.md",
+    "STUDY/Programming Language/DirectX 3D 11/Structure/D3D11_SAMPLER_DESC.md",
     "메모.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/Question.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/to do list.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md",
+    "STUDY/AK/Assortrock 46 portfolio/8. Resource, Texture, UV.md",
     "STUDY/Programming Language/C++/기타 개념/try, throw, catch.md",
     "STUDY/Programming Language/C++/기타 개념/Smart Pointer.md",
     "STUDY/Programming Language/C++/기타 개념/register 예약어.md",
@@ -228,7 +229,6 @@
     "STUDY/Programming Language/C++/기타 개념/정적 맴버 변수.md",
     "STUDY/Programming Language/C++/기타 개념/전방 선언.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/15..md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/to do list.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/09. Level, Layer.md",
     "GAME/IDEA/CONSOLE/mountain keeper.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/13. Rasterizer State, DepthStencil State, Blend State.md",
@@ -237,7 +237,6 @@
     "STUDY/AK/Assortrock 46 portfolio/13. Rendering Mode.md",
     "STUDY/AK/Assortrock 46 portfolio/4. RenderTarget, DepthStnecil, View.md",
     "STUDY/AK/Assortrock 46 portfolio/5. Vertex, Buffer, Shader, InputLayout, ViewPort.md",
-    "STUDY/AK/Assortrock 46 portfolio/6. Index Buffer, Constant Buffer.md",
     "Pasted image 20240222000438.png",
     "Pasted image 20240222000358.png",
     "Pasted image 20240208151022.png",
