@@ -1,0 +1,43 @@
+- [x] VS Setting ✅ 2024-02-25
+- [x] Device ✅ 2024-02-25
+- [x] mesh ✅ 2024-02-25
+- [x] constant Buffer ✅ 2024-02-25
+- [x] Resource Mgr ✅ 2024-02-25
+- [x] Texture ✅ 2024-02-25
+- [x] Material ✅ 2024-02-25
+- [x] GameObject ✅ 2024-02-25
+- [x] Layer ✅ 2024-02-25
+- [x] Level ✅ 2024-02-25
+- [x] Transform ✅ 2024-02-25
+- [x] camera ✅ 2024-02-25
+- [x] World, Projection, view Matrix and Calculation ✅ 2024-02-23
+- [x] Script ✅ 2024-02-25
+- [x] Animation 2D ✅ 2024-02-25
+- [x] Rasterizer, Depthstencil, Blend state ✅ 2024-02-25
+- [ ] parent chlid (Projectile Object , Object Pool)
+- [ ] domain
+- [ ] Compute
+- [ ] Particle
+- [ ] Level Save
+- [ ] Collide (+ debug Mesh, Editor Object Manager)
+- [ ] Sound
+- [ ] UI
+- [ ] IMGUI
+- [ ] Animation Change 
+- [ ] Object State Change
+- [ ] 2D Light
+- [ ]  3D Mesh (3D debug Mesh)
+- [ ] 3D Collide
+- [ ] SkyBox
+- [ ] Deffered mtrl
+- [ ] Decal Object
+- [ ] 3D Light
+- [ ] Land Scape
+- [ ] 3D Animation
+- [ ] Camera Manager (ui camera 추가.)
+- [ ] 3D 시작 할 때 Camera 에 ProjectionType 적용 (3D 여도  ui 는 2D 이기 때문)
+
+
+## Q
+
+- [ ]  map 을 선언할 때 std::wstring& 을 쓰면 중복된 함수 선언이라고 하는 이유는?
