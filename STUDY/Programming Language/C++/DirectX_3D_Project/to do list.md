@@ -15,13 +15,13 @@
 - [x] Animation 2D ✅ 2024-02-25
 - [x] Rasterizer, Depthstencil, Blend state ✅ 2024-02-25
 - [ ] parent chlid (Projectile Object , Object Pool)
-- [ ] domain
+- [x] domain ✅ 2024-03-02
 - [ ] Compute
 - [ ] Particle
 - [ ] Level Save
 - [ ] Collide (+ debug Mesh, Editor Object Manager)
 - [ ] Sound
-- [ ] UI
+- [x] UI ✅ 2024-03-02
 - [ ] IMGUI
 - [ ] Animation Change 
 - [ ] Object State Change
@@ -34,7 +34,7 @@
 - [ ] 3D Light
 - [ ] Land Scape
 - [ ] 3D Animation
-- [ ] Camera Manager (ui camera 추가.)
+- [x] Camera Manager (ui camera 추가.) ✅ 2024-03-02
 - [ ] 3D 시작 할 때 Camera 에 ProjectionType 적용 (3D 여도  ui 는 2D 이기 때문)
 
 
