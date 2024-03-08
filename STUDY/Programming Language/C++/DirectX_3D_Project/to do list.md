@@ -1,3 +1,5 @@
+## 3D Project Process
+
 - [x] VS Setting ✅ 2024-02-25
 - [x] Device ✅ 2024-02-25
 - [x] mesh ✅ 2024-02-25
@@ -37,6 +39,24 @@
 - [x] Camera Manager (ui camera 추가.) ✅ 2024-03-02
 - [ ] 3D 시작 할 때 Camera 에 ProjectionType 적용 (3D 여도  ui 는 2D 이기 때문)
 
+
+## STD
+
+- [x] std::transform ✅ 2024-03-07
+- [x] std::bind ✅ 2024-03-07
+- [x] std::ref ✅ 2024-03-07
+- [x] std::move ✅ 2024-03-07
+- [x] 이동 생성자 ✅ 2024-03-07
+- [x] std::fill_n ✅ 2024-03-07
+- [x] std::back_inserter ✅ 2024-03-07
+- [x] std::front_inserter ✅ 2024-03-07
+- [ ] std::deque https://blockdmask.tistory.com/73
+
+
+## To do
+
+- [x] STD, STL 폴더 정리 ✅ 2024-03-07
+- [ ] github 블로그 계획 및 생성하기
 
 ## Q
 

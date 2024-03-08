@@ -7,7 +7,7 @@ view frustum 은 viewport 의 카메라를 기준으로 배치된 scene 내의 3
 
 view frustum 은 다음의 그림과 같이 field of view (fov)과  z 좌표로 특정 되는 앞과 뒤 클립핑 평면 사이의 거리 로 정의된다. 
 ![[Pasted image 20230306231930.png]]
-위의 그림에서 D 는 카메라와 geometry pipeline 의 마지막 부분에 정의되는 공간의 원점과의 거리이다. 이 D 값은 [[Transform#Projection Transform|projection matrix]]를 생성하는데 사용된다.
+위의 그림에서 D 는 카메라와 geometry pipeline 의 마지막 부분에 정의되는 공간의 원점과의 거리이다. 이 D 값은 [[STUDY/Programming Language/DirectX 3D 11/기타 지식/Transform#Projection Transform|projection matrix]]를 생성하는데 사용된다.
 
 CreatePerspectiveFiledOfView 메서드를 사용하여 perspective fov 를 설정한다. 
 

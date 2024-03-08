@@ -1,4 +1,3 @@
-1. strcmp, strncmp ^ed2c96
 
 ```c++
 int strcmp(const char* str1, const char* str2);
