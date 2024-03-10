@@ -16,17 +16,26 @@
 - [x] Script ✅ 2024-02-25
 - [x] Animation 2D ✅ 2024-02-25
 - [x] Rasterizer, Depthstencil, Blend state ✅ 2024-02-25
-- [ ] parent chlid (Projectile Object , Object Pool)
+- [ ] Parent and Chlid (Projectile Object, Attack)
+- [ ] 2D DubugMesh (Editor Object Manager)
+- [ ] 2D Collider
+- [ ] Level Change
+- [ ] random map
+- [ ] background Collider
+- [ ] Player Attack and Hit
+- [ ] Moster AI
+- [ ] Boss AI
+- [ ] Status (HP, Money)
+- [ ] Object Pool
 - [x] domain ✅ 2024-03-02
 - [ ] Compute
 - [ ] Particle
 - [ ] Level Save
-- [ ] Collide (+ debug Mesh, Editor Object Manager)
 - [ ] Sound
 - [x] UI ✅ 2024-03-02
 - [ ] IMGUI
-- [ ] Animation Change 
-- [ ] Object State Change
+- [x] Animation Change ✅ 2024-03-10
+- [x] Object State Change ✅ 2024-03-10
 - [ ] 2D Light
 - [ ]  3D Mesh (3D debug Mesh)
 - [ ] 3D Collide

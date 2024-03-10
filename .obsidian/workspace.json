@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md"
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md"
               }
             }
           },
@@ -190,9 +190,10 @@
   "active": "a90c0ce3e8c588c0",
   "lastOpenFiles": [
     "메모.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/to do list.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
     "GAME/IDEA/CONSOLE/전통 판타지.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/to do list.md",
     "STUDY/Programming Language/C++/STL/sstream.md",
     "STUDY/Programming Language/C++/STL/stdexcept.md",
     "STUDY/Programming Language/C++/STL",
@@ -218,7 +219,6 @@
     "STUDY/Programming Language/C++/STD/functional",
     "STUDY/Programming Language/C++/STD/algorithm/sort.md",
     "STUDY/Programming Language/C++/STD/algorithm/transform.md",
-    "STUDY/Programming Language/C++/기타 개념/0x00.md",
     "STUDY/Programming Language/C++/STD/cassert",
     "STUDY/Programming Language/C++/STD/stdexcept",
     "STUDY/Programming Language/C++/STD/sstream",
