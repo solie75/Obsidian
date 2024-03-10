@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a90c0ce3e8c588c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5110321044922
+    "width": 322.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -93,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "메모.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "메모.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "메모.md"
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md"
               }
             }
           },
@@ -173,8 +187,10 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "b88ab72bad925429",
+  "active": "a90c0ce3e8c588c0",
   "lastOpenFiles": [
+    "메모.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
     "GAME/IDEA/CONSOLE/전통 판타지.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/to do list.md",
     "STUDY/Programming Language/C++/STL/sstream.md",
@@ -183,7 +199,6 @@
     "STUDY/Programming Language/Clean Code",
     "STUDY/Programming Language/C++/STD/functional/function.md",
     "STUDY/Programming Language/C++/기타 개념/Callable (객체를 함수로 사용하자).md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
     "STUDY/Programming Language/C++/STD/cstring/c_str.md",
     "STUDY/Programming Language/C++/STD/type_traits/move.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/14. Domain, Camera Manager, UI.md",
@@ -204,7 +219,6 @@
     "STUDY/Programming Language/C++/STD/algorithm/sort.md",
     "STUDY/Programming Language/C++/STD/algorithm/transform.md",
     "STUDY/Programming Language/C++/기타 개념/0x00.md",
-    "STUDY/Programming Language/C++/기타 개념/프로그램 실행 시간 측정.md",
     "STUDY/Programming Language/C++/STD/cassert",
     "STUDY/Programming Language/C++/STD/stdexcept",
     "STUDY/Programming Language/C++/STD/sstream",
