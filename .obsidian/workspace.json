@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/19. Structured Buffer.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/19. Structured Buffer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/19. Structured Buffer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md"
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/19. Structured Buffer.md"
               }
             }
           },
@@ -212,14 +212,18 @@
   },
   "active": "f82a3ddf096de34e",
   "lastOpenFiles": [
+    "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/20. Particle.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/19. Structured Buffer.md",
+    "Pasted image 20240319221100.png",
+    "Pasted image 20240319221041.png",
+    "Pasted image 20240319214242.png",
     "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/13. Rasterizer State, DepthStencil State, Blend State.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/14. Domain, Camera Manager, UI.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/17. CollisionMgr.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/19. Particle.md",
     "STUDY/Programming Language/DirectX 3D 11/기타 지식/MultiThreading and Deffered Context.md",
     "STUDY/AK/46 DirecX3D 진도/11-30 (8).md",
     "Compute Shader 부터 particle 까지.md",
@@ -237,7 +241,6 @@
     "STUDY/AK/46 DirecX3D 진도/11-24 (4).md",
     "STUDY/AK/46 DirecX3D 진도/11-23 (3).md",
     "STUDY/AK/46 DirecX3D 진도/11-22 (2).md",
-    "STUDY/AK/46 DirecX3D 진도/11-21 (1).md",
     "Pasted image 20240313180301.png",
     "STUDY/Programming Language/C++/STL",
     "STUDY/Programming Language/Clean Code",
@@ -254,9 +257,6 @@
     "Pasted image 20240208151022.png",
     "Pasted image 20240208150940.png",
     "Pasted image 20240208150903.png",
-    "Pasted image 20240208150629.png",
-    "Pasted image 20240208145650.png",
-    "RESOURCE/Pasted image 20240126230001.png",
-    "RESOURCE/Pasted image 20240126225935.png"
+    "Pasted image 20240208150629.png"
   ]
 }
