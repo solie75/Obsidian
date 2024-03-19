@@ -20,19 +20,43 @@
             }
           },
           {
-            "id": "a90c0ce3e8c588c0",
+            "id": "bb321a77230ae540",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md",
+                "file": "Compute Shader 부터 particle 까지.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bf286c8a144f4a08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/AK/46 DirecX3D 진도/11-30 (8).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f82a3ddf096de34e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "function",
+                "query": "constBuffer",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5110321044922,
-    "collapsed": true
+    "width": 322.5110321044922
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -107,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md",
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md"
+                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md"
               }
             }
           },
@@ -187,38 +210,39 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "a90c0ce3e8c588c0",
+  "active": "f82a3ddf096de34e",
   "lastOpenFiles": [
-    "메모.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/to do list.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/12. Animation.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/13. Rasterizer State, DepthStencil State, Blend State.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/14. Domain, Camera Manager, UI.md",
     "STUDY/Programming Language/C++/DirectX_3D_Project/15. Animation Change, Object State Change.md",
-    "GAME/IDEA/CONSOLE/전통 판타지.md",
-    "STUDY/Programming Language/C++/STL/sstream.md",
-    "STUDY/Programming Language/C++/STL/stdexcept.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/16. Editor Object Mgr.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/17. CollisionMgr.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md",
+    "STUDY/Programming Language/C++/DirectX_3D_Project/19. Particle.md",
+    "STUDY/Programming Language/DirectX 3D 11/기타 지식/MultiThreading and Deffered Context.md",
+    "STUDY/AK/46 DirecX3D 진도/11-30 (8).md",
+    "Compute Shader 부터 particle 까지.md",
+    "메모.md",
+    "STUDY/AK/46 DirecX3D 진도/11-29 (7).md",
+    "STUDY/Programming Language/DirectX 3D 11/HLSL/Shader Constants.md",
+    "STUDY/Programming Language/DirectX 3D 11/Progress/10. World, Projection, View Matrix 적용.md",
+    "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
+    "STUDY/AK/46 DirecX3D 진도/12-14 (14).md",
+    "STUDY/AK/46 DirecX3D 진도/12-08 (13).md",
+    "STUDY/AK/46 DirecX3D 진도/12-07 (12).md",
+    "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
+    "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
+    "STUDY/AK/46 DirecX3D 진도/11-27 (5).md",
+    "STUDY/AK/46 DirecX3D 진도/11-24 (4).md",
+    "STUDY/AK/46 DirecX3D 진도/11-23 (3).md",
+    "STUDY/AK/46 DirecX3D 진도/11-22 (2).md",
+    "STUDY/AK/46 DirecX3D 진도/11-21 (1).md",
+    "Pasted image 20240313180301.png",
     "STUDY/Programming Language/C++/STL",
     "STUDY/Programming Language/Clean Code",
-    "STUDY/Programming Language/C++/STD/functional/function.md",
-    "STUDY/Programming Language/C++/기타 개념/Callable (객체를 함수로 사용하자).md",
-    "STUDY/Programming Language/C++/STD/cstring/c_str.md",
-    "STUDY/Programming Language/C++/STD/type_traits/move.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/14. Domain, Camera Manager, UI.md",
-    "STUDY/Programming Language/C++/STD/iterator/back_inserter, front_inserter.md",
-    "STUDY/Programming Language/C++/기타 개념/copy semantic, move semantic.md",
-    "STUDY/Programming Language/C++/기타 개념/생성자.md",
-    "STUDY/Programming Language/C++/기타 개념/연산자.md",
-    "STUDY/Programming Language/DirectX 3D 11/Memo/2강 정리 및 메모.md",
-    "STUDY/AK/Assortrock 46 portfolio/15. Animation, Animator.md",
-    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 10. C++ 기타 사항.md",
-    "GAME/IDEA/CONSOLE/박수 무당.md",
-    "STUDY/AK/46, DirectX11 진도/2. Transformation.md",
-    "STUDY/AK/46, DirectX11 진도/1. Rendering Pipeline.md",
     "STUDY/Programming Language/C++/STD/type_traits",
-    "STUDY/Programming Language/C++/STD/functional/ref.md",
-    "STUDY/Programming Language/C++/STD/algorithm/copy.md",
     "STUDY/Programming Language/C++/STD/functional",
-    "STUDY/Programming Language/C++/STD/algorithm/sort.md",
-    "STUDY/Programming Language/C++/STD/algorithm/transform.md",
     "STUDY/Programming Language/C++/STD/cassert",
     "STUDY/Programming Language/C++/STD/stdexcept",
     "STUDY/Programming Language/C++/STD/sstream",
@@ -233,7 +257,6 @@
     "Pasted image 20240208150629.png",
     "Pasted image 20240208145650.png",
     "RESOURCE/Pasted image 20240126230001.png",
-    "RESOURCE/Pasted image 20240126225935.png",
-    "RESOURCE/Pasted image 20240109193716.png"
+    "RESOURCE/Pasted image 20240126225935.png"
   ]
 }

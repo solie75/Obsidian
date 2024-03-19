@@ -17,8 +17,9 @@
 - [x] Animation 2D ✅ 2024-02-25
 - [x] Rasterizer, Depthstencil, Blend state ✅ 2024-02-25
 - [ ] Parent and Chlid (Projectile Object, Attack)
-- [ ] 2D DubugMesh (Editor Object Manager)
-- [ ] 2D Collider
+- [x] 2D DubugMesh (Editor Object Manager) ✅ 2024-03-12
+- [x] 2D Collider ✅ 2024-03-12
+- [x] Collision Manager ✅ 2024-03-14
 - [ ] Level Change
 - [ ] random map
 - [ ] background Collider
@@ -60,6 +61,10 @@
 - [x] std::back_inserter ✅ 2024-03-07
 - [x] std::front_inserter ✅ 2024-03-07
 - [ ] std::deque https://blockdmask.tistory.com/73
+
+# C++
+- [x] union ✅ 2024-03-13
+- [ ] 
 
 
 ## To do
