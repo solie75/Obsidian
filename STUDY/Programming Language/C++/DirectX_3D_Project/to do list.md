@@ -29,7 +29,7 @@
 - [ ] Status (HP, Money)
 - [ ] Object Pool
 - [x] domain ✅ 2024-03-02
-- [ ] Compute
+- [x] Compute Shader ✅ 2024-03-19
 - [ ] Particle
 - [ ] Level Save
 - [ ] Sound
@@ -38,7 +38,7 @@
 - [x] Animation Change ✅ 2024-03-10
 - [x] Object State Change ✅ 2024-03-10
 - [ ] 2D Light
-- [ ]  3D Mesh (3D debug Mesh)
+- [ ] 3D Mesh (3D debug Mesh)
 - [ ] 3D Collide
 - [ ] SkyBox
 - [ ] Deffered mtrl
@@ -64,8 +64,11 @@
 
 # C++
 - [x] union ✅ 2024-03-13
-- [ ] 
+- [x] hlsl Texture2D operator \[ ] ✅ 2024-03-29
 
+## ETC
+- [ ] Gaussian Distribution
+- [ ] 확률과 통계 정리
 
 ## To do
 
