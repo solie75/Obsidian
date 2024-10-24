@@ -4,22 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "ccdb89793e369946",
+        "id": "112e96e5f987d7d0",
         "type": "tabs",
         "children": [
           {
-            "id": "5b185b97b216220e",
+            "id": "4745d13b0a0caf33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/20. Particle.md",
+                "file": "STUDY/Unreal/포트폴리오/6. Stat Component & UI Widget Component.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "6. Stat Component & UI Widget Component"
+            }
+          },
+          {
+            "id": "228303ca317afdc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/BOJ/Class 2/11866 요세푸스 문제 0.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11866 요세푸스 문제 0"
+            }
+          },
+          {
+            "id": "d482ddfe9edd3690",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/BOJ/새싹/11718 그대로 출력하기.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11718 그대로 출력하기"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -39,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
             }
           },
           {
@@ -48,13 +81,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hlsl",
-                "matchingCase": true,
+                "query": "공백",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "검색"
             }
           },
           {
@@ -62,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "플러그인이 더 이상 활성화되지 않음"
             }
           },
           {
@@ -70,14 +107,31 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "43174f22d5c80f70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/11. 행동트리 모델의 이해.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11. 행동트리 모델의 이해"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 322.5110321044922
+    "width": 265.5110321044922
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -93,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/20. Particle.md",
+                "file": "STUDY/Unreal/포트폴리오/7. Collide and Attack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +155,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "7. Collide and Attack의 백링크"
             }
           },
           {
@@ -110,10 +166,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/20. Particle.md",
+                "file": "STUDY/Unreal/포트폴리오/7. Collide and Attack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "7. Collide and Attack의 나가는 링크"
             }
           },
           {
@@ -124,7 +182,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -132,7 +192,9 @@
             "type": "leaf",
             "state": {
               "type": "timeline",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Day Planner Timeline"
             }
           },
           {
@@ -141,8 +203,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "STUDY/Programming Language/C++/DirectX_3D_Project/20. Particle.md"
-              }
+                "file": "STUDY/Unreal/포트폴리오/7. Collide and Attack.md"
+              },
+              "icon": "lucide-list",
+              "title": "7. Collide and Attack 개요"
             }
           },
           {
@@ -150,7 +214,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
@@ -173,53 +239,53 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "5b185b97b216220e",
+  "active": "d482ddfe9edd3690",
   "lastOpenFiles": [
-    "STUDY/Programming Language/C++/DirectX_3D_Project/to do list.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/Texture2D operator.md",
-    "STUDY/Programming Language/DirectX 3D 11/HLSL/Arithmetic Operations.md",
-    "STUDY/AK/메모/assortrock 46 memo/2023-07-05.md",
-    "STUDY/Math/확률과 통계/Gaussian Distribution.md",
-    "STUDY/AK/46 DirecX3D 진도/12-01 (9).md",
-    "Pasted image 20240325230900.png",
-    "Pasted image 20240325230847.png",
-    "STUDY/Math/확률과 통계/Continuous probability distribution, Probability density function.md",
-    "Pasted image 20240325230245.png",
-    "메모.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/20. Particle.md",
-    "STUDY/Math/확률과 통계",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/19. Structured Buffer.md",
-    "STUDY/Programming Language/C++/DirectX_3D_Project/18.Compute Shader.md",
-    "STUDY/AK/46 DirecX3D 진도/11-30 (8).md",
-    "STUDY/AK/46 DirecX3D 진도/11-29 (7).md",
-    "STUDY/AK/46 DirecX3D 진도/11-28 (6).md",
-    "STUDY/AK/46 DirecX3D 진도/11-27 (5).md",
-    "STUDY/AK/46 DirecX3D 진도/11-24 (4).md",
-    "STUDY/AK/46 DirecX3D 진도/12-06 (11).md",
-    "STUDY/AK/46 DirecX3D 진도/12-14 (14).md",
-    "STUDY/AK/46 DirecX3D 진도/12-29 (25).md",
-    "STUDY/AK/46 DirecX3D 진도/12-26 (22).md",
-    "STUDY/AK/46 DirecX3D 진도/12-22 (20).md",
-    "STUDY/AK/46 DirecX3D 진도/12-21 (19).md",
-    "STUDY/AK/46 DirecX3D 진도/12-20 (18).md",
-    "STUDY/AK/46 DirecX3D 진도/12-18 (16).md",
-    "STUDY/AK/46 DirecX3D 진도/12-15 (15).md",
-    "STUDY/AK/46 DirecX3D 진도/12-08 (13).md",
-    "STUDY/사이버대학/형법각론",
-    "Pasted image 20240319221100.png",
-    "Pasted image 20240319221041.png",
-    "Pasted image 20240319214242.png",
-    "Pasted image 20240313180301.png",
-    "STUDY/Programming Language/C++/STL",
-    "STUDY/Programming Language/Clean Code",
-    "STUDY/Programming Language/C++/STD/type_traits",
-    "STUDY/Programming Language/C++/STD/functional",
-    "STUDY/Programming Language/C++/STD/cassert",
-    "STUDY/Programming Language/C++/STD/stdexcept",
-    "STUDY/Programming Language/C++/STD/sstream",
-    "STUDY/Programming Language/C++/STD/xutility",
-    "Pasted image 20240222000438.png",
-    "Pasted image 20240222000358.png",
-    "Pasted image 20240208151022.png"
+    "STUDY/Programming Language/C++/STD/cstring/c_str.md",
+    "무제 파일 1.md",
+    "STUDY/BOJ/Class 2/11866 요세푸스 문제 0.md",
+    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/6. 캐릭터 공격 판정.md",
+    "STUDY/BOJ/Class 2/1676 팩토리얼 0의 개수.md",
+    "STUDY/Unreal/포트폴리오/7. Collide and Attack.md",
+    "STUDY/BOJ/Class 2",
+    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/5. 캐릭터 콤보 액션.md",
+    "Pasted image 20241014015535.png",
+    "Pasted image 20241014015404.png",
+    "STUDY/Unreal/포트폴리오/4. Add Weapon (Pistol).md",
+    "STUDY/Unreal/포트폴리오/6. Stat Component & UI Widget Component.md",
+    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/4. 캐릭터 애니메이션 설정.md",
+    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/8. 아이템 시스템.md",
+    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/9. 무한 맵 제작.md",
+    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/3. 캐릭터 컨트롤 설정.md",
+    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/7. 캐릭터 스탯과 위젯.md",
+    "STUDY/Unreal/포트폴리오/3. Add Military Weapon Asset, Auto Animation Retargeting   with Mixamo.md",
+    "STUDY/Unreal/포트폴리오/2. Player Animation.md",
+    "STUDY/Unreal/포트폴리오/5. Add Monster.md",
+    "STUDY/Programming Language/Algorithm/이론/시간 복잡도.md",
+    "STUDY/Programming Language/Algorithm/이론",
+    "STUDY/Unreal/3. 이득우 언리얼c++/Part1 언리얼 C++ 의 이해/8. C++ 델리게이트.md",
+    "STUDY/Unreal/Delegate/AddUObject 와 BindUObject 의 차이..md",
+    "STUDY/BOJ/Class 1/1929 소수 구하기.md",
+    "STUDY/BOJ/Class 1/10818 최소, 최대.md",
+    "Pasted image 20241004231221.png",
+    "STUDY/사이버대학/3학년 1학기/형법 총론/무제 파일.md",
+    "STUDY/Unreal/포트폴리오/포트폴리오 1 (LastWarProject, LW Project) 계획.md",
+    "Pasted image 20241004182043.png",
+    "STUDY/Unreal/포트폴리오/GameAnimationSample..md",
+    "STUDY/BOJ/Class 1/1181 단어 정렬.md",
+    "Pasted image 20240928025448.png",
+    "Pasted image 20240928025436.png",
+    "Pasted image 20240928024749.png",
+    "Pasted image 20240928024747.png",
+    "Pasted image 20240928024743.png",
+    "Pasted image 20240928024738.png",
+    "STUDY/사이버대학/3학년 1학기/모바일 통신",
+    "STUDY/사이버대학/3학년 1학기/기계공학개론",
+    "STUDY/사이버대학/3학년 1학기/형법 총론",
+    "STUDY/사이버대학/3학년 1학기/중국어 2",
+    "STUDY/사이버대학/3학년 1학기/한자",
+    "STUDY/사이버대학/3학년 1학기",
+    "STUDY/사이버대학/1, 2학년",
+    "STUDY/BOJ/Class 1"
   ]
 }

@@ -30,7 +30,7 @@ resource 에 대한 CPU의 읽고 쓰기의 권한을 특정하는 D3D11_MAP 유
 GPU가 바쁠때 CPU 는 무엇을 할지 특정하는 flag. optional 이다.
 
 5. pMappedResource
-map 된 subresource에 대한 D3D11_MAPPED_SUBRESOURCE 구조체가리키는 포인터. 이것이 NULL 일 때에 관해서는 Remark 참조.
+map 된 subresource에 대한 D3D11_MAPPED_SUBRESOURCE 구조체 가리키는 포인터. 이것이 NULL 일 때에 관해서는 Remark 참조.
 
 # Return value
 
