@@ -116,6 +116,10 @@ int main()
 7 5 4 3 2 1
 ```
 
+```c++
+sort(v.begin(), v.end(), greater<int>());
+```
+
 5. 사용자 규칙으로 정렬
 ```c++
 #include <iostream>

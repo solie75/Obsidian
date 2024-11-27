@@ -4,46 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "112e96e5f987d7d0",
+        "id": "177f0882aabc499f",
         "type": "tabs",
         "children": [
           {
-            "id": "4745d13b0a0caf33",
+            "id": "792c26a972426399",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STUDY/Unreal/포트폴리오/6. Stat Component & UI Widget Component.md",
+                "file": "STUDY/Unreal/포트폴리오/7. Collide and Attack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Stat Component & UI Widget Component"
-            }
-          },
-          {
-            "id": "e6b1bc4bb3f8abc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "STUDY/BOJ/Class 2/1966 프린터 큐.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1966 프린터 큐"
+              "title": "7. Collide and Attack"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "19025e1a584f7335",
+        "id": "f0aa9cf5f38dac6b",
         "type": "tabs",
         "children": [
           {
-            "id": "be51174e96936072",
+            "id": "8905d57d7990f466",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +40,33 @@
               "icon": "lucide-file",
               "title": "6. 캐릭터 공격 판정"
             }
+          },
+          {
+            "id": "8c4cd08ceb13c44e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/12. 행동트리 모델의 구현.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12. 행동트리 모델의 구현"
+            }
+          },
+          {
+            "id": "407337f5ceaa7340",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,9 +97,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "공백",
+                "query": "canAttack",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -132,11 +142,12 @@
               "title": "11. 행동트리 모델의 이해"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922
+    "width": 275.5110321044922
   },
   "right": {
     "id": "e1b62f82ae35f9a7",
@@ -244,14 +255,39 @@
       "workspaces:작업 공간 레이아웃 관리": false
     }
   },
-  "active": "e6b1bc4bb3f8abc3",
+  "active": "407337f5ceaa7340",
   "lastOpenFiles": [
-    "STUDY/BOJ/Class 2/1966 프린터 큐.md",
-    "STUDY/Unreal/포트폴리오/6. Stat Component & UI Widget Component.md",
+    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/12. 행동트리 모델의 구현.md",
     "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/6. 캐릭터 공격 판정.md",
-    "STUDY/BOJ/Class 2/1654 랜선 자르기.md",
-    "알아봐야 할 것.md",
-    "정리할 것들.md",
+    "STUDY/Unreal/포트폴리오/7. Collide and Attack.md",
+    "STUDY/Programming Language/C++/STD/algorithm/sort.md",
+    "STUDY/Unreal/라이브러리/CollisionQueryParams.h.md",
+    "STUDY/Unreal/라이브러리/NavigationSystem.md",
+    "STUDY/Unreal/라이브러리/ConstructorHelpers.md",
+    "STUDY/Unreal/라이브러리/Algo.md",
+    "STUDY/Unreal/템플릿/FOverlapResult.md",
+    "STUDY/Unreal/템플릿/TSubClassOf.md",
+    "STUDY/Programming Language/C++/기본/배열/초기화.md",
+    "STUDY/Programming Language/C++/기타 개념/쉼표 연산자..md",
+    "STUDY/Programming Language/C++/기본/배열",
+    "STUDY/Programming Language/C++/기타 개념/비트 필드.md",
+    "STUDY/Programming Language/C++/기타 개념/생성자.md",
+    "STUDY/Programming Language/C++/기본",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 2. 문자열의 활용.md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 3. 코딩 스타일.md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 4. 프로그램 디자인.md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 5. 객체를 이용한 디자인.md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 6. 재사용성을 높이는 디자인.md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 7. 클래스와 객체 실습.md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 8. 클래스와 객체 마스터하기.md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 9. 클래스 상속 활용.md",
+    "STUDY/Programming Language/C++/전문가를 위한 C++ 정리/Chapter 10. C++ 기타 사항.md",
+    "STUDY/BOJ/Class 2/2108 통계학.md",
+    "STUDY/BOJ/Class 3/11659 구간 합 구하기 4.md",
+    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/5. 캐릭터 콤보 액션.md",
+    "STUDY/Unreal/Tip/무제 폴더",
+    "STUDY/Unreal/Tip",
+    "STUDY/BOJ/Class 3",
     "RESOURCE/Pasted image 20240815112335.png",
     "RESOURCE/Pasted image 20240919030132.png",
     "RESOURCE/Pasted image 20241014015535.png",
@@ -262,35 +298,10 @@
     "RESOURCE/Pasted image 20240928025436.png",
     "RESOURCE/Pasted image 20240928024749.png",
     "RESOURCE/Pasted image 20240928024747.png",
-    "STUDY/BOJ/새싹/11718 그대로 출력하기.md",
-    "STUDY/Programming Language/C++/STD/cstring/c_str.md",
-    "무제 파일 1.md",
-    "STUDY/BOJ/Class 2/11866 요세푸스 문제 0.md",
-    "STUDY/BOJ/Class 2/1676 팩토리얼 0의 개수.md",
-    "STUDY/Unreal/포트폴리오/7. Collide and Attack.md",
     "STUDY/BOJ/Class 2",
-    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/5. 캐릭터 콤보 액션.md",
-    "STUDY/Unreal/포트폴리오/4. Add Weapon (Pistol).md",
-    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/4. 캐릭터 애니메이션 설정.md",
-    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/8. 아이템 시스템.md",
-    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/9. 무한 맵 제작.md",
-    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/3. 캐릭터 컨트롤 설정.md",
-    "STUDY/Unreal/3. 이득우 언리얼c++/Part2 언리얼 프레임워크/7. 캐릭터 스탯과 위젯.md",
-    "STUDY/Unreal/포트폴리오/3. Add Military Weapon Asset, Auto Animation Retargeting   with Mixamo.md",
-    "STUDY/Unreal/포트폴리오/2. Player Animation.md",
-    "STUDY/Unreal/포트폴리오/5. Add Monster.md",
-    "STUDY/Programming Language/Algorithm/이론/시간 복잡도.md",
     "STUDY/Programming Language/Algorithm/이론",
-    "STUDY/Unreal/3. 이득우 언리얼c++/Part1 언리얼 C++ 의 이해/8. C++ 델리게이트.md",
-    "STUDY/Unreal/Delegate/AddUObject 와 BindUObject 의 차이..md",
-    "STUDY/BOJ/Class 1/1929 소수 구하기.md",
     "STUDY/사이버대학/3학년 1학기/모바일 통신",
     "STUDY/사이버대학/3학년 1학기/기계공학개론",
-    "STUDY/사이버대학/3학년 1학기/형법 총론",
-    "STUDY/사이버대학/3학년 1학기/중국어 2",
-    "STUDY/사이버대학/3학년 1학기/한자",
-    "STUDY/사이버대학/3학년 1학기",
-    "STUDY/사이버대학/1, 2학년",
-    "STUDY/BOJ/Class 1"
+    "STUDY/사이버대학/3학년 1학기/형법 총론"
   ]
 }
